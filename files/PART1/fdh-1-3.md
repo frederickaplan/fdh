@@ -17,6 +17,8 @@ output: pdf_document
 
 ## Concepts
 
+Intro on the view from outerspace. How would an alian understand the fight between the privatization of knowldege and the Great Common
+
 ### Commons
 
 Public domain
@@ -39,6 +41,9 @@ Creative Commons
 - David Rumsey Map Collection
 - NYPL
 - Europeana
+- Cyark
+- Google Arts and Culture
+- Hiroshima Archive
 
 ## Question and Answers 
 
