@@ -23,7 +23,7 @@ Introduction to GIS. Points, Lines, Polygons. Coordinate Sytems.
 
 Retrochronological appraoch
 
-Gazeeters
+
 
 
 
@@ -38,6 +38,14 @@ Using QGIS
 Using MapBox
 
 Using Google API
+
+Using Gazeeteers
+
+## Further reading
+
+Book on Cartography
+
+Book on Gazeeters
 
 ## Question and Answers 
 
