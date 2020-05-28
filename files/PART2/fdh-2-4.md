@@ -17,7 +17,7 @@ output: pdf_document
 
 ## Concepts
 
-
+Pipeline for Artworks photographs. Image banks and phototarchives. Photography as documentation. Scanning techniques for photographs. Segmentation. Visual similarity vs visual connections.
 
 ## Practice
 
