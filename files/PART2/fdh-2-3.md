@@ -17,21 +17,33 @@ output: pdf_document
 
 ## Concepts
 
-### 
+### Text is 1D
+
+### Close and distant reading
+
+### Shadow of the text 
 
 ## Representing Text
 
+### Encoding characters 
+
 ### XML, TEI, Markdown
+
+### Texts as Graphs
 
 ### Regular Expression
 
 ### N-gram
 
-## 
+### Word Embeddings
+
+### Translation and latent spaces
 
 ### Skills
 
 > Candtion Random Field (in algorithm ?)
+>
+> Translation algorithm
 
 ## Question and Answers 
 

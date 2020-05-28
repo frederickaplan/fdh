@@ -21,7 +21,9 @@ output: pdf_document
 
 ## Practice
 
-### 
+Image Space representation 
+
+Image Emdeddings, Multimodel embeddings
 
 ## Question and Answers 
 
