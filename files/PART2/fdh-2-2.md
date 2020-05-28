@@ -39,9 +39,9 @@ Text, TEI, XML
 
 ### Skills
 
-Regulated Expression
+Using the [Gallica wrapper](http://fdh.epfl.ch/index.php/Gallica_wrapper).
 
-Candtion Random Field
+Using [BNF XML ALTO](http://bibnum.bnf.fr/alto_prod/documentation/alto_prod.html) and [PAGE XML](https://www.primaresearch.org/tools/PAGELibraries), [Transkribus](https://transkribus.eu/Transkribus/) and [VGG Image annotator](http://www.robots.ox.ac.uk/~vgg/software/via/) 
 
 ## Question and Answers 
 

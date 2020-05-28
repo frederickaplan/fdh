@@ -41,7 +41,7 @@ output: pdf_document
 
 ### Skills
 
-> Candtion Random Field (in algorithm ?)
+> Condition Random Field (in algorithm ?)
 >
 > Translation algorithm
 
