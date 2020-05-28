@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.4'
-subtitle: 'Maps'
+subtitle: 'Images'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# Maps
+# Images
 
 ## Concepts
 
@@ -21,7 +21,7 @@ output: pdf_document
 
 ## Practice
 
-
+### 
 
 ## Question and Answers 
 

@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.5'
-subtitle: '3D'
+subtitle: 'Maps'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# 3D
+# Maps
 
 ## Concepts
 

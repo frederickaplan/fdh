@@ -25,15 +25,23 @@ output: pdf_document
 
 ### Hyperdocument
 
-
-
-## Practice
+## Representing Document
 
 ### Open Annotation Model
 
 ### Shared Canvas
 
 ### IIIF
+
+## Representing Text
+
+Text, TEI, XML
+
+### Skills
+
+Regulated Expression
+
+Candtion Random Field
 
 ## Question and Answers 
 

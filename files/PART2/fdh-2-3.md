@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.3'
-subtitle: 'Images'
+subtitle: 'Text Analysis'
 author:
  - Frederic Kaplan
 
@@ -13,15 +13,25 @@ output: pdf_document
 
 ---
 
-# Images
+# Text Analysis
 
 ## Concepts
 
-
-
-## Practice
-
 ### 
+
+## Representing Text
+
+### XML, TEI, Markdown
+
+### Regular Expression
+
+### N-gram
+
+## 
+
+### Skills
+
+> Candtion Random Field (in algorithm ?)
 
 ## Question and Answers 
 

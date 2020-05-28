@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities 2.6'
-subtitle: '3D'
+title: 'Foundations in Digital Humanities 2.8'
+subtitle: 'Video'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# 3D
+# Video
 
 ## Concepts
 

@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.7'
-subtitle: 'Video'
+subtitle: 'Sound, Speech and Music'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# Video
+# Sound, Speech and Music
 
 ## Concepts
 
