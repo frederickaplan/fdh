@@ -15,13 +15,15 @@ output: pdf_document
 
 # Deep Learning
 
+(Or Sub-conceptual architectures)
+
 ## Concepts
 
 ### Fundamental principles
 
 A panorama of Deep learning methods. Successes. Fundamental principles. Neurons. Receptive Fields. Hierarchical representation / texture.
 
-### Sub-Conceptual description
+### Sub-Conceptual Content
 
 
 
@@ -37,7 +39,7 @@ Credit Assignment Path.
 
 - Recurrent neural networks. 
 
-- Siamese Networks. Word2Vec. 
+- Siamese Networks. 
 
 - Generative Adversarial Networks. 
 
@@ -49,15 +51,16 @@ Credit Assignment Path.
 
 
 
-### Practice
-
-
-
-### Further Reading
-
-Science-Fiction : Infinite Fun Space
+## Practice
 
 ## Question and Answers 
 
 
 
+## Further Reading
+
+Science-Fiction : Infinite Fun Space
+
+Deep Learning (Goodfelow et al)
+
+The Promise of Artificial Intelligence (Brian Cantwell Smith)
