@@ -19,6 +19,10 @@ output: pdf_document
 
 Intro on the view from outerspace. How would an alian understand the fight between the privatization of knowldege and the Great Common
 
+(Important to check relation / integratation with 4.1 / Data Management)
+
+
+
 ### Commons
 
 Public domain

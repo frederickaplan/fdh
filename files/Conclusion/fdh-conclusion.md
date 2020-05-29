@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities'
-subtitle: 'Introduction'
+subtitle: 'Conclusion'
 author:
  - Frederic Kaplan
 
@@ -13,21 +13,11 @@ output: pdf_document
 
 ---
 
-# Introduction
+# Conclusion
 
-## The DH Revolution
+## The Future of DH
 
-Hard DH
-The restructuration of knowledge
-The societal importance of DH
 
-## Ambition of the FDH
-
-Complete conceptual and practical handbook
-
-## The Structure of the FDH
-
-Learning Concepts, learming Skills
 
 ## Question and Answers 
 
