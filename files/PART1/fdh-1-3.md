@@ -41,6 +41,8 @@ Creative Commons
 
 ### Using Open Collections
 
+- Internet Archive
+- Family Search
 - Library of Congress Digital Collection
 - David Rumsey Map Collection
 - NYPL
@@ -48,6 +50,7 @@ Creative Commons
 - Cyark
 - Google Arts and Culture
 - Hiroshima Archive
+- MegaScan
 
 ## Question and Answers 
 
