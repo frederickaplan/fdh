@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities'
-subtitle: 'Conclusion'
+title: 'Foundations in Digital Humanities 4.5'
+subtitle: 'Visualisation'
 author:
  - Frederic Kaplan
 
@@ -13,15 +13,16 @@ output: pdf_document
 
 ---
 
-# Conclusion
+# Visualisation
 
-### Perspective of the Mirror World
-
-## The Future of DH
+## Concepts
 
 
+
+## Practice
+
+Software like Tableau
 
 ## Question and Answers 
 
-
-
+## Further Reading

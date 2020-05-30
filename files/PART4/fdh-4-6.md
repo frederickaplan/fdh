@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities'
-subtitle: 'Conclusion'
+title: 'Foundations in Digital Humanities 4.6'
+subtitle: 'Immersion'
 author:
  - Frederic Kaplan
 
@@ -13,15 +13,14 @@ output: pdf_document
 
 ---
 
-# Conclusion
+# Immersion
 
-### Perspective of the Mirror World
+## Concepts
 
-## The Future of DH
+Concepts of VR and AR
 
-
+## Practice
 
 ## Question and Answers 
 
-
-
+## Further Reading

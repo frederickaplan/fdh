@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities'
-subtitle: 'Conclusion'
+title: 'Foundations in Digital Humanities 4.4'
+subtitle: 'Interfaces'
 author:
  - Frederic Kaplan
 
@@ -13,15 +13,14 @@ output: pdf_document
 
 ---
 
-# Conclusion
+# Interfaces
 
-### Perspective of the Mirror World
-
-## The Future of DH
+## Concepts
 
 
+
+## Practice
 
 ## Question and Answers 
 
-
-
+## Further Reading
