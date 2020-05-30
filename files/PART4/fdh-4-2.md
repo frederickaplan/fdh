@@ -37,6 +37,10 @@ Launching a crowdsourcing campaign
 
 Launching a crowdfunding campaign
 
+Managing Large-Scale Open Source Project
+
+Using Kaggle
+
 ## Question and Answers 
 
 ## Further Reading

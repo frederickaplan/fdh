@@ -35,15 +35,17 @@ output: pdf_document
 
 ### N-gram
 
+### POS Tagging
+
+### Named Entities
+
 ### Word Embeddings
 
 ### Translation and latent spaces
 
-### Skills
+## Practice
 
-> Condition Random Field (in algorithm ?)
->
-> Translation algorithm
+SpaCy : https://github.com/allenai/scispacy
 
 ## Question and Answers 
 

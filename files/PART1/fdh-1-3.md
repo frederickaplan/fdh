@@ -31,6 +31,12 @@ The Commons
 
 Creative Commons
 
+
+
+### Commons politics
+
+Finding commons is a process of governance. If large-scale project do not find commons, they will be go to war. 
+
 ## Skills
 
 ### Using GitHub
@@ -38,6 +44,8 @@ Creative Commons
 ### Contributing to Wikipedia
 
 ### Contributing to Open Street Map
+
+### Dataverse
 
 ### Using Open Collections
 

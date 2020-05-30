@@ -23,6 +23,12 @@ FAIR principle, Creative Commons, Data Management models, Sustainability, Right 
 
 ## Practice
 
+### Using Zenodo
+
+### Using Dataverse
+
+ https://dataverse.org
+
 ## Question and Answers 
 
 ## Further Reading

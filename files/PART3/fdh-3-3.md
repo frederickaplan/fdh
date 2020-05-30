@@ -31,6 +31,12 @@ Word2Vec
 
 Conditional Random Fields (CRF) tutorial. 
 
+
+
+Resources
+
+Allen Institute for AI : https://allenai.org
+
 ## Question and Answers 
 
 
