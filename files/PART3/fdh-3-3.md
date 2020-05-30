@@ -21,6 +21,8 @@ output: pdf_document
 
 Word2Vec
 
+### Discourse Vectors
+
 ### Condition Random Fields
 
 
