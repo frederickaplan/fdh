@@ -21,11 +21,27 @@ Modelling vs Sampling :
 
 ### Modelling
 
-Model-based Procedural methods. Architectural grammars. Class I and Class II elements. The question of realism.
+Model-based Procedural methods. Architectural grammars. Class I and Class II elements. The question of realism. (maybe moved to part 3)
 
 ### Sampling
 
-Principles of Phtogrammetry. Homologous Points. Odometry. Densification. Adjacent graph. 
+Intro
+
+- Different methods : Lidar, etc. 
+- Finding a compromise between time and precision. 
+- Using standard camera or dedicated scanners (for instance LIDAR)
+- Iterated Scanning
+- Visualisation of the scans
+
+
+
+Principles of Phtogrammetry. 
+
+Homologous Points. Odometry. Desification. Adjacent graph. 
+
+Calibration
+
+Evaluation of precision of models
 
 ### Mirror Worlds and 4D
 
