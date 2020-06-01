@@ -47,6 +47,8 @@ output: pdf_document
 
 SpaCy : https://github.com/allenai/scispacy
 
+
+
 ## Question and Answers 
 
 
