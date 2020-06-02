@@ -25,6 +25,14 @@ output: pdf_document
 
 ### Digitisation on demand
 
+
+
+## Challenges
+
+The growing digitization and online publication of millions of newspaper pages and radio broadcastinghours does not equate with an easier accessibility. 
+
+
+
 ## Question and Answers 
 
 

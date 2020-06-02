@@ -15,11 +15,21 @@ output: pdf_document
 
 # Introduction
 
+We know so little. We forget so much. 
+
+
 ## The DH Revolution
 
 Hard DH
 The restructuration of knowledge
 The societal importance of DH
+
+## Axioms
+
+Foundation  / Axioms
+1 : shape is history 
+2 : pattern is knowledge / compression
+3 : causality is understanding 
 
 ## Understanding what are documents, texts, images and history
 

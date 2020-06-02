@@ -13,11 +13,13 @@ output: pdf_document
 
 ---
 
-# Deep Learning for Texts
+# Deep Learning for Text and Sound
 
 ## Concepts
 
 ### Embeddings
+
+"Over the last years, neural methods for learning dense meaningful latent semantic vector representations have dramatically improved the performance in natural language understanding, computer vision and audio processing, and this development justifiably raises high expectations for digital humanities applications".
 
 Word2Vec
 
@@ -25,11 +27,19 @@ Word2Vec
 
 ### Condition Random Fields
 
+### LSTM and Bi-LSTM
 
+### 
 
 ## Practice
 
-### 
+### KeyPhrase extraction
+
+### Text Reuse
+
+### Text classification and topic modelling
+
+### NE Extraction
 
 Conditional Random Fields (CRF) tutorial. 
 
@@ -38,6 +48,21 @@ Conditional Random Fields (CRF) tutorial.
 Resources
 
 Allen Institute for AI : https://allenai.org
+
+### Skills
+
+- SpaCy open-source pipeline https://spacy.io
+- Passim for monolanguage text reuse
+- 
+
+### Chronology 
+
+- 2012 : Victor of at Jeopardy of DeepQA by IBM Watson
+- 
+
+
+
+
 
 ## Question and Answers 
 
