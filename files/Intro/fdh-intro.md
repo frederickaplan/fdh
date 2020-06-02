@@ -21,11 +21,17 @@ Hard DH
 The restructuration of knowledge
 The societal importance of DH
 
-## Ambition of the FDH
+## Understanding what are documents, texts, images and history
+
+## The aeshetics of FDH
+
+A small set of common principle offering a refondation of the humanities and computer science. 
+
+## Ambition of FDH
 
 Complete conceptual and practical handbook
 
-## The Structure of the FDH
+## The Structure of  FDH
 
 Learning Concepts, learming Skills
 
