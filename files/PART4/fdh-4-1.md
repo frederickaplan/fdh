@@ -19,6 +19,8 @@ output: pdf_document
 
 FAIR principle, Creative Commons, Data Management models, Sustainability, Right to Forgotten. Management of uncertainty, incoherence and errors. Iconographic principle of precaution
 
+Anonymisation and privacy protection
+
 
 
 ## Practice

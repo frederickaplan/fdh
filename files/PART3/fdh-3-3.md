@@ -21,9 +21,15 @@ output: pdf_document
 
 "Over the last years, neural methods for learning dense meaningful latent semantic vector representations have dramatically improved the performance in natural language understanding, computer vision and audio processing, and this development justifiably raises high expectations for digital humanities applications".
 
-Word2Vec
+Word2Vec (but also item2Vec, StarSpace (Facebook))
+
+Also TF-IDF
 
 ### Discourse Vectors
+
+Doc2Vec
+
+Transformers
 
 ### Condition Random Fields
 
