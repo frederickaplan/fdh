@@ -27,11 +27,15 @@ output: pdf_document
 
 ### Encoding characters 
 
+### Bag of Words
+
 ### XML, TEI, Markdown
 
 ### Texts as Graphs
 
 ### Regular Expression
+
+### Index 
 
 ### N-gram
 
@@ -46,6 +50,8 @@ output: pdf_document
 ## Practice
 
 SpaCy : https://github.com/allenai/scispacy
+
+Solr : Search engine and index
 
 
 

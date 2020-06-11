@@ -33,6 +33,8 @@ Credit Assignment Path.
 
 
 
+GPU Revolution 
+
 ### Most important architectures. 
 
 - Convolutional neural networks. 

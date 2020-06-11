@@ -37,15 +37,19 @@ The story of document representation and the IIIF adventure
 
 
 
+
+
 Text, TEI, XML
 
 ### Skills
 
-
+Retrieving data from the .pdf books with a bash script
 
 Using the [Gallica wrapper](http://fdh.epfl.ch/index.php/Gallica_wrapper).
 
 Using [BNF XML ALTO](http://bibnum.bnf.fr/alto_prod/documentation/alto_prod.html) and [PAGE XML](https://www.primaresearch.org/tools/PAGELibraries), [Transkribus](https://transkribus.eu/Transkribus/) and [VGG Image annotator](http://www.robots.ox.ac.uk/~vgg/software/via/) 
+
+S3 (Database) ?
 
 ### IIIF Resources
 

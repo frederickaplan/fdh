@@ -21,7 +21,11 @@ What are cartographic documents. Learning how to read ancient maps. History of c
 
 Introduction to GIS. Points, Lines, Polygons. Coordinate Sytems.
 
+Mapping informattion is not even distributed (cf Google Street View, OSM Maps)
+
 Retrochronological appraoch
+
+
 
 
 
@@ -37,9 +41,20 @@ Using QGIS
 
 Using MapBox
 
+- Good personalisation
+- Less data than Google but very interesitng anyway in particular for Pix2Pix application 
+
 Using Google API
 
 Using Gazeeteers
+
+
+
+Existing Systems
+
+- Running Reality
+
+
 
 ## Further reading
 

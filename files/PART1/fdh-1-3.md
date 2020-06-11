@@ -31,6 +31,8 @@ The Commons
 
 Creative Commons
 
+Open Source, Richard Stallman
+
 Open Hardware
 
 ### Commons politics
@@ -50,15 +52,28 @@ Finding commons is a process of governance. If large-scale project do not find c
 ### Using Open Collections
 
 - Internet Archive
+
 - Family Search
+
 - Library of Congress Digital Collection
+
 - David Rumsey Map Collection
+
 - NYPL
+
 - Europeana
+
 - Cyark
+
 - Google Arts and Culture
+
 - Hiroshima Archive
+
 - MegaScan
+
+- SketchFab
+
+  
 
 ## Question and Answers 
 
