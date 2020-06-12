@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 1.1'
-subtitle: 'Structural Tensions in Digital Humanities'
+subtitle: 'What are Digital Humanities'
 author:
  - Frederic Kaplan
 
@@ -13,11 +13,33 @@ output: pdf_document
 
 ---
 
-# Structural Tensions in Digital Humanities
+# What are Digital Humanities
+
+Teachers should prepare the student for the student’s future, not for teacher’s part.
+
+Hamming, The Art of Doing Science and Engineering. 
+
+Introduction
+
+The boring definition vs the Exciting definition
+
+The 20 key challenges DH needs to solve. 
+
+3 visions : what is possible ? What is likely to happen ? What is desirable to have happen ? Science, engineering, ethics 
+
+Concentrate on fundamentals 
+
+The past was once the future and the future will become the past 
+
+Doing the job with style is important
+
+Education is what, when and why to do things. Training is how to do it 
 
 ## Concepts
 
 ### Digital + Humanities
+
+### Structural Tensions
 
 ### Digital Humanities, Digital Studies, Humanities Computing and Studies about Digital Culture
 
