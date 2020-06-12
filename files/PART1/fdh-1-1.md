@@ -25,15 +25,9 @@ The boring definition vs the Exciting definition
 
 The 20 key challenges DH needs to solve. 
 
-3 visions : what is possible ? What is likely to happen ? What is desirable to have happen ? Science, engineering, ethics 
 
-Concentrate on fundamentals 
 
-The past was once the future and the future will become the past 
 
-Doing the job with style is important
-
-Education is what, when and why to do things. Training is how to do it 
 
 ## Concepts
 
