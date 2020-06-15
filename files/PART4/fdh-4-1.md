@@ -31,6 +31,10 @@ Anonymisation and privacy protection
 
  https://dataverse.org
 
+### Using Amnesia (Anonymisation)
+
+https://amnesia.openaire.eu/amnesiaInfo.html
+
 ## Question and Answers 
 
 ## Further Reading
