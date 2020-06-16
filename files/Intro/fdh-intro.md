@@ -31,7 +31,7 @@ The societal importance of DH
 Foundation  / Axioms
 1 : shape is history 
 2 : pattern is knowledge / compression
-3 : causality is understanding 
+3 : causality is understanding / explanation
 
 ## Understanding what are documents, texts, images and history
 

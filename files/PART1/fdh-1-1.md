@@ -15,6 +15,15 @@ output: pdf_document
 
 # What are Digital Humanities
 
+Theses :
+
+- Digital Humanities are born of structural tensions
+- Digital Humaniites disolves traditional disciplany frontiers
+- Digital Humaniites operate a complete restructuraiton of knowledge
+- Digitial Humanites studyng a new object is a domain of its own
+
+
+
 Teachers should prepare the student for the student’s future, not for teacher’s part.
 
 Hamming, The Art of Doing Science and Engineering. 
