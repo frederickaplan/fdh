@@ -15,6 +15,13 @@ output: pdf_document
 
 # The Great Common
 
+Theses :
+
+- There is a fight between the privatization of knowlege and the Great Common
+- Finding commons is a process of governance. If large-scale project do not find commons, they will be go to war. 
+
+
+
 ## Concepts
 
 Intro on the view from outerspace. How would an alian understand the fight between the privatization of knowldege and the Great Common

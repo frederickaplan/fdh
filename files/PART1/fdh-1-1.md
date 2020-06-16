@@ -22,7 +22,7 @@ Theses :
 - Digital Humaniites operate a complete restructuraiton of knowledge in the Humanities
 - Cultural Data is not like any other Data
 - Digital Humanities deals with Hyperobjects
-- Digitial Humanites studyng a new object is a domain of its own
+- Digitial Humanites, studyng a new kinds of objects, is a domain of its own
 
 
 

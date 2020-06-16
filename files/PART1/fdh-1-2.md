@@ -15,6 +15,11 @@ output: pdf_document
 
 # The Digital Humanities Circle
 
+Theses :
+
+- Digital Humanities projects are organised as a self-reinforcing circles
+- Patrimonial capitalism lead to monopols
+
 ## Concepts
 
 ### The Digital Humanities Circle
