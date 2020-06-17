@@ -19,6 +19,7 @@ Only words special to DH, new concepts introduced
 
 - Distant Reading
 - Operationilzing
+- CopyFraud
 
 
 
