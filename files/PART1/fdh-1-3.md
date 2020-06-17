@@ -40,6 +40,10 @@ Creative Commons
 
 Open Source, Richard Stallman
 
+Developer Certificate of Origin DCO and CLA (Contribution Licence Agreement)
+
+https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin
+
 Open Hardware
 
 ### Commons politics

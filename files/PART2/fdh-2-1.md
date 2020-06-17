@@ -15,6 +15,14 @@ output: pdf_document
 
 # Digitisation Processes
 
+These
+
+- As digitisation unlocks ivory towers, it faces many resistances 
+- Document digitisation is a problem of conversion of dimensions
+- Digitisation is logistic optimization
+- Optimization causes risks of alientation
+- Digitisation does not equate with an easier accessibility 
+
 ## Concepts
 
 ### Document digitisation as a problem of conversion of dimensions
