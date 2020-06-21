@@ -19,7 +19,7 @@ Theses :
 
 - Digital Humanities are born out of structural tensions
 - Digital Humaniites disolves traditional disciplany frontiers
-- Digital Humaniites operate a complete restructuraiton of knowledge in the Humanities
+- Digital Humaniites operate a restructuraiton of knowledge in the Humanities
 - Cultural Data is not like any other Data
 - Digital Humanities deals with Hyperobjects
 - Digitial Humanites, studyng a new kinds of objects, is a domain of its own
@@ -59,6 +59,8 @@ The 20 key challenges DH needs to solve.
 ### Big Data Digital Humanities vs Small Data Digital Humanities
 
 ### The 3 Circles
+
+### Scale-free Humanities
 
 ## Skills
 
