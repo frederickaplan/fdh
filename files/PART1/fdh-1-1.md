@@ -18,6 +18,12 @@ output: pdf_document
 Theses :
 
 - Digital Humanities are born out of structural tensions
+- Digital is not linked with 0 and 1. 
+- 
+- The Humanities led basis of computer science : "Panini's formal system of rules was used nearly 2500 years laters as the underlying formalism of porgramming language. The person who estabklished this connection between linguists and computer science is Noam Chomsky, who refered as Panini as his spirtial father. It was Chomsky precise notation for defining grammar that was applied to programmic languages (John Backus). Chomsk's syntactic definition of language served as pattern for the structure of the whole compiler of ALGOL." (Bod p.  354) 
+- Most research in the Humanities is about finding patterns 
+- A computer is a pattern organiser. 
+- There is no radical dichotomy between humanities and science. (Bod p.355). There is no divided. 
 - Digital Humaniites disolves traditional disciplany frontiers
 - Digital Humaniites operate a restructuraiton of knowledge in the Humanities
 - Cultural Data is not like any other Data

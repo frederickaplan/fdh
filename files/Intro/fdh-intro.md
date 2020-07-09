@@ -33,6 +33,12 @@ Foundation  / Axioms
 2 : pattern is knowledge / compression
 3 : causality is understanding / explanation
 
+
+
+## Documents are the beginning not the model 
+
+
+
 ## Understanding what are documents, texts, images and history
 
 ## The aeshetics of FDH
