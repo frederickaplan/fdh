@@ -33,6 +33,8 @@ Retrochronological appraoch
 
 ## Practice
 
+(Voir Remi Petitpierre Master Thesis. )
+
 Learning how to georeference a map
 
 Using Open Street Map

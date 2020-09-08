@@ -15,18 +15,20 @@ output: pdf_document
 
 # Introduction
 
+This manual is called Foundations of Digital Humanities. This title in itself is a paradox. Digital Humanities is born as a diaphragm area between different fields, a zone of encounter. How can it have foundations ? Doesn't it this sound presumptious ?
+
 We know so little. We forget so much. 
 
 
 
 
-## The DH Revolution
+## The DH are starting a Revolution
 
 Hard DH
 The restructuration of knowledge
 The societal importance of DH
 
-## Axioms
+## Some early axioms of a new theory
 
 Foundation  / Axioms
 1 : shape is history 

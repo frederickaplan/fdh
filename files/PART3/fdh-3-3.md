@@ -31,6 +31,8 @@ Doc2Vec
 
 Transformers
 
+GPT-3
+
 ### Condition Random Fields
 
 ### LSTM and Bi-LSTM
