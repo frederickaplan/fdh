@@ -31,11 +31,5 @@ Data Bigness has four dimensions : Technological breaks, Open-endedness, Intrins
 
 
 
-Only words special to DH, new concepts introduced
-
-- Distant Reading
-- Operationilzing
-- CopyFraud
-
 
 
