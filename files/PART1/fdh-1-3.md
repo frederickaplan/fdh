@@ -17,9 +17,8 @@ output: pdf_document
 
 ## Core theses explored in this chapter 
 
-1) There are plenty of precious structured data in the past 
-
-2) These datasets are complex to extract
+- There are plenty of precious structured data in the past 
+- These datasets are complex to extract due to the evolution of regulated representations and the recursive nature of redocumentation processes
 
 ## Introduction : Geneva 1896
 

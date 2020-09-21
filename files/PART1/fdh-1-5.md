@@ -15,7 +15,7 @@ output: pdf_document
 
 # The Great Common
 
-Theses :
+### Core theses explored in this chapter 
 
 - There is a fight between the privatization of knowlege and the Great Common
 - Finding commons is a process of governance. If large-scale project do not find commons, they will be go to war. 
