@@ -14,29 +14,29 @@ output: pdf_document
 ---
 
 # FDH-1-1: What are Digital Humanities?
-#### Core theses explored in this chapter 
+#### Core theses explored in this chapter
 
 - This first chapter discusses the various meanings and ambiguities of the use of the recent term "Digital Humanities".
 
-- The activities engaged under the label "Digital Humanities" are starting a profound restructuring of the Digital and the Humanities. 
+- The activities engaged under the label "Digital Humanities" are starting a profound restructuring of the Digital and the Humanities.
 
 #### Contents:
 >1. A first definition: Digital Humanities as a diaphragm zone
->> 1.1. Defining Digital and Humanities
+>> 1.1. Defining Digital and Humanities //
 >2. Humanities Computing: breaking boundaries between disciplines
->>2.1. The progresses of Humanities Computing
->>2.2. A common trait between Computing and Humanities: finding patterns
->>2.3. Focus : Chomsky and Panini
+>>2.1. The progresses of Humanities Computing //
+>>2.2. A common trait between Computing and Humanities: finding patterns //
+>>2.3. Focus : Chomsky and Panini //
 >3. Looking for the right word to describe "Digital Humanities"
->>3.1. Humanities Computing vs. Digital Humanities
->>3.2. Digital Humanities: practice over theory
->>3.3. How to translate "Digital Humanities"
+>>3.1. Humanities Computing vs. Digital Humanities //
+>>3.2. Digital Humanities: practice over theory //
+>>3.3. How to translate "Digital Humanities" //
 >4. "Digital Humanities" vs. Digital Studies and Studies about Digital Culture
->>4.1. Digital Studies
->>4.2. Studies about Digital Culture
+>>4.1. Digital Studies //
+>>4.2. Studies about Digital Culture //
 >5. Conclusion
->>5.1. Summary
->>5.2. In the next chapter
+>>5.1. Summary //
+>>5.2. In the next chapter //
 
 ## 1. A first definition: Digital Humanities as a diaphragm zone
 
@@ -86,9 +86,9 @@ The division between the digital and humanist worlds is a construct. The key ide
 ### 3.1. Humanities Computing vs. Digital Humanities
 The terminological change from Humanities Computing to Digital Humanities has been attributed to John Unsworth, Ray Siemens and Susan Schreibman, editors of the monograph _A Companion to Digital Humanities_ (2004).
 
-There is, though, an important difference between Humanities Computing and Digital Humanities: the latter has at its core this bi-directionality — DH leads to a better understanding of both computing and the humanities. 
+There is, though, an important difference between Humanities Computing and Digital Humanities: the latter has at its core this bi-directionality — DH leads to a better understanding of both computing and the humanities.
 
-In that sense, it goes beyond just applying computing to humanities questions or understanding digital operations from a humanities point-of-view. Instead, it lies in understanding the deep link between the two disciplines. 
+In that sense, it goes beyond just applying computing to humanities questions or understanding digital operations from a humanities point-of-view. Instead, it lies in understanding the deep link between the two disciplines.
 
 ### 3.2. Digital Humanities: practice over theory
 
@@ -98,7 +98,7 @@ One of the early-stage specificity of this community was the organization of the
 
 In the same line, Claire Warwick suggested a very open definition: *If you think you are doing it, then you probably are.*
 
-Thanks notably to this hands-on approach, between 2010 and 2020, Digital Humanities expanded as a global multilingual phenomenon, beyond the english-speaking countries where it had first appeared. (Example: The Digital Humanities 2014 in Lausanne Call for Paper has been translated in 14 languages by volunteers.) 
+Thanks notably to this hands-on approach, between 2010 and 2020, Digital Humanities expanded as a global multilingual phenomenon, beyond the english-speaking countries where it had first appeared. (Example: The Digital Humanities 2014 in Lausanne Call for Paper has been translated in 14 languages by volunteers.)
 
 ### 3.3. How to translate "Digital Humanities"
 This raised the question on how to translate the term Digital Humanities in other languages. In Italy, the term Informatica umanistica is still used although it is much closer to Humanities Computing than Digital Humanities.
