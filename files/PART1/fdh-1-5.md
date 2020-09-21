@@ -86,7 +86,17 @@ Finding commons is a process of governance. If large-scale project do not find c
 
   
 
-## Question and Answers 
+## Further Reading
 
+Philippe Aigran, Cause Commune, Fayard
 
+Pierre Dardot, Christian Laval, Commun : Essai sur la révolution au XXIe siècle
+
+Karl Polanyi, la Grande Transformation 
+
+Donald Knuth, The Art of Computer Programming, Addisson-Wesley Professional 
+
+Lawrence Lessig, The Future of Ideas : The Fate of the Commons in a connected World
+
+Lawrence Lessig, Free culture : How big Media Uses technology and the law to lock down culture and control creativity, The Penguin Press, 2004
 
