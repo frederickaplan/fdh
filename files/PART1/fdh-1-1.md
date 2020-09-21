@@ -58,7 +58,7 @@ Scholars that work in the Humanities are called humanists, but they are not nece
 
 ## 2. Humanities Computing: breaking boundaries between disciplines
 ### 2.1. The progresses of Humanities Computing
-Humanities Computing (a term essentially used before 2000) was about applying computational approaches to Humanities research questions, in fields as different as literature, history, or economy.
+**Humanities Computing** (a term essentially used before 2000) was about applying computational approaches to Humanities research questions, in fields as different as literature, history, or economy.
 
 As Humanities Computing progressed, it highlighted more similarities (databases, algorithms and tools, pattern recognition, etc.) between disciplines that were using digital methods than differences.
 
@@ -101,7 +101,7 @@ In the same line, Claire Warwick suggested a very open definition: *If you think
 Thanks notably to this hands-on approach, between 2010 and 2020, Digital Humanities expanded as a global multilingual phenomenon, beyond the english-speaking countries where it had first appeared. (Example: The Digital Humanities 2014 in Lausanne Call for Paper has been translated in 14 languages by volunteers.)
 
 ### 3.3. How to translate "Digital Humanities"
-This raised the question on how to translate the term Digital Humanities in other languages. In Italy, the term Informatica umanistica is still used although it is much closer to Humanities Computing than Digital Humanities.
+This raised the question on how to translate the term Digital Humanities in other languages. In Italy, the term "Informatica umanistica" is still used although it is much closer to Humanities Computing than Digital Humanities.
 
 In the French speaking world, there is still a quite intense debate. The official translation of Digital in French is “numérique”. So, many French researchers use the term “Humanités numériques”, as opposed to the english-influenced Humanités digitales.
 
