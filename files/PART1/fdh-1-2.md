@@ -45,11 +45,65 @@ Interest in Big Data has another—slightly older—origin that is connected to 
 
 ## Data Bigness has four dimensions
 
+Technology: Big Data is big in the sense that it “hurts” to compute it using traditional “manual” methods. Its bigness calls for new strategies of processing and interpretation.The “envisioned” data volume needs special storage and computing infrastructure to be managed. Such data-intensive computing infrastructures include, for instance, large clusters and parallelization algorithms. In turn, such technological progress opens the way for storing and computing even more data.
 
+Open-edness : Big Data is big when it is in a state of continuous open-ended expansion. Large-scale databases of book scans are in perpetual extension, photos uploaded on social networks constitute ever-growing datasets, and the volume of micro-messages sent per day keeps rising. This calls for iterative methodologies, different from the ones adapted to close datasets. From the perspective of Big Data, every dataset tends to become a data stream (i.e., a part of the data deluge).
+
+Relational : Data is big not only because of its size but because of its relationship with other data and its “fundamentally networked” nature.The semantic web approach that hypothesizes the existence of a Giant Global Graph, a machine-readable version of the information contained on the World Wide Web, is a typical example of such kind of interlinked datasets.
+
+Paradigmatic : Big Data is big when there is sufficient data to perform new forms of data-driven sciences. It is currently being debated how massive research into patterns or correlations in large databases could replace hypothetic-deductive and model-based approaches. For instance, by relying on massive amount of examples, translations could potentially be done without any grammatical models, and species could be identified by their genomic signature without knowing much biology.
+
+## Digital Humanities is the field dealing with Big Cultural Datasets
+
+Main proposal : (Big Data) Digital Humanities deal with Big Cultural Datasets. Cultural Datasets are Big either because they are hard to processs, open-ended, fundamentally networked or sufficiently dense to lead to data-driven approach. Big Cultural Datasets are specific objects of studies as neither Computer Science nor the Humanities know how to deal with these large objects. Digital Humanities are a field (and not just an intersection zone) for this reason. 
+
+## Research in Digital Humanities can be organised in the three concentric circles
+
+### First Circle
+
+The first circle corresponds to research focusing on processing and interpretation big and networked cultural data sets.For instance, each photo uploaded to Facebook is processed in series of consecutive steps, including machine learning analysis, face recognition, etc. The study of this ever expanding corpus needs new specific methods.
+
+The particularly complex nature of Cultural Datasets makes these processing specific compare to standard Data Science methods. We will see in details the nature of the complexity in the next course which is focusing on “historic" Big Cultural Datasets (Big Data of the Past)
+
+### Second Circle
+
+It is important to consider that data processing and interpretation occur in a larger context of the new digital culture characterized by collective discourses, large community, ubiquitous software, and global IT actors. Understanding the relations between these entities could be considered the second object of study for Big Data Digital Humanitie, what we call here, the second circle. 
+
+Consider again the millions of photos shared every hour on Facebook. Large-scale communities produce both the massive digital objects and the collective discourses about massive digital objects. They do so through the mediation of algorithms produced by one giant IT company of the web. Retroactively, collective discourses about the photos have a shaping role on the emergence and structuration of these communities. In addition, as collective discourses reach rapidly a critical mass (e.g., millions of messages or status update) they tend to become themselves massive digital objects, to be archived and studied through specific text and data mining approaches. Understanding photo sharing implies understanding the complexity of this network of interactions.
+
+The processing domain (1) covers the interaction between the software and massive digital object from a technical and epistemological perspective, studying in particular how to design data-processing algorithms capable of deriving new data out of massive digital objects.This corresponds to the first circle.
+
+The discursive domain (2) covers the study of the shape of collective discourses in relation with digital cultural objects, from Facebook to scientific articles.Discourse is not limited to textual domain but also includes video productions. Specific algorithmic methods must be invented to observe in time and space the continuous evolution of such discourses. 
+
+The social shaping domain (3) studies how large-scale communities shape and are shaped by the collective discourses they produce.This includes polarisation dynamics on Twitter or YouTube but also communities formations in other more specific communities (Wikipedia, gamers, developers, etc.).
+
+The algorithmic mediation domain (4) studies how software mediates discourses and communities. This includes the specific effects of sorting algorithms, filter bubbles, scoring systems but also platform effects in Education and Science.
+
+The control domain covers the relationship of communities and global actors with massive digital objects and the software medium. The domain studies how global actors curate both big cultural datasets and software medium to process them or how symmetrically, large-scale communities create or use software infrastructure for instance in the context of open-source communities.  
+
+### Third Circle
+
+Big cultural data, and digital culture at large, are experienced in the real world through physical interfaces, websites and installations. They produce “experiences.” This third circle is an area of study on its own.
+
+## Hard vs Soft definition of Digital Humanities
+
+Soft Definition : Digital Humanities constitute an interdisciplinary field at the intersection of Humanities and Digital approaches. Digital Humanities will remain a diaphragm zone.
+
+Hard Definition : Digital Humanities constitue a field of its own, studying a new kind of objects : Big Cultural Data Sets. Digital Humanities will be a new independent domain. 
 
 ## Summary
 
+It can be argued that (Big Data) Digital Humanities study a new kind of object : Big Cultural Data Sets.
 
+Neither Computer Science nor Traditional Humanities know how to deal with it.
+
+As a consequence, some consider that Research in Digital Humanities is a field on its own, organising a restructuration of knowledge based on new domain of investigations focusing of processing, discursive, social shaping, algorithmic mediation and control relations. In this perspective, Digital Humanities also study the experiences produced by these relations and the new interfaces mediate them. 
+
+This can be considered a hard definition of Digital Humanities.  
+
+## In the next Chapter
+
+Digital Humanities deals with Big Cultural Datasets like Wikipedias or Facebook photo’s archives. Do such datasets exist for the past ? Beyond Big Data of the present, can we talk of Big of the Past ?
 
 ## Further Reading
 

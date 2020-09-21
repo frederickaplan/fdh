@@ -15,9 +15,13 @@ output: pdf_document
 
 # What are Digital Humanities
 
+Digital Humanities is a just a word. A recent one. It means what those you decide to call themselves digital humanist decide. 
+
+This first chapter discusses the various meaning and ambiguities of the use of word "Digital Humanities".
+
 ## Digital Humanities are often defined as a diaphgram zone at the intersection of the Digital and Humanities 
 
-We can start with a very approximative first definition
+We can easy decompose the word "Digital Humanities" into its two compenents
 
 **Digital Humanities = Digital + Humanities**
 
@@ -69,7 +73,11 @@ Digital Humanities can be approximatively defined as intersection zone between t
 
 As digital methods tend to dissolve frontiers, some reorganisation of practises have started and new communities of practice have emerged. 
 
-## Further Reading
+## In the next chapter
 
+Some researchers are not satisfied with the definition of Digital Humanities as a diaphragm zone and try to define Digital Humanities as a field of its own. 
 
+## Selected readings
+
+Bod, A new histories of the humanities
 
