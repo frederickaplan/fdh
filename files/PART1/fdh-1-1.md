@@ -43,7 +43,11 @@ Computers can be defined as pattern organisers. Therefore they have the potentia
 
 The link between Computer Science and Humanities is deeper.
 
-Noam Chomsky established the connection between Linguistics and computer Science. He was considering Panini as his spiritual father. Indeed, Panini invented a formal system of rules that was used nearly 2500 years laters as the underlying formalism of programming language. Chomsky’s way of defining grammar, inspired by Panini, served as pattern for the structure of the ALGOL compiler. 
+### Focus : Chomsky and Panini
+
+- Noam Chomsky established the connection between Linguistics and computer Science. He was considering Panini as his spiritual father. 
+- Indeed, Panini invented a formal system of rules that was used nearly 2500 years laters as the underlying formalism of programming language. 
+- Chomsky’s way of defining grammar, inspired by Panini, served as pattern for the structure of the ALGOL compiler. 
 
 ## "Digital Humanities" is a new word, translated in many languages
 

@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 1.3'
-subtitle: 'What are Digital Humanities'
+subtitle: 'Big Data of the Past'
 author:
  - Frederic Kaplan
 
@@ -15,7 +15,7 @@ output: pdf_document
 
 # Big Data of the Past
 
-## Spatial and temporal horizons
+## Introduction : Geneva 1896
 
 In 1896, in Geneva, the two million visitors to the national exhibition could for the first time discover their city from the air. In small groups, from the gondola of a helium balloon, they could see how the city had changed considerably in recent decades. Following in the footsteps of other European capitals at the end of the 19th century, the old medieval city had now become an open, airy, cosmopolitan city, built for walking rather than defence, a city of its time. This view of the sky, absolutely unheard of at a time when air travel was still only a dream of the future, made it possible at a glance to embrace the structure and motifs of the new city. It offered a viewpoint and an understanding that no speech could have summed up. 
 
@@ -31,7 +31,7 @@ Magnin was precisely motivated to work on this long allene work by the great urb
 
 ## Planterary-scale interfaces
 
-In less than ten years our relationship to space has changed considerably. With just a few clicks we can now from a distant view of the Earth, quite similar to the first images taken by the Apollo astronauts, zoom in and see what a region looks like as if we were a bird flying over it. Often we can also see what a building looks like from a nearby street and literally move around as if we were there. It took only a few years for the planetary urban space to become an algorithmic space, mapped, photographed, articulated to be explorable through the interfaces of our computers. The globe was not only imaged, it was "machine-machined". 
+In less than ten years our relationship to space has changed considerably. With just a few clicks we can now from a distant view of the Earth, quite similar to the first images taken by the Apollo astronauts, zoom in and see what a region looks like as if we were a bird flying over it. Often we can also see what a building looks like from a nearby street and literally move around as if we were there. It took only a few years for the planetary urban space to become an algorithmic space, mapped, photographed, articulated to be explorable through the interfaces of our computers. The globe was not only an image, it was transformed into a machine. 
 
 The profound consequences of these fantastic vision devices are still to be studied. But one remark is immediately obvious: time seems singularly invisible to this device.  Is it really the present that the algorithmic globe gives me to see? How old are the aerial images shown to me by the interface? Were they taken at the same time as those used to build the immersive navigation that now allows me to see the same building in profile?  I look at this image taken of a city as the crow flies, then I dive into one of these streets without knowing if this new shot was captured the same year as the aerial view. In fact, when I think about it, I know that these two ways of documenting and representing space are not synchronised. I have no idea when the images taken by the satellite or the aeroplane that allow us to see the city from above, or when the car that collects the images of the facades of the buildings passed through these streets. We go from one vision device to another, in complete continuity, as if we were living in a perpetual present utopia. 
 
@@ -51,12 +51,303 @@ To compensate for the lack of archival information or to complete the spaces not
 
 Simulation cannot be understood as a way of simply compensating for the lack of historical data, used only when archival data is lacking. In fact there is never enough data. No cadastral plan, no photo, no laser survey, could allow me to reconstruct precisely the structure of a single _calle_ in Venice. Even in situations of "hyper-documentation", at some point the data has to be extended according to certain hypotheses. Simulations and data always go hand in hand. Only the resolution and the uncertainty change. 
 
+As a metaphor, the Information Mushroom reveals the hidden part of the Iceberg. There are plenty of information about the past to dig. However, the very nature of information in documents from the past is, of course, much more complex and needs further examination. 
+
+## Data Acceleration Regimes
+
+Big Data is not a new phenomenon. History is punctuated by several Big Data moments which are characterized by a widespread, shared sense of information overload alongside rapid societal acceleration accompanied by the invention of new intellectual technologies.
+
+To be translated into relevant sources of information about our past, datasets produced in these moments of acceleration need to be remodeled and reinterpreted. 
+
+The four dimensions of data bigness are intrinsically related. Technology (e.g., more computing power, increase in communication speed) enables Big Data by making it possible to produce open-ended streams of data. This new data stream, operating in a newly standardized environment, facilitates the creation of new relations with one another. Out of the opportunities created from these network sets of new data emerges a new relationship to knowledge, leading in some cases to a paradigm shift. This self-reinforcing loop creates what can be called, a data acceleration regime 
+
+Data acceleration regimes are not unique to contemporary massive datafication; rather, they echo other moments in history. 
+
+In Mesopotamia, a large empire developed standardized administrative rules to cope with the new complexity of good circulation and population management. 
+
+The invention of a new writing and accounting technology enabled the standardization of data streams materially embedded in clay tablets. The resulting information systems gave birth to an early science of planification that surely played a key role in the long-lasting power of these empires
+
+### Focus : Ebla's Tablet
+
+- In contemporary Syria, 60 km south of Aleppo, in the now totally destroyed ancient city of Ebla, 17,000 argyle tablets and fragments were discovered.
+- The tablets written in Sumerian and Eblaite constitute an antique administrative archive documenting with precision the life of this city, which was one of the most powerful of this region between 2500 and 2400 BC.
+- This ancient information system provides a valuable example of how massive information about economic, diplomatic, and commercial exchanges were recorded and used several millennia ago
+
+### Focus : Annales Maximi
+
+- In Rome, the Annales Maximi, 80 books from 400 BC to 130 BC, were the products of a very different early recording machine for capturing streams of events. 
+- The Pontifex Maximus, chief priest of the Capitoline, systematically maintained a detailed record of key public events, including the names of the involved magistrates and other important events such as famines, battles, extraordinary phenomena, and treaties
+- Contrary to the lightweight and easily erasable argyle tablets—facilitating information management, accumulation and control—the Annales engraved, locally and in a stable manner, information that could resist centuries of war
+
+Likewise, The Roman Empire’s need to unify the circulation of goods, person, and information, and to exercise societal and military coordination over an extremely vast territory gave birth to additional forms of writing technologies and record-event handling methods. 
+
+Standardized information started to spread all over the Empire, from the Mediterranean region to the territories now comprising Great Britain and Germany. The resulting paradigm shifts in terms of global governance marked a watershed in information management. 
+
+Data acceleration regimes generally start with an initial societal stress. This can, for instance, occur when a governing entity needs to cope with an unexpected, intrinsic, and complex evolution of its territory or social structures, or in the case of unexpected encounters with new populations and cultures.
+
+Acceleration starts when a new technology enables massive data production that follows regular patterns by defining specific production constraints (e.g., administrative rules, printing industries, scientific experiments).
+
+### Focus : The Renaissance acceleration
+
+- For Europe, one classically discussed case of “acceleration” is the Renaissance, linked with the rise of the printing industry, the discovery of Asia and the Americas, and the globalization of exchanges all over the world. Not only were new editions of ancient texts starting to be printed and circulated but also a deluge of “how-to books” explaining previously secret arts and methods. 
+- This sudden increase in knowledge and exposure to new practices created a well-documented feeling of information overload: there was definitely “too much to know”.
+- Likewise, the discovery of new species in Asia and in the Americas challenged the capacity of scholars to recognize and classify natural beings. 
+- Organizing the steady stream of new species was an extremely demanding endeavor that called for new intellectual paradigms. 
+- Eventually, the globalization of monetary exchanges and the increased complexity of trade networks challenged the traditional methods for tracking commercial processes and advanced the rise of more mathematically sound, standardized methods 
+- From a technological perspective, the Renaissance and early modern period were intrinsically linked with the invention of several intellectual technologies for search and retrieval: indexes, bibliographies, accounting tables, and hierarchical collection structuring methods in addition to chronologies and maps.
+- From an open-ended perspective, the acceleration of exchanges, the rise of the printing press industry, and the early attempts to conduct experimental science contributed to producing streams of new data. 
+- From a relational perspective, both early modern collections, which attempted to create a system for organizing natural and artificial entities and the double accounting system, which enabled a new tractability of economic exchanges at the global level helped advance the fundamentally network nature of the new datasets.
+- Eventually, from the paradigmatic perspective, the early modern episteme reframed entire views of the world both past and present into new coherent systems of knowledge, introducing, for instance, tree-based genealogical approaches in early natural history or philology.
+- Following the Big Data multifaceted criteria we previously introduced, the Renaissance and early modern periods qualify as data acceleration regimes, even if the size of the datasets managed seem small compared to contemporary standards. 
+- These epochs have produced datasets structured using the specific intellectual technologies and following the epistemic paradigms of their time. 
+- These datasets, if interpreted correctly, could be precious for reconstructing entire systems of knowledge.
+
+From the antique administrative structures to the new information logics (cadaster, census) that accompanied the industrial revolution in the nineteenth century, how many data acceleration regimes can be identified? Can we clearly segment them? Are they more easily identifiable by their enabling technology, by the volume of data they produced, by the new connections they enabled, or by the intellectual shift they introduced? 
+
+Developing methods for mapping data acceleration regimes in space and time is a crucial challenge for reconstructing Big Data of the past. This global data census could take the form of a digital historical atlas, thereby reconstructing—from a distance—great as well as minor moments in the world’s information history.
+
+## Regulated Representations
+
+### Regulated representations have production and usage rules
+
+The common trait of all these ancient recording technologies—beyond their differing physical materialities—is their capacity to deal with an open-ended stream of information and reorganize it to fit a given information paradigm, creating new relations between them. We can call them regulated representations. 
+
+A representation is a man-made material document that stands for something else, typically a complex, highly dimensional event or phenomenon. For instance, a photographic picture of a scene, a sculpture of a Greek hero, a theatrical play, or a novel is man-made representations. 
+
+A regulated representation is a particular case of representation governed by a set of production and usage rules. These rules can be intrinsically embedded in the production process of the representation or the result of cultural conventions. 
+
+Examples of regulated representation include indexes of names, accounting tables, family trees, flow-chart diagrams, formal processes, and maps of a region. 
+
+On the contrary, the production of a sculpture, a painting, or a theatrical play is generally too weakly regulated by conventional rules to be considered an example of a regulated representation. 
+
+### Focus : Four Maps
+
+- There are obviously different qualitative levels of regulation rules. Maps are good examples of how regulation and production rules progressively structure themselves over time. 
+- Modern conventions when creating a map, such as the indication of scale and the direction of North, were progressively introduced over time; the associated reading skills (how to handle a map, how to interpret its convention) developed in parallel.
+- Four examples : 1360, 1520, 2006, 2020 **(To develop)**
+
+### Regulated representations become more regular over time
+
+The general process of this regulating tendency involves the transformation of conventions into mechanisms. The regulation usually proceeds in two consecutive steps, mechanizing first the representation’s production rules and then its conventional usages. Ultimately, through this process, regulated representations tend to become machine readable.
+
+In the case of maps, the mechanization process is begun by a progressive formalization of the recording, gathering, storage, and unification of geographic information. This corresponds to the mechanization of conventional production rules. Paper maps were still produced, sharing similarities with those of the previous generation, but they were made in a completely different manner.
+
+The next stage was the mechanization of usage conventions, transforming the regulated representation into machines in which all the possible usages are explicitly treated. The digital maps we use nowadays permit a large set of operations (scaling, rotation, etc.) and offer ways to handle multiple information layers. As machines, they offer many more possibilities than traditional ones. However, these various new modes of usage are explicitly programmed. 
+
+A paper map can be used freely for purposes other than its original function. In this sense, it is still a tool. A digital map can only be accessed through specific input and output commands; it has internalized its own usage rules. It is therefore a machine
+
+### Regulated representations aggregate into unified systems
+
+The mechanization process may not immediately produce changes in usage, but the changing nature of the representation results in technological synergies and aggregation effects. As maps became machines, they progressively merged into a global mechanic system in which a multitude of maps became aggregated into a single one. 
+
+As regulated representations become more regular, they tend to aggregate into unified systems.
+
+### Focus : Simondon and concretization process
+
+- These dynamics have been well described by Gilbert Simondon as concretization processes.
+- To develop
+
+### Evolution and progressive unification of regulated representations can be studied in parallel with the succession of data acceleration regimes. 
+
+Given the unification tendency of regulated representations, their evolution can be likened to a converging tree system in which various branches progressively merged to create larger standardized sets of production and usage rules. 
+
+The great challenge at this stage is to come up with formalisms capable of modeling different families of regulated representations—and therefore to consider their evolution and transformation through time.
+
+## Inferred Patterns
+
+### From Data to Models
+
+Regulated representations make it possible to infer patterns. In most cases, gathering data about the present is motivated by the desire to produce not only records but also a model. Indeed, a model enables new means of organizing observations, the discovery of principles and reoccurring structures and, hopefully, the prediction of future events.
+
+### Temporal, Natural and Cultural dominions
+
+Prediction takes different forms depending on the domain considered. We can identify at least three kinds of dominions that each follow a slightly different logic in their datafication processes
+
+The temporal dominion deals with predicting periodic rhythms and chronological patterns. Intellectual technologies associated with this dominion were calendars, chronologies, and causal tables. Astronomy and astrological tables aimed at making sense of long-term phenomena using dedicated measuring and recording methods. Today’s large-scale models from climatology, meteorology, and geology are the continuation of these datasets.
+
+The natural dominion addresses understanding and classifying living beings. Intellectual technologies associated with this dominion were typically lists, trees and other classification schemes, and indexes. Contemporary Big Science datafication projects for modeling genomes, brains, and particle physics are the continuation of these efforts.
+
+The cultural dominion encompasses human exchanges, production of artifacts, consumption of goods, migration and urbanization phenomena, etc. Intellectual technologies associated with this dominion were meant to track and monitor fluxes of exchanges through maps and tables and thereby predict cultural phenomena at different time scales. Google, Facebook, Amazon, and Apple are central actors today of the Big Data in this dominion.
+
+### From predictive to prescriptive systems
+
+A common characteristic of modeling in these three dominions is the transformation of descriptive systems into not only predictive systems but also prescriptive models, and in turn transforming data acquisition strategies.
+
+In 1567, following the wish of Ferdinando II de Medici and under the initiative of two pupils from Galileo, the Accademia Fiorentine del Cimento started a systematic measuring campaign across Europe. A network of correspondents performed local meteorological measurements following a standardized protocol and then sent their measurements to Florence, which acted as a central data repository. This sixteenth century distributed measurement system quickly led to a new language for describing meteorological phenomena, giving existence to previously invisible data and consequently shaping other information systems in return.
+
+### Focus : La Connaissance du Temps 
+
+- In 1666, 100 years later, a compendium of their methods was published under the title: Saggi di naturali esperienze. Translated in Latin, it became the referential work for the next century. 
+- Ten years later, standards and new measurement methods lead to the creation of an annual publication, La Connaissance des temps in France. 
+- The journal created in 1678 and thereafter continued, published every year both the scientific state of the art dealing with astronomy, time scales, referential systems, coordinate transformation, and a collection of data measurements for the current year documenting the position of the planets and other temporal and astronomical phenomena.
+
+### Classification and naming systems
+
+Likewise, finding efficient and adaptable nomenclature to describe the seemingly infinite diversity of living beings was, for a long time, the cornerstone of the Big Data approach in the natural dominion. The binomial nomenclature formalized by Linné in Systema Naturae was progressively upgraded and adapted at each subsequent edition from 1735 (1st edition) to 1758 (10th edition). The binomial formalization was not entirely new as a classification and naming system. 
+
+Gaspard and Johan Bauhin had developed a similar system nearly 200 years earlier. However, Linné used it in a consistent and systematic manner, offering an organizing paradigm for new observations. The 1758 edition featured an organization of 4,400 animals and 7,700 plants and established Linné’s nomenclature as the new paradigm for describing the multitude of species discovered or to be discovered.
+
+### Computational urban systems
+
+Obviously, it is in the cultural dominion that the prescriptive effect is the strongest. In the nineteenth century, Ildefonso Cerdà, considered to be the inventor of modern urbanism, was the first to transform a data measurement approach about key urban statistics into a science of the city. His approach identified and measured not only transportation and energy flux but also global characteristics about the general quality of life in a city (sunlight, ventilation), and thereby fostered the design of spatial configurations that optimized these reified concepts. Once again, the descriptive system became a prescriptive one.
+
+### Focus : Cerdà ’s Barcelona (1859)
+
+- For his project of expanding the area of Barcelona in 1859 Cerdà took a network-oriented approach. His pattern-based design made the city into a logical system, optimal from a statistical point of view but also partly adjustable depending on actual measurements of its performance.
+- This Big Data-informed design was capable of producing a predictive and adaptive computational urban model.
+
+### Projections of pattern-based models
+
+As these examples illustrate, regulated representations are not just formal conventional systems for encoding data. They form the basis of prescriptive systems, projecting their inferred pattern-based models to shape particular interpretations and observations. When a regulated representation evolves, the associated observation grid changes in turn.
+
+## Redocumentation processes
+
+### Reduction of temporal horizon 
+
+In general terms, massive datafication and data acceleration regimes tend to lead to some new forms of disequilibrium: There is too much information about the present and only “incompatible” information about the past. This can lead to a reduction of “temporal horizons,” a shift of “temporal regime,” making long-term thinking difficult.
+
+In these moments, the present becomes “bigger” and prediction about the future more difficult. To be capable of longer term predictions, longer datasets are necessary. Pressure increases for “redocumenting” the past using the regulated representations of the present
+
+### Focus : Matthew Maury’s “The Physical Geography of the Sea (1855)
+
+- Redocumentation processes were frequent in the nineteenth century, when data paradigms and standard of measurement were mature. For instance, Matthew Maury created a standard form for logging ship data and produced an entirely new form of navigational chart. 
+- His masterwork The Physical Geography of the Sea contained about 1.2 million data points and was based, to a large extent, on the additional “massive” extraction of data from old logbooks—a systematic reinterpretation of older data using a new grid.
+
+### Recollecting and remapping
+
+Translating historical datasets into the structured information of a new paradigm can be challenging when it implies processes of recollection and remapping. 
+
+Recollection, like any archival practice, implies choosing some data and rejecting others and therefore amplifying certain sources while neglecting others. 
+
+Remapping implies the bending of data in some ways to fit the new regulated representation, with the risk of introducing artifacts. In most cases, it requires finding homologous points in space and time in order to realign models.
+
+### Focus : Alexandria vs Pergamon
+
+- In the Antiquity, methodological wars were already being staged over how linguistic redocumentation processes should be conducted. 
+- Librarians at Alexandria and Librarians at Pergamon are the classical representative of the opposing view of the so-called analogists and anomalists. 
+- The collation methodology was practiced by the Alexandrians to reconstruct ideal authoritative texts and a kind of ideal virtual reconstruction out of multiple copies. In some cases, Alexandrian librarians and their followers went as far as deciding to reintroduce “ideal” linguistic forms that did not exist in the document, following of Neoplatonistic philosophy in their textual transmission strategy. 
+- On the other side of the debate, Pergaminians insisted on describing linguistic elements based on the preserved documentary forms, possibly following the Stoician philosophical stance that all material traces are inevitably flawed. 
+- This debate from antiquity is still at the heart of the creation of linguistic formal systems based on redocumentation processes
+
+### New formalism reshape data
+
+Grammatical systems themselves need to remodeled to adapt to a new formal model. In the nineteenth century, the German linguist Franz Bopp rediscovered the Panini grammar and pioneered early comparative theories about Indo-European languages.
+
+Later, several founders of modern linguistics such as de Saussure, Bloomfield, and Jakobson reinterpreted the ancient grammar into the formal systems they invented from describing languages. In such a context more than in any other, data are not given but rather constructed through a long chain of recollection and remapping.
+
+### Focus : Bamboo Annals (210 BC)
+
+- The so-called Bamboo Annals, written on bamboo slips, a classical writing medium before the Chinese invention of paper, is one of the most ancient chronicles of China, covering the period from the legendary times to the third century BC. 
+- Discovered in a tomb in 298 Anno Domini (AD), they survived the burning of books (and burying of scholars) that is thought to have occurred in China around 210 BC, which resulted a vast collective memory loss in Chinese History. 
+- After their discovery and throughout their translation and reinterpretation, the contents were significantly modified, adapting to the new ways of describing events and chronology. Due to this redocumentation process, they feature a unique regularly paced reconstructed chronology of China’s antiquity. As such these annals also invented an original way of organizing historical events following specific geographical and temporal conventions, a kind of ancient information system for the past.
+
+### Fixed points
+
+In the historical and geographical domains, redocumentation implies the existence of fixed points, common references that enables the alignment of data produced under different paradigms.
+
+### Focus : Venerable Bede and the AD tempoal origin
+
+- The Venerable Bede (673–735), English monk, had to address the problem of aligning different chronological systems to organize the profusion of unverified historical facts in a common system. 
+- To address this challenge, Bede defines the AD temporal origin using homological events present in various chronicles. 
+- The dissemination of this new dating system played a crucial role for shaping a common chronological framework and aligning different historical sources into a coherent dating system
+
+### Focus : Ranulf Higden's Polychronicon
+
+- The Polychronicon from Anglo-Saxon Benedictine monk Ranulf Hidgen (1280–1363) is a compilation of several chronicles combining many different traditions that aimed to be an encyclopedic world history. 
+- To perform this universal recompilation of knowledge, Hidgen developed a systematic framework to redocument the records of other chronicles. 
+- To align events in a coherent temporal framework, Hidgen use eight calendar systems: three Hebraic (one starting in January, one starting in February, one starting in March), three Greek (Troy, Olympiads, Alexander), one Roman (Ad Urbe condita, starting in 753 BC), and a Christian one. 
+- Events reported were then tagged in the margin of the text using several chronological systems. This multicolumn system was pivotal to the organization of this universal chronicle.
+
+### Filling the gaps
+
+Data from the past systematically undergo a form a regularization to match a new paradigm. During this regularization process, data are reinterpreted, patterns are induced, and new data are inferred. 
+
+In that sense, redocumenting data from the past are like trying to simulate the past and filling the gap left by the datasets using the inference methods of new paradigms.
+
+### Recursive redocumentation
+
+The core challenges of redocumentation go beyond the mastering of recollection and remapping techniques. Precisely because redocumentation is not a one-step process but a series of recursive reconstructions, redocumentation processes must be carefully modeled. Ideally, recollection and mapping operations should be described along with the persons performing them. 
+
+In many contemporary cases, some of these operations include algorithmic steps which should be equally described. The standard for such form of metahistorical modeling or paradata must still be invented and agreed upon.
+
+## Fictional spaces
+
+### Trusting historical information
+
+Information extracted from historical documents can be wrong in many ways. Historical reconstruction is highly uncertain not only because of the long series of redocumentation processes but also for many other potential reasons.
+
+The document contents could be false or imprecise. This affects all kinds of primary and secondary sources from ancient manuscripts, administrative records, and cadastral maps to contemporary academic books, news articles, or virtual reconstructions.
+
+In addition, the regulated representations encountered in two documents could be partly incompatible, like the diverse chronology that Bede and Hidgen needed to align. Eventually, any procedural method and particularly contemporary algorithmic processes can add noise, artifacts, and other errors in both the processing of single documents and in the alignments of large sets of extracted information.
+
+Any procedural method and particularly contemporary algorithmic processes can add noise, artifacts, and other errors in both the processing of single documents and in the alignments of large sets of extracted information.
+
+### Disjointed Fictional spaces
+
+This provides motivation to consider that information extracted from historical documents could be organized in potentially disjointed fictional spaces. Each fictional space contains only coherent information extracted from an identified set of sources. It constitutes a virtual historic reconstruction, a possible historic reality.
+
+### Coherence is based on constraint
+
+Coherence is calculated by the non-violation of a series of defined constraints. For instance, it could be assumed that a dead person may not interact anymore after the date of his death, or that someone cannot be at two different places at the same time. If one document indicates that Dürer is in Venice in early June 1502, and it can be deduced from another one that he is in Nuremberg at this date, two fictional spaces must be created.
+
+One difficulty is that such common sense constraints may vary depending on beliefs (e.g., the possibility of supernatural forces impacting the world!) and actual knowledge about a given culture (e.g., depending on means of transportation, the subsequent presence of the same person in two different places may or may not be possible). 
+
+Finding flexible ways of representing such constraints is a core challenge of this kind of modeling.
+
+### Joining fictional spaces
+
+Several fictional sets could be joined to create bigger ones. If the coherence constraints match, they could be merged into a larger set. 
+
+As in any redocumentation process, this implies mapping the sets on a common framework of regulated representations and aligning the two sets by identifying common stable elements (identifying a person, a particular place or a concept as the same). 
+
+These mapping operations should obviously be fully documented in a standard form as they inform the nature of the reconstruction.
+
+Imposing only a fully compatible union between fictional spaces maybe unrealistic, given the uncertain and incoherent nature of extracted historical information. This could result in large sets of disjointed fictional spaces. 
+
+For this reason, it may be relevant to consider partial matching and to evaluate based on a cost function proportional to the amount of incoherent information provoked by the matching. Fictional spaces with marginal cost, in terms of incoherence, may be accepted as offering a potentially coherent reconstruction.
+
+Metaphorically, constraints acting over the entire reconstructed system may be compared to a large system of springs that generally pushes the system toward a stable solution but allows for a certain degree of freedom. The cost of reconstruction would correspond, in this case, to how much the system must be stressed to fit the desired configuration.
+
+### Algorithmic optimisation
+
+The action of algorithms will be crucial to performing the optimized union of fictional spaces. Beyond a given volume of extracted information, human tests of coherence are out of reach. 
+
+Given that coherence constraints need to be written using formal operators, and since certain historical hypotheses are likely to be expressed using procedural methods, the historical debate is likely to be increasingly mediated by algorithms.
+
+### Large-scale unification engines
+
+The design of large-scale unification engines capable of exploring the various combinations of fictional spaces is one of the greatest challenges to creating a large set of coherent Big Data of the past. Such an effort can be traced back to early expert systems, now rebranded as cognitive computing. 
+
+This problem of solving constraints necessitates finding good exploration strategies, and it is likely that in many cases only suboptimal unions can be found. In addition, the arrival of new data from digitization and extraction could create new fictional spaces that are incompatible with the present unification. In such cases, backtracking may be needed to separate previously joined spaces.
+
+### Reconstruction “temperature”
+
+One can consider the landscape of all the possible pasts and see the reconstruction as its progressive exploration. The cost of each reconstructed past can be evaluated based on the number of statements it does not consider and the number of constraints it breaks. In such terms, the unification of fictional spaces can be seen as an optimization problem, analogous, for instance, to simulated annealing. 
+
+To avoid being trapped in local “valleys” due to suboptimal unions of fiction spaces, it could make sense to create disorder, to temporarily increase the level of the reconstruction “temperature,” disjoining some of the fictional spaces and letting other, potentially more fruitful unifications emerge. The methodology and technology to perform such global optimizations has yet to be developed and constitutes a cornerstone of the successful exploitation of Big Data of the past.
 
 ## Summary
 
+Big Data of the past can be seen as a construct, articulated on the basis of six intermediary concepts.
 
+- The bigness of data can be measured in a least four dimensions. Big Data is big because of the technological difficulty to process it, because of its open-ended nature, because of its networked structure, and because it fosters the structuration of new knowledge paradigms. Defining quantitative measures for these four dimensions, despite their extremely diverse qualitative nature, is one of the challenges to grounding this concept.
+- The four dimensions of data bigness are obviously not independent. During what can be defined as data acceleration regimes, they mutually reinforce themselves in circular dynamics. Data acceleration regimes can be spotted not only during the European Renaissance and the transformations of the nineteenth century but also much further in the past with the administrative inventions of Mesopotamian city states or the Roman Empire. Finding rigorous methods to identify and segment these “Big Data moments” spatially and chronologically is one of the challenges to studying the global impact of these information transformations.
+- At a finer granularity, what links technology with a continuous production of standardized data streams are regulated representations, governed by sets of production and usage rules. Indexes of names, accounting tables, family trees, flow-chart diagrams, maps, or graphs are examples of such regulated representations. Mapping the genealogical evolution of regulated representations in space and time and understanding how to translate and align their contents are two necessary preparatory steps to reconstructing the transformation of data structures in time.
+- Patterns are the results of the structuration imposed by regulated representations. During each data acceleration regime, regulated representations structures data streams, making it possible to accumulate organized information and to infer subsequent data patterns. Descriptive models turn into prescriptive ones, guiding data acquisition strategies and impacting design and societal choices. For this reason, regulated representations should always be considered in association with the prescriptive patterns they induce. The core challenge is to find forms that express these underlying models and exploit their prescriptive dimensions to compensate for a lack of information about the past.
+- Redocumentation processes have always been needed to translate information stored in obsolete regulated representations into updated information paradigms. Redocumentation implies re-collecting (i.e., choosing what data to keep and what data to ignore) and remapping (i.e., searching for homologous points in space, time, and other more complex cultural dimensions). As redocumentation is a central characteristic of the nature of the dataset from the past, it is crucial to not only understand how to redocument old datasets using the paradigms of the present but how successive translation processes previously occurred in the past, explaining the particular nature of the data considered. As Big Data of the past is the result of a series of rewriting processes, the core challenge is not only to perform these redocumentations but to model them as recursive operations.
+- Information about the past that results from different datafication operations and consecutive redocumentation processes is always potentially unreliable and often inconsistent. Coherent sets of information extracted from historical documents can be organized as disjointed but locally consistent fictional spaces. The core challenge is to unify these \*fictional spaces\* into larger spaces, sometimes accepting partial inconsistencies. Through this formalization, historical reconstruction becomes a problem of optimization.
+
+## In the next chapter
+
+In the next chapter, we will study the dynamics of growth of Big Cultural Datasets and show examples of control struggles through the study of patrimonial capitalism.
 
 ## Further Reading
 
+This chapter is largely based on : Kaplan, di Lenardo (2017) Big Data of the Past
 
+Simondon
+
+Pascal Robert
+
+Harmut Rosa
 

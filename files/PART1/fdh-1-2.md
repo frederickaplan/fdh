@@ -15,7 +15,7 @@ output: pdf_document
 
 # Digital Humanities as a structured research field
 
-## **Digital Humanities constantly define themselves dynamically out of structuring tensions.** 
+## Digital Humanities constantly define themselves dynamically out of structuring tensions.
 
 Defining the nature and the boundaries of digital humanities is a long-discussed and unsolved issue, not only because there is no consensus on this question but also because digital humanities are currently undergoing a profound transformation that calls for a reconsideration of its fundamental concepts. For years, digital humanities have been loosely regrouping computational approaches of humanities research problems and critical reflections of the effects of digital technologies on culture and knowledge. They emerged as a new label, rebranding and enlarging the idea of “humanities computing”.  Around this new name and under a “big tent,” a progressively larger community of practice thrived. Each work at the intersection of Computer Science and the Humanities could potentially be part of this welcoming trend. Researchers gathered in national and international meetings, exchanged their views on blogs and mailing lists. If not a well-bounded field, digital humanities were surely a lively conversation.
 
