@@ -15,10 +15,11 @@ output: pdf_document
 
 # The Digital Humanities Circle
 
-Theses :
+## Core theses explored in this chapter 
 
 - Digital Humanities projects are organised as a self-reinforcing circles
-- Patrimonial capitalism lead to monopols
+
+- Patrimonial capitalism lead to monopols and concentration of Big Cultural Datasets
 
 ## Concepts
 

@@ -15,6 +15,12 @@ output: pdf_document
 
 # Big Data of the Past
 
+## Core theses explored in this chapter 
+
+1) There are plenty of precious structured data in the past 
+
+2) These datasets are complex to extract
+
 ## Introduction : Geneva 1896
 
 In 1896, in Geneva, the two million visitors to the national exhibition could for the first time discover their city from the air. In small groups, from the gondola of a helium balloon, they could see how the city had changed considerably in recent decades. Following in the footsteps of other European capitals at the end of the 19th century, the old medieval city had now become an open, airy, cosmopolitan city, built for walking rather than defence, a city of its time. This view of the sky, absolutely unheard of at a time when air travel was still only a dream of the future, made it possible at a glance to embrace the structure and motifs of the new city. It offered a viewpoint and an understanding that no speech could have summed up. 

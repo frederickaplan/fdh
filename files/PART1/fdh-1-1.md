@@ -15,9 +15,11 @@ output: pdf_document
 
 # What are Digital Humanities
 
-Digital Humanities is a just a word. A recent one. It means what those you decide to call themselves digital humanist decide. 
+## Core theses explored in this chapter 
 
-This first chapter discusses the various meaning and ambiguities of the use of word "Digital Humanities".
+- Digital Humanities is a just a word. A recent one. It means what those you decide to call themselves digital humanist decide. 
+
+- The activities engaged under the label "Digital Humanities" are starting a profound restructuration of the Digital and the Humanities. 
 
 ## Digital Humanities are often defined as a diaphgram zone at the intersection of the Digital and Humanities 
 
