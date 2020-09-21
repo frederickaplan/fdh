@@ -27,8 +27,8 @@ output: pdf_document
 >>2.1. The progresses of Humanities Computing //
 >>2.2. A common trait between Computing and Humanities: finding patterns //
 >>2.3. Focus : Chomsky and Panini //
->3. Looking for the right word to describe "Digital Humanities"
->>3.1. Humanities Computing vs. Digital Humanities //
+>3. The invention of the "Digital Humanities"
+>>3.1. From Humanities Computing to Digital Humanities //
 >>3.2. Digital Humanities: practice over theory //
 >>3.3. How to translate "Digital Humanities" //
 >4. "Digital Humanities" vs. Digital Studies and Studies about Digital Culture
@@ -82,8 +82,8 @@ What better example of the permeability of the boundary between humanities and t
 The division between the digital and humanist worlds is a construct. The key ideas in the history of computer science do come from the humanities, rather than electronics or engineering.
 
 
-## 3. Looking for the right word to describe "Digital Humanities"
-### 3.1. Humanities Computing vs. Digital Humanities
+## 3. The invention of the "Digital Humanities"
+### 3.1. From Humanities Computing to Digital Humanities
 The terminological change from Humanities Computing to Digital Humanities has been attributed to John Unsworth, Ray Siemens and Susan Schreibman, editors of the monograph _A Companion to Digital Humanities_ (2004).
 
 There is, though, an important difference between Humanities Computing and Digital Humanities: the latter has at its core this bi-directionality — DH leads to a better understanding of both computing and the humanities.

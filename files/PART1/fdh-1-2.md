@@ -1,6 +1,6 @@
-specify---
+---
 title: 'Foundations in Digital Humanities 1.2'
-subtitle: 'Digital Humanities as a structured research field'
+subtitle: 'What are Digital Humanities'
 author:
  - Frederic Kaplan
 
