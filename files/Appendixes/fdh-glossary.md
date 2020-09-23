@@ -42,3 +42,6 @@ Data Bigness has four dimensions:
 
 ### Distant Reading
 As articulated by Franco Moretti in the early 2000s, a form of literary criticism which raises above the narrowness of a specific domain of interest ("close reading") by considering a wider corpus of texts and sources – thus, as if reading from a distance –, often by means of algorithmic approaches and computational formalisms.
+
+### Information Mushroom
+A metaphor to highlight the fact that most information about the past is still hidden and has to be harvested through, not only vast digitisation projects, but also the reconstruction of the past logic of representation – by means of extrapolation and generalisation.
