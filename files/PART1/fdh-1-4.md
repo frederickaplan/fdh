@@ -71,4 +71,4 @@ In the next chapter, we explore the domains of commons.
 
 ## Further Reading
 
-Image Banks
+Estelle Blaschke, Banking on Images: The Bettmann Archive and Corbis
