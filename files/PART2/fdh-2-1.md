@@ -15,7 +15,7 @@ output: pdf_document
 
 # Digitisation Processes
 
-## These
+## Theses
 
 1) Document digitisation is a problem of conversion of dimensions
 
