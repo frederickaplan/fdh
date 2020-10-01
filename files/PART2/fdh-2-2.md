@@ -27,15 +27,25 @@ output: pdf_document
 
 ## General structure of the pipeline
 
-\> Physical Document 
+\> The World containing information-bearing objects and phenomena
 
-\> Digitised Document 
+(How is this information stored in the World)
 
-\> Standard Description of the structure of the document 
+\> Physical Document documenting this information 
+
+(How is this information stored in the Physical document)
+
+\> Digitised Document documenting the physical document 
+
+(How is this information stored in Digital Document)
+
+\> Standard Description of the structure of the document describing the structure of the physical document in a digital formalism
 
 \> Extraction of content of the document 
 
 \> Identification of content and link with other documents
+
+\> Construction of World Models
 
 ## Content and Structure of a document
 
