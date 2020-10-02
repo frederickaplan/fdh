@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities 3.4'
-subtitle: 'Latent Spaces'
+title: 'Foundations in Digital Humanities 3.5'
+subtitle: 'Procedural Methods'
 author:
  - Frederic Kaplan
 
@@ -13,11 +13,23 @@ output: pdf_document
 
 ---
 
-# Latent Spaces
+# Procedural Methods
 
-GAN, etc.  
+(Simulation / Wouldbe world)
 
-Universal representation. 
+## Concepts
+
+
+
+
+
+## Practice
+
+Houdini
+
+## Question and Answers 
+
+
 
 ## Further Reading
 

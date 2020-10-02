@@ -39,6 +39,8 @@ Can we digitise 80km of document in 10 years
 
 4) Estimate the overall budget
 
+Sampling method and quality control
+
 ## The Story of Google Books
 
 ### Figures
@@ -452,5 +454,6 @@ In the next chapter we will study how to represent the structure of a document
 
 ## Further reading
 
-Alain Jacquesson, Google LIvres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie
+Alain Jacquesson, Google LIvres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
 
+Jean-Noel Jeannerey, Quand Google défie l'Europe: Plaidoyer pour un sursaut, Mille et une nuits, 2007

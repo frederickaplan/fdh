@@ -55,7 +55,13 @@ Solr : Search engine and index
 
 
 
-## Question and Answers 
+## Further reading
+
+Jacqueline Leon, Histoire de l'automatisation des sciences du langage
+
+Michael Piotrowski, Natural languge processing for historical texts
+
+Andrew Piper, Data and literary study
 
 
 

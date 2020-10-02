@@ -209,19 +209,21 @@ Synchronic : How can extract the information which is in regulated representatio
 
 Diachronic : How can we link content from different regulated representations and identify it as being the same. 
 
-### Synchronic
+### Synchronic - information schema
 
 A regulated representation can be associated with a specific information schema, that can be fully described in XML or JSON.
 
 This schema permits to automatically generate an annotation interface.
 
-### Diachronic
+### Diachronic - homologous pairs
 
 To identify two mentions as referring to the same referent is a process of homology. 
 
 This is something fundamental that we will see again and again in this course. 
 
-The correspondance of homologous points define “pivot” points.
+The correspondance of homologous points define “pivot” points. Pivot points are the invariants features, the "sameness" that is characterised by the homologous pairs. 
+
+We can also say that they define a equivalence class. 
 
 We can define the coordinate of a pivot point or a unique reference ?
 

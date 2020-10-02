@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.6'
-subtitle: '3D'
+subtitle: '3D Models and Measures'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# 3D
+# 3D Models and Measures
 
 ## Concepts
 
@@ -25,7 +25,7 @@ Model-based Procedural methods. Architectural grammars. Class I and Class II ele
 
 ### Sampling
 
-Intro
+Acquisition techniques : 
 
 - Different methods : Lidar, Time of Flight
 - Finding a compromise between time and precision. 
@@ -42,6 +42,56 @@ Homologous Points. Odometry. Desification. Adjacent graph.
 Calibration
 
 Evaluation of precision of models
+
+#### Cloud Points
+
+Problems with cloud points
+
+- Monolitics 
+- Difficulty of manipulation, store, manage, compare. 
+- Do not comply with some of cadastral requierement 
+- Nice to have but not necessary. 
+
+The between the models and their scale can be quantified by considering the following relationship:
+
+r = log10 (amplitude / resolution)
+
+where the amplitude corresponds to the extent of the model - the range of the representation of reality it gives - and where the resolution gives the average separation between the points of the model. For example, the model of a street of a hundred metres with points separated, on average, by one centimetre gives an r value of 4. A topographical model of a hundred kilometres with an average separation of its points of 10 metres thus gives the same r value. A model of the whole Earth with a point separation of one centimetre can be associated with an r value of about 9.6. In comparison, the SRTM model with a point separation of about 30 metres leads to an r value of about 6.1, thus making it a purely topographic model, clearly neglecting details.
+
+### Vector models 
+
+- Ambigous in many ways
+- Priviledge for territory representation
+
+### Polygons models
+
+- Polygon models can be seen as a specific "type" of vector model. Indeed, they can be defined as a set of surfaces defined by links between vertices, as in previous models. A purely polygonal model is thus a vector model with only triangles - allowing any type of surface to be constructed.
+- Less used than vector modesl
+- Used for 3D city models 
+
+### Measures
+
+
+
+### Format and Standards
+
+PLY - Polygon File Format, paulbourke.net/dataformats/ply/
+
+LAZ - format of LIDAR Data. (zLAZ proprietary version
+
+3DS - 3D format
+
+MNT - (Modele numerique de Terrain) : Elevation
+
+DEM - idem 
+
+ASC - Format of the SRTM -Shuttle Radar Topography Mission (SRTM),  a NASA mission conducted in 2000 to obtain elevation data for most of the world.
+
+
+
+### Challenges
+
+#### Size of models
 
 
 

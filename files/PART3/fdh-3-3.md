@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 3.1'
-subtitle: 'Deep Learning for Texts'
+subtitle: 'Deep Learning for Texts and Sounds'
 author:
  - Frederic Kaplan
 
@@ -38,6 +38,8 @@ GPT-3
 ### LSTM and Bi-LSTM
 
 ### 
+
+
 
 ## Practice
 
