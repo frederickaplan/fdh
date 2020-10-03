@@ -214,6 +214,12 @@ Lawrence Lessig, The Future of Ideas : The Fate of the Commons in a connected Wo
 
 Lawrence Lessig, Free culture : How big Media Uses technology and the law to lock down culture and control creativity, The Penguin Press, 2004
 
+Swartz Aaron, Celui qui pourrait changer le monde, Editions B42
+
+Stallman, R, Free Software, Free Society, GNU Press
+
+Stallman, R:; Willliams, Sa,, Masuetti, Christophe, Richard Stallmann et la revolution du loigiciel libre : une biographie autorisée
+
 ## Open collection to explore
 
 - Internet Archive

@@ -330,7 +330,7 @@ Documents have a performative dimension, they act in the world.
 
 A digital image is the result of a complex algorithm and a particular hardware.
 
-The resolution depends largely on the optics of the capturing system (diffraction, lens aberrations) and only partly on the megapixels.
+Resolution: The resolution depends largely on the optics of the capturing system (diffraction, lens aberrations) and only partly on the megapixels.
 
 An digital image is difficult to interpret if the information about the software and hardware used are not provided. 
 
@@ -342,7 +342,9 @@ Typologies of cameras
 
 Material absorption / reflectance is mostly wavelength dependent. Imaging beyond the visible spectrum allow for surface imaging (ultra-violet) and subsurface imaging (near and middle/far infrared)  
 
-Comparative Table for Book Scanners
+#### Comparative Table for Book Scanners
+
+(TBD)
 
 ### Document digitisation as a problem of conversion of dimensions
 
@@ -361,6 +363,12 @@ Page (2D)
 Images / Texts (2D)
 
 Patterns / Words (1D)
+
+#### Scanner types
+
+
+
+#### Interfaces
 
 Example of an 2D interface to represent 3D content. Through digital interface, the physical hierarchy of volumes is *de facto* rearticulated in a way or another on the screen. 
 
@@ -387,6 +395,10 @@ Through standardization, the digitisation process can be estimated using simple 
 A digitization price / page or / km can be established.
 
 In many cases, it is impossible to know a priori the number of pages and therefore, the estimation in km is the only option. 
+
+### Sampling methods
+
+Tbd
 
 ### Alienation
 
