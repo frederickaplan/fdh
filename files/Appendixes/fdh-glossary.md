@@ -25,6 +25,9 @@ Big Data is based on two narratives:
 - **The Data Deluge narrative**: Big Data is a reaction to an unexpected abundance of information.
 - **The Big Science narrative**: Big Data is a structured effort by the international scientific community to crack very hard problems by joining research forces and creating large-scale infrastructures, thus creating unprecedented amounts of data.
 
+### Concretization
+As suggested by philosopher Gilbert Simondon, a process by which different systems put in close contact will tend to aggregate to form a new unified system.
+
 ### Data Bigness
 
 Data Bigness has four dimensions:
@@ -43,5 +46,23 @@ Data Bigness has four dimensions:
 ### Distant Reading
 As articulated by Franco Moretti in the early 2000s, a form of literary criticism which raises above the narrowness of a specific domain of interest ("close reading") by considering a wider corpus of texts and sources – thus, as if reading from a distance –, often by means of algorithmic approaches and computational formalisms.
 
+### Dominions
+- Temporal dominion: predicting periodic rhythms and chronological patterns.
+- Natural dominion: understanding and classifying living beings.
+- Cultural dominion: monitoring and tracking human fluxes of exchanges (including the production of articacts, migration, urbanization, etc.).
+
+### Fictional Space
+A self-coherent subset of the available information.
+
+Any fictional space constitutes an hypothetical virtual reconstruction of History, and thus may not be compatible with other fictional spaces – in which case they are said to be disjointed.
+
 ### Information Mushroom
 A metaphor to highlight the fact that most information about the past is still hidden and has to be harvested through, not only vast digitisation projects, but also the reconstruction of the past logic of representation – by means of extrapolation and generalisation.
+
+### Redocumentation (to develop?)
+Redocumentation is the joint-action of two processes in order to widen our temporal horizon:
+- Recollecting: the selection and rejection of some data and sources.
+- Remapping: the bending of data to fit new regulated representations.
+
+### Regulated Representation
+A form of representation governed by a set mechansism, which encompasses both production and usage rules. Examples include maps, flow-chart diagrams, or name indexes.
