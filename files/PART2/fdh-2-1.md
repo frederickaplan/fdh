@@ -41,6 +41,18 @@ Can we digitise 80km of document in 10 years
 
 Sampling method and quality control
 
+#### What scanners to use
+
+Various typologies of book scanners 
+
+- Sheet-fed scanners can be used if book can be cut to be open 
+- Book scanners with manual page turning
+- Book scanners with automatic page turning
+
+Some project brings the scanners close the collections to be scanned (e.g. First phase of the Venice Time Machine project )
+
+In other cases, the collections are sent to more efficiant scanning houses (e.g. Google Books general strategy)
+
 ## The Story of Google Books
 
 ### Figures
@@ -341,10 +353,6 @@ Typologies of cameras
 \- Multispectral cameras 
 
 Material absorption / reflectance is mostly wavelength dependent. Imaging beyond the visible spectrum allow for surface imaging (ultra-violet) and subsurface imaging (near and middle/far infrared)  
-
-#### Comparative Table for Book Scanners
-
-(TBD)
 
 ### Document digitisation as a problem of conversion of dimensions
 
