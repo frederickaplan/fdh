@@ -42,6 +42,10 @@ Data Bigness has four dimensions:
 
 - **Hard Definition**: Digital Humanities constitute a field of its own, studying a new kind of objects: _Big Cultural Data Sets_. Digital Humanities will be a new independent domain.
 
+### Digital Humanities Circle
+The self-reinforcing loop of new sources digitisation, whereby digitisation leads to better data and services, thus better services, which in turn yield more resources and more digitisation.
+
+The ability to close this loop guarantees the sustainability of a digitisation project.
 
 ### Distant Reading
 As articulated by Franco Moretti in the early 2000s, a form of literary criticism which raises above the narrowness of a specific domain of interest ("close reading") by considering a wider corpus of texts and sources – thus, as if reading from a distance –, often by means of algorithmic approaches and computational formalisms.
@@ -58,6 +62,9 @@ Any fictional space constitutes an hypothetical virtual reconstruction of Histor
 
 ### Information Mushroom
 A metaphor to highlight the fact that most information about the past is still hidden and has to be harvested through, not only vast digitisation projects, but also the reconstruction of the past logic of representation – by means of extrapolation and generalisation.
+
+### Mirror World (to develop?)
+A 4D digital twin of space, enriched with time-evolving relevant cultural information.
 
 ### Redocumentation (to develop?)
 Redocumentation is the joint-action of two processes in order to widen our temporal horizon:
