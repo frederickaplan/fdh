@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.3'
-subtitle: 'Text Analysis'
+subtitle: 'Writing Systems'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# Text Analysis
+# Writing Systems
 
 ## Concepts
 

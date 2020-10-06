@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.4'
-subtitle: 'Images'
+subtitle: 'Text Analysis'
 author:
  - Frederic Kaplan
 
@@ -13,19 +13,55 @@ output: pdf_document
 
 ---
 
-# Images
+# Text Analysis
 
 ## Concepts
 
-Pipeline for Artworks photographs. Image banks and phototarchives. Photography as documentation. Scanning techniques for photographs. Segmentation. Visual similarity vs visual connections.
+### Text is 1D
+
+### Close and distant reading
+
+### Shadow of the text 
+
+## Representing Text
+
+### Encoding characters 
+
+### Bag of Words
+
+### XML, TEI, Markdown
+
+### Texts as Graphs
+
+### Regular Expression
+
+### Index 
+
+### N-gram
+
+### POS Tagging
+
+### Named Entities
+
+### Word Embeddings
+
+### Translation and latent spaces
 
 ## Practice
 
-Image Space representation 
+SpaCy : https://github.com/allenai/scispacy
 
-Image Emdeddings, Multimodel embeddings
+Solr : Search engine and index
 
-## Question and Answers 
+
+
+## Further reading
+
+Jacqueline Leon, Histoire de l'automatisation des sciences du langage
+
+Michael Piotrowski, Natural languge processing for historical texts
+
+Andrew Piper, Data and literary study
 
 
 
