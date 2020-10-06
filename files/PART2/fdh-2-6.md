@@ -48,9 +48,13 @@ Using MapBox
 
 Using Google API
 
-Using Gazeeteers
+Using Gazeeteers. 
 
+Focus on Geonames. Level of entities. Venice is a city, Venice a has district. 
 
+A subset : Populated places in Geonames. 
+
+Differnt kind of populaed place like : Former occupied populated place 
 
 Existing Systems
 
@@ -63,8 +67,4 @@ Existing Systems
 Book on Cartography
 
 Book on Gazeeters
-
-## Question and Answers 
-
-
 
