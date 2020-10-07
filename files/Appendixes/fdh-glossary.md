@@ -15,6 +15,10 @@ output: pdf_document
 
 # Glossary
 
+### Writing Systems
+#### Linear alphabet
+#### Glyph, grapheme, script, writing system
+
 ### Big Cultural Dataset
 A form of cultural dataset that has the characteristics of Data Bigness: i.e. being hard to process, open-ended, fundamentally networked, or sufficiently dense to lead to data-driven approach. It is proposed that Digital Humanities is the name given to the only field that can adequately deal with such Big Cultural Datasets.
 
