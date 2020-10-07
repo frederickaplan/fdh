@@ -67,6 +67,12 @@ This is the traditional model of information theory.
 
 This sequential representation cannot encode the structure, semantics, or link to external resources or references. 
 
+### Bag of Words
+
+With the bag of words representation, a text is just a set of words, disregarding grammar and even word order. 
+
+The number of occurence per words is informed. 
+
 ### XML
 
 Some complexity can be coded in a sequence of character by patching it with so-called markup elements. 
