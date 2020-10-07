@@ -336,7 +336,7 @@ There cannot be a document without a material inscription.
 
 To produce a document is to produce an object different than the object documented. 
 
-Documents have a performative dimension, they act in the world. 
+Documents have a performative dimension, they act in the world. It is important do not study only their form, but understand their function. 
 
 #### Digital Images
 
@@ -474,6 +474,14 @@ In the next chapter we will study how to represent the structure of a document
 
 ## Further reading
 
-Alain Jacquesson, Google LIvres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
+- Suzanne Briet, Qu’est-ce que la Documentation?  1951
 
-Jean-Noel Jeannerey, Quand Google défie l'Europe: Plaidoyer pour un sursaut, Mille et une nuits, 2007
+Une étoile est-elle un document? Un galet roulé par un torrent est-il un document? Un animal vivant est-il un document? Non. Mais sont des documents les photographies et les catalogues d’étoiles, les pierres d’un musée de minéralogie, les animaux catalogués et exposés dans un Zoo.
+
+- Alain Jacquesson, Google LIvres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
+
+- Jean-Noel Jeannerey, Quand Google défie l'Europe: Plaidoyer pour un sursaut, Mille et une nuits, 2007
+
+
+
+.

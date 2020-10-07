@@ -17,21 +17,27 @@ output: pdf_document
 
 ## Theses
 
-1) For creating digital representations of these texts one needs to combine powerful digital typography and universal textual representations standards
+1) Widely accepted standard exist to encode characters 
 
-2) Standard exist to encode characters and texts
-
-3) Still, some dispute exist on how to do it. 
+2) For texts, there are still some debates
 
 ## Encoding Characters
 
-#### ASCII
+### Early encoding of characters
+
+- Braille
+- Morse code
+- Telegraph
+
+### ASCII
 
 ASCII (American Standard Code for Information Interchange) was an early stage coded character set developed in 1964. 
 
 It was fine for encoding basic texts in English but not adequate for most other language in Latin scripts and obvisouly not adapted for languages in other scripts. 
 
-#### Unicode
+### Unicode
+
+Unicode is an 8, 16, or 32 bit encoded database of characters. 
 
 Unicode is not concerned with Glyphs. Unicode is concerned with Character (abstract unit of meaning) and not in principle concerned with Glyphs (specific shape, and therefore typefaces and fonts). 
 
@@ -49,7 +55,21 @@ Still, some rare medieval characters are challenging and various initiatives are
 
 ## Encoding Texts
 
-#### XML
+What is a Text ? When are two texts the same ? It depends on the way the text is encoded.
+
+We can consider different ways of modelling a Text using digitral representations, remembering that we are dealing with a redocumentation process of something else, the "text in the world". Any digital representation of text, like any redocuementation process will be partial and not completely accurate as something is always lost in the recollecting and remapping process. (cf FDH 1-3)
+
+### Character chains
+
+The simplest coding for a text is the just a one dimensional string, a sequence of Characters. 
+
+This is the traditional model of information theory.
+
+This sequential representation cannot encode the structure, semantics, or link to external resources or references. 
+
+### XML
+
+Some complexity can be coded in a sequence of character by patching it with so-called markup elements. 
 
 XML stands for eXtensibile Markup Language XML is a metalanguage for creating mark-up language. XML is a W3C recommandation. 
 
@@ -126,7 +146,7 @@ The way an XML file is displayed can be specified in a CSS stylesheet.
 
 A document can also be transformed using an XSLT script.
 
-#### TEI
+### TEI
 
 The Text Encoding Initiative (TEI) defines a a markup language for annoting texts with respects to their structural, visual and conceptual properties. 
 
@@ -148,6 +168,22 @@ TEI like any XML based system can be processed and displayed in numerous ways.
 
 TEI has the ambition of describing the content of entire document. But,as we have seen, document can have much more complex structure and circulation than XML trees. 
 
+TEI assumes that text are Ordered Hierarchy of Content Objects (OHCO) 
+
+*DeRose, Steven J.; Durand, David G.; Mylonas, Elli; Renear, Allen H.: What is text, really? J. Computing in Higher Education, 1(2):3–26, 1990.*
+
+The Bible has at least three disjointed hierarchies relevant for scholars
+
+\- A reference hierarchy: Testaments, books, chapter, verses
+
+\- A thematic hierarchy : Periscopes, paragraphs, Sentences
+
+\- A layout hierarchy : Pages, columns and lines. 
+
+It is not a simple tree. 
+
+Other limitations of TEI: Difficulties for mixing with binary data or pointing to external resources. 
+
 TEI has been developed in situation where a digital facsimilé is not available and act a standalone description of the document. 
 
 In recent years, the increase of the number of documents available has changed slightly the situation. 
@@ -156,11 +192,41 @@ Part of burden for describing the document can now be done as part of a IIIF man
 
 Part of the TEI effort for formalising historical textual content can be reinterpreted in this new context using the logic of Regulated Representations 
 
-#### Text as Graphs
+### Text as Graphs
 
-(Tbd)
+A text is not a tree. Is it a graph ?
+
+Graphs have no problems with overlapping hierarchies.  Graph models suppress a number of the constraints that the database and markup models put on text modeling.
+
+Graphs can deal with the multidimensionality of text. Graphs can deal with variants and ambiguity. 
+
+### Markov Models
+
+An even more advanced model consist in considering Text as probabilistic graphs.  
+
+With Markov Models for instance, the textual representation can fully represent the uncertainty about the modelled text.
+
+Link with the way Markov Models have been used in Speech2Text. 
+
+### Born Digital Texts
+
+Born Digital Texts have specific features 
+
+\- Hypertext
+
+\- Version management 
+
+\- Some can be executed (e.g. Jupyter Notebooks)
+
+They are also texts in themselves. They have their own semantics and semiotics. Knuth would consider code as executable literature (Literate programming)
+
+And these born digital texts can be redocumented in other texts. 
 
 ## Automatic Transcription
+
+Automatic Transcription pipelines transform images in a digital model of a document (e.g. IIIF), including Texts encoded using a given standard (TEI, XML or others). 
+
+The choice of the digital representation of the text defines the precise task that the algorithms need to perform. 
 
 ### OCR and HTR
 
@@ -178,7 +244,7 @@ Pre and Post processing : OCR and HTR heavily rely on pre-processing techniques,
 
 The use of crowdsourcing can be used to correct texts. 
 
-This can also be done in an indirect way (e.g. reCAPTCHA)
+This can also be done in an indirect way (e.g. reCAPTCHA, finished in 2012 because the performance were too good)
 
 Computer assisted transcription : New interfaces help transcribing by detecting lines and words and suggesting possible transcriptions. 
 
@@ -236,13 +302,9 @@ We will see how to process large collection of texts
 
 ## Further reading
 
-Dondi, Printing Revolution 
+- Michael Piotrowski, Natural language processing for historical texts,  Morgan and Claypool
 
-Richard Sproat, A Computational Theory of Writing Systems
-
-Michael Piotrowski, Natural language processing for historical texts,  Morgan and Claypool
-
-McLuhan, The Gutenberg Galaxy
+- Knuth, Literate Programming 
 
 
 

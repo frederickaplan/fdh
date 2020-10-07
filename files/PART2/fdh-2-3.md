@@ -281,8 +281,10 @@ We will see how to encode an historical text digitally
 
 ## Further reading
 
-Dondi, Printing Revolution
+- Dondi, Printing Revolution
 
-Richard Sproat, A Computational Theory of Writing Systems
+- Richard Sproat, A Computational Theory of Writing Systems
 
-McLuhan, The Gutenberg Galaxy
+- McLuhan, The Gutenberg Galaxy
+
+- Clarisse Herrenschmidt, 2007, Les trois écritures. Langue, nombre, code, Paris, Gallimard

@@ -86,7 +86,7 @@ As a metaphor, the **Information Mushroom reveals the hidden part of the Iceberg
 
 Big Data is not a new phenomenon. History is punctuated by several Big Data moments which are characterized by a **widespread, shared sense of information overload alongside rapid societal acceleration accompanied by the invention of new intellectual technologies**.
 
-It is in those "Big Data moments" that the four dimensions of Data Bigness (cf. FDH-1-1) show the potential of their intrinsic relationships:
+It is in those "Big Data moments" that the four dimensions of Data Bigness (cf. FDH-1-2) show the potential of their intrinsic relationships:
 
 Technology (e.g., more computing power, increase in communication speed) enables Big Data by making it possible to produce open-ended streams of data. This new data stream, operating in a newly standardised environment, facilitates the creation of new relations with one another. Out of the opportunities created from these network sets of new data emerges a new relationship to knowledge, leading in some cases to a paradigm shift. **This self-reinforcing loop creates what can be called, a data acceleration regime.**
 
@@ -405,10 +405,14 @@ In the next chapter, we will study the dynamics of growth of Big Cultural Datase
 
 ## Further Reading
 
-This chapter is largely based on : Kaplan, di Lenardo (2017) Big Data of the Past
+- This chapter is largely based on : Kaplan, di Lenardo (2017) Big Data of the Past
 
-Simondon
+- Simondon
 
-Pascal Robert
+- Pascal Robert
 
-Harmut Rosa
+- Harmut Rosa
+
+- Bolter J.D., Grusin R. Remediation: Understanding New Media, Cambridge, MA, 2000 MIT Press (p.60)
+
+Each new medium is justified because it fills a lack or repairs a fault in its predecessor, because it fulfills the unkept promise of an older medium’
