@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities 2.6'
-subtitle: 'Maps'
+title: 'Foundations in Digital Humanities 2.5'
+subtitle: 'Images'
 author:
  - Frederic Kaplan
 
@@ -13,58 +13,19 @@ output: pdf_document
 
 ---
 
-# Maps
+# Images
 
 ## Concepts
 
-What are cartographic documents. Learning how to read ancient maps. History of cartography. Odometry. Triangulation. Coordinate systems. Metric systems. Projection. Cadaster. Aerial photography. 
-
-Introduction to GIS. Points, Lines, Polygons. Coordinate Sytems.
-
-Mapping informattion is not even distributed (cf Google Street View, OSM Maps)
-
-Retrochronological appraoch
-
-
-
-
-
-
+Pipeline for Artworks photographs. Image banks and phototarchives. Photography as documentation. Scanning techniques for photographs. Segmentation. Visual similarity vs visual connections.
 
 ## Practice
 
-(Voir Remi Petitpierre Master Thesis. )
+Image Space representation 
 
-Learning how to georeference a map
+Image Emdeddings, Multimodel embeddings
 
-Using Open Street Map
-
-Using QGIS
-
-Using MapBox
-
-- Good personalisation
-- Less data than Google but very interesitng anyway in particular for Pix2Pix application 
-
-Using Google API
-
-Using Gazeeteers. 
-
-Focus on Geonames. Level of entities. Venice is a city, Venice a has district. 
-
-A subset : Populated places in Geonames. 
-
-Differnt kind of populaed place like : Former occupied populated place 
-
-Existing Systems
-
-- Running Reality
+## Question and Answers 
 
 
-
-## Further reading
-
-Book on Cartography
-
-Book on Gazeeters
 
