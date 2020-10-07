@@ -25,6 +25,8 @@ output: pdf_document
 
 4) For creating digital representations of these texts one needs to combine powerful digital typography and universal textual representations standards
 
+The course is organised in two parts. The first one is dealing with the evolution of Handwritten and Printed texts and the second one on the way to encode this evolution. 
+
 ## Scripts 
 
 ### Scripts and Writing Systems
