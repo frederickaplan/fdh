@@ -59,6 +59,32 @@ What is a Text ? When are two texts the same ? It depends on the way the text is
 
 We can consider different ways of modelling a Text using digitral representations, remembering that we are dealing with a redocumentation process of something else, the "text in the world". Any digital representation of text, like any redocuementation process will be partial and not completely accurate as something is always lost in the recollecting and remapping process. (cf FDH 1-3)
 
+There are different usages
+
+Documents 1 > Text 1
+
+Document 2 > Text 2
+
+Comparison between Text 1 and Text 2
+
+-
+
+Documents 1 > Text 1 > Document 2 (e.g ebook)
+
+-
+
+Documents 1 > Text 1
+
+Documents 2 > Text 2
+
+…
+
+Documents 3 > Text 3
+
+
+
+Analysis of Text 1 .. Text n (Subject of next course)
+
 ### Character chains
 
 The simplest coding for a text is the just a one dimensional string, a sequence of Characters. 
