@@ -73,7 +73,7 @@ But the link between Computer Science and Humanities is deeper than a simple ali
 
 
 ### 2.3. Focus : Chomsky and Panini
-Noam Chomsky, an american linguist, established the connection between Linguistics and Computer Science. He considered Panini as his spiritual father. Panini invented (around the 5th century BCE) a formal system of rules to describe Sanskirt — the first example of a formal grammatical system.
+Noam Chomsky, an american linguist, established the connection between Linguistics and Computer Science. He considered Panini as his spiritual father. Panini invented (around the 5th century BCE) a formal system of rules to describe Sanskirt — the first example of a formal grammatical system. Panini's grammar can be considered a recursive algorithmic system of rules. 
 
 This proto-system was used nearly 2500 years laters as the underlying formalism of programming languages. Chomsky’s way of defining grammar, as a set of formal rules, and inspired by Panini, served as a model for the structure of the ALGOL compiler.
 

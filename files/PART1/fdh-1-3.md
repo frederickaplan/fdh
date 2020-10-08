@@ -121,7 +121,8 @@ The acceleration in itself starts when a new technology enables massive data pro
 
 #### 4.1.3. Focus: The Renaissance acceleration
 
-- For Europe, one classically discussed case of “acceleration” is the Renaissance, linked with the advent of the printing industry, the discovery of Asia and the Americas, and the globalization of exchanges all over the world. Not only were new editions of ancient texts starting to be printed and circulated but also a deluge of “how-to books” explaining previously secret arts and methods.
+For Europe, one classically discussed case of “acceleration” is the Renaissance, linked with the advent of the printing industry (see chapter 2-3), the discovery of Asia and the Americas, and the globalization of exchanges all over the world. Not only were new editions of ancient texts starting to be printed and circulated but also a deluge of “how-to books” explaining previously secret arts and methods.
+
 - This **sudden increase in knowledge** and exposure to new practices created a well-documented feeling of information overload: there was definitely “too much to know”.
 - Likewise, the discovery of new species in Asia and in the Americas challenged the capacity of scholars to recognize and classify natural beings.
 - Organizing the steady stream of new species was an extremely demanding endeavor that called for **new intellectual paradigms**.

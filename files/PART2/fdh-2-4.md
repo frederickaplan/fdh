@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.4'
-subtitle: 'Textual Encoding'
+subtitle: 'Text Encoding'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# Textual Encoding
+# Text Encoding
 
 ## Theses
 
@@ -99,7 +99,17 @@ With the bag of words representation, a text is just a set of words, disregardin
 
 The number of occurence per words is informed. 
 
-### XML
+### Indexes
+
+An index associating to each word its position can also be considered a text encoding. If the positon is precise, the entire text can be reconstructed. 
+
+It is an intermediary representation between the Bag of Words and the sequential chain.
+
+### Hiearchical representations : XML
+
+It is possible to encode part of the structure of the text in a slightly more elaborated textual encoding. : Hierarchical representations. 
+
+We will study one example of such encoding : XML
 
 Some complexity can be coded in a sequence of character by patching it with so-called markup elements. 
 
@@ -178,7 +188,11 @@ The way an XML file is displayed can be specified in a CSS stylesheet.
 
 A document can also be transformed using an XSLT script.
 
+In a more general way, XSLT script can be chained to transform XML content in iterative steps. 
+
 ### TEI
+
+TEI is considered one of the most enduring and important project in the Digital Humanities community.
 
 The Text Encoding Initiative (TEI) defines a a markup language for annoting texts with respects to their structural, visual and conceptual properties. 
 
@@ -254,6 +268,16 @@ They are also texts in themselves. They have their own semantics and semiotics. 
 
 And these born digital texts can be redocumented in other texts. 
 
+Version management is one of the most interesting feature of text managed in digital platform (Github, Wikipedia). The text is encoded as an evolving historical object that can be fully reconstructed through a series of successive steps. 
+
+### Texts as history
+
+The text is an history.
+
+When you thing about it this is true for every texts. Every text is the result of writing and transformation process. If one could, one would like to consider it as a full historical object. 
+
+Considering all textual objects as evolving entities is probably one of the most interesting step DH can do to reach a better modelling of what a text is. 
+
 ## Automatic Transcription
 
 Automatic Transcription pipelines transform images in a digital model of a document (e.g. IIIF), including Texts encoded using a given standard (TEI, XML or others). 
@@ -284,6 +308,18 @@ Big progress were made by the READ consortium and Transkribus interface.
 
 However, there are no “off-the-shelf” tool yet. 
 
+How to deal with successive transcriptions : As OCR and HTR improve the sane document can lead to different text extractions. This create a general difficulty in processing pipelines. 
+
+Document 1 > Text 1 (t1)
+
+Document 1 > Text 1 (t2)
+
+Document 1 > Text 1 (t3)
+
+If some conclusion are drawn out of Text 1 (t1) these conclusions needs to be revised. 
+
+A satisfactory pipeline should take an end-to-end approach and consider texts as intermediary, time-dependent, objects. Text as history. 
+
 ### Handling Spelling Variations
 
 (Most of this part from : Michael Piotrowski, Natural Language Processing for Historical Texts, Morgan and Claypool)
@@ -296,7 +332,9 @@ In digital historical texts spelling may be different because
 
 \- They are been transcribed with errors. 
 
-Canonical cognate : an equivalent of a historical word the preserves the morphological root and the morphosyntactic features of the historical form. 
+Cognates : Words that have a common etymological origin. The word *cognate* derives from the Latin noun cognatus i.e. "blood relative”
+
+Canonical cognate : an equivalent of a historical word that preserves the morphological root and the morphosyntactic features of the historical form. (Brothor > Brother, faeder -> father)
 
 Some historical words that have disappear may not have a canonical cognate. 
 

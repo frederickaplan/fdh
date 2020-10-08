@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# FDH-2-3: Writing Systems
+# Writing Systems
 
 #### Theses
 
@@ -278,6 +278,12 @@ Historical texts are challenging because they use ancient Writing Systems that n
 ## In the next chapter
 
 We will see how to encode an historical text digitally
+
+## Questions and answers
+
+- Is a music sheet a Script ? No. It is formally a more complex system than most of the system we have discussed as i can encode complex polyphony. All the other scrpits deals with linear encoding. (A special chapter is dedicated to Music systems)
+- Is a sign language a Writing System ? No it is kind of oraliy. It cannot be recorded. 
+- Is the phonetic alphabet a Writing System ? Yes. 
 
 ## Further reading
 
