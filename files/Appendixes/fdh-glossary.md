@@ -29,6 +29,8 @@ Big Data is based on two narratives:
 - **The Data Deluge narrative**: Big Data is a reaction to an unexpected abundance of information.
 - **The Big Science narrative**: Big Data is a structured effort by the international scientific community to crack very hard problems by joining research forces and creating large-scale infrastructures, thus creating unprecedented amounts of data.
 
+### Canonicalisation
+
 ### Concretization
 As suggested by philosopher Gilbert Simondon, a process by which different systems put in close contact will tend to aggregate to form a new unified system.
 
