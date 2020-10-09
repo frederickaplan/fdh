@@ -292,5 +292,6 @@ We will see how to encode an historical text digitally
 - Richard Sproat, A Computational Theory of Writing Systems
 
 - McLuhan, The Gutenberg Galaxy
+- Norm (Swiss Font creators) on typologies and Writing Systems
 
 - Clarisse Herrenschmidt, 2007, Les trois écritures. Langue, nombre, code, Paris, Gallimard

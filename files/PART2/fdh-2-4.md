@@ -273,6 +273,7 @@ Part of burden for describing the document can now be done as part of a IIIF man
 
 Part of the TEI effort for formalising historical textual content can be reinterpreted in this new context using the logic of Regulated Representations.
 
+Graph modelling is well adapted to situation where texts need to be reconstructed out of multiple fragments.
 
 These limitations pushed some (Thomas Efner) to suggest NoXML in DH (just like NoSQL in DataScience). What are the alternatives? What other representation can texts take?
 
@@ -403,4 +404,5 @@ We will see how to process large collection of texts
 
 - Michael Piotrowski, Natural language processing for historical texts,  Morgan and Claypool
 
-- Knuth, Literate Programming
+- Knuth, Literate Programming 
+- TEI (tbd)

@@ -252,3 +252,7 @@ Homologous pairs permits to create an underlying continuous fictional spaces.
 ## In the next course
 
 Next, we will start to go into details for each categories of documents. 
+
+## Further reading
+
+- Paul Otlet, Le livre sur le livre
