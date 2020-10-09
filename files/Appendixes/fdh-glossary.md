@@ -15,10 +15,6 @@ output: pdf_document
 
 # Glossary
 
-### Writing Systems
-#### Linear alphabet
-#### Glyph, grapheme, script, writing system
-
 ### Big Cultural Dataset
 A form of cultural dataset that has the characteristics of Data Bigness: i.e. being hard to process, open-ended, fundamentally networked, or sufficiently dense to lead to data-driven approach. It is proposed that Digital Humanities is the name given to the only field that can adequately deal with such Big Cultural Datasets.
 
@@ -30,6 +26,7 @@ Big Data is based on two narratives:
 - **The Big Science narrative**: Big Data is a structured effort by the international scientific community to crack very hard problems by joining research forces and creating large-scale infrastructures, thus creating unprecedented amounts of data.
 
 ### Canonicalisation
+The redocumentation process that consists in mapping historical spellings to modern spelling.
 
 ### Concretization
 As suggested by philosopher Gilbert Simondon, a process by which different systems put in close contact will tend to aggregate to form a new unified system.
@@ -66,6 +63,12 @@ A self-coherent subset of the available information.
 
 Any fictional space constitutes an hypothetical virtual reconstruction of History, and thus may not be compatible with other fictional spaces – in which case they are said to be disjointed.
 
+### Glyph
+The graphical representation of a grapheme.
+
+### Grapheme
+The smallest unit of a writing system.
+
 ### Information Mushroom
 A metaphor to highlight the fact that most information about the past is still hidden and has to be harvested through, not only vast digitisation projects, but also the reconstruction of the past logic of representation – by means of extrapolation and generalisation.
 
@@ -79,3 +82,6 @@ Redocumentation is the joint-action of two processes in order to widen our tempo
 
 ### Regulated Representation
 A form of representation governed by a set mechansism, which encompasses both production and usage rules. Examples include maps, flow-chart diagrams, or name indexes.
+
+### Writing System
+The regulated use (ie. rules and conventions to produce and read) of a script to represent a particular language.

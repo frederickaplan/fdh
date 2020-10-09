@@ -13,9 +13,9 @@ output: pdf_document
 
 ---
 
-# Writing Systems
+# FDH-2-3: Writing Systems
 
-#### Theses
+#### Core theses explored in this chapter
 
 1) Many writing systems exist.
 
@@ -23,10 +23,23 @@ output: pdf_document
 
 3) Ways of writing handwritten and printed texts change over time.
 
-4) For creating digital representations of these texts one needs to combine powerful digital typography and universal textual representations standards.
+4) In order to create digital representations of these texts, one needs to combine powerful digital typography and universal textual representations standards.
 
 This lecture will briefly present the evolution of handwritten and printed texts. The ways to encode this evolution will be detailed in the following lecture.
 
+#### Contents
+1. Scripts
+> 1.1. Defintions // 1.2. Script Typologies // 1.3. Operationalisation of writing scripts. Focus: McLuhan and the Typographic Man //
+2. Handwritten texts
+> 2.1. Evolution of handwritten texts // 2.2. Focus: Medieval abbreviations // 2.3. Handwritten text databases //
+3. Printed Texts
+> 3.1. The Printing Revolution // 3.2. Redocumentation in the early days of printing: from handwritten to printed books // 3.3. The evolution of Typography //
+4. Spellings
+> 4.1. The recent standardisation of language rules // 4.2. Linguistic heterogeneity in older texts // 4.3. From an historical text to a modern transcription //
+5. Conclusion
+> 5.1. Summary // 5.2. In the next chapter //
+
+---
 ## 1. Scripts
 
 ### 1.1. Defintions
@@ -52,7 +65,7 @@ Similarly, a glyph may not correspond to a single character (& is a ligature of 
 
 In a way, scripts and writing systems formalisations can be thought of in a similar way as Speech2Text and Text2Speech technologies.
 
-### 1.2. Scripts Typologies
+### 1.2. Script Typologies
 
 We can divide the many scripts that exist or have existed into different categories, according to the value given to their glyphs:
 
@@ -90,115 +103,134 @@ Each writing system, he argues, has a profound effect cognitive and cultural eff
 
 Side note: An interesting parallel is that decipherment techniques are changing mimicking the change in digital techniques; as an example, current attempts at deciphering the Voynich manuscript make use of recent AI advances.
 
+----
 ## 2. Handwritten texts
+### 2.1. Evolution of handwritten texts
 
-### Evolution of handwritten texts
+We now turn our attention to handwritten texts. A first paradox emerges: Reading difficulty changes with time but it is not necessarily the older documents that are the most difficult to recognise.
 
-Reading difficulty changes with time but paradoxically it is not necessary the older documents that are the most difficult to recognised.
+**The more writing skills get diffuse in the population, the less standardised are the handwritten documents.**
 
-The more writing skills get diffuse in the population, the less standardised are the handwritten documents.
+The handwriting found in medieval manuscripts is often more regular than modern handwriting. From a machine-vision point-of-view, it is much easier to read an old document than a recent one.
 
-The handwriting found in some medieval manuscript is often more regular than modern handwriting. From a machine-vision point-of-view, it is much easier to read an old document than a recent one.
+A clear example is the Carolingian minuscule — which was used in Charlemagne’s empire and its successor states (800-1200): in this script, letters and words are clearly separated and thus very ease to read.
 
-In the Carolingian minuscule, the script used in Charlemangne’s empire and its successor states (800-1200) letters and words are clearly separated.
+### 2.2. Focus: Medieval abbreviations
 
-Caveat: Importance of compairing similar domain documents (adminstrative vs. adminstrative, personal vs. personal, etc.).
+When we try to read historical texts, we are quickly faced with a problem: texts can be highly “compressed” by means of **abbreviations**, as is especially true for Medieval works.
 
-### Abbreviations
+Understanding abbreviations and expanding them correctly therefore becomes one of the central skills in paleography, as can be seen in the flourishing of reference works in the 19th century: Chassant's 1845 _Dictionnaire des abréviations latines et françaises ..._, or Cappelli's 1899 _Lexicon Abbreviaturarum Dizionario Di Abbreviature Latine Ed Italiane_.
 
-A problem: Medieval texts are highly “compressed”.
+The possibility of such "compressions" is the limit of the glyph system, whereby other glyphs (the ones used for abbreviations) exist beyond the alphabet.
 
-One of the central skills in paleography is understanding abbreviations and expanding them correctly.
+In the case of Antiquity, three systems of abbreviation are thought to have been used ("thought" as there is only indirect evidence and no Roman manuscript is known):
+- **Notae Tironianae**: a system to make quick transcriptions
+- **Notae Iuris**: abbreviations used by the legal profession
+- **Nomina Sacra**: abbreviations found in early Christian writings
 
-Major reference works date from the 19th century:
-- Chassant (1845)
-- Trice Martin (1892)
-- Cappelli (1899)
+The motivations for abbreviating text are numerous and explain their wide use:
+- They **save time or space** (which can be a limited resource, like on a building facade for example).
+- They can be a form of **language-independent communication** in a multilingual environment. For example, it not rare to see abbreviations in texts shared among different dialects (where only the last few letters change); in which case, using the "greatest common divisor" helps homogenise the reading and lift ambiguities.
+- The avoidance of using a sacred name.
+- Or even allegoric, ritualistic, and occult purposes related to alchemical and magical symbols.
 
-Limit of the glyph system: other glyphs (for abbreviations) exist beyond the alphabet.
+#### 2.2.1. Types of abbreviations
 
-Three systems of abbreviation in the antiquity (only indirect evidence as no Roman manuscript is known as an autograph):
-- Tironian notae (system for making quick transcriptions)
-- Notae Iuris (abbreviations used by the legal profession)
-- Nomina Sacra (abbreviations found in early Christian writings)
+**Suspension**: Omitting a number of characters at the end.
+- AUG. = 'Augustus'
+- ib. = 'ibidem'
+- fq = 'filius quondam'
+- R.I.P. = 'Requiescat in pace'
+- D. = 'Dux' or 'Dominus'
+- MSS. = 'Manuscripta' or 'Manuscripts'
+- pp. = 'pages'
 
-Motivation for abbreviations :
-- save space or to save time, but not only :
-- language-independent communication in a multilingual environment
-- the avoidance of using a sacred name
-- allegoric, ritualistic, and occult purposes related to alchemical and magical symbols
+**Contraction**: Omitting letters from the middle of the word.
+- caplo = 'capitulo'
+- ds = 'deus'
 
-Examples
+**New marks** which indicate the presence of an abbreviation, either according to the sign on which they are attached, or independently:
+- the sign ***ꝯ\*** may stand for 'con-' and 'com-' when in word-initial position
 
-Suspension : abbreviating a word by omitting a number of characters at the end
+**Superscript letters**: specific type of abbreviations in which part of the abbreviated word, often the last letter, is written above the line.
+- w<sup>t</sup> = 'with'
 
-AUG. ‘Augustus’
+**Special signs** include symbols used for common words, monetary units (£, €, $), alchemical, astrological, magical and hermetic symbols.
 
-ib. ‘ibidem’
+One example: the dedicatory inscription on the frieze of Paris' Collège des Quatres Nations makes extensive use of abbreviations to compensate for the lack of space.
+The inscription reads: "IVL.MAZARIN.S.R.E.CARD.BASILICAM.ET.GYMNAS.F.C.A.M.D.C.L.X.I"
+which, in Latin, expands to "IVLius MAZARINus Sanctœ Romanœ Ecclesiœ CARDinalis BASILICAM ET GYMNASium Faciemdum Curavit Anno MDCLXI" ("Jules Mazarin, Cardinal of the Holy Roman Church, had these chapel and college built in 1661".)
 
-fq ‘filius quondam’
+### 2.3. Handwritten text databases
 
-R.I.P. ‘Requiescat in pace’
+The algorithmic methods to read handwritten texts will be presented in a later lecture. Let us simply mention now the importance of having various databases in the training of computer vision. Some are well-known and established like the Modified National Institute of Standards and Technology databse (MNIST), which offers tens of thousands of training and testing images.
 
-D. ‘Dux’ or ‘Dominus’
+In addition to that, current efforts to construct more databases (including in hitherto poorly represented languages) are underway.
 
-MSS. ‘Manuscripta’ or ‘Manuscripts’
-
-pp. ‘pages’
-
-Contraction : omitting letters from the middle of the word.
-
-caplo ‘capitulo’
-
-ds ‘deus’
-
-Signs which indicate the presence of an abbreviation
-
-sign ***ꝯ\*** may stand for ‘con-’ and ‘com-’ when in word-initial position
-
-The superscript letters: specific type of abbreviations in which part of the abbreviated word, often the last letter, is written above the line
-
-w_t ‘with’
-
-Special signs include symbols used for common words, monetary units (£ € $), alchemical, astrological, magical and hermetic symbols.
-
-
-Abbreviations help to limit ambiguity, ie. to homogenise (of different dialects for examples) by using a "least common denominator".
-
-### Handwritten text databases
-
-MNIST and others
-Importance of databases for training computer vision.
-Current efforts to construct database.
-
-One of the limitation for glyph reading: lack of databases.
-
+---
 ## 3. Printed Texts
 
-### The Printing Revolution
+### 3.1. The Printing Revolution
 
-Printed texts are noting but uniform in time. In practice they cover a 500y old period.
+Printed texts are nothing but uniform in time; this naturally comes from its rich 500 years history.
 
-Printing with woodblocks started in China in the 9th century.
+Proto-printing emerged in 9th Century China with the invention of moveable woodblocks. Their metallic version began to be used 400 years later in Korea.
 
-Metal movable-type printing began to be used in Korea, 400y later.
+But **it is in Europe that printing became a revolution**, the start of which is marked by the printing of the Gutenberg Bible in 1455. Fifty years after, millions of printed books circulated around Europe. Only 500,000 survive of these "incunabula" today.
 
-But it is in Europe that printing became a revolution.
+The centre of that new technical-industrial process was Mainz, a city located on a strip of land between France and German – a sort of "Silicon Valley" of that time.
 
-Before 1450, all books were written by hand. In 1455 the Gutenberg Bible was printed in Mainz.
+_But what were the conditions that made possible this booming "market of knowledge"?_
 
-Fifty years after, millions of printed books circulated around Europe. Only 500 000 survive of these "incunables" today.
+The medieval world was changing with urbanisation and growth of mercantile classes. Demographic decline following the Black Death in 1348 and subsequent wars result in a a rise of labour costs and the search for innovation. The use of paper has driven down book-production costs. Metal was taking over from wood in every technological process. And more importantly, there was a demand for more and more books.
 
-A technical-industrial process born in the middle of the 15th century in a strip of land between France and Germany, a kind of “Silicon Valley” of that time.
+### 3.2. Redocumentation in the early days of printing: from handwritten to printed books
 
-The medieval world was changing with urbanisation and growth of mercantile classes. Demographic decline following the Black Death in 1348 and subsequent wars result in a a rise of labour costs and the search for innovation.
+It is important to understand that at this point, most printed books were redocumented versions of handwritten books, not new works. The heart of the Printing Revolution was **more in making ideas accessible than in these ideas themselves**. This democratisation of knowledge lead to the dramatic increase in popularity of some ideas, which in turn shaped the cultural landscape for decades if not centuries in Europe. This of course prompts the question of _how (or by whom) the choice of diffusing some ideas was made?_ But this matter is likely out of the scope of this course.
 
-Context: The use of paper has driven down book-production costs. Metal was taking over from wood in every technological process. And more importantly, there was a demand for more and more books.
+In the early years of printing, the goal was to redocument as quickly and economically as possible handwritten books. The printed books needed to look as close to the manuscripts as possible, including the typographical reproduction of illustrations.
 
-### Typefaces
+**What survives today from 1450-1500?**
 
-Seven typefaces were developed in the 15th century. Quickly they settled down to a few specific types. They imitate the hand of scribes.
+_(The given figures are given from Dondi, Printing Revolution)_
 
+28,000 editions in 500,000 copies are conserved in 4000 public libraries but also in an unknown number of private collections.
+
+The largest majority of them are in Latin (21,329), _the_ language of communication across Europe. Latin is then followed by:
+- German (3,308)
+- Italian (2,433)
+- French (1,780)
+- Dutch (571)
+- Spanish (437)
+- English (240),
+- Hebrew (154).
+
+The subjects of these incunabula are divided as follows:
+- Theology (4,928)
+- Law (4,480)
+- Literature and Classics (4,313)
+- Liturgy (2,245)
+- Devotional Literature (1,893)
+- Moral Literature (1,499)
+- Philosophy (1,476)
+- Current affairs (1,041)
+- Medicine (940)
+- Ecclesiastical History (725)
+- History (678)
+- Bible (337)
+- Natural Philosophy (265)
+- Mathematics (98)
+- Geography (88)
+- Agriculture and Music (55)
+- Architecture and Engineering (22).
+
+
+
+### 3.3. The evolution of Typography
+
+Let us now take a small detour to typography.
+
+Seven typefaces were developed in the 15th century. They imitate the handwriting style of scribes.
 - Roman
 - Gotic
 - Batarde
@@ -207,91 +239,61 @@ Seven typefaces were developed in the 15th century. Quickly they settled down to
 - Glagolitico
 - Italic
 
-As most printers had their own sets cuts, there was a huge variety of letter-forms within a typeface style – can be used to track down where the book is coming from.
+As most printers had their own sets cuts, there was a huge variety of letter-forms within a typeface style – as a side note, these specificities can be used to track down where the book is coming from.
 
-### Redocumentation of handwritten books
+A few centuries later, the Macintosh reintroduces a very historically accurate approach to typography in the digital world. However, it also introduced a confusion in terms of terminology.
 
-Important moment: printed books are redocumented versions of handwritten books, not new works. Dramatic increase of some ideas, based on the selection. Shaped the cultural landscape for decades if not centuries in Europe. _Who made the selection?_
+A typeface is the design of lettering that can include variations, such as extra bold, bold, regular, light, italic, condensed, extended, etc. Each of these variations of the typeface is a font. Many people mistakenly use the term “Font” to refer to "Typeface".
 
-In the early years of printing the goal was to redocument as quickly and economically as possible handwritten books. The printed books needed to look as close to the manuscripts as possible.
+---
+## 4. Spellings
 
-What survives today from 1450-1500? 28,000 editions in 500 000 copies conserved in 4000 public libraries but also in un unknown number of private collections.
+### 4.1. The recent standardisation of language rules
+Modern languages, such as taught in school, are well-documented by grammars and dictionaries, which are a relatively new invention (the first widely-accepted dictionaries in Europe only emerged at the end of the 17th Century).
 
-The largest majority of them are in Latin (21 329), _the_ language of communication across Europe. Latin is followed by German (3308), Italian (2433), French (1780), Dutch (571), Spanish (437), English (240), and Hebrew (154).
+**Modern languages have standard orthographies**. This makes it possible to correct misspellings. Furthermore, large amount of text are available for modern languages. Even for smaller dialects, there are typically large newspaper or administrative corpora to train text processing techniques.
 
-(Figures from Dondi, Printing Revolution)
+### 4.2. Linguistic heterogeneity in older texts
+Historical languages, on the other end, often **do not benefit from a standard orthography**, and it is not rare to see regional variations flourish. In some cases, a word may be spelt differently by the same author in the same text. However, most text processing techniques assume that a word is always written in the same way – hence the difficulty of historical language processing.
 
-Most common subjects : Theology (4928), Law (4480), Literature and Classics (4313), Liturgy (2245), Devotional Literature (1893), Moral Literature (1499), Philosophy (1476), Current affairs (1041), Medicine (940), Ecclesiastical History (725), History (678), Bible (337), Natural Philosophy (265), Mathematics (98), Geographia (88), Agriculture and Music (55), Architecture and Engineering (22).
+Spelling variation exist in modern language (e.g. American vs British spellings) but is much sparser and better documented.
 
-(Figures from Dondi, Printing Revolution)
+Furthermore, spelling is not limited to the writing of individual words, it **also concern punctuation, abbreviations, hyphenation, word separation**. The ambiguities in punctuation can often be lifted using standard rules, but those are hard to establish in a pre-standardised stage in a language.
 
-### Evolution of Typography
+There are many examples of spelling changes and rectifications in French, Dutch, German, etc. This is also true for Chinese, Turkish, Korean, Mongolian. Change occurs diachronically but also synchronically In general, spelling variations do decrease over time. (cf. Buntinx and Kaplan, 2018).
 
-Letraset popularised Lorem Ipsum.
+### 4.3. From an historical text to a modern transcription
+Often, most ancient texts written in an historical form of the language get redocumented using the new form (sometimes adding complexity, like in French).
 
-The Macintosh introduced a confusion in terms of terminology.
+As such, most digital historical texts are not originals but transcriptions. When faced with an old text, different types of transcriptions are possible:
 
-A typeface is the design of lettering that can include variations, such as extra bold, bold, regular, light, italic, condensed, extended, etc.
+- A so-called **diplomatic transcription**, whereby every feature of the original text that can be reproduced is rendered, including page layout, line breaks, original spelling and errors.
 
-Each of these variations of the typeface is a font.
+- At the other extreme lies a **fully modernised transcription**. Spelling and layout are transformed to facilitate reading and dissemination. However, scholars may consider this a translation more than a transcription.
 
-But many people use the term “Font” to refer to Typeface
+Any transcription and redocumentation implies some interpretation and remapping. Therefore, in most cases, the digital text is the result of a complex sequence of redocumentation processes which need, as always, to be properly gauged.
 
-## Spellings
+---
+## 5. Conclusion
+### 5.1. Summary
+Historical texts are challenging because they use ancient writing systems that needs to be redocumented in contemporary forms.
 
-Modern languages are taught in school, well-documented by grammars and dictionaries, which are a relatively new invention (the first widely-accepted dictionaries in Europe only emerged at the end of the 17th Century).
+### 5.2. In the next chapter
+We will see how to encode an historical text digitally.
 
-Modern languages have standard orthographies. This makes it possible to correct misspellings.
-
-Large amount of text are available for modern languages. Even for small languages, there are typically large newspaper or administrative corpora to train train text processing techniques.
-
-Historical languages often do not benefit from a standard orthography. A word may be spelled differently by the same author in the same text. Most Text Processing techniques assume that a word is always written in the same way – hence the difficulty of historical language processing.
-
-Spelling variation exist in modern language (e.g. American vs British spellings) but is much rather and well documented.
-
-Spelling is not limited to the spelling of individual words, it also concern punctuation, abbreviations, hyphenation, word separation. The ambiguities in punctuation can often be lifted using standard rules, but those are hard to establish in a pre-standardised stage in a language.
-
-There are many examples of spelling change and rectification in French, Dutch, German, etc.
-
-This is also true for Chinese, Turkish, Korean, Mongolian.
-
-Change occurs diachronically but also synchronically.
-
-Often, most ancient text written in an historical form of the language get redocumented using the new form (sometimes more complex like in French).
-
-Most digital historical texts are not originals but transcriptions. Different types of transcriptions exist
-
-Diplomatic transcription : render every feature of the original text the can be reproduced including page layout, line breaks, original spelling and errors
-
-At the other extreme :
-
-Fully modernised transcription : Spelling and layout is transformed to facilitate reading and dissemination. Scholars may consider this a translation more than a transcription.
-
-Any transcription and redocumentation implies some interpretation and remapping. Therefore in most case the a digital text is the results of complex sequence of redocumentation process.
-
-In general, spelling variations do decrease over time. (cf. Buntinx and Kaplan, 2018).
-
-## Summary
-
-Historical texts are challenging because they use ancient Writing Systems that needs to be redocumented in contemporary forms.
-
-## In the next chapter
-
-We will see how to encode an historical text digitally
-
+---
 ## Questions and answers
 
-- Is a music sheet a Script ? No. It is formally a more complex system than most of the system we have discussed as i can encode complex polyphony. All the other scrpits deals with linear encoding. (A special chapter is dedicated to Music systems)
-- Is a sign language a Writing System ? No it is kind of oraliy. It cannot be recorded. 
-- Is the phonetic alphabet a Writing System ? Yes. 
+- **Is a music sheet a Script?** No. It is formally a more complex system than most of the system we have discussed as i can encode complex polyphony. All the other scrpits deals with linear encoding. (A special chapter is dedicated to Music systems)
+- **Is the phonetic alphabet a Writing System?** Yes.
+- **Is a sign language a Writing System?** No it is a kind of orality. It cannot be recorded.
+- **When we contrast the reading difficulty through time, shouldn't we always compare documents with similar "functions" (administrative vs. administrative, personal vs. personal, etc)?** Yes, it is necessary, as the degree of standardisation within the writing partly comes from its "function". (Although the point we make in the lecture is more conceptual than based on rigorous historical examples.)
 
 ## Further reading
 
 - Dondi, Printing Revolution
-
 - Richard Sproat, A Computational Theory of Writing Systems
-
+- Knuth, Digital Typography
 - McLuhan, The Gutenberg Galaxy
 - Norm (Swiss Font creators) on typologies and Writing Systems
-
 - Clarisse Herrenschmidt, 2007, Les trois écritures. Langue, nombre, code, Paris, Gallimard
