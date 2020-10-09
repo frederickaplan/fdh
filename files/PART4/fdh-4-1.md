@@ -21,6 +21,26 @@ FAIR principle, Creative Commons, Data Management models, Sustainability, Right 
 
 Anonymisation and privacy protection
 
+## Hardware
+
+Economies of scale. 
+
+### Hardware as a Service
+
+Hardware rented on a daily a basis
+
+### Infrastructure as a Service
+
+Virtual machines, container, storage, load balancer
+
+### Scientific Computing as a Service
+
+Parallel computing environment, HPC distribbuted clusters, GPGPUs management layers, dynamic scheduling, dedicated programming environment, optimization services. 
+
+### Cloud
+
+Cloud Burst : seamless burst into public clouds in a safe and secure manner. Cloud bursting is an application deployment model in which an application runs in a [private cloud](https://searchcloudcomputing.techtarget.com/definition/private-cloud) or data center and [bursts](https://searchnetworking.techtarget.com/definition/burst) into a [public cloud](https://searchcloudcomputing.techtarget.com/definition/public-cloud) when the demand for computing capacity spikes. An organization only pays for extra compute resources when they are needed. An application can be deployed locally and then burst to the cloud to meet peak demands, or the application can be moved to the public cloud to free up local resources for business-critical applications. Cloud bursting works best for applications that don’t depend on a complex application delivery infrastructure or integration with other applications, components and systems internal to the data center. 
+
 
 
 ## Practice
