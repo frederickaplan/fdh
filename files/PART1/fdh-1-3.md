@@ -398,7 +398,7 @@ Big Data of the past can be seen as a construct, articulated on the basis of six
 
 - **(4)** **Inferred patterns** are the results of the structuration imposed by regulated representations. During each data acceleration regime, regulated representations structures data streams, making it possible to accumulate organized information and to infer subsequent data patterns. Descriptive models turn into prescriptive ones, guiding data acquisition strategies and impacting design and societal choices. For this reason, regulated representations should always be considered in association with the prescriptive patterns they induce. The core challenge is to find forms that express these underlying models and exploit their prescriptive dimensions to compensate for a lack of information about the past.
 - **(5)** **Redocumentation processes** have always been needed to translate information stored in obsolete regulated representations into updated information paradigms. Redocumentation implies **recollecting** (i.e., choosing what data to keep and what data to ignore) and **remapping** (i.e., searching for homologous points in space, time, and other more complex cultural dimensions). As redocumentation is a central characteristic of the nature of the dataset from the past, it is crucial to not only understand how to redocument old datasets using the paradigms of the present but how successive translation processes previously occurred in the past, explaining the particular nature of the data considered. As Big Data of the past is the result of a series of rewriting processes, the core challenge is not only to perform these redocumentations but to model them as recursive operations.
-- **(6) Merging fictional spaces**  – Information about the past that results from different datafication operations and consecutive redocumentation processes is always potentially unreliable and often inconsistent. Coherent sets of information extracted from historical documents can be organized as disjointed but locally consistent fictional spaces. The core challenge is to unify these \*fictional spaces\* into larger spaces, sometimes accepting partial inconsistencies. Through this formalization, historical reconstruction becomes a problem of optimization.
+- **(6) Merging fictional spaces**  – Information about the past that results from different datafication operations and consecutive redocumentation processes is always potentially unreliable and often inconsistent. Coherent sets of information extracted from historical documents can be organized as disjointed but locally consistent fictional spaces. The core challenge is to unify these **fictional spaces** into larger spaces, sometimes accepting partial inconsistencies. Through this formalization, historical reconstruction becomes a problem of optimization.
 
 ### 9.2. In the next chapter
 
@@ -413,6 +413,7 @@ In the next chapter, we will study the dynamics of growth of Big Cultural Datase
 - Pascal Robert
 
 - Harmut Rosa
+- Ann Blair, Too Much too know, Yale
 
 - Bolter J.D., Grusin R. Remediation: Understanding New Media, Cambridge, MA, 2000 MIT Press (p.60)
 
