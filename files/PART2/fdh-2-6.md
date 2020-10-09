@@ -25,7 +25,7 @@ Image Space representation
 
 Image Emdeddings, Multimodel embeddings
 
-## Question and Answers 
+## Further reading
 
-
+- Understanding Comics
 
