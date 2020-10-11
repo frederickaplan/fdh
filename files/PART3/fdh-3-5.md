@@ -15,6 +15,8 @@ output: pdf_document
 
 # Knowledge Modelling
 
+(This chapter may be put at the end of the the pipeline, for coherence and replace by a chapter on formal systems and rules. The new chapter rules could introduce the subject with Game as formal system, illustrating the idea with Minecraft for instance)
+
 ## Concepts
 
 The beauty of Knowledge modelling. Tables. Databases. Semantic web, Ontologies, URI, RDF, CIDOC-CRM, How to code event, places and influence. Metaknowledge. The Hypergraph
