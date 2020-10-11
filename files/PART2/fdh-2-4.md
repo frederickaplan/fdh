@@ -315,7 +315,7 @@ Not completely lost in physical objects (manuscripts, layers of paint, architect
 When you thing about it this is true for every texts. Every text is the result of writing and transformation process. If one could, one would like to consider it as a full historical object.
 
 Considering all textual objects as evolving entities is probably one of the most interesting step DH can do to reach a better modelling of what a text is.
-----
+
 ## 3. Automatic Transcription
 
 Automatic Transcription pipelines transform images in a digital model of a document (e.g. IIIF), including Texts encoded using a given standard (TEI, XML or others).
@@ -406,3 +406,4 @@ We will see how to process large collection of texts
 
 - Knuth, Literate Programming 
 - TEI (tbd)
+- LeCun, Y.,Cortes, C., andBurges,	C.J. (1998).	“The	MNIST database	of	handwritten	digits”.
