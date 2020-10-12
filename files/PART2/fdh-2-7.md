@@ -68,6 +68,8 @@ Focus on Geonames. Level of entities. Venice is a city, Venice a has district.
 
 A subset : Populated places in Geonames. 
 
+See also : http://whgazetteer.org
+
 Differnt kind of populaed place like : Former occupied populated place 
 
 Existing Systems
