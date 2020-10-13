@@ -12,6 +12,13 @@ header-includes:
 output: pdf_document
 
 ---
+# Acronyms
+- **HTR** Handwritten Text Recognition
+
+- **OCR** Optical Character Recognition
+
+- **DTD** Document Type Description
+
 
 # Glossary
 
@@ -26,7 +33,7 @@ Big Data is based on two narratives:
 - **The Big Science narrative**: Big Data is a structured effort by the international scientific community to crack very hard problems by joining research forces and creating large-scale infrastructures, thus creating unprecedented amounts of data.
 
 ### Canonicalisation
-The redocumentation process that consists in mapping historical spellings to modern spelling.
+The redocumentation process that consists in mapping historical spellings to modern spelling. Also referred to as _normalisation_.
 
 ### Concretization
 As suggested by philosopher Gilbert Simondon, a process by which different systems put in close contact will tend to aggregate to form a new unified system.
