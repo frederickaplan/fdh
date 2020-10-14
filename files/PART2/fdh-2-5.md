@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 2.5'
-subtitle: 'Text Analysis'
+subtitle: 'Text Processing'
 author:
  - Frederic Kaplan
 
@@ -20,6 +20,10 @@ output: pdf_document
 1) Digital Humanities is the only field to deal with large collection of digital texts originating form collective discourses, massive digitisation and/or collective transcription projects
 
 2) These large textual objects can be processed to extract hidden regularities and structures. 
+
+3) Some of these patterns and signatures are diachronic others are synchronic 
+
+4) The geometry of complex meaning spaces can be reconstructed even if we stay only at the surface of textual data.  
 
 ## Large textuals objects
 
@@ -409,6 +413,8 @@ The model to automatically organize concepts and learn implicitly the relationsh
 Beyond Word Embeddings : 
 
 Of course you can extend the concept of Word Embeddings to n-gram embeddings, regular expression embeddings, word distribution (topic) embeddings .. 
+
+Word embeddings shows that there is a geometry of Word spaces, this can be used to align word embeddings in time and space. 
 
 ### Diachronic Word embeddings
 
