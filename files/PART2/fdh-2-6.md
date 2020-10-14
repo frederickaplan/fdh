@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities 2.5'
-subtitle: 'Images'
+title: 'Foundations in Digital Humanities 2.6'
+subtitle: 'Text Understanding'
 author:
  - Frederic Kaplan
 
@@ -13,19 +13,21 @@ output: pdf_document
 
 ---
 
-# Images
+# Text Understanding
 
-## Concepts
+## Theses
 
-Pipeline for Artworks photographs. Image banks and phototarchives. Photography as documentation. Scanning techniques for photographs. Segmentation. Visual similarity vs visual connections.
 
-## Practice
 
-Image Space representation 
+## Summary 
 
-Image Emdeddings, Multimodel embeddings
+
+
+## In the next chapter
+
+
 
 ## Further reading
 
-- Understanding Comics
+
 
