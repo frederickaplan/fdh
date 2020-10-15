@@ -292,8 +292,19 @@ We will see how to encode an historical text digitally.
 ## Further reading
 
 - Dondi, Printing Revolution
+
 - Richard Sproat, A Computational Theory of Writing Systems
+
 - Knuth, Digital Typography
+
 - McLuhan, The Gutenberg Galaxy
+
 - Norm (Swiss Font creators) on typologies and Writing Systems
+
 - Clarisse Herrenschmidt, 2007, Les trois écritures. Langue, nombre, code, Paris, Gallimard
+
+- Simon Horobib, How English became English
+
+- Albert Derolez, The Paleography of Gothic Manuscript Book. Cambridge
+
+  

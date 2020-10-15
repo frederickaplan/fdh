@@ -446,7 +446,15 @@ Solr : Search engine and index
 
 ## Further reading
 
-Jacqueline Leon, Histoire de l'automatisation des sciences du langage
+- Jacqueline Leon, Histoire de l'automatisation des sciences du langage
+
+- Aggarwal and Zhai, Mining Text Data
+
+- Baayen, Analyzing Linguistic Data
+
+- Ingersoll, Morton, Farris, Taming Text : How to find, organize and manipulate it. 
+
+  
 
 
 

@@ -256,3 +256,6 @@ Next, we will start to go into details for each categories of documents.
 ## Further reading
 
 - Paul Otlet, Le livre sur le livre
+- Salaum, Arsenault, Introduction aux sciences de l'information. 
+- Anthony Grafton, La page de l'Antiquiét à l'ère du numérique : Louvre editions 
+- 

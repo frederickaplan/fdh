@@ -316,8 +316,8 @@ We will see how to process large collection of texts.
 ## Further reading
 
 - Michael Piotrowski, Natural language processing for historical texts,  Morgan and Claypool
-
 - Knuth, Literate Programming
 - TEI (tbd)
 - LeCun, Y.,Cortes, C., andBurges,	C.J. (1998).	“The	MNIST database	of	handwritten	digits”.
 - *DeRose, Steven J.; Durand, David G.; Mylonas, Elli; Renear, Allen H.: What is text, really? J. Computing in Higher Education, 1(2):3–26, 1990.*
+- Catherine Marshall, Reading and Writing the Electronic Book, Morgan and Claypool 
