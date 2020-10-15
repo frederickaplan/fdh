@@ -24,7 +24,7 @@ output: pdf_document
 
 ## 1. Two worlds in one
 
-Philippe Aigrain in this book “Cause commune” imagines that an extraterrestrial creature arrives on Earth and have to report on what it see, it will probably write a strange account, like if there would be two world in one.
+In his book "_Cause Commune_", Philippe Aigrain in his imagines that an extraterrestrial creature arrives on Earth and have to report on what it see, it will probably write a strange account, like if there would be two world in one.
 
 In the first world, some programmers are writing free software used in the entire world that can be compared in complexity with some of the greatest machines ever made. Large communities of people collaborate at planetary scale to create free and common knowledge bases. Based on some clear successes, a series of actors protect and cultivate the idea of commons both in the physical sphere (water, air, climate, etc.) and the information sphere.
 

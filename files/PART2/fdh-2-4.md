@@ -282,7 +282,7 @@ This is however different form mapping to a modern form of a the word.
 
 #### 3.2.2. Indexing spelling variants
 
-If we now imagine a scenario whereby historical texts are indexed in search engines, spelling modernisation is relevant. Which spellings are to be included? How permissive should the query be, with regards to orthography?
+If we now imagine a scenario in which historical texts are indexed in search engines, spelling modernisation is relevant. Which spellings are to be included? How permissive should the query be, with regards to orthography?
 
 One possibility is to expand in the number of queries in real-time when a search is done, to include historical variants, or to perform approximate matching.
 
