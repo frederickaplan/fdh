@@ -17,44 +17,50 @@ output: pdf_document
 
 #### Core theses explored in this chapter
 
-- There is a fight between the privatization of knowledge and the Commons
-- Finding commons is a process of governance. If large-scale project do not find commons, they will be go to war.
+- 1) There is a fight between the privatization of knowledge and the Commons.
+- 2) Finding commons is a process of governance. If large-scale project do not find commons, they will be go to war.
+1. Two worlds in one
+2. Defining the Commons
+> 2.1. The distinctions in Roman law // 2.2. Tragedy of the enclosures vs. Tragedy of the commons //
+3. Public domain
 
 #### Contents
 
 ## 1. Two worlds in one
 
-In his book "_Cause Commune_", Philippe Aigrain in his imagines that an extraterrestrial creature arrives on Earth and have to report on what it see, it will probably write a strange account, like if there would be two world in one.
+Imagine, just like Philippe Aigrain did in his book "_Cause Commune_", that an extraterrestrial creature arrives on Earth and has to report on what it sees. Its account would probably state the existence of two worlds in one.
 
-In the first world, some programmers are writing free software used in the entire world that can be compared in complexity with some of the greatest machines ever made. Large communities of people collaborate at planetary scale to create free and common knowledge bases. Based on some clear successes, a series of actors protect and cultivate the idea of commons both in the physical sphere (water, air, climate, etc.) and the information sphere.
+- In the first world, some programmers are writing **free software used in the entire world** that can be compared in complexity with some of the greatest machines ever made. Large communities of people collaborate at planetary scale to create free and common knowledge bases. Based on some clear successes, a series of actors protect and cultivate the idea of commons both in the physical sphere (water, air, climate, etc.) and the information sphere.
 
-In the second world, very large companies are producing standard content, that is the adapted for local markets. Large amount of money is used to publicise these content and an arsenal of tools are used to protect the right to use them. Algorithm are used to optimally target content to the right consumers. Huge profits are realised leading to more monopolistic situations.
+- In the second world, very large companies are simultaneously producing **standard content, that is the adapted for local markets**. Large amounts of money are used to publicise these contents and an arsenal of tools are used to protect the right to use them. With the help of algorithms used to optimally target content to the right consumers, huge profits are made leading to more monopolistic situations.
 
-These two world coexist.
+**_These two world coexist._**
 
 By a strange twist of technology history, they were created out of the same dynamics, through a series of tensions and divergence in the history of computing.
 
-## 2. Commons
-
-### Res nullius, res communes, res usibus publicis relictae
+## 2. Defining the Commons
 
 What are the commons ? Two ambiguous definitions :
+- what is currently not owned and shared;
+- what cannot be owned.
 
-\- What is currently not owned and shared
+### 2.1. The distinctions in Roman law
 
-\- What cannot be owned.
+Already in the Roman law on property, things were divided according to the possibility of their ownership.
 
-*Res nullius* Things without a Master. But that can get one. Ex: a field that is now free but can be taken, a wild animal that can be captured, a island that just appeared and can me taken, a diamond found in a cave.
+- **_Res nullius_**: **things that belong to no master yet**. For example: a field that is now free but could be taken in the future; a wild animal that can be captured; an island which just appeared and can be taken, a diamond found in a cave.
 
-*Res communes*. Things that by definition cannot be owned. Ex : Air, running water, the sun, the stars, the beaches (le “littoral”)
+- **_Res communes_**: **things that, by definition, cannot be owned**. For example: air, running water, the sun, the stars, the sea, the sea shores.
 
-*Res usibus publicis relictae:* Things voluntarily left for public usage : roads, rivers, theaters.
+- **_Res usibus publicis relictae_**: **things that are voluntarily left for public usage**. For example: roads, rivers, theatres.
 
-### Tragedy of the enclosures vs.Tragedy of the commons
+### 2.2. Tragedy of the enclosures vs. Tragedy of the commons
 
-In 1944, Polanyi recall the story of the enclosures, a general trends in Europe between 16 and 18e century, privatising common fields. This is referred as the “the tragedy of the enclosures”
+In 1944, Polanyi recalled in _The Great Transformation_ the story of the enclosures: a general trend in Europe between the XVIth and XVIIIth centuries, whereby most common fields were privatised (i.e. enclosed), and their freedom of use prevented — a process viewed negatively by Polanyi. In his _Capital_, Karl Marx argued that this enclosing phenomenon was one of the birth processes of Capitalism, as means to profit were favoured over shared commodity. This is referred as the **“The Tragedy of the Enclosures”**.
 
-In 1968, Garrett Hardin publishes an article entitled “the tragedy of the commons” that develop the exact opposite points of Polanyi. Common goods are fragile when the pressure of usage increase. In some cases, ecological catastrophe can occur (fields in Sahel). “Injustice is preferable to total ruin”
+As a response to this position, Garrett Hardin published in 1968 an article entitled **“The Tragedy of the Commons”** that develops the exact opposite stance: **Common goods are fragile when the pressure of usage increases**. The collective use of a shared resource prevents self-responsability and often (if not always) leads to the degradation or depletion of the resource –– even if this is contrary to the users' common interest.
+
+Hardin (just like Forster Lloyd before him) argues that an owner, especially when motivated by profit, is needed to maintain the good in a proper condition. This social dilemna has been summarised by Hardin: **"Injustice is preferable to total ruin."**
 
 ## 3. Public domain
 
@@ -63,6 +69,8 @@ The public domain includes *all the creative work to which no exclusive intellec
 *E.g. a mathematical formula, the discourse of parlementary, a patent or book beyond the date of expiration.*
 
 A work in the public domain cannot be privatised anymore.
+
+Can a mathematical formula be patented? Counter example: Indiana Pi Bill.
 
 ## 4. The industrial rise of Intellectual property
 
