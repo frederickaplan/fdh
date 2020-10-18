@@ -98,6 +98,14 @@ Most indexes are not complete: no punctuation, limited precision on word positio
 
 It is an intermediary representation between the Bag of Words and the sequential chain.
 
+Texts can indexed with different granularity of volumes (line, page, chapter, etc.)
+
+Elements that are indexed can also varied : character, words, sequences of words.
+
+Michael Witmore conceptualises the text as a "Massively addressable object". The book as a physical instance in one of the many levels of address, but this is not the only one.
+
+The next chapter will look into details on how such indexes can be used to process texts. 
+
 ### 2.2. Hierarchical representations : XML
 
 #### 2.2.1. XML: A metalanguage
@@ -321,3 +329,4 @@ We will see how to process large collection of texts.
 - LeCun, Y.,Cortes, C., andBurges,	C.J. (1998).	“The	MNIST database	of	handwritten	digits”.
 - *DeRose, Steven J.; Durand, David G.; Mylonas, Elli; Renear, Allen H.: What is text, really? J. Computing in Higher Education, 1(2):3–26, 1990.*
 - Catherine Marshall, Reading and Writing the Electronic Book, Morgan and Claypool 
+- Michael Witmore, Text : A Massively Addressable Object in Gold, Debates about Digital Humanities 
