@@ -17,16 +17,18 @@ output: pdf_document
 
 #### Core theses explored in this chapter
 
+
 - 1) There is a fight between the privatization of knowledge and the Commons.
 - 2) Finding commons is a process of governance. If large-scale project do not find commons, they will be go to war.
-1. Two worlds in one
+
+#### Contents
+1. Introduction: Two worlds in one
 2. Defining the Commons
 > 2.1. The distinctions in Roman law // 2.2. Tragedy of the enclosures vs. Tragedy of the commons //
 3. Public domain
 
-#### Contents
-
-## 1. Two worlds in one
+---
+## 1. Introduction: Two worlds in one
 
 Imagine, just like Philippe Aigrain did in his book "_Cause Commune_", that an extraterrestrial creature arrives on Earth and has to report on what it sees. Its account would probably state the existence of two worlds in one.
 
@@ -37,6 +39,8 @@ Imagine, just like Philippe Aigrain did in his book "_Cause Commune_", that an e
 **_These two world coexist._**
 
 By a strange twist of technology history, they were created out of the same dynamics, through a series of tensions and divergence in the history of computing.
+
+---
 
 ## 2. Defining the Commons
 
@@ -62,125 +66,174 @@ As a response to this position, Garrett Hardin published in 1968 an article enti
 
 Hardin (just like Forster Lloyd before him) argues that an owner, especially when motivated by profit, is needed to maintain the good in a proper condition. This social dilemna has been summarised by Hardin: **"Injustice is preferable to total ruin."**
 
-## 3. Public domain
+---
 
-The public domain includes *all the creative work to which no exclusive intellectual property rights apply.*
+## 3. Public domain vs. industrial intellectual property
 
-*E.g. a mathematical formula, the discourse of parlementary, a patent or book beyond the date of expiration.*
+### 3.1. The public domain
 
-A work in the public domain cannot be privatised anymore.
+The public domain includes **all the creative work to which no exclusive intellectual property rights apply.**
 
-Can a mathematical formula be patented? Counter example: Indiana Pi Bill.
+A mathematical formula, the discourse of parliamentary, a patent or book beyond the date of expiration are all examples of items in the public domain.
 
-## 4. The industrial rise of Intellectual property
+Importantly, once a work has fallen into the public domain, it cannot be privatised anymore.
 
-### 4.1. Dispute: Von Neumann vs. Eckert, Mauchly
+### 3.2. Focus: Intellectual property during the digital revolution (Von Neumann vs. Eckert and Mauchly dispute)
 
-John von Neumann, John Presper Eckert, John Mauchly and Hermann Goldstine where working together on the ENIAC, the first Turing-completer machine, capable in theory of solving all possible computation.
+The loose-handedness of the definition of unpatentable works has lead, and still does, to vast legal battles. We'll now take a notable example from the first days of computing.
 
-Eckert and Mauchly wanted to patent the conception of this computer, like any other machine they could have invented.
+John von Neumann, John Presper Eckert, John Mauchly, and Hermann Goldstine where working together on the ENIAC: the first Turing-complete machine, capable in theory of solving all possible computations.
 
-For von Neumann, the computer was capturing fondamental aspects of mathematics and logics and it was important not to patent it.
+While Eckert and Mauchly **wanted to patent the conception of this computer** (like any other machine they could have invented), Von Neumann thought that the computer was capturing **fundamental aspects of mathematics and logics** and thus that it was important not to patent it.
 
-Von Neumann won, claiming he has prior publication invalidating any possible patent.
+**Eckert and Mauchly lost** after several years of legal dispute (_Honeywell, Inc. v. Sperry Rand Corp., 1973_) as Hermann Goldstine's distribution of Von Neumann's detailed notes was judged a prior publication, thus part of **common knowledge and invalidating any possible patent.**
 
-The von Neumann case was the first of a long series of public domain inventions, including the “Huffman code” (Douglas Huffman, 1952) used in many lossless compression applications.
+Not only has the Von Neumann case made possible the public use of the digital computer, it was also the first of a long series of **public domain inventions**, including the “Huffman code” (Douglas Huffman, 1952) used in many lossless compression applications.
 
-Donald Knuth in the “Art of Computer Programming” (1960-1980) produces an encyclopedia of open algorithm usable in any kind of problems.
+In his _“Art of Computer Programming”_ (1960-ongoing), Donald Knuth presents the reader with an encyclopaedia of open algorithms usable in any kind of problems.
 
-### 4.2. Extension of the domain of intellectual property
+_But Knuth and others are perhaps the last representatives of days past, of an era that hadn't lived the expansion of industrial property as we see it today._
+
+### 3.2. Industry and the extension of intellectual property
 
 Intellectual property was established to protect the creators and give them freedom to live from the benefit of their talent. This is the myth of the creator or the lonely inventor.
 
-But the reality is bit different. Some corporation accumulates stocks of intellectual rights. A large part of the business is dedicated to the services for reinforcing intellectual property.
+But the reality is bit different. Very few authors live from comfortable royalties; rather, some corporation accumulate vast shares of intellectual rights, with a large part of their business dedicated to the reinforcement of intellectual property.
 
-In 30 years the domain of possible intellectual property extended drasticly including now
-- Molecules
-- Vegetal and animal species
-- Genes
-- Software and algorithms
-- Images
-- Database
-- Video programs
+This cultural capital is (mostly) not owned by creators, and we witness a shift towards a **market-like** stance of cultural property. For example, the extension of copyright validity (from 30 to 70 years after the death of the last "creator") gave cultural works an economic value passed to future generations.
 
-Sofware is one domain where they were the more resistance. Nevertheless, more and more software patent are now filled.
+This **drastic reduction of the public domain** — implied by temporal extensions of copyright (and their retroactive activations) — has also come more recently from the perpetual extension of the domain of possible intellectual property, which now includes:
+- Molecules;
+- Vegetal and animal species;
+- Genes;
+- Software and algorithms;
+- Images;
+- Database;
+- Video programs ...
 
-1960 : No patent possible
+Software has historically been one domain with great resistence to patent protection. But change has come over the course of the century. While in 1960 software patenting was impossible, European laws have permitted it (with a first decision in 1972, which has been confirmed in the European Copyright directive in 1991, and started to be accepted in 1997-8). Today, more and more software patent are now filled.
 
-1972 : This decision is written in the European Patent Convention
+The counterforce to this trend did not go into opposing intellectual property as such, but rather into deliberately creating open-accessed resources (ie. intellectual Commons).
 
-1991 : Exclusion confirmed in the Copyright European directive
+## 4. Voluntary creation of commons
 
-1997-1998 : Following the US, some software patent start to be accepted in Europe
+### 4.1. Focus: The AT&T vs. UNIX dispute
 
-The copyright validy period was also importantly extended : 30, 50 and than 70 years after the death of the last “creator”. This has causes a progressive drastic reduction of the public domain.
+Yet again, a long dispute led to progress in terms of common intellectual property, this time between the AT&T company and the developpers of UNIX. Since 1976, Unix was indeed developed in close collaboration between universities and AT&T, which contriubuted by distributing its source code, which in turn was used by the academic community and many companies.
 
-## 5. Voluntary creation of commons
+To maximise profit, AT&T decided in 1982 to engage in a more restrictive licensing. In reaction to this power-grabbing move, were launched:
+- 1) The development of a **free version of UNIX** at Berkeley (using the BSD initials for Berkeley Software Distribution)
 
-### 5.1. Dispute: AT&T and UNIX
+- 2) The **Free Software Foundation (FSF)** by Richard Stallman in 1985
 
-Since 1976, Unix was developed in close collaboration between universities and AT&T.
+### 4.2. Richard Stallman: GNU
 
-AT&T was distributing with its source code. It was used by the academic community and many companines.
+One of Stallmann's intention with the FSF was to come up with a general framework for open software. It came to life with the **GNU (recursively, GNU's Not Unix)** project.
 
-In 1982, AT&T decides to engage in a more restrictive license.
+Most softwares that form a part of GNU are licensed under the **GNU General Public License (GPL)** (first version: 1989). The aim of the GPL was to **tackle the legal problem of _guaranteeing_ open-access**, by enforcing strong rules:
 
-This will lead to the creation of
+- A **viral license** extending the domain of commons (a software making use of GPL code should also be GPL-licensed).
 
-\- The Free Software Foundation by Richard Stallman
+- **The universal nature of rights**: for everybody, everywhere, and whichever use.
 
-\- The development of a free version of UNIX at Berkeley (using the BSD initials for Berkeley Software Distribution)
+- The logic of “copyright” for founding common goods (the so-called **"copyleft"** approach): In the same way copyrights enforce the rights of the owner, copylefts guarantee the **rights of users to use, study, modify and diffuse**.
 
-### 5.2. Richard Stallman and GNU
+### 4.3. Linus Torvalds: Linux and Git
 
-(More here / Paul ?)
+Originally written in 1991 by Linus Torvalds and based upon much of the GNU Project free softwares, **Linux** became the reference open-source proposal to counter proprietary exploitation systems.
 
-The GNU General Public License (GPL) (1984)
+**Git**, created by the same Torvalds in 2005, was also distributed under the GNU GPL and became the reference for (open-source) software versioning.
 
-\- A viral license extending the domain of commons
+These initiatives helped foster a strong **Commons-oriented mindset**  among the software developers and users community.
 
-\- Universal rights for everybody and whatever use.
+### 4.4. Lawrence Lessig: Creative Commons
 
-\- Use the logic of “copyright” for founding common goods (copyleft approach)
+The work of Lawrence Lessig attempted to define new ways of putting into the public domain works for which the author does have the copyright.
 
-\- Copyleft approach guarantees the rights of users to use, study, modify and diffuse.
+These are the **Creative Commons (CC) licenses** first introduced in 2001, which can be viewed as subtle caveats on the public domain: when sharing their works under CC-licences, creators have the right of waive or reserve some of the associated rights regarding use and sharing.
 
-### 5.3. Linus Torvalds, Linux and Git
+The different types of CC licenses are all built of combinations of the four following **baseline rights**, and are described by the merging of each right's acronym (for example: \*CC BY-NC-ND\*):
 
-(more here / Paul ?)
+- 1) **Attribution (BY)**: The author has to be credited.
 
-Linux (1991)
+- 2) **Share-alike (SA)**: Derivative works must take an identical licensing (ie. "not more restrictive").
 
-Git (2005)
+- 3) **Non-commercial (NC)**: Commercial uses of the work is forbidden.
 
-### 5.4. Lawrence Lessig and the Creative Commons
+- 4) **No Derivatives (ND)**: Only identical versions of the work can be distributed and used.
 
-(more here)
 
+---
 ## 6. Copyright overreaching
 
 ### 6.1. Dispute: Wenman vs the Museums
 
 (more here / Paul ?)
 
+Cosmo Wenman, an American artist: 3D copies of ancient works in museums (no chance of authors being alive).
+Claimed the 3D copies should be allowed back in the public domain. Louvre, Rodin, the Smithsonian.
+
+Example: Nefertiti bust scan. After legal exchanges, the Berlin Egyptian Museum agreed to share the 3D copy, with a CC license, as long as they'd be mentioned as the copy was attributed to them, shared-alike, and with any commercial use forbidden (CC BY-NC-SA).
+
+[3D of the Nefertiti bust](https://skfb.ly/6QSL9)
+
+But copyright, in theory, only applies to the work it self; not a copy of it — "especially if the original is in the public domain" [Wenman's account of the legal battle](https://reason.com/2019/11/13/a-german-museum-tried-to-hide-this-stunning-3d-scan-of-an-iconic-egyptian-artifact-today-you-can-see-it-for-the-first-time/).
+
+It is the act of creation that gives copyright to the work's creator, not owning it.
+
+Subtlety: taking a photograph of an object arguably adds "something" (a potentially "artistic" point-of-view) and would justify new copyright. A "verbatim" copy would not fall under the creative step category. But this loose-distinction leaves a lot of room for debate and interpretation.
+
 ### 6.2. Reproduction of public domain works
 
-Reproductions of Public Domain Works Should Remain in the Public Domain
+**Reproductions of Public Domain Works Should Remain in the Public Domain.**
 
-Digitization by itself doesn’t create copyright
+Digitization by itself doesn’t create copyright.
 
 If the work is in the public domain, no copyright licenses should be applied, and in the case of CC licenses, which are designed to only operate where copyright exists, the application of a CC license is ineffective.
 
-## 7. Communication about copyright
+---
 
-(Decription of the 12 right statements / Paul ?)
+## 7. Copyright communication: Twelve rights statements
+
+In an effort to lift this cloud of confusion around reusability and what constitutes a "copyrightable" process, cultural institutions (most notably Europeana and the Digital Public Library of America) have agreed upon a set of **twelve standardised rights statements**.
+
+These 12 rights statements also aim to fill some gaps left by the Creative Commons licensing, which is not fully adapted to past cultural artefacts.
+
+**Group 1: In Copyright**
+- **(1.1) In Copyright**: The item is in copyright.
+- **(1.2) In Copyright - EU Orphan Work**: Works in the European Union, for which the author is not known or cannot be located (Orphan Works). The item is nonetheless under copyright.
+- **(1.3) In Copyright - Educational Use permitted**: The item is in copyright but third-parties can use it for educational purposes, without first obtaining permission.
+- **(1.4) In Copyright - Non-Commercial Use permitted**: Third-parties can use this work for any non-commercial use, without first obtaining permission.
+- **(1.5) In Copyright - Rights-holder(s) unlocatable or unidentifiable**: Item for which underlying copyright is reasonably assumed, but for which no right-holder has been located after diligent investigation.
+
+**Group 2: No Copyright**
+
+ The following rights are to be used only if a Public Domain (CC-0) usage is not possible.
+- **(2.1) No Copyright - Contractual Restrictions**: The item is not restricted by copyright, but the institution is required to limit the use of that item (for privacy issues, cultural protection reasons, digitisation agreements, etc).
+- **(2.2) No Copyright - Non-Commercial Use only**: Any copy, modification, use, or displaying of the item is allowed, but only for non-commercial uses. This rights statement came to be because of private-public partnerships (most notably in the Google Books project).
+- **(2.3) No Copyright - Other Known Legal Restrictions**: Laws, other than copyright, may limit in some jurisdictions the use of this item.
+- **(2.4) No Copyright - United States**: This item is in the Public Domain under the United States law, but that may not be so in other countries.
+
+**Group 3: Other Copyright Stances**
+
+The following rights are to be used only when the copyright status cannot be specified better.
+- **(3.1) Other - Copyright Not Evaluated**: The organisation has not evaluated the copyright status of the object.
+- **(3.2) Other - Copyright Undetermined**: The copyright status is unknown and the organisation has been unsuccessful in determining it.
+- **(3.3) Other - No Known Copyright**: No conclusive copyright status has been found, but it is reasonable to assume no copyright.
+
+---
 
 ## 8. Frontal collision
+
+(min 53)
 
 (more here / Paul ?)
 
 - The case of Aaron Swartz
 - The global south
+
+
+---
 
 ## 9. Governing with the commons
 
@@ -229,7 +282,7 @@ Swartz Aaron, Celui qui pourrait changer le monde, Editions B42
 
 Stallman, R, Free Software, Free Society, GNU Press
 
-Stallman, R:; Willliams, Sa,, Masuetti, Christophe, Richard Stallmann et la revolution du loigiciel libre : une biographie autorisée
+Stallman, R:; Willliams, Sa,, Masuetti, Christophe, Richard Stallmann et la revolution du logiciel libre : une biographie autorisée
 
 ## Open collection to explore
 

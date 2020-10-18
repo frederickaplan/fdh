@@ -13,11 +13,16 @@ output: pdf_document
 
 ---
 # Acronyms
+- **CC** Creative Commons
+
+- **DTD** Document Type Description
+
+- **GPL** General Public License
+
 - **HTR** Handwritten Text Recognition
 
 - **OCR** Optical Character Recognition
 
-- **DTD** Document Type Description
 
 
 # Glossary

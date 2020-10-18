@@ -27,7 +27,7 @@ output: pdf_document
 > 4. Data Acceleration Regimes
 >> 4.1. Data acceleration regimes in History // 4.2. The reconstruction of knowledge systems //
 > 5. Regulated Representations
->> 5.1. Defining regulated representations // 5.2. Focus: The regulation of cartography // 5.3. Regulated representations: From tool to machine // 5.4. Focus: Simondon and concretization process // 5.5. Studying the transformation of regulated representations through time //
+>> 5.1. Defining regulated representations // 5.2. Focus: The regulation of cartography // 5.3. Regulated representations: From tool to machine // 5.4. Focus: Simondon and concretization processes // 5.5. Studying the transformation of regulated representations through time //
 > 6. Inferred Patterns: From data to models
 >> 6.1. Three data dominions // 6.2. From predictive to prescriptive systems //
 > 7. Redocumentation processes
@@ -181,7 +181,7 @@ The next stage was the **mechanization of usage conventions**, transforming the 
 
 A paper map can be used freely for purposes other than its original function. In this sense, **it is still a tool**. A digital map can only be accessed through specific input and output commands; it has internalized its own usage rules. **It is therefore a machine**.
 
-### 5.4. Focus: Simondon and concretization process
+### 5.4. Focus: Simondon and concretization processes
 
 The mechanization process may not immediately produce changes in usage, but the changing nature of the representation results in technological synergies and aggregation effects. As maps became machines, they progressively merged into a global mechanic system in which a multitude of maps became aggregated into a single one.
 
