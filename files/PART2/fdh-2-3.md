@@ -28,16 +28,16 @@ output: pdf_document
 This lecture will briefly present the evolution of handwritten and printed texts. The ways to encode this evolution will be detailed in the following lecture.
 
 #### Contents
-1. Scripts
-> 1.1. Defintions // 1.2. Script Typologies // 1.3. Operationalisation of writing scripts. Focus: McLuhan and the Typographic Man //
-2. Handwritten texts
-> 2.1. Evolution of handwritten texts // 2.2. Focus: Medieval abbreviations // 2.3. Handwritten text databases //
-3. Printed Texts
-> 3.1. The Printing Revolution // 3.2. Redocumentation in the early days of printing: from handwritten to printed books // 3.3. The evolution of Typography //
-4. Spellings
-> 4.1. The recent standardisation of language rules // 4.2. Linguistic heterogeneity in older texts // 4.3. From an historical text to a modern transcription //
-5. Conclusion
-> 5.1. Summary // 5.2. In the next chapter //
+>1. Scripts
+>> 1.1. Defintions // 1.2. Script Typologies // 1.3. Operationalisation of writing scripts. Focus: McLuhan and the Typographic Man //
+>2. Handwritten texts
+>> 2.1. Evolution of handwritten texts // 2.2. Focus: Medieval abbreviations // 2.3. Handwritten text databases //
+>3. Printed Texts
+>> 3.1. The Printing Revolution // 3.2. Redocumentation in the early days of printing: from handwritten to printed books // 3.3. The evolution of Typography //
+>4. Spellings
+>> 4.1. The recent standardisation of language rules // 4.2. Linguistic heterogeneity in older texts // 4.3. From an historical text to a modern transcription //
+>5. Conclusion
+>> 5.1. Summary // 5.2. In the next chapter //
 
 ---
 ## 1. Scripts
@@ -306,5 +306,3 @@ We will see how to encode an historical text digitally.
 - Simon Horobib, How English became English
 
 - Albert Derolez, The Paleography of Gothic Manuscript Book. Cambridge
-
-  

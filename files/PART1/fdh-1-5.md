@@ -22,11 +22,20 @@ output: pdf_document
 - 2) Finding commons is a process of governance. If large-scale project do not find commons, they will be go to war.
 
 #### Contents
-1. Introduction: Two worlds in one
-2. Defining the Commons
-> 2.1. The distinctions in Roman law // 2.2. Tragedy of the enclosures vs. Tragedy of the commons //
-3. Public domain
-
+>1. Introduction: Two worlds in one
+>2. Defining the Commons
+>> 2.1. The distinctions in Roman law // 2.2. Tragedy of the enclosures vs. Tragedy of the commons //
+>3. Public domain vs. industrial intellectual property
+>> 3.1. The public domain // 3.2. Focus: Intellectual property during the digital revolution (Von Neumann vs. Eckert and Mauchly dispute) // 3.3. Industry and the extension of intellectual property //
+> 4. Voluntary creation of commons
+>> 4.1. Focus: The AT&T vs. UNIX dispute // 4.2. Richard Stallman: GNU // 4.3. Linus Torvalds: Linux and Git // 4.4. Lawrence Lessig: Creative Commons //
+> 5. Grey areas in copyrighting cultural objects
+>> 5.1 Copyright overreaching // 5.2. Copyright communication: The twelve rights statements //
+> 6. Frontal collision
+>> 6.1. Focus: The United States vs. Aaron Swartz case // 6.2. Intellectual property at the worldwide scale //
+> 7. Governing with the commons
+> 8. Conclusion
+>>8.1. Summary // 8.2. In the next chapter //
 ---
 ## 1. Introduction: Two worlds in one
 
@@ -94,7 +103,7 @@ In his _“Art of Computer Programming”_ (1960-ongoing), Donald Knuth presents
 
 _But Knuth and others are perhaps the last representatives of days past, of an era that hadn't lived the expansion of industrial property as we see it today._
 
-### 3.2. Industry and the extension of intellectual property
+### 3.3. Industry and the extension of intellectual property
 
 Intellectual property was established to protect the creators and give them freedom to live from the benefit of their talent. This is the myth of the creator or the lonely inventor.
 
@@ -114,6 +123,8 @@ This **drastic reduction of the public domain** — implied by temporal extensio
 Software has historically been one domain with great resistence to patent protection. But change has come over the course of the century. While in 1960 software patenting was impossible, European laws have permitted it (with a first decision in 1972, which has been confirmed in the European Copyright directive in 1991, and started to be accepted in 1997-8). Today, more and more software patent are now filled.
 
 The counterforce to this trend did not go into opposing intellectual property as such, but rather into deliberately creating open-accessed resources (ie. intellectual Commons).
+
+---
 
 ## 4. Voluntary creation of commons
 
@@ -164,36 +175,28 @@ The different types of CC licenses are all built of combinations of the four fol
 
 
 ---
-## 6. Copyright overreaching
+## 5. Grey areas in copyrighting cultural objects
 
-### 6.1. Dispute: Wenman vs the Museums
+### 5.1 Copyright overreaching
+#### 5.1.1. Focus: The Wenman vs. Museums dispute
 
-(more here / Paul ?)
+The American artist Cosmo Wenman entered a series of legal battles with leading museums worldwide (the Louvre, Smithsonian, Rodin, etc.) asking for the 3D copies of ancient works (i.e. with no chance of their authors being alive) to be allowed back in the public domain.
 
-Cosmo Wenman, an American artist: 3D copies of ancient works in museums (no chance of authors being alive).
-Claimed the 3D copies should be allowed back in the public domain. Louvre, Rodin, the Smithsonian.
+As an example, after a few legal exchanges, the Berlin Egyptian Museum agreed to share the [3D copy of their famous Nefertiti bust](https://skfb.ly/6QSL9), with a CC license, as long as they'd be mentioned as the copy was attributed to them, shared-alike, and with any commercial use forbidden (CC BY-NC-SA).
 
-Example: Nefertiti bust scan. After legal exchanges, the Berlin Egyptian Museum agreed to share the 3D copy, with a CC license, as long as they'd be mentioned as the copy was attributed to them, shared-alike, and with any commercial use forbidden (CC BY-NC-SA).
+But this remains problematic (Wenman argued): **copyright, in theory, only applies to the work it self; not a copy of it** — "especially if the original is in the public domain" (cf. [Wenman's account of the legal battle](https://reason.com/2019/11/13/a-german-museum-tried-to-hide-this-stunning-3d-scan-of-an-iconic-egyptian-artifact-today-you-can-see-it-for-the-first-time/)).
 
-[3D of the Nefertiti bust](https://skfb.ly/6QSL9)
-
-But copyright, in theory, only applies to the work it self; not a copy of it — "especially if the original is in the public domain" [Wenman's account of the legal battle](https://reason.com/2019/11/13/a-german-museum-tried-to-hide-this-stunning-3d-scan-of-an-iconic-egyptian-artifact-today-you-can-see-it-for-the-first-time/).
+#### 5.1.2. Copyrighting reproductions of public domain works
 
 It is the act of creation that gives copyright to the work's creator, not owning it.
 
-Subtlety: taking a photograph of an object arguably adds "something" (a potentially "artistic" point-of-view) and would justify new copyright. A "verbatim" copy would not fall under the creative step category. But this loose-distinction leaves a lot of room for debate and interpretation.
+A subtlety appears when we consider the act of copying as potentially "artistic": taking a photograph of an object arguably adds "something" (a potentially "artistic" point-of-view) and would justify new copyright. However, **a "verbatim" copy** (such as performed by a machine) **would not fall under the creative step category**. But this loose-distinction leaves a lot of room for debate and interpretation.
 
-### 6.2. Reproduction of public domain works
-
-**Reproductions of Public Domain Works Should Remain in the Public Domain.**
-
-Digitization by itself doesn’t create copyright.
+**Reproductions of Public Domain Works Should Remain in the Public Domain.** Digitization by itself doesn’t create copyright.
 
 If the work is in the public domain, no copyright licenses should be applied, and in the case of CC licenses, which are designed to only operate where copyright exists, the application of a CC license is ineffective.
 
----
-
-## 7. Copyright communication: Twelve rights statements
+### 5.2. Copyright communication: The twelve rights statements
 
 In an effort to lift this cloud of confusion around reusability and what constitutes a "copyrightable" process, cultural institutions (most notably Europeana and the Digital Public Library of America) have agreed upon a set of **twelve standardised rights statements**.
 
@@ -223,46 +226,46 @@ The following rights are to be used only when the copyright status cannot be spe
 
 ---
 
-## 8. Frontal collision
+## 6. Frontal collision
 
-(min 53)
+### 6.1. Focus: The United States vs. Aaron Swartz case
 
-(more here / Paul ?)
+The dichotomy we mentioned in the introduction expresses itself by the parallel, indifferent existence of these two worlds (e.g. of GNU vs. proprietary OS). Sometimes, however, the collision is more dramatic.
 
-- The case of Aaron Swartz
-- The global south
+The most famous example of these frictions is perhaps the **Aaron Swartz case**. Swartz, an early supporter of open access and Creative Commons (in addition to creating Markdown, RSS, and co-founding Reddit), made **publicly available vast batches of academic publications** in an effort to circumvent the economic rationing of scientific knowledge. Faced with a possible $1 million law case, Swartz committed suicide in 2013 and subsequently became a martyr for the open-access movement.
 
+### 6.2. Intellectual property at the worldwide scale
+
+Intellectual property also plays a role in the North-South divide: in the "Global South" the momentum in intellectual property is weaker and this only increases the **knowledge inequality at the global scale**. This asymmetry is likely to become an issue in the near future, when the "Enclosures vs. Commons" will come to prominence again — this time with regards to digital fields.
 
 ---
 
-## 9. Governing with the commons
+## 7. Governing with the commons
 
-Finding commons is a process of governance. If large-scale projects do not find commons, they will be go to war.
+To conclude on a more positive note: Recently has stemmed the idea that **finding commons is a process of governance**.
 
-The goal is to organise collaboration around commons collectively recognised as precious.
+Ensuring commons (for example, in multi-partners projects, regardless of the scale — from individuals to countries) is now thought to be an essential basis for trustful, collaborative processes — and the lack thereof is often the seed of institutional wars.
 
-If the commons are indeed valuable, financial sustainability is reachable.
+A whole new domain of management has thus emerged with the goal to organise collaboration around commons, which are **collectively recognised as precious**. And to some extent, if the commons are indeed valuable, financial sustainability is reachable.
 
-A Database organizes data for a project
+This "commons governance" takes the form of **data commons**, which in the case of a discipline helps organising data — which in turns raises the questions of optimal standardisation (at the right moment, at the right scale).
 
-A data warehouse organizes data for an organization
+---
 
-Data commons organize data for a field or discipline.
+## 8. Conclusion
+### 8.1. Summary
 
+- There is a war between a logic of ever increasing domain of **protected intellectual property** and the collective development of **commons and the public domain**.
 
+- Intellectual property wars make **collaboration difficult**. The public domain is always under attack
 
-## 10. Conclusion
-### 10.1. Summary
+- New approaches based on **“Governing with the commons”** may be the way forward.
 
-- There is a war between a logic of ever increasing domain of protected intellectual property and the collective development of commons and the public domain.
-- Intellectual property wars make collaboration difficult. The public domain is always under attack
-- New approaches based on “Governing with the commons” may be the way forward
-
-### 10.2. In the next chapter
+### 8.2. In the next chapter
 
 - We will illustrate the “Data commons” approach with the example of the Time Machine project.  
 
-
+---
 
 ## Further Reading
 

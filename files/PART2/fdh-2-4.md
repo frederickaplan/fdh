@@ -22,14 +22,14 @@ output: pdf_document
 2) For texts, a consensus hasn't been reached yet.
 
 #### Contents
-1. Encoding Characters
-> 1.1. Early encoding of characters // 1.2. ASCII // 1.3. Unicode //
-2. Encoding Texts
-> 2.1. Non-hierarchical representations // 2.2. Hierarchical representations : XML // 2.3. Hierarchical represntation in DH. Focus: Text Encoding Initiative // 2.4. Beyond XML: Texts as Graphs and Born Digital Texts //
-3. Automatic transcription
-> 3.1. OCR and HTR // 3.2. Handling Spelling Variations //
-4. Conclusion
-> 4.1. Summary // 4.2. In the next chapter //
+>1. Encoding Characters
+>> 1.1. Early encoding of characters // 1.2. ASCII // 1.3. Unicode //
+>2. Encoding Texts
+>> 2.1. Non-hierarchical representations // 2.2. Hierarchical representations : XML // 2.3. Hierarchical represntation in DH. Focus: Text Encoding Initiative // 2.4. Beyond XML: Texts as Graphs and Born Digital Texts //
+>3. Automatic transcription
+>> 3.1. OCR and HTR // 3.2. Handling Spelling Variations //
+>4. Conclusion
+>> 4.1. Summary // 4.2. In the next chapter //
 ----
 ## 1. Encoding Characters
 
@@ -104,7 +104,7 @@ Elements that are indexed can also varied : character, words, sequences of words
 
 Michael Witmore conceptualises the text as a "Massively addressable object". The book as a physical instance in one of the many levels of address, but this is not the only one.
 
-The next chapter will look into details on how such indexes can be used to process texts. 
+The next chapter will look into details on how such indexes can be used to process texts.
 
 ### 2.2. Hierarchical representations : XML
 
@@ -328,5 +328,5 @@ We will see how to process large collection of texts.
 - TEI (tbd)
 - LeCun, Y.,Cortes, C., andBurges,	C.J. (1998).	“The	MNIST database	of	handwritten	digits”.
 - *DeRose, Steven J.; Durand, David G.; Mylonas, Elli; Renear, Allen H.: What is text, really? J. Computing in Higher Education, 1(2):3–26, 1990.*
-- Catherine Marshall, Reading and Writing the Electronic Book, Morgan and Claypool 
-- Michael Witmore, Text : A Massively Addressable Object in Gold, Debates about Digital Humanities 
+- Catherine Marshall, Reading and Writing the Electronic Book, Morgan and Claypool
+- Michael Witmore, Text : A Massively Addressable Object in Gold, Debates about Digital Humanities

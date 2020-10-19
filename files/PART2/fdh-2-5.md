@@ -19,9 +19,9 @@ output: pdf_document
 
 1) Digital Humanities is the only field to deal with large collection of digital texts originating form collective discourses, massive digitisation and/or collective transcription projects
 
-2) These large textual objects can be processed to extract hidden regularities and structures. 
+2) These large textual objects can be processed to extract hidden regularities and structures.
 
-3) Some of these patterns and signatures are diachronic others are synchronic 
+3) Some of these patterns and signatures are diachronic others are synchronic
 
 4) The geometry of complex meaning spaces can be reconstructed even if we stay only at the surface of textual data.  
 
@@ -29,15 +29,15 @@ output: pdf_document
 
 ### Humanities Computing, Computational Linguistics and Digital Humanities
 
-Humanities Computing and Computational Linguistics were, and to some extent, still are different fields - with separate conference, societies, journals. 
+Humanities Computing and Computational Linguistics were, and to some extent, still are different fields - with separate conference, societies, journals.
 
-This can be traced back to to the origins of the two domains. Digital Humanities felt with philology and literature whereas Computationsal Linguistics was anchored in formal linguistics and computer science (we have see previously that both are hight linked, in particular though the work of Chomsky). 
+This can be traced back to to the origins of the two domains. Digital Humanities felt with philology and literature whereas Computationsal Linguistics was anchored in formal linguistics and computer science (we have see previously that both are hight linked, in particular though the work of Chomsky).
 
-Progress in more formal foundation of the Digital Humanities permits to go beyond this field distinction. 
+Progress in more formal foundation of the Digital Humanities permits to go beyond this field distinction.
 
 Digital Humanities deals with large digital cultural objects and therefore with Large collections of Digital texts.
 
-No other disciplines deal with these objects. 
+No other disciplines deal with these objects.
 
 Humanities Computing, Computational Linguistics and Digital Humanities
 
@@ -65,39 +65,39 @@ The sequence a1a2a3a4 every 32^4 108 characters, once or twice in a 400 page boo
 
 A 6 characters chain would appear every 32^2.10^6 so roughly 10^9 characters, once in a lifetime. A 9 characters once in the entire Library of Congress
 
-Obviously, texts are not random sequences. They possess strong regularity. 
+Obviously, texts are not random sequences. They possess strong regularity.
 
-The study of this regularity is the subject of Linguistics. Linguistics try to describe texts in a more compact way by showing they possess regularity. 
+The study of this regularity is the subject of Linguistics. Linguistics try to describe texts in a more compact way by showing they possess regularity.
 
 Syntactic trees and grammatical transformations are in fact compression algorithms.
 
-But some far, Linguistics could never see its object at its full scale. Language structures were only captured from extremely partial information compared to information potentially available. 
+But some far, Linguistics could never see its object at its full scale. Language structures were only captured from extremely partial information compared to information potentially available.
 
 ### Digital databases of historical texts
 
-These large collections of digital texts originated from different sources 
+These large collections of digital texts originated from different sources
 
 1) Large collective discourses (Twitter, Wikipedia)
 
-2) Collection of historical texts either from digitisation projects or collective transcription and editing project. 
+2) Collection of historical texts either from digitisation projects or collective transcription and editing project.
 
-Text processing pipeline 
+Text processing pipeline
 
 \> Physical document with a text written in a given script
 
-\> Image of the Physical document 
+\> Image of the Physical document
 
-\> Extraction of the text based on reverse engineering of the writing system 
+\> Extraction of the text based on reverse engineering of the writing system
 
 \> Aggregation in the collection of digital texts
 
 \> Possible transformation of the texts in other digital objects
 
-Several projects exist. 
+Several projects exist.
 
 Some are based on collective editing.
 
-Other of highly automated transcription pipelines. 
+Other of highly automated transcription pipelines.
 
 These large collection of historical texts are challenging because they contain texts originating from different places and times, redocumented and recontextualized several times.
 
@@ -107,7 +107,7 @@ Founded in 1971 by Michael Hart with the aim of creating electronic books 60 000
 
 Project Gutenberg is intentionally decentralized. There is no selection policy dictating what texts to add. Instead, individual volunteers work on what they are interested in, or have available.
 
-Proof-reading is done with volunteers. 
+Proof-reading is done with volunteers.
 
 Michael Hart: “The goal of the project is "to provide as many e-books in as many formats as possible for the entire world to read in as many languages as possible”
 
@@ -121,13 +121,13 @@ Started in 2003 (first called Sourceberg)
 
 Exist in 70 languages (with a subdomain like [fr.wikisource.org](http://fr.wikisource.org))
 
-Edition tools facilities 
+Edition tools facilities
 
 #### Google Books
 
-We saw the story of Google Books in past course. 
+We saw the story of Google Books in past course.
 
-The project use an automated scanning and OCR workflow, which is necessarily producing errors. 
+The project use an automated scanning and OCR workflow, which is necessarily producing errors.
 
 #### Impresso
 
@@ -155,33 +155,33 @@ The project use an automated scanning and OCR workflow, which is necessarily pro
 
 #### Project-based corpora
 
-In his book *Enumerations*, Andrew Piper studies a corpus composed of : 
+In his book *Enumerations*, Andrew Piper studies a corpus composed of :
 
 230000 poems
 
 15000 novels
 
-12000 work of non fiction 
+12000 work of non fiction
 
-This represents 1.4 billion words or 650 000 fictional characters. 
+This represents 1.4 billion words or 650 000 fictional characters.
 
 ## Diachronic evolutions
 
 ### Representativity of corpora
 
-Homogeneity vs Size : Large textual corpus (e.g. Google Books) are heterogenous but their size makes them potentially more representative that others. 
+Homogeneity vs Size : Large textual corpus (e.g. Google Books) are heterogenous but their size makes them potentially more representative that others.
 
-For a given year, 
+For a given year,
 
 O : Set of all words said in French in the world
 
 E : Set of all the words written in French in the world
 
-P: Set of all the words written in the Press in the world 
+P: Set of all the words written in the Press in the world
 
 JDG : Set all the words used in the Journal de Geneve
 
-GDL : Set of the words used in the Gazette de Lausanne 
+GDL : Set of the words used in the Gazette de Lausanne
 
 ### n-grams
 
@@ -191,7 +191,7 @@ A n-gram is traditionally define as a sequence of n consecutive words.
 
 N-grams can be counted using indexes.
 
-For each years, one count how many times a given n-grams is appearing. 
+For each years, one count how many times a given n-grams is appearing.
 
 Google N-gram Viewer. Based on «google books» in several languages
 
@@ -205,7 +205,7 @@ Only the “Shadow of the texts” is indexed
 
 N small are common to many contexts
 
-N large rapidly unique 
+N large rapidly unique
 
 Some general "laws"
 
@@ -216,19 +216,19 @@ Chronographs
 
 Multi-scale diachronic analysis
 
-Flat linguistics : Multi-scale n-gram analysis analyses lexicon dynamics, evolution of syntax but also pragmatics. These levels which are usually separated are flatten. It is an invitation to think beyond the sentence, beyond the syntax. 
+Flat linguistics : Multi-scale n-gram analysis analyses lexicon dynamics, evolution of syntax but also pragmatics. These levels which are usually separated are flatten. It is an invitation to think beyond the sentence, beyond the syntax.
 
 ### Text reuse
 
-Studying the presence of large portion of text (n-grams with n large) leads to the domain of Text Reuse. 
+Studying the presence of large portion of text (n-grams with n large) leads to the domain of Text Reuse.
 
-Many authors borrow, with little or no transformation long part of texts from other sources. 
+Many authors borrow, with little or no transformation long part of texts from other sources.
 
-Thus, text reuse algorithm permits to establish filiation and genealogies between texts. 
+Thus, text reuse algorithm permits to establish filiation and genealogies between texts.
 
-The most interesting part of Text Reuse concern meaningful reiteration of text, beyond the simple repetition of common language. 
+The most interesting part of Text Reuse concern meaningful reiteration of text, beyond the simple repetition of common language.
 
-In the academic context, text reuse can be associated with plagiarism. 
+In the academic context, text reuse can be associated with plagiarism.
 
 In the context of literary studies text re-use is synonyms for literary phenomena like allusions, paraphrases and direct quotations.
 
@@ -244,7 +244,7 @@ A regular expression (regex) is a sequence of characters that define a search pa
 
 Each character in a regular expression (that is, each character in the string describing its pattern) is either
 
- \- a metacharacter, 
+ \- a metacharacter,
 
 \- a regular character that has a literal meaning
 
@@ -258,9 +258,9 @@ Regular expressions originated in 1951, when mathematician Stephen Cole Kleene d
 
 Complicated regexes arose in Perl in the 1980s, which originally derived from a regex library written by Henry Spencer (1986), who later wrote an implementation of Advanced Regular Expressions for Tcl.
 
-Today, regexes are widely supported in programming languages, text processing programs 
+Today, regexes are widely supported in programming languages, text processing programs
 
-**Regular expressions** can be used to define complex criteria for the **n**-**grams,** thus extending in a very powerful manner the kind of analysis that can be performed. 
+**Regular expressions** can be used to define complex criteria for the **n**-**grams,** thus extending in a very powerful manner the kind of analysis that can be performed.
 
 ## Distributional approaches
 
@@ -288,7 +288,7 @@ TF-IDF scores the words based on how special they are to a particular document w
 
 Similar Words have similar rows
 
-Many matrices are possible 
+Many matrices are possible
 
 Chris Potts, Distributional approaches to word meanings, 2013
 
@@ -348,7 +348,7 @@ them. Essentially we want to estimate the posterior of the hidden variables give
 
 observed variables.
 
-Some references : 
+Some references :
 
 http://mimno.infosci.cornell.edu/topics.html
 
@@ -370,9 +370,9 @@ Voyant tools: http://voyant-tools.org/
 
 ### Vector Space Models
 
-One-hot representation model : 
+One-hot representation model :
 
-\- Words are regarded as atomic symbols 
+\- Words are regarded as atomic symbols
 
 \- … coded using vector with one 1 and lot of zero
 
@@ -382,7 +382,7 @@ One-hot representation model :
 
 Results of Word spaces directly depends on the size of the corpus chosen (all the novel of the 20th century, all the novels and non-fiction works for the 17 to 20th century …)
 
-Context is perspectival. It can change. 
+Context is perspectival. It can change.
 
 Size of Word spaces
 
@@ -410,31 +410,31 @@ Embeddings can be obtained with Word Prediction Tasks (Word2Vec)
 
 The model to automatically organize concepts and learn implicitly the relationships between them
 
-Beyond Word Embeddings : 
+Beyond Word Embeddings :
 
-Of course you can extend the concept of Word Embeddings to n-gram embeddings, regular expression embeddings, word distribution (topic) embeddings .. 
+Of course you can extend the concept of Word Embeddings to n-gram embeddings, regular expression embeddings, word distribution (topic) embeddings ..
 
-Word embeddings shows that there is a geometry of Word spaces, this can be used to align word embeddings in time and space. 
+Word embeddings shows that there is a geometry of Word spaces, this can be used to align word embeddings in time and space.
 
 ### Diachronic Word embeddings
 
 As we have seen, all documents are anchored on a moving ground : Language.
 
-It is possible to calculate word embeddings for period of times and realign them 
+It is possible to calculate word embeddings for period of times and realign them
 
 ### Multi-linguistic spaces
 
 (Tbd)
 
-## Summary 
+## Summary
 
-Algorithms permit to extract patterns, trends and latent spaces out of large collections of text. 
+Algorithms permit to extract patterns, trends and latent spaces out of large collections of text.
 
 In the future, massive processing of large corpora may enable to model multiscale linguistic evolution in a spacetime continuum. The resulting linguistic simulator should permit to translate any “sentence” in space and time.
 
 ## In the next chapter
 
-We will look at text understanding … trying to going beyond the surfacing features. 
+We will look at text understanding … trying to going beyond the surfacing features.
 
 ## Practice
 
@@ -452,11 +452,4 @@ Solr : Search engine and index
 
 - Baayen, Analyzing Linguistic Data
 
-- Ingersoll, Morton, Farris, Taming Text : How to find, organize and manipulate it. 
-
-  
-
-
-
-
-
+- Ingersoll, Morton, Farris, Taming Text : How to find, organize and manipulate it.
