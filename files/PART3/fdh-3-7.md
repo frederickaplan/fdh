@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities 3.5'
-subtitle: 'Procedural Methods'
+title: 'Foundations in Digital Humanities 3.7'
+subtitle: 'Generative Methods'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# Procedural Methods
+# Generative Methods
 
 (Simulation / Wouldbe world)
 
@@ -21,11 +21,31 @@ output: pdf_document
 
 
 
+### Image generation
 
+Deep fake
 
-## Practice
+and deep fake detection
+
+GPT-2 for images 
+
+Meme creation by machines 
+
+## Produral
 
 Houdini
+
+
+
+## Creative AI
+
+Creation of music, paintings, etc. 
+
+## Fake media
+
+Fake media is the result of an image/video modification that changes content and metadata regardless good or bad intentions. 
+
+Deepfakes, Audiofakes, Textfakes
 
 ## Question and Answers 
 
