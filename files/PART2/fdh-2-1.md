@@ -15,7 +15,7 @@ output: pdf_document
 
 # Digitisation Processes
 
-## Theses
+#### Theses
 
 1) Document digitisation is a problem of conversion of dimensions
 
@@ -23,11 +23,248 @@ output: pdf_document
 
 3) Optimization causes risks of alientation
 
-4) Digitisation does not equate with an easier accessibility 
+4) Digitisation does not equate with an easier accessibility
 
-5) As digitisation unlocks ivory towers, it faces many resistances 
+5) As digitisation unlocks ivory towers, it faces many resistances
 
-## How to plan a digitisation project
+#### Contents
+
+---
+
+_We'll start with a story, one to be known, a story of challenges, resistence, but ultimately success: the story of Google Books._
+
+
+## 1. The Story of Google Books
+
+### 1.1. Figures
+
+In October 2019, Google Books announced they had digitised **40 millions books**. This is far beyond other comparable initiatives: the Hathi Trust estimates to 17 million the number of books they digitised, while Gallica (the Bibliothèque Nationale de France's effort) remains around 0.7 million.
+
+No matter how impressive Google's figure is, it remains little compared to the **271 million book files** listed in the OCLC / WordCat catalog, which aggregates data from the 1.8 billion books stored in 72,000 public and private libraries around the globe. In addition to that, almost 1 million new books are published each year.
+
+To put these numbers in perspective, after having digitised its first million books, the Michigan Library announced that they were equivalent to :
+
+- 25.8 km
+- 680 tons
+- 361 million pages
+- 70 billion words
+- 42 Terabytes
+- 428 Languages
+
+If we project those figures to Google's 40 million books, we get a glimpse of the **importance of logisitics** in any massive-scale digitisation process:
+
+- 1,032 km
+- 27,200 tons
+- 14.4 billion pages
+- 2.8 trillion words
+- 1,680 Terabytes
+
+Among these 40 million books, only a **subpart is online for copyright reasons**. Alain Jacquesson estimates that only 20% of the entire set is out of copyright as of today. Indeed, contrary to Gallica and other public book repositories, the largest part of the Google Books base is composed of commercially exploitable books. This will play a key role in the Google Books story.
+
+### 1.2. Chronology
+
+#### (1996-1997) Google and Books are intrinsically linked
+
+Google Books is in Google's DNA. The beginnings of the company are tightly linked with the Stanford Digital Library Technologies Project. The initial goal was to build **"crawlers" to analyze book contents**.
+
+Larry Page and Sergey Brin’s idea was to quantify the value of a book: this value was **based on how cited was the book, and, recursively, how cited were the citing books**. The relevance of a book was to be computed based on the quantity and the quality of the citations of this book in other books. The first algorithm to do this is called “BackRub”. It will be the basis of **PageRank**, the algorithm that made Google successful.
+
+Four years after the creation of Google, a small team (including Marissa Mayer, future Google VP and then Yahoo CEO) started thinking again about a book-related project.
+
+#### (2002-2003) Birth of a project: The Google Five
+
+The first question raised was: how long would the digitisation of most of the world's books take? To answer this, Page and Mayer did simple page-turning experiments (with a metronome). The result was that 300 pages required 40 minutes.
+
+Using this primitive benchmark, they started to tour the the most important digital libraries projects: Library of Congress, Gutenberg Project, Million Book project, etc.
+
+Page approached the 5 most important libraries of the US, starting with the **University of Michigan Library**, where he had studied for his bachelor: a system of 19 libraries, containing 9.2 million volumes (in 2008), and acquiring about 180,000 new volumes per year.
+
+While the library of Michigan estimated that it would take 1,000 years to digitise 7 million volumes, Page boldly announced that he could do this in only 6 years.
+
+Larry Page then went to Stanford where he meets Terry Winograd, Paul Allen (co-founder of Microsoft), and Michael Keller (director of the Stanford Library). When Keller came to the GooglePlex in September 2003, Page offered to digitise the 9 million books contained in the **Stanford library** and to put them online.
+
+By that time, Page was ready to approach the largest academic library in the world: the **Harvard University Library network**. Founded in 1638, it comprises 90 libraries; the main one, the Widener Library, counts alone 16 million volumes.
+
+Sidney Verba, Harvard Libraries' president is sceptical about the technical aspects of the project, but is quickly impressed by Page's scanning machines at Mountain View. (Although, as a side note, Google will eventually not use automatic scanning machines.)
+
+Despite the replacing of Verba in 2007 by the less-enthusiastic Robert Darnton, Harvard still moves forwards in Google's project.
+
+Across the pond, Page finds in the **Univesity of Oxford's Bodleian Library** (founded in 1602 and having about 12 million books) a major European ally.
+
+The last of the five initial partners was the **New York Public Library**, which holds 16 million documents. Its director, Paul Leclerc was then mostly interested in public domain and not too fragile books.
+
+#### (2004) Project Ocean
+
+Once these five initial "giant" paterns had been secured, Google started working on the technical aspects of the projects, under the direction of Susan Wojcicki. Little press is made of "Project Ocean" as it's known then.
+
+However, a major turning point is approaching: Google rented a stand at the **Buchmess** in Frankfurt, where Page and Brin present the Google Prints for Editors project. They also mention the existence of a much larger project, called **Google Print**, but do not give details.
+
+Nobody takes them seriously. The Frankfurter Allgemeine even ironically titles: _“The founders of Google have found an interest for books”_.
+
+However, on the 14th of December 2004 happened the “earthquake” announcement of Google Print: a collaboration with 5 major libraries ("The Google 5"), owning together about 50 million books. The announcement of the digitisation of several million  (between 6 to 15) books in less then 10 years and of a collaborative program for publishers was met with **worldwide reactions** (both positive and negative).
+
+In [_Anatomy of Aggregate Collections: The examples of Google Print for Librairies_](http://www.dlib.org/dlib/september05/lavoie/09lavoie.html), Brian Lavoie et al. tried to gauge (using complete WorldCat data) the redundancy of the available collections. They found not only that the older the book, the less likely it was to be stored in different collections, but more surprisingly that **very few common books were held in all 5 libraries**:
+- 61% of books were in only 1 library;
+- 20% of books common to 2 libraries;
+- 10% of books common to 3;
+- 6% of books common to 4;
+- and only 3% of the books common to all 5 collections.
+
+It thus appears that this was a **very wise initial choice of libraries**, which potentially saved a lot of money (as redundant digitisation is minimised). In addition to this, the linguistic diversity (430 languages, and only 50% of the documents in English) proved also advantageous.
+
+Initially, **only 20 % of documents were in open-access**, but of course, as years pass, more and more works enter in the public domain. In the meantime, Google has a “war treasure”: once the copyright deadline for these 80% is reached and as digitisation progresses, Google Books is bound to become the world's largest public library.
+
+This has put a lot of pressure on other actors, and has encouraged concurrent efforts (for example, the **Europeana project** started in 2008 by the European Union, although it has now diverged a bit from the digitisation of books and now acts as a cultural content aggregator).
+
+#### (2005-2008) Extensions and issues
+
+Progressively, Google Books added new features (Google Search, Places in books, Popular passages, etc.)  and started to expand towards Europe, with the addition of the:
+- **University of California** system (34 million books)
+- **University of Madrid** (First Spanish-speaking university)
+- **University of Wisconsin-Madison** (7.2 million books)
+- **University of Virginia** (5+ million books, 17 millions manuscripts)
+- **University of Lausanne** (100 000 books from 17 to 19e century, First French-speaking library)
+- A negotiating process with the **Bibliothèque Nationale de France** was also initiated.
+- the **Bibliothèque de Lyon** was also signed onboard, with the caveat that French law requires the Google contract to be disclosed.
+
+#### (2005-2015) Trials and class actions
+
+Various entities (individuals and organisations) began to conglomerate in 2005 with the idea of attacking Google on copyright issues (the so-called _Authors Guild, Inc. v. Google, Inc._ class action).
+
+As a first results, in 2009, the Google Book Settlement (GBS) structured the status of the books still in commercial books. The GBS allowed to continue the program by **paying for the works previously scanned and allowing authors and publishers to opt-out**.
+
+This settlement is refused; and a new version, written in 2011 is also refused.
+
+At the heart of the debate lied the question of **Opting-in** (asking each publisher for approval before digitising) **vs. Opting-out** (allowing all publishers to remove their content after the digitisation is complete). **Orphan works** (ie. works for which the copyright owner is unknown or unreachable), and the "grey zone" in which they lied and through which Google could exploit them, were also deemed problematic.
+
+Nonetheless, in 2013, the District Court stated that the Google Books project met all legal requirements for **fair use** and declared:
+
+_“Google’s unauthorized digitizing of copyright-protected works, creation of a search functionality, and display of snippets from those works are non-infringing fair uses. The purpose of the copying is highly transformative, the public display of text is limited, and the revelations do not provide a significant market substitute for the protected aspects of the originals. Google’s commercial nature and profit motivation do not justify denial of fair use._
+
+_Google’s provision of digitized copies to the libraries that supplied the books, on the understanding that the libraries will use the copies in a manner consistent with the copyright law, also does not constitute infringement.”_
+
+This court decision paved the way for the growth in the number of books digitisation projects around the world.
+
+---
+## 2. Concepts
+
+### 2.1. From documents to digitised images
+
+Straightforwardly, the document digitisation process transforms material documents into digital images. It is, however, a **complex process which combines human and machine intervention**.
+
+For us to understand this complex transformation well, we should ask ourselves two fundamental questions:
+- **What is a document ?**
+- **What is a digital image ?**
+
+#### 2.1.1. What is a document?
+
+A document is a **record resulting from an inscription process** (whether through text, image, or sound). A document is therefore unthinkable without the act of documenting, which consists in some **material inscription** that lasts through some time.
+
+To produce a document is to **produce an object different** to the documented object.
+
+Documents have a performative dimension: they act in the world. It is therefore important not only to study their form, but also understand their function.
+
+#### 2.1.2. What is a digital image?
+
+Digitisation is often the **documentation of a document** (when, for example, an analog photography is recaptured digitally). The produced digital image is the result of a complex algorithm and a particular hardware.
+
+This makes a digital image often more difficult to interpret, if the information about the used software and hardware is not provided.
+
+Regarding hardware, many typologies of cameras exist today. Examples include: cameras with colour filters for visible light, or multispectral cameras which can be adapted to specific digitisation missions (Ultraviolet for surface imaging, or Infrared for subsurface imaging, for example).
+
+### 2.2. The problem of dimensional conversion
+
+Digitisation pipelines can be thought conceptually as a dimension conversion problem.
+
+For example, the transcription of a book can summarised as going:
+- **[3D]** from a book, on a shelf, in a building;
+- **[2D]** by choosing a page, and digitising its images and texts;
+- **[1D]** to a series of extracted words and patterns.
+
+Through a digital interface, the physical hierarchy of archives is *de facto* **rearticulated** in a way or another on the screen. This a problem to be tackled during the digitisation project.
+
+When poorly thought, the conversion of dimension attached to digitisation **can actually worsen the information accessibility**. A physical document can always be found when looked for long enough; on the other, if the search engine is deficient, some documents can be fully unaccessible. (Europeana Iceberg ?)
+
+### 2.3. The logistics of digitisation (and optimisation)
+
+(min 59)
+
+Logistics is the management of the flow of things.
+
+Like in any logistics operation, standardisation in digital process is the key.  
+
+Part of the problem is already solved as the physical archive has been thought as an optimised interface.
+
+Concept of the Library/Machine.
+
+In the library/machine, the circulation of the humans has been thought symmetrically to the circulation of objects.
+
+To trace object circulation, one must associate each physical object with a unique ID. It must become a document, ready to be manipulated through a standardised process.
+
+Two examplars of the same book must have two different ID. It most cases, the ID is the ID of one container (book, box)
+
+Through standardization, the digitisation process can be estimated using simple metrics: Pages or Kilometers.
+
+A digitization price / page or / km can be established.
+
+In many cases, it is impossible to know a priori the number of pages and therefore, the estimation in km is the only option.
+
+#### 2.3.1. Sampling methods
+
+Tbd
+
+#### 2.3.2. Alienation
+
+Alienation is one of the risk of the optimisation process.
+
+Operators become one part of a bigger machine.
+
+Working against alienation: Working in pairs.
+
+Manipulating relevant document.
+
+Having a chance to mine the archive.
+
+Example of the Replica Scanner.
+
+#### 2.3.3 On demand digitisation
+
+With on demand digitisation, one can ask for the digitisation of a specifically chosen document.
+
+The digitisation is requested and is done in a couple of days/weeks.
+
+Once the digitisation is done is it downloadable directly form the website.  
+
+In many system, digitisation assets are organised by Tier, from data very often used to data never checked.  
+
+One can consider Physical document as “not cached” content. Digitisation is putting a document at higher level tier.
+
+An undigitised document is a document for which a longer retrieving time should be expected.
+
+#### 2.3.4. Optimisation of the choice of sources
+
+Part of the success of the Google books projects is based on an optimal choice of sources.
+
+Most of digitisation project are done with a specific goal linked with a specific documentary funds.
+
+In larger scale projects, can we optimise the choice of the document to digitize ?
+
+What should be the criteria to optimise ?
+
+- Fragility.
+
+- Popularity
+
+- Information richness.
+
+The case of optimisation for information richness is a case of application the optimal experiment approach.
+
+Gain (and reinforcement) is evaluated in terms of knowledge gain or uncertainty reduction.
+
+An algorithm can optimise this criteria.
+
+---
+## 1. How to plan a digitisation project
 
 Can we digitise 80km of document in 10 years
 
@@ -43,434 +280,32 @@ Sampling method and quality control
 
 #### What scanners to use
 
-Various typologies of book scanners 
+Various typologies of book scanners
 
-- Sheet-fed scanners can be used if book can be cut to be open 
+- Sheet-fed scanners can be used if book can be cut to be open
 - Book scanners with manual page turning
 - Book scanners with automatic page turning
 
 Some project brings the scanners close the collections to be scanned (e.g. First phase of the Venice Time Machine project )
 
-In other cases, the collections are sent to more efficiant scanning houses (e.g. Google Books general strategy)
+In other cases, the collections are sent to more efficient scanning houses (e.g. Google Books general strategy).
 
-## The Story of Google Books
+---
 
-### Figures
+## 5. Conclusion
+### 5.1. Summary
 
-Google books have digitised 25 millions books (2019 figure)
+- Digitisation goes beyond a series of tricks and good practices. It is the **study of optimal actions** in the physical and digital worlds in terms of selection, documentation, acquisition in order to lead to a potential increase in knowledge.
 
-How does this compare to other initiatives
+- The progressive change of scale of the practices shows that is should be considered a true branch of information sciences.
 
-Gallica : 0.7 millions
+- Could/Should the machine help us optimise our patrimonial conservation and exploration strategies?
 
-Hathi Trust : 17 millions
+### 5.2. In the next Chapter
 
-There are 
+In the next chapter we will study how to represent the structure of a document.
 
-~ 32 millions books at the Library of Congress
-
-~ 271 millions book files in the OCLC / WordCat catalog
-
-(Corresponding to 1.8 billions books from 72 000 public and private libraries)
-
-There are 
-
-~ 32 millions books at the Library of Congress
-
-~ 271 millions book files in the OCLC / WordCat catalog
-
-(Corresponding to 1.8 billions books from 72 000 public and private libraries)
-
-\- Almost 1 million new books are published each year. 
-
-After having digitalized its first million books, the Michigan Library measured the following values.
-
-25.8 km
-
-680 tons
-
-361 Million pages
-
-70 000 Millions words
-
-42 Terabytes
-
-428 Languages
-
-For 25 million books 
-
-645 km
-
-17 000 tons
-
-9 025 Million pages
-
-1 750 000 Millions words
-
-1050Terabytes
-
-Among these 25 million books only a subpart is online for copyright reasons. It is estimated that out of copyright books represent only 20% of the entire set (Alain Jacquesson estimate). Contrary to Gallica and other public book repository, the largest part of Google Books base is composed of commercially exploitable books. This will play a key role in the Google Book story. 
-
-### Chronology
-
-#### 1996-1997 : Google and Books are intrinsically linked
-
-Google Books is in Google's DNA.
-The beginning of the company are tighly linked with the Stanford Digital Library Technologies Project.
-The goals was to build Crawlers to analyze book contents.
-Page and Brin’s Idea : The relevance of a book will be computed based on the quantity and the quality of the citations of this book in other books. The first algorithm to do this is called “BackRub”. It will be the basis of PageRank, the algorithm that made Google success. 
-
-4 years after Google was created, a small team think again about the project. Marissa Mayer (future Google Vice-president and then CEO of Yahoo) joins the team. 
-
-#### 2002-2003 : Birth of a project
-
-Page and Mayer do book turning experiments (with a metronome).
-
-Result : 40 minutes for 300 pages. 
-
-Then, they start a “tour” to visit the most important digital libraries projects. Library of Congress, Gutenberg Project, Million Book project, etc.
-
-Page approaches the 5 most important libraries of the US. He starts with Michigan, because he studies their when doing its bachelor.  
-
-Michigan is 
-
-\- A system of 19 libraries
-
-\- 9.2 million volumes (in 2008)
-
-\- 180 000 new volume / year
-
-\- participates in Jstor (digitalization of thousands of academic journals)
-
-Page meets Mary Sue Coleman
-
-The library of Michigan estimates that it will take 1000 years to digitalize 7 million volumes.
-
-Page announces he can do this in only 6 years. 
-
-Then Page goes to Stanford and meets Terry Winograd, Paul Allen, Microsoft co-founder, Michael Keller, director of the Stanford Library. When Keller comes to the GooglePlex in september 2003, Page offer to digitalize the 9 million books of the Stanford library and to put them online. Now, Page is ready to approach the Harvard University Library.
-
-Harvard was founded in 1638
-
-\- 90 Libraries
-
-\- Widener Library alone counts 16 million volumes.
-
-\- Harvard law school is 2 million volumes. 
-
-Page meets Sydney Verba.
-
-He is sceptic about the technical aspects of the project. Page invites him to see the scanning machines at Mountain View.
-
-He is impressed. 
-
-Side note : Eventually, Google will NOT use automatic scanning machines. 
-
-In 2007, Robert Darnton replaces Verba. He will be much less enthusiastic about the Google project.
-
-Then, Oxford and the Bodleian Library.
-
-Founded in 1602 ..
-
-Reg Carr is looking for funding to digitalize part of his collections.
-
-He meets Raymond Nasr, head of Google communication.
-
-In 2004, Google sign a deal to digitalise 1 million 19e century books in the public domain. 
-
-New York Public Library is a famous building of the 5e avenue
-
-\- 16 million documents
-
-\- Paul Leclerc is interested for public domain and not too fragile books.
-
-#### 2004 : Project Ocean
-
-Google is working on the technical aspects of the projects.
-
-Susan Wojcicki is piloting (future responsible of advertising, future YouTube director in 2014, sister of Anna Wojcicki, founder of 23andMe and former wife of Sergei Brin)
-
-A couple of small disclosure in the press. But no buzz.
-
-Some people thinks the project (Ocean) is linked with Google earth. 
-
-Google rent a stand at the Buchmess in Frankfurt. Page and Brin presents the project Google Prints for Editors. 
-
-They mentioned the existence of a much larger project, called Google Print, but do not give details.
-
-Nobody takes them seriously.
-
-The Frankfurter Allgemeine ironically titles :
-
-“The founders of Google have found an interest for books”
-
-14 Decembre 2004: The “earthquake” announcement of Google Print.
-
-A collaboration with 5 major libraries (The Google 5) owning together about 50 million books.
-
-The digitalization of several millions (with some imprecisions 6 to 15) books in less then 10 years. 
-
-A collaborative program for publishers.
-
-Worldwide reactions : positives and negatives.
-
-An interesting early stage study : 
-
-“Anatomy of Aggregate Collections: The examples of Google Print for Librairies” Brian Lavoie, Lynn Silipigni Connaway, Lorcan Dempsey
-
-http://www.dlib.org/dlib/september05/lavoie/09lavoie.html
-
-Brian Lavoie joined OCLC Research in 1996. Brian's academic background is in economics. At the time of writing the books have not been digitized but the data comes from Worldcat and are therefore complete. 
-
-here are very few common books in the 5 libraries. 
-
-61% of books in only 1 lib.
-
-20% of books common to 2 libs.
-
-10% of books common to 3 libs. 
-
-6% of books common to 4 libs. 
-
-3% of books common to 5 libs.
-
-The older the book, the less redundancy. 
-
-This is a very wise initial choice of libraries ! Choosing the right sequence of library digitalization saves a lot of money. 
-
-430 languages.
-
-Half of the documents in English. 
-
-Only 20 % of documents are in the public domain.
-
-But as years are passing, more books enter in the public domain. 
-
-In the meantime, Google has a “war treasure”.
-
-#### 2005-2008 Extensions and issues
-
-Extension to Europe.
-
-Starts of the trial.
-
-University of California System (34 million)
-
-University of Madrid (First Spanish Speaking University)
-
-University of Wisconsin-Madison (7.2 million books)
-
-University of Virginia (5+ million books, 17 millions manuscripts)
-
-Université of Lausanne (100 000 books from 17 to 19e century, First french speaking library to join the project)
-
-Negociation with Bibliothèque nationale de France starts.
-
-New functionnalities :
-
- \- Places in books
-
-\- My Library
-
-\- Popular passages
-
-Google makes a contract with Bibliothèque of Lyon. Based on the French law, the Google contract is disclosed. 
-
-Europe creates Europeana, in reaction to Google Print (project preparation starts in 2005)
-
-### The trials (2005-2015)
-
-Class action by the Author’s guild
-
-\- 2009 : the Google Book Settlement structures the status of the books still in commercial books. The GBS allowed to continue the program by paying for the works previously scanned and allowing authors and publishers to opt-out. 
-
-\- The settlement is refused. In 2011 a new version is written. Also refused. 
-
-\- The debate between Opt-in vs Opt-out
-
-\- The problem of the The “grey zone” Oeuvres orphelines
-
-\- 2013 : the District Court granted affirms the Google Books project met all legal requirements for **fair use**. 
-
-“Google’s unauthorized digitizing of copyright-protected works, creation of a search functionality, and display of snippets from those works are non-infringing fair uses. The purpose of the copying is highly transformative, the public display of text is limited, and the revelations do not provide a significant market substitute for the protected aspects of the originals. Google’s commercial nature and profit motivation do not justify denial of fair use.
-
-Google’s provision of digitized copies to the libraries that supplied the books, on the understanding that the libraries will use the copies in a manner consistent with the copyright law, also does not constitute infringement.”
-
-## Concepts
-
-### Transforming documents into digitised images
-
-The Document Digitisation process transforms material documents into digital images.
-
-It is a complex process combining human and machine intervention. 
-
-It is also a complex transformation to understand well. We should ask two fundamental questions
-
-\- What is a document ?
-
-\- What is a digital image ?
-
-#### Documents
-
-What is a document ? What is \*not\* a document ?
-
-A Book 
-
-A Map
-
-A Photograph
-
-An Opera
-
-A Museum
-
-A Model
-
-A skeleton
-
-A Wedding
-
-A document is a record resulting of a inscription process (writing or image).
-
-There cannot be a document without a material inscription. 
-
-To produce a document is to produce an object different than the object documented. 
-
-Documents have a performative dimension, they act in the world. It is important do not study only their form, but understand their function. 
-
-#### Digital Images
-
-A digital image is the result of a complex algorithm and a particular hardware.
-
-Resolution: The resolution depends largely on the optics of the capturing system (diffraction, lens aberrations) and only partly on the megapixels.
-
-An digital image is difficult to interpret if the information about the software and hardware used are not provided. 
-
-Typologies of cameras
-
-\- Cameras with colour filters for visible light 
-
-\- Multispectral cameras 
-
-Material absorption / reflectance is mostly wavelength dependent. Imaging beyond the visible spectrum allow for surface imaging (ultra-violet) and subsurface imaging (near and middle/far infrared)  
-
-### Document digitisation as a problem of conversion of dimensions
-
-Building (3D)
-
-Room (3D)
-
-Shelve (3D)
-
-Book (3D)
-
-Chapters (3D)
-
-Page (2D)
-
-Images / Texts (2D)
-
-Patterns / Words (1D)
-
-#### Scanner types
-
-
-
-#### Interfaces
-
-Example of an 2D interface to represent 3D content. Through digital interface, the physical hierarchy of volumes is *de facto* rearticulated in a way or another on the screen. 
-
-Digitisation does not equate with an easier accessibility. (Europeana Iceberg ?)
-
-### Digitisation is logistic optimization
-
-Logistics is the management of the flow of things. 
-
-Like in any logistics operation, standardisation in digital process is the key.  
-
-Part of the problem is already solved as the physical archive has been thought as an optimised interface. 
-
-Concept of the Library/Machine.
-
-In the library/machine, the circulation of the humans has been thought symmetrically to the circulation of objects. 
-
-To trace object circulation, one must associate each physical object with a unique ID. It must become a document, ready to be manipulated through a standardised process.
-
-Two examplars of the same book must have two different ID. It most cases, the ID is the ID of one container (book, box)
-
-Through standardization, the digitisation process can be estimated using simple metrics: Pages or Kilometers. 
-
-A digitization price / page or / km can be established.
-
-In many cases, it is impossible to know a priori the number of pages and therefore, the estimation in km is the only option. 
-
-### Sampling methods
-
-Tbd
-
-### Alienation
-
-Alienation is one of the risk of the optimisation process. 
-
-Operators become one part of a bigger machine. 
-
-Working against alienation: Working in pairs.
-
-Manipulating relevant document. 
-
-Having a chance to mine the archive. 
-
-Example of the Replica Scanner. 
-
-### On demand digitisation
-
-With on demand digitisation, one can ask for the digitisation of a specifically chosen document. 
-
-The digitisation is requested and is done in a couple of days/weeks. 
-
-Once the digitisation is done is it downloadable directly form the website.  
-
-In many system, digitisation assets are organised by Tier, from data very often used to data never checked.  
-
-One can consider Physical document as “not cached” content. Digitisation is putting a document at higher level tier. 
-
-An undigitised document is a document for which a longer retrieving time should be expected. 
-
-### Optimisation of the choice of sources
-
-Part of the success of the Google books projects is based on an optimal choice of sources. 
-
-Most of digitisation project are done with a specific goal linked with a specific documentary funds.
-
-In larger scale projects, can we optimise the choice of the document to digitize ?
-
-What should be the criteria to optimise ?
-
-- Fragility.
-
-- Popularity
-
-- Information richness.
-
-The case of optimisation for information richness is a case of application the optimal experiment approach. 
-
-Gain (and reinforcement) is evaluated in terms of knowledge gain or uncertainty reduction. 
-
-An algorithm can optimise this criteria. 
-
-## Summary
-
-Digitisation is not a series of tricks and good practices.
-
-Its subject is the study of optimal actions in the physical and digital worlds in terms of selection, documentation, acquisition in order to lead to a potential increase in knowldege. 
-
-The progressive change of scale of the practices shows that is should be considered a true branch of information sciences. 
-
-Could/Should the machine help us optimise our patrimonial conservation and exploration strategies?
-
-### In the next Chapter
-
-In the next chapter we will study how to represent the structure of a document 
+---
 
 ## Further reading
 
@@ -478,7 +313,7 @@ In the next chapter we will study how to represent the structure of a document
 
 Une étoile est-elle un document? Un galet roulé par un torrent est-il un document? Un animal vivant est-il un document? Non. Mais sont des documents les photographies et les catalogues d’étoiles, les pierres d’un musée de minéralogie, les animaux catalogués et exposés dans un Zoo.
 
-- Alain Jacquesson, Google LIvres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
+- Alain Jacquesson, Google Livres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
 
 - Jean-Noel Jeannerey, Quand Google défie l'Europe: Plaidoyer pour un sursaut, Mille et une nuits, 2007
 

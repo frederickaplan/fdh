@@ -65,6 +65,10 @@ The ability to close this loop guarantees the sustainability of a digitisation p
 ### Distant Reading
 As articulated by Franco Moretti in the early 2000s, a form of literary criticism which raises above the narrowness of a specific domain of interest ("close reading") by considering a wider corpus of texts and sources – thus, as if reading from a distance –, often by means of algorithmic approaches and computational formalisms.
 
+### Documenting
+
+A record resulting from a transformative inscription process (ie. documentation). A document is necessarily a different object to the one documented.
+
 ### Dominions
 - Temporal dominion: predicting periodic rhythms and chronological patterns.
 - Natural dominion: understanding and classifying living beings.

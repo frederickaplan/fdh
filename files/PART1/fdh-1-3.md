@@ -194,7 +194,7 @@ These dynamics have been well described by Gilbert Simondon as **_concretization
 
 ### 5.5. Studying the transformation of regulated representations through time
 
-Given the unification tendency of regulated representations, their evolution can be likened to a converging tree system in which various branches progressively merged to create larger standardized sets of production and usage rules.
+Given the unification tendency of regulated representations, their evolution can be likened to a converging tree system in which various branches progressively merged to create larger standardised sets of production and usage rules.
 
 The great challenge at this stage is to come up with formalisms capable of modelling different families of regulated representations, and therefore to consider their evolution and transformation through time.
 
