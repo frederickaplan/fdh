@@ -33,7 +33,7 @@ output: pdf_document
 > 2. Concepts
 >> 2.1. From documents to digitised images // 2.2. The problem of dimensional conversion // 2.3. Digitisation as a logistics problem // 2.4. Optimisation prospects //
 > 3. Conclusion
->> 3.1. Summary // 3.2. In the next Chapter //
+>> 3.1. Summary // 3.2. In the next chapter //
 ---
 
 _We'll start with a story, one to be known, a story of challenges, resistence, but ultimately success: the story of Google Books._
@@ -255,7 +255,7 @@ What we want is to **maximise the learning** of the system, that is to maximise 
 
 - Could/Should the machine help us optimise our patrimonial conservation and exploration strategies?
 
-### 3.2. In the next Chapter
+### 3.2. In the next chapter
 
 In the next chapter we will study how to represent the structure of a document.
 

@@ -15,247 +15,223 @@ output: pdf_document
 
 # Document Structure
 
-## Theses
+#### Theses
 
 1) Describing the content of a document is a complex task
 
-2) New open standards developed in the last 10 years offer a scalable approach to describe almost any kind of digital document 
+2) New open standards developed in the last 10 years offer a scalable approach to describe almost any kind of digital document
 
 3) Using the regulated representation approach, generic description of document information structure can be create and use for annotation and parsing
 
 4) Using homologous pairs, underlying continuous fictional spaces can be modelled
 
-## General structure of the pipeline
+#### Contents
+> 1. General structure of the pipeline
+> 2. Content and structure of a document
+>> 2.1. Describing the structure // 2.2. Modelling the content // 2.3. Types of circulations inside a textual document //
+> 3. Standards
+>> 3.1. Open Annotation Model // 3.2. Shared Canvas // 3.3. International Image Interoperability Framework (IIIF) //
+> 4. Synchronic patterns and Diachronic homology
+>> 4.1. Synchronic: Information schema // 4.2. Diachronic: Homologous pairs //
+> 5. Conclusion
+>> 5.1. Summary // 5.2. In the next chapter //
+---
+## 1. General structure of the pipeline
 
-\> The World containing information-bearing objects and phenomena
+1. **The World**, containing information-bearing objects and phenomena (How is this information stored in the World?)
 
-(How is this information stored in the World)
+    2. **Physical document**, documenting this information (How is this information stored in the physical document?)
 
-\> Physical Document documenting this information 
+        3. **Digitised document**, documenting the physical document (How is this information stored in digital document?)
 
-(How is this information stored in the Physical document)
+            4. **Standard description of the structure** of the document describing the structure of the physical document in a digital formalism
 
-\> Digitised Document documenting the physical document 
+                5. **Extraction of the content** of the document
 
-(How is this information stored in Digital Document)
+                    6. **Identification of the content** and link with other documents
 
-\> Standard Description of the structure of the document describing the structure of the physical document in a digital formalism
+                        7. **Construction of World Models**
 
-\> Extraction of content of the document 
+---
+## 2. Content and structure of a document
 
-\> Identification of content and link with other documents
+Digitisation produces oceans of images. The next steps are now to:
+- analyse their **content**,
+- segment them in smaller units,
+- and link these units with one another.
 
-\> Construction of World Models
+Along any digitised object will come two challenges:
+1. How can we describe the **structure** of the document ?
+2. What is the **content** of the document ?
 
-## Content and Structure of a document
+### 2.1. Describing the structure
 
-Digitisation produces ocean of images. The next steps are now to analyse their **content** , segment them in smaller units and link these units with one another. 
+Some digitised documents are well structured at some level. For example, a book volume will (nicely) yield consecutive pages.
 
-Two challenges
+However, others have more complex structures, and can contain several objects: a box containing postcards, a book with folded maps inside, an herbarium with pages not in a fixed order, a book containing an inserted object — all of these objects raise the question of **whether its structure has an intrinsic value**.
 
-How can we describe the **structure** of a document ?
+This is why we need a standard way to describe all these varieties of ordered and unordered structures.
 
-what is the **content** of a document ?
+### 2.2. Modelling the content
 
-Some digitised documents are well structured at some level :
+Sometimes, the “content” of some object/pages is extremely complex to describe and articulate.
 
-\- a book volume made a consecutive pages
+In order to parse the content well, one need to understand precisely the way of **circulating inside the document**.
 
-Others have more complex structure
+Ideally we would like to find a way of unpacking the content of the object to **bring back to smallest possible dimensions**: dimension 0 (ID of a referent), dimension 1 (text), dimension (2) images, or (in the worst case) dimension 3 or 4.
 
-\- A box containing postcards
+We can then try to connect these basic components: first in a structured graph representing the document, and then by regrouping many of them into a coherent fictional space.
 
-\- An “herbier” with pages not in a fixed order
+The added value of describing content lies in the ability to reduce the complexity of the object to smaller description. It is a kind of compression. And indeed, a **compression is a fundamental form of understanding**: the higher the compression, the better the understanding.
 
-\- A book with folded map inside
+### 2.3. Types of circulations inside a textual document
 
-\- A book containing an inserted object 
+- **Dimension 1**: A text is like a unidirectional path. Reading a text is like walking a path. (Reading fast is like running).
 
-We need a standard way to describe all these variety of ordered and unordered structures. 
+- **Dimension 2**: Pages are like closed surfaces with indicated entrances and exits, and associated circulation rules (hyphen, page break, footnotes, content boxes, etc.)
 
-Sometimes, the “content” of some object/pages is extremely complex to describe and articulate. 
+- **Dimension 3**: A book is like a city, a 3D organization of closed spaces with complex circulation rules.
 
-In order to parse the content well, one need to understand precisely the way of circulating inside the document. 
+Sometimes the reader has no other choice than to move forward. But at branching events (footnotes, captions, ...), the reader is faced with a decision. He can leave the main road to explore complementary circuits.
 
-Ideally we would like to find a way of unpacking the content of the object to bring back to smallest possible dimensions : dimension 0 (id of a referent), dimension 1 (text) , dimension (2) images or (in the worst case) dimension 3 or 4.
+Annotation is a way to have content growing on top on existing content and complexify the structure even more.
 
-And connect these basic component first in a structured graph representing the document and then many in coherent fictional space. 
+But behind all "additional" content, grown on top of the original structure, lies the question of what to do with it: should it be digitised? If so, how? _Answering this question was the motivating factor in the introduction of standards._
 
-Describing the content is reducing the complexity of the object to smaller description. 
+---
+## 3. Standards
 
-It is a kind of compression.
+Standards for describing content of document have greatly improved in the last 10 years.
 
-A compression is a fundamental form of understanding. 
+Now, a set of standards build on top of one another permits to solve the problem at a planetary scale.
 
-## Circulations inside a document
+### 3.1. Open Annotation Model
 
-Dimension 1 : A text is like a unidirectional path.Reading a text is like walking the path. (Reading fast is like running).
+From a high-level perspective, the **Open Annotation Model** is similar to many other related proposals (Annotation Graphs, DADA, LAF/GrAF, PAULA), in that it considers annotations as **standalone content**:
 
-Dimension 2 : Pages are like closed surfaces with indicated entrances and exits and associated circulation rules.
+- Annotations are standoff, that is, **separate** from annotated things, which are identified through references.
 
-Dimension 3 : A book is like a city, a 3D organization of closed spaces with complex circulation rules.
+- Annotations form a **graph** where the annotations are nodes and can be referred to by other annotations.
 
-Sometimes the reader has no other choice than to move forward.
+- Annotations can **associate** data of arbitrary complexity with the thing being annotated.
 
-Branching : The reader can leave the main road to explore complementary circuits.
+Open Annotation Collaboration and Annotation Ontology Initiative jointly founded the W3C Open Annotation Community Group to develop a common RDF-based specification for annotating digital resources.
 
-Sometimes, the reader can switch sideways.
+The Open Annotation Core Data Model specifies an interoperable framework for creating associations between related resources, called annotations, using a methodology that conforms to the Architecture of the World Wide Web.
 
-Or get lost in a labyrinth. 
+An annotation is considered to be a **set of connected resources**, typically including **a body and target**, where the body is related to the target. In this basic data model, the elements of the documentation are:
+- **Annotation**: a conceptual link between a body and a target. To this "annotation", a lot of details can be attached: its ID, author, motivation, etc.
+- **Body**: a comment or resource which is ”about” the target
+- **Target**: the resource which is being discussed
 
-Annotation is a way to have content growing on top on existing content and complexify the structure even more. 
+### 3.2. Shared Canvas
 
-## Standards
+Built upon Open Annotation, the Shared Canvas data model specifies a Linked Data based approach for describing digital facsimiles of physical objects in a collaborative fashion. It is intended for use in the cultural heritage domain, although it may be useful in other areas.
 
-Standards for describing content of document how greately improved in the last 10 years.
+Instances of the data model are consumed by rendering platforms in order to understand the relationships between the constituent text, image, audio or other resources associated with an abstract Canvas, or parts thereof, via Open Annotations.
 
-Now, a set of standards build on top of one another permits to solve the problem at planetary scale. 
+A **Canvas** is the empty 2D space on which to build up a display (it can be thought of as a Powerpoint slide).
 
-### Open Annotation Model 
+A Shared Canvas’s top left and bottom right corners may correspond to the equivalent corners of a page (or a rectangular bounding box around it). On top of that are added many layers of different boxes of Commentary, Transcriptions, Annotations, etc. — to which are associated Text Selectors describing the appropriate part of the text.
 
-From a high-level perspective, the Open Annotation model is similar to many other related proposals (Annotation Graphs, DADA, LAF/GrAF, PAULA): 
+Both "One canvas - Multiple Images" or "One image-Multiple canvases" (eg. to document the same image in a different manner) are valid configurations.
 
-•Annotations are standoff, that is, separate from annotated things, which are identified through references 
+Overall, the Canvas object and the versatility it provides may very much be the solution to the problem of **standardly storing of any form of digitised information**.
 
-•Annotations form a graph where the annotations are nodes and can be referred to by other annotations 
+_Using both of these ideas (Open Annotation and Shared Canvas), a new standard has emerged and has since been widely accepted: the IIIF standard._
 
-•Annotations can associate data of arbitrary complexity with the thing being annotated 
+### 3.3. International Image Interoperability Framework (IIIF)
 
-Open Annotation Collaboration and Annotation Ontology Initiative jointly founded W3C Open Annotation Community Group to develop a common RDF-based specification for annotating digital resources.
+#### 3.3.1. Presentation of IIIF
+Every cultural heritage site tends be a silo, every digital archive is separated from the others, with little to no room for a common usage of the digitised image. The **International Image Interoperability Framework (IIIF)** stemmed from this frustration and was born from the common efforts of academic figures. IIIF offers a global framework for organizing image storing and delivery at the worldwide scale.
 
-The Open Annotation Core Data Model specifies an interoperable framework for creating associations between related resources, called annotations, using a methodology that conforms to the Architecture of the World Wide Web. 
+The International Image Interoperability Framework (IIIF) is driven by a group of research libraries, national libraries, and non-profit image repositories committed to opening access to cherished image resources.
 
-An annotation is considered to be a set of connected resources, typically including a body and target, where the body is related to the target. 
+It encourages and supports the development of compatible image serving and viewing software that is easy to install and provides a good user experience
 
-•Annotation: a conceptual link between a body and a target 
+It is built on two well defined Link Data based APIs, both compliant to the Shared Canvas data model:
 
-•Body: a comment or resource which is ”about” the target 
+1. **IIIF Image API**, which is responsible for delivering the image (pixel) content via a simple REST web service.
 
-•Target: the resource which is being discussed 
+2. **IIIF Presentation API**, a way to organise a collection, in a readable and understandable manner, (ie. a remote viewing experience of a Cultural Heritage object).
 
-### Shared Canvas
+As of 2020, more than 320M pages follow the IIIF standard, and counting ...  A good place to start is: https://github.com/IIIF/awesome-iiif
 
-Built upon Open Annotation, the Shared Canvas data model specifies a Linked Data based approach for describing digital facsimiles of physical objects in a collaborative fashion. It is intended for use in the cultural heritage domain, although may be useful in other areas. 
+IIIF started in 2011, with the creation of the Image API, started as as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University. The Presentation and Search APIs were respectively presented in 2013 and 2016.
 
-Instances of the data model are consumed by rendering platforms in order to understand the relationships between the constituent text, image, audio or other resources associated with an abstract Canvas, or parts thereof, via Open Annotations. 
+Some examples of IIIF manifests include:
+- [Yale](http://manifests.ydc2.yale.edu/manifest)
+- [Stanford](https://graph.global/static/data/universes/iiif/stanford.json)
+- [e-codices – Virtual Manuscript Library of Switzerland](https://graph.global/static/data/universes/iiif/e-codices.json)
+- [Internet Archive](http://iiif.archivelab.org/collection.json)
+- [Bodleian Library, Oxford](http://iiif.bodleian.ox.ac.uk/iiif/collection/All)
 
-A Canvas is an empty space in which to build up a display (Think a Powerpoint slide) 
+#### 3.3.2. Working of IIIF
+(_Throughout this subsection, capitalised names refer to classes from the IIIF Manifest API._)
 
-•A SharedCanvas’s top left and bottom right corners correspond to the equivalent corners of a page (or a rectangular bounding box around it) 
+Firstly, instead of considering an image as a static file, the IIIF standard prefers a **client-server relation**, through which the image can be simply delivered, before being modified if needed (truncated, recoloured, rescaled, etc.); and that without the need to download the original image first nor affecting it.
 
-Specific Resource with Selector to define an area of the Canvas 
+Then comes a more powerful idea: the existence of a so-called **Manifest**, which is the overall description of the structure and properties of the digital representation of an object. The Manifest scale is the unit of digitisation (a book which contains pages, a box which contains postcards, etc).
 
-•Text Selectors to describe the appropriate part of the text 
+The list of objects and collections is described by the **Collection**. The Manifest is effectively a series of Canvases (cf. 4.2.), on top of which are stored images, texts, and annotations (Content and Anno).
 
-One canvas, multiple images. 
+As IIIF was built with open-access and collaboration in mind, it is **notably easy to "ingest" other collections**: for that, only a "top-node" URL is required (pointing to the desired Collection or Manifest).
 
-One image, multiple canvas.
+---
+## 4. Synchronic patterns and Diachronic homology
 
-### International Image Interoperability Framework (IIIF)
+While some documents cannot but be described in extension (the text of a novel), others which are **highly regulated** (cf. FDH-1-3) **can have their information extracted in a more efficient way**.
 
-Every cultural heritage site tends be a silo, every digital archive is separated from the others. IIIF offers a global framework for organizing image storing and delivery at the worldwide scale. 
+This potential pattern recognition can take two forms:
+1. **Synchronic**: How can extract the information which is in regulated representation in a structured way from the same family of synchronic regulated representations.
 
-The International Image Interoperability Framework (IIIF) is driven by a group of research libraries, national libraries, and non-profit image repositories committed to opening access to cherished image resources 
+2. **Diachronic**: How can we link content from different regulated representations and identify it as being the same.
 
-•It encourages and supports the development of compatible image serving and viewing software that is easy to install and provides a good user experience 
-
-•It is anchored by two well defined Link Data based APIs, compliant to the Shared Canvas Data Model: 
-
-• IIIF Image API: pixel content via a simple REST web service
- • IIIF Presentation API: description to drive a remote viewing experience of a Cultural Heritage object 
-
-320 M IIIF pages, and counting ..
-
-A good point to start : 
-
-https://github.com/IIIF/awesome-iiif
-
-2011 : The Image API created as as a collaboration between The British Library, Stanford University, the Bodleian Libraries (Oxford University), the Bibliothèque nationale de France, Nasjonalbiblioteket (National Library of Norway), Los Alamos National Laboratory Research Library, and Cornell University.
-
-2013: Presentation API
-
-2016 : Search API
-
-The [Universal IIIF Collection](https://graph.global/static/data/universes/iiif/universe.json)
-
-Below are examples of IIIF manifests
-
-| Description | Institution                                           | Catalog                                                      |
-| :---------- | :---------------------------------------------------- | :----------------------------------------------------------- |
-|             | Yale                                                  | http://manifests.ydc2.yale.edu/manifest                      |
-|             | Stanford                                              | https://graph.global/static/data/universes/iiif/stanford.json |
-|             | Biblissima                                            | https://graph.global/static/data/universes/iiif/biblissima.json and https://labs2.artstor.org/iiif/ssc/manifest.json |
-|             | e-codices – Virtual Manuscript Library of Switzerland | https://graph.global/static/data/universes/iiif/e-codices.json |
-|             | Sentences Commentary Text Archive                     | http://scta.info/iiif/collection/scta                        |
-|             | Internet Archive                                      | http://iiif.archivelab.org/collection.json                   |
-|             | TextGrid                                              | https://graph.global/static/data/universes/iiif/textgrid.json |
-|             | ARTstor                                               | https://labs2.artstor.org/iiif/ssc/manifest.json             |
-|             | Bodleian Library, Oxford                              | http://iiif.bodleian.ox.ac.uk/iiif/collection/All            |
-|             | Wellcome Library                                      | http://wellcomelibrary.org/service/collections/              |
-|             | Villanova University Digital Library                  | http://digital.library.villanova.edu/Collection/vudl:3/IIIF  |
-|             | The Manuscriptorium                                   | [http://collectiones.manuscriptorium.com](http://collectiones.manuscriptorium.com/) |
-
-## Synchronic Patterns and Diachronic Homology 
-
-Some documents must be described in extension (the text of a novel). 
-
-But other are highly regulated Cf. Course on Regulated Representations). 
-
-We can extract and link the information in a more efficient way. 
-
-Two challenges
-
-Synchronic : How can extract the information which is in regulated representation in a structured way from the same family of synchronic regulated representations. 
-
-Diachronic : How can we link content from different regulated representations and identify it as being the same. 
-
-### Synchronic - information schema
+### 4.1. Synchronic: Information schema
 
 A regulated representation can be associated with a specific information schema, that can be fully described in XML or JSON.
 
 This schema permits to automatically generate an annotation interface.
 
-### Diachronic - homologous pairs
+### 4.2. Diachronic: Homologous pairs
 
-To identify two mentions as referring to the same referent is a process of homology. 
+To identify two mentions as referring to the same referent is a process of homology. This is something fundamental that we will see again and again in this course.
 
-This is something fundamental that we will see again and again in this course. 
+The correspondence of homologous points define **“pivot” points**. Pivot points are the **invariants features**, the "sameness" that is characterised by the homologous pairs. We can also say that they define an equivalence class.
 
-The correspondance of homologous points define “pivot” points. Pivot points are the invariants features, the "sameness" that is characterised by the homologous pairs. 
+The coordinates of a pivot point and a unique reference can be defined. **_But do the “pivot” points exist?_**
 
-We can also say that they define a equivalence class. 
+Pivot points do come from multiple reference, with precise spatial positions; yet, they are never directly observable, only through the documents. Temporally, pivot points stand for a **"continuous reality"** between the different times at which the documents were captured.
 
-We can define the coordinate of a pivot point or a unique reference ?
+The more a pivot point is articulated, linked with documents “views” and with other pivot points, the more real and coherent it is, and the **stronger the correspondent fictional space**. The validity of pivot points are assessed by the diachronic and geometric comparaison with other reference points.
 
-But do the “pivot” points exist ?
+**Identifying homologous pairs**
 
-The more a pivot point is articulated, linked with documents “views” and with other pivot points, the more it is real/coherent. 
+Until recently, the only way to recognise homologous points was to establish manual processes to identify them.
 
-The stronger the correspondant fictional space. 
+Now, **algorithms can recognise some homologous points** automatically and thus create more pivot points and a denser and more articulated representation of fictional spaces.
 
-Until recently, the only way to identify homologous points was to establish manual process of identifying them.
+This imply that our representations of reality (and its past) are likely to change drastically in the next 20 years.
 
-Now algorithm can recognise some homologous points automatically and thus create more pivot points and a denser and more articulated representation of fictional spaces. 
+---
+## 5. Conclusion
+### 5.1. Summary
 
-This imply that our representations of reality are likely to change drastically in the next 20 years. 
+- Describing the content of a document is a complex challenge.
 
-## Summary
+- Some **international standards** help doing so (Open Annotation, IIIF).
 
-Describing the content of a document is a complex challenge 
+- Structured information can be annotated and extracted out of Regulated Representations.
 
-Some international standards help doing so (Open Annotation, IIIF)
+- Homologous pairs permit to create an underlying **continuous fictional space**.
 
-Structured information can be annotated and extracted out of Regulated Representations 
+## 5.2. In the next chapter
 
-Homologous pairs permits to create an underlying continuous fictional spaces. 
-
-## In the next course
-
-Next, we will start to go into details for each categories of documents. 
+Next, we will start to go into details for each category of documents.
 
 ## Further reading
 
 - Paul Otlet, Le livre sur le livre
-- Salaum, Arsenault, Introduction aux sciences de l'information. 
-- Anthony Grafton, La page de l'Antiquiét à l'ère du numérique : Louvre editions 
-- 
+- Salaum, Arsenault, Introduction aux sciences de l'information.
+- Anthony Grafton, La page de l'Antiquiét à l'ère du numérique : Louvre editions
+-

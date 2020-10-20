@@ -21,6 +21,8 @@ output: pdf_document
 
 - **HTR** Handwritten Text Recognition
 
+- **IIIF** : International Image Interoperability Framework
+
 - **OCR** Optical Character Recognition
 
 
