@@ -17,9 +17,9 @@ output: pdf_document
 
 ## Theses
 
-1) the semantic gap between low-level descriptors and semantic concepts have been partially filled
+1) Image understanding, like text understanding, is interpreting images in terms of events and agents
 
-
+2) the semantic gap between low-level descriptors and semantic concepts have been partially filled
 
 ## Faces
 
