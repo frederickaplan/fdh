@@ -29,7 +29,7 @@ output: pdf_document
 
 ## Event
 
-## Intentionality
+## Automatic description
 
 
 

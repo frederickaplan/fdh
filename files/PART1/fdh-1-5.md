@@ -269,23 +269,25 @@ This "commons governance" takes the form of **data commons**, which in the case 
 
 ## Further Reading
 
-Philippe Aigrain, Cause Commune, Fayard
+- Philippe Aigrain, Cause Commune, Fayard
 
-Pierre Dardot, Christian Laval, Commun : Essai sur la révolution au XXIe siècle
+- Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford. 
 
-Karl Polanyi, la Grande Transformation
+- Pierre Dardot, Christian Laval, Commun : Essai sur la révolution au XXIe siècle
 
-Donald Knuth, The Art of Computer Programming, Addisson-Wesley Professional
+- Karl Polanyi, la Grande Transformation
 
-Lawrence Lessig, The Future of Ideas : The Fate of the Commons in a connected World
+- Donald Knuth, The Art of Computer Programming, Addisson-Wesley Professional
 
-Lawrence Lessig, Free culture : How big Media Uses technology and the law to lock down culture and control creativity, The Penguin Press, 2004
+- Lawrence Lessig, The Future of Ideas : The Fate of the Commons in a connected World
 
-Swartz Aaron, Celui qui pourrait changer le monde, Editions B42
+- Lawrence Lessig, Free culture : How big Media Uses technology and the law to lock down culture and control creativity, The Penguin Press, 2004
 
-Stallman, R, Free Software, Free Society, GNU Press
+- Swartz Aaron, Celui qui pourrait changer le monde, Editions B42
 
-Stallman, R:; Willliams, Sa,, Masuetti, Christophe, Richard Stallmann et la revolution du logiciel libre : une biographie autorisée
+- Stallman, R, Free Software, Free Society, GNU Press
+
+- Stallman, R:; Willliams, Sa,, Masuetti, Christophe, Richard Stallmann et la revolution du logiciel libre : une biographie autorisée
 
 ## Open collection to explore
 
@@ -317,3 +319,7 @@ Stallman, R:; Willliams, Sa,, Masuetti, Christophe, Richard Stallmann et la revo
 - Contributing to Wikipedia
 - Contributing to Open Street Map
 - Developing Data commons with Dataverse
+
+## How to improve this chapter 
+
+- Discuss specificatly what Mass Digitisation change copyright issues based on research done in Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford. 

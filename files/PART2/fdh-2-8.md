@@ -33,6 +33,8 @@ dh-segment: Generic framework for segmentation
 
 ### Metadata extraction
 
+Metadata is data about data sometimes present "around" the images (on a cardboard for instance)
+
 ### Link with reference database
 
 ### Detection of physical connection
