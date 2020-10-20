@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# Digitisation Processes
+# FDH-2-1: Digitisation Processes
 
 #### Theses
 
@@ -28,7 +28,12 @@ output: pdf_document
 5) As digitisation unlocks ivory towers, it faces many resistances
 
 #### Contents
-
+> 1. The Story of Google Books
+>> 1.1. Figures // 1.2. Chronology //
+> 2. Concepts
+>> 2.1. From documents to digitised images // 2.2. The problem of dimensional conversion // 2.3. Digitisation as a logistics problem // 2.4. Optimisation prospects //
+> 3. Conclusion
+>> 3.1. Summary // 3.2. In the next Chapter //
 ---
 
 _We'll start with a story, one to be known, a story of challenges, resistence, but ultimately success: the story of Google Books._
@@ -183,87 +188,93 @@ For example, the transcription of a book can summarised as going:
 
 Through a digital interface, the physical hierarchy of archives is *de facto* **rearticulated** in a way or another on the screen. This a problem to be tackled during the digitisation project.
 
-When poorly thought, the conversion of dimension attached to digitisation **can actually worsen the information accessibility**. A physical document can always be found when looked for long enough; on the other, if the search engine is deficient, some documents can be fully unaccessible. (Europeana Iceberg ?)
+When poorly thought, the conversion of dimension attached to digitisation **can actually worsen the information accessibility**. A physical document can always be found when looked for long enough; on the other hand, if the search engine is deficient, some documents can be fully unaccessible. (Europeana Iceberg ?)
 
-### 2.3. The logistics of digitisation (and optimisation)
+### 2.3. Digitisation as a logistics problem
 
-(min 59)
+Any **digitisation project is, in essence, a Logistics problem**. On can loosely define Logistics as the management of the flow of things.
 
-Logistics is the management of the flow of things.
+Like in any logistics operation, **standardisation is the key**: similar entities must be organised in similar categories.
 
-Like in any logistics operation, standardisation in digital process is the key.  
+The first step in this direction is to access the archives in a standard way. Now, part of this problem is actually solved as the physical archive has most likely already been thought as an optimised interface (as opposed, say, to a family house attic).
 
-Part of the problem is already solved as the physical archive has been thought as an optimised interface.
+**The Library-Machine**
 
-Concept of the Library/Machine.
+This leads to a concept we could call the **Library-Machine**, in which the circulation of humans (a so called "Front-end") has been thought symmetrically to the circulation of objects (in the "Back-end"). The desired objects are brought to the reader by a **series of machine and human interventions** — with the former taking progressively more importance over the latter (as a side note, this raises the question of having the logic of human organisation being replaced by one deemed optimal by machines).
 
-In the library/machine, the circulation of the humans has been thought symmetrically to the circulation of objects.
+To track object circulation, one must associate each physical object with a **unique ID**. Each physical object therefore must become a proper document, ready to be manipulated through a standardised process. For example, two specimens of the same book must have two different IDs. In most cases, the ID is the ID of one container (book, box); the documentation level thus must be chosen.
 
-To trace object circulation, one must associate each physical object with a unique ID. It must become a document, ready to be manipulated through a standardised process.
+Through standardisation, the digitisation process can be estimated using simple metrics (pages, kilometers, etc.) and a digitization price/page or /km can be established. In many cases, it is impossible to know a priori the number of pages and therefore, the estimation in km is the only option.
 
-Two examplars of the same book must have two different ID. It most cases, the ID is the ID of one container (book, box)
+### 2.4. Optimisation prospects
+#### 2.4.1. Alienation
 
-Through standardization, the digitisation process can be estimated using simple metrics: Pages or Kilometers.
+Alienation is one of the risk of the optimisation process. In a highly-standardised logistical system, human operators, who help the system run, are but a **part of a bigger machine**.
 
-A digitization price / page or / km can be established.
+The repetitiveness of the task, as well as a distance with regards to the document understanding, can be problematic (even more so when the content dealt with has such a "humanistic" meaning).
 
-In many cases, it is impossible to know a priori the number of pages and therefore, the estimation in km is the only option.
+Designing against alienation thus becomes part of the logistics of digitisation processes: working in pairs, manipulating relevant documents, having a chance to mine the archive, are among possible solutions to mitigate the repetitiveness of digitisation.
 
-#### 2.3.1. Sampling methods
+#### 2.4.2. On-demand digitisation
 
-Tbd
+With **on-demand digitisation**, one can ask for the digitisation of a specifically chosen document. The requested digitisation is then done in a couple of days/weeks. Once the digitisation is done is it downloadable directly form the website.  
 
-#### 2.3.2. Alienation
+In many system, digitisation assets are organised by Tier. Tiers range from very often used data (Tier 0) to data never checked (Tier 3). A physical document can be considered as “not cached” content with a longer retrieving time expected, but which can be brought to a higher-level tier by digitisation.
 
-Alienation is one of the risk of the optimisation process.
+On-demand digitisation is also a way to reduce the proportion of **efforts put in digitising items that nobody will ever see** (which represent the vast majority), thus improving the investment-to-relevance ratio of the digitisation project. However, an efficient on-demand digitisation process would require complete catalogues of archives, which institutions very rarely have.
 
-Operators become one part of a bigger machine.
+#### 2.4.2. Optimising the choice of sources
 
-Working against alienation: Working in pairs.
+We've seen that part of the success of the Google Books project was due to an optimal choice of initial sources.
 
-Manipulating relevant document.
+Even if most of digitisation project are done with a specific goal are are tied to a specific documentary fund, we can still ask ourselves how the **choice of documents to digitise can be optimised** in larger scale projects.
 
-Having a chance to mine the archive.
-
-Example of the Replica Scanner.
-
-#### 2.3.3 On demand digitisation
-
-With on demand digitisation, one can ask for the digitisation of a specifically chosen document.
-
-The digitisation is requested and is done in a couple of days/weeks.
-
-Once the digitisation is done is it downloadable directly form the website.  
-
-In many system, digitisation assets are organised by Tier, from data very often used to data never checked.  
-
-One can consider Physical document as “not cached” content. Digitisation is putting a document at higher level tier.
-
-An undigitised document is a document for which a longer retrieving time should be expected.
-
-#### 2.3.4. Optimisation of the choice of sources
-
-Part of the success of the Google books projects is based on an optimal choice of sources.
-
-Most of digitisation project are done with a specific goal linked with a specific documentary funds.
-
-In larger scale projects, can we optimise the choice of the document to digitize ?
-
-What should be the criteria to optimise ?
-
-- Fragility.
-
-- Popularity
-
+The answer to what should be digitised first lies in the balance of some criteria:
+- Popularity;
+- Fragility;
 - Information richness.
 
-The case of optimisation for information richness is a case of application the optimal experiment approach.
+An historian would insist on focusing on **rare**, possibly unseen-before, documents. On the other hand, an archive director would probably favour popular and much-demanded but **fragile** items.
 
-Gain (and reinforcement) is evaluated in terms of knowledge gain or uncertainty reduction.
+From the point of view of a digital humanist, the priority should be given to regular, **standardised** documents, from which information can be **massively extracted** (in the case of the Venice Time Machine: cadasters, directories, tables, etc.)
 
-An algorithm can optimise this criteria.
+The case of optimisation for information richness is one of the applications of the **Optimal Experiment Approach** (or Design), whereby **gain (and reinforcement) is evaluated in terms of knowledge gain or uncertainty reduction**, and can be optimised by an **algorithm**.
+
+More conceptually, let's represent the by one space the wealth of documents to digitise. Imagine we now divide it in subspaces, according to some criteria, and estimate how much can be learned from this subspace, and how well.
+
+What we want is to **maximise the learning** of the system, that is to maximise the derivative of the error curve. The priority should be given to subspaces where learning is efficient and where the error quickly decreases; and, on the contrary, poorly-learning systems should not receive too much attention, and resources should be directed to more promising sources of information.
 
 ---
+
+## 3. Conclusion
+### 3.1. Summary
+
+- Digitisation goes beyond a series of tricks and good practices. It is the **study of optimal actions** in the physical and digital worlds in terms of selection, documentation, acquisition in order to lead to a potential increase in knowledge.
+
+- The progressive change of scale of the practices shows that is should be considered a true branch of information sciences.
+
+- Could/Should the machine help us optimise our patrimonial conservation and exploration strategies?
+
+### 3.2. In the next Chapter
+
+In the next chapter we will study how to represent the structure of a document.
+
+---
+
+## Further reading
+
+- Suzanne Briet, Qu’est-ce que la Documentation?  1951
+
+Une étoile est-elle un document? Un galet roulé par un torrent est-il un document? Un animal vivant est-il un document? Non. Mais sont des documents les photographies et les catalogues d’étoiles, les pierres d’un musée de minéralogie, les animaux catalogués et exposés dans un Zoo.
+
+- Alain Jacquesson, Google Livres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
+
+- Jean-Noel Jeannerey, Quand Google défie l'Europe: Plaidoyer pour un sursaut, Mille et une nuits, 2007
+
+---
+
+To add somewhere?
+
 ## 1. How to plan a digitisation project
 
 Can we digitise 80km of document in 10 years
@@ -290,33 +301,7 @@ Some project brings the scanners close the collections to be scanned (e.g. First
 
 In other cases, the collections are sent to more efficient scanning houses (e.g. Google Books general strategy).
 
----
 
-## 5. Conclusion
-### 5.1. Summary
+#### Sampling methods
 
-- Digitisation goes beyond a series of tricks and good practices. It is the **study of optimal actions** in the physical and digital worlds in terms of selection, documentation, acquisition in order to lead to a potential increase in knowledge.
-
-- The progressive change of scale of the practices shows that is should be considered a true branch of information sciences.
-
-- Could/Should the machine help us optimise our patrimonial conservation and exploration strategies?
-
-### 5.2. In the next Chapter
-
-In the next chapter we will study how to represent the structure of a document.
-
----
-
-## Further reading
-
-- Suzanne Briet, Qu’est-ce que la Documentation?  1951
-
-Une étoile est-elle un document? Un galet roulé par un torrent est-il un document? Un animal vivant est-il un document? Non. Mais sont des documents les photographies et les catalogues d’étoiles, les pierres d’un musée de minéralogie, les animaux catalogués et exposés dans un Zoo.
-
-- Alain Jacquesson, Google Livres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
-
-- Jean-Noel Jeannerey, Quand Google défie l'Europe: Plaidoyer pour un sursaut, Mille et une nuits, 2007
-
-
-
-.
+Tbd
