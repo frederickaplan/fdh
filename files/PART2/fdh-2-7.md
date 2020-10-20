@@ -94,4 +94,5 @@ We will explore how the image processing pipeline can compute automatically larg
 ## Further reading
 
 - Benoit Seguin's PhD. Thesis : Making large art historical photo archives searchable
+- Scott McCloud, Understanding Comics
 

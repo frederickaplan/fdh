@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities 2.5'
-subtitle: 'Images'
+title: 'Foundations in Digital Humanities 2.8'
+subtitle: 'Image Processing'
 author:
  - Frederic Kaplan
 
@@ -13,19 +13,80 @@ output: pdf_document
 
 ---
 
-# Images
+# Image Processing
 
-## Concepts
+## Theses
 
-Pipeline for Artworks photographs. Image banks and phototarchives. Photography as documentation. Scanning techniques for photographs. Segmentation. Visual similarity vs visual connections.
+1) State of the art image analysis permits to extract metadata out of artwork photographs
 
-## Practice
+2) … and compute similarities between images
 
-Image Space representation 
 
-Image Emdeddings, Multimodel embeddings
+
+## Example of an image pipeline
+
+### Digitisation
+
+### Segmentation
+
+dh-segment: Generic framework for segmentation
+
+### Metadata extraction
+
+### Link with reference database
+
+### Detection of physical connection
+
+Detection of duplicates. 
+
+### Detection of non-coherent metadata
+
+Some images that were thought to represent the same object represents different paintings.
+
+Vice versa, the same painting may have conflicting metadata. 
+
+## Vector description
+
+Story of the Imagenet competition 
+
+- 100 000 concepts (WordNet)
+- 1000 images per concepts
+
+Vector description are obtained as hidden layers of neural networks trained for classication tasks. 
+
+Similarity between two images as Inner product of vector descriptions
+
+## Metric Learning
+
+Metric learning permits to learn new invariants specific to painting similarities, learning for instance to ignore textural features. 
+
+(Ai - Bi) > (Ai - Ci)
+
+S (Ai, Bi) > S (Ai, Ci) in R. (Local consistencies)
+
+S (Ai, Bi) - S (Ai, Ci) > 0
+
+Hinge loss function
+
+## Searching in collections
+
+IIIF coding
+
+Mixing text and image in queries
+
+Algebraic queries
+
+2D maps
+
+## Summary 
+
+Image analysis pipeline permit to construct the morphograph in a semi-automatic manner and recognize incoherent attributions 
+
+## In the next chapter
+
+
 
 ## Further reading
 
-- Understanding Comics
+- Seguin, B. Striolo, C., di Lenardo, I. and Kaplan. F. (2016) Visual Link Retrieval in a Database of Paintings, VISART Workshop, ECCV, Amsterdam, September, 2016
 
