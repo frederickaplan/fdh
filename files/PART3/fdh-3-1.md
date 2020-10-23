@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 3.1'
-subtitle: 'Deep Learning'
+subtitle: 'Knowledge Modelling'
 author:
  - Frederic Kaplan
 
@@ -13,47 +13,41 @@ output: pdf_document
 
 ---
 
-# Deep Learning
+# Knowledge Modelling
 
-(Or Sub-conceptual architectures)
+(This chapter may be put at the end of the the pipeline, for coherence and replace by a chapter on formal systems and rules. The new chapter rules could introduce the subject with Game as formal system, illustrating the idea with Minecraft for instance)
 
 ## Concepts
 
-### Fundamental principles
-
-A panorama of Deep learning methods. Successes. Fundamental principles. Neurons. Receptive Fields. Hierarchical representation / texture.
-
-### Sub-Conceptual Content
+The beauty of Knowledge modelling. Tables. Databases. Semantic web, Ontologies, URI, RDF, CIDOC-CRM, How to code event, places and influence. Metaknowledge. The Hypergraph
 
 
 
-###  Gradient descent. 
-
-Credit Assignment Path. 
+Detection of causal chains. Inference of Graphs
 
 
-
-GPU Revolution 
-
-### Most important architectures. 
-
-- Convolutional neural networks. 
-
-- Recurrent neural networks. 
-
-- Siamese Networks. 
-
-- Generative Adversarial Networks. 
-
-- Style Transfer. 
-
-### Importance of Deep learning for Digital Humanities. 
-
- Can Deep Learning networks and Big Data of the Past lead to new forms of Artificial Intelligence ?
-
-## Uniting Symbolic and Sub-Symbolic Representations
 
 ## Practice
+
+Graph writing. Presentation of some interesting ontologies: SKOS, VIAF, Geonames, TGN, W3C Time Ontology. SPARQL and SPARQL endpoint. Exercice on SPARQL endpoints: DBPedia [[1\]](http://dbpedia.org/sparql), Talk of Europe [[2\]](http://linkedpolitics.ops.few.vu.nl/yasgui/index.html), Persée [[3\]](http://data.persee.fr/explorer/), Le Temps ARchive [[4\]](http://iccluster052.iccluster.epfl.ch:8899/sparql), available on [this Github repository](https://github.com/dhlab-epfl/fdh-tutorials). (
+
+LOAD model (Andrea Spitz)
+
+HDT http://www.rdfhdt.org/what-is-hdt/
+
+"Currently RDF data is stored and sent in very verbose textual serialization formats that waste a lot of bandwidth and are expensive to parse and index. If RDF is meant to be machine understandable, why not use an appropriate format for that?
+
+HDT (Header, Dictionary, Triples) is a **compact data structure** and **binary serialization format** for RDF that keeps big datasets **compressed** to save space while maintaining **search** and **browse** operations without prior decompression. This makes it an ideal format for storing and sharing RDF datasets on the Web."
+
+JustGUI
+
+Datafirst. 
+
+Converting a CSV in RDF
+
+Explorting RDF
+
+Example Druid : Data Stories as Notebooks
 
 ## Question and Answers 
 
@@ -61,8 +55,3 @@ GPU Revolution
 
 ## Further Reading
 
-Science-Fiction : Infinite Fun Space
-
-Deep Learning (Goodfelow et al)
-
-The Promise of Artificial Intelligence (Brian Cantwell Smith)

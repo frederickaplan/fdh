@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 3.4'
-subtitle: 'Latent Spaces'
+subtitle: 'Deep Learning for Texts and Sounds'
 author:
  - Frederic Kaplan
 
@@ -13,11 +13,70 @@ output: pdf_document
 
 ---
 
-# Latent Spaces
+# Deep Learning for Text and Sound
 
-GAN, etc.  
+## Concepts
 
-Universal representation. 
+### Embeddings
+
+"Over the last years, neural methods for learning dense meaningful latent semantic vector representations have dramatically improved the performance in natural language understanding, computer vision and audio processing, and this development justifiably raises high expectations for digital humanities applications".
+
+Word2Vec (but also item2Vec, StarSpace (Facebook))
+
+Also TF-IDF
+
+### Discourse Vectors
+
+Doc2Vec
+
+Transformers
+
+GPT-3
+
+### Condition Random Fields
+
+### LSTM and Bi-LSTM
+
+### 
+
+
+
+## Practice
+
+### KeyPhrase extraction
+
+### Text Reuse
+
+### Text classification and topic modelling
+
+### NE Extraction
+
+Conditional Random Fields (CRF) tutorial. 
+
+
+
+Resources
+
+Allen Institute for AI : https://allenai.org
+
+### Skills
+
+- SpaCy open-source pipeline https://spacy.io
+- Passim for monolanguage text reuse
+- 
+
+### Chronology 
+
+- 2012 : Victor of at Jeopardy of DeepQA by IBM Watson
+- 
+
+
+
+
+
+## Question and Answers 
+
+
 
 ## Further Reading
 

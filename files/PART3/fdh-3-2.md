@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 3.2'
-subtitle: 'Deep Learning for Images'
+subtitle: 'Sub-Conceptual knowledge'
 author:
  - Frederic Kaplan
 
@@ -13,29 +13,47 @@ output: pdf_document
 
 ---
 
-# Deep Learning for Images
+# Sub-conceptual knowledge
+
+(Or Sub-conceptual architectures)
 
 ## Concepts
 
-### Segmentation
+### Fundamental principles
+
+A panorama of Deep learning methods. Successes. Fundamental principles. Neurons. Receptive Fields. Hierarchical representation / texture.
+
+### Sub-Conceptual Content
 
 
 
-### Object Recognition
+###  Gradient descent. 
+
+Credit Assignment Path. 
 
 
 
-### Metric Learning
+GPU Revolution 
 
+### Most important architectures. 
 
+- Convolutional neural networks. 
+
+- Recurrent neural networks. 
+
+- Siamese Networks. 
+
+- Generative Adversarial Networks. 
+
+- Style Transfer. 
+
+### Importance of Deep learning for Digital Humanities. 
+
+ Can Deep Learning networks and Big Data of the Past lead to new forms of Artificial Intelligence ?
+
+## Uniting Symbolic and Sub-Symbolic Representations
 
 ## Practice
-
-### 
-
-Computer vision and deep learning tutorial 
-
-
 
 ## Question and Answers 
 
@@ -43,3 +61,8 @@ Computer vision and deep learning tutorial
 
 ## Further Reading
 
+Science-Fiction : Infinite Fun Space
+
+Deep Learning (Goodfelow et al)
+
+The Promise of Artificial Intelligence (Brian Cantwell Smith)
