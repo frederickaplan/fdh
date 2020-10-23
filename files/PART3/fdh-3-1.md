@@ -49,9 +49,9 @@ GPU Revolution
 
 ### Importance of Deep learning for Digital Humanities. 
 
-  Can Deep Learning networks and Big Data of the Past lead to new forms of Artificial Intelligence ?
+ Can Deep Learning networks and Big Data of the Past lead to new forms of Artificial Intelligence ?
 
-
+## Uniting Symbolic and Sub-Symbolic Representations
 
 ## Practice
 

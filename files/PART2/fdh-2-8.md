@@ -27,6 +27,8 @@ output: pdf_document
 
 ### Digitisation
 
+Digitisation images in context... some important point to take into account. 
+
 ### Segmentation
 
 dh-segment: Generic framework for segmentation
