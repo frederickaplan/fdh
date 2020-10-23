@@ -76,7 +76,7 @@ IIIF coding
 
 Mixing text and image in queries
 
-Algebraic queries
+Algebraic queries (Combining several images in positive and negative)
 
 2D maps
 
@@ -86,7 +86,7 @@ Image analysis pipeline permit to construct the morphograph in a semi-automatic 
 
 ## In the next chapter
 
-
+Like for text, the next chapter concern knows knowledge extraction out of images. 
 
 ## Further reading
 
