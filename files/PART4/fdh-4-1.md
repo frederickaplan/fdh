@@ -47,6 +47,15 @@ Cloud Burst : seamless burst into public clouds in a safe and secure manner. Clo
 
 ### Using Zenodo
 
+- research is stored safely for the future in CERN’s Data Centre for as long as CERN exists.
+
+- built and operated by CERN and OpenAIRE to ensure that everyone can join in Open Science.
+- every upload is assigned a Digital Object Identifier (DOI), to make them citable and trackable.
+- Uploads are made available online as soon as you hit publish, and your DOI is registered within seconds.
+- Share e.g. anonymized clinical trial data with only medical professionals via our restricted access mode.
+- Easily update your dataset with our versioning feature
+- All uploads display standards compliant usage statistics
+
 ### Using Dataverse
 
 Dataverse was created in 2015. It developed in Europe. 
