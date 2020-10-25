@@ -38,14 +38,21 @@ GPU Revolution
 ### Most important architectures. 
 
 - Convolutional neural networks. 
-
 - Recurrent neural networks. 
-
 - Siamese Networks. 
-
 - Generative Adversarial Networks. 
-
 - Style Transfer. 
+
+### Algebraic Topology
+
+Algebraic Topology 
+
+Topological Data Analysis (TDA)
+
+The shape of data
+
+The manifold hypothesis (Goodfellow 2016) states that in many cases such as the case of natural images the support distibution pdata(x) is concentrated on a low dimensional manifold Mdata in an Euclidean space 
+This manifold is assumed to have a very complex non linear structure and is hard to define explicitl
 
 ### Importance of Deep learning for Digital Humanities. 
 
@@ -61,8 +68,10 @@ GPU Revolution
 
 ## Further Reading
 
-Science-Fiction : Infinite Fun Space
+- Science-Fiction : Infinite Fun Space
 
-Deep Learning (Goodfelow et al)
+- Deep Learning (Goodfelow et al)
 
-The Promise of Artificial Intelligence (Brian Cantwell Smith)
+- The Promise of Artificial Intelligence (Brian Cantwell Smith)
+- Algebraic Topology
+- 
