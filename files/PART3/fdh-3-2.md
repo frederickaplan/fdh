@@ -38,10 +38,32 @@ GPU Revolution
 ### Most important architectures. 
 
 - Convolutional neural networks. 
+
 - Recurrent neural networks. 
+
 - Siamese Networks. 
+
 - Generative Adversarial Networks. 
+
 - Style Transfer. 
+
+  
+
+## Mathematical foundations
+
+- Calculus
+
+- LInear algebra : vector spaces, normed spaces, linear transformation, matrices, determinant, eigenvalues, eigenvectors and matrix decompositon
+
+- Multivariable calculus, where linear algebra and calculus comes together. Differentiation in multiple variables, gradient, first order derivative, higher order derivative
+
+- Probability theory : Expected value, law of large numbers
+
+- Basics of optmisation
+
+- Mathematical statistics
+
+   
 
 ### Algebraic Topology
 
