@@ -21,6 +21,12 @@ output: pdf_document
 
 2) the semantic gap between low-level descriptors and semantic concepts have been partially filled
 
+### Annotation of images 
+
+https://www.makesense.ai/
+
+https://github.com/SkalskiP/make-sense
+
 ## Faces
 
 ## Persons
