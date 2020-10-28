@@ -323,3 +323,4 @@ This "commons governance" takes the form of **data commons**, which in the case 
 ## How to improve this chapter 
 
 - Discuss specificatly what Mass Digitisation change copyright issues based on research done in Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford. 
+- Discuss Open Data in databases. For instance : Open Database License (ODbL)
