@@ -27,6 +27,12 @@ https://www.makesense.ai/
 
 https://github.com/SkalskiP/make-sense
 
+### Pipeline of recognition processes
+
+https://github.com/google/mediapipe
+
+The MediaPipe framework allows for parallelization and thread optimization of image processing routines on a per-process basis.
+
 ## Faces
 
 ## Persons
