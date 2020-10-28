@@ -292,25 +292,15 @@ This "commons governance" takes the form of **data commons**, which in the case 
 ## Open collection to explore
 
 - Internet Archive
-
 - Family Search
-
 - Library of Congress Digital Collection
-
 - David Rumsey Map Collection
-
 - NYPL
-
 - Europeana
-
 - Cyark
-
 - Google Arts and Culture
-
 - Hiroshima Archive
-
 - MegaScan
-
 - SketchFab
 
 ## Skills to develop
