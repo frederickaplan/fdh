@@ -21,9 +21,17 @@ FAIR principle, Creative Commons, Data Management models, Sustainability, Right 
 
 Anonymisation and privacy protection
 
-## Hardware
+## Processing power
 
 Economies of scale. 
+
+Designing a planetary-scale map processing is a difficult task. 
+
+It is important to separate it in submodules, with well defined interface. This enables to have potentially more than one implementation for module (e.g. automatic vs. Manual processes)
+
+Scaling up : Adding more resource to a node (CPU, Memory, Disk)
+
+Scaling out : Adding more nodes (e.g. virtual machines)
 
 ### Hardware as a Service
 
