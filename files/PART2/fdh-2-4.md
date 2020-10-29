@@ -330,3 +330,9 @@ We will see how to process large collection of texts.
 - *DeRose, Steven J.; Durand, David G.; Mylonas, Elli; Renear, Allen H.: What is text, really? J. Computing in Higher Education, 1(2):3–26, 1990.*
 - Catherine Marshall, Reading and Writing the Electronic Book, Morgan and Claypool
 - Michael Witmore, Text : A Massively Addressable Object in Gold, Debates about Digital Humanities
+
+## To improve
+
+- Solution for OCRs : Tesseract, Google API. A table for comparing them ? 
+- Challenges for OCR: Transparancy. Preprocessing with histograms (to suppress word in transparency)
+- Multiple pages. Line detection. 
