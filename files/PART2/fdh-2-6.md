@@ -388,3 +388,11 @@ We will start to study pipelines adapted to Images. Some argue that images can b
 - Never Ending Language Learning (NELL)
 
 - Umberto Eco on Reading Machine, or other.
+
+## To be developed 
+
+- Narrative as virtual reality. 
+- Fictional spaces and modelling of parralel worlds
+  - Pierre Bayard, il existe d'autres mondes, Les editions de Minuit
+  - The fabrics of reality
+  - Other books on alternative reality-
