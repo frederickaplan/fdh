@@ -116,6 +116,24 @@ Waldo Tobler : Studying geographical movement https://fr.wikipedia.org/wiki/Wald
 
 Mc Cormkick et al 1987
 
+
+
+### 4D
+
+Rosenberg and Grafton, Cartographie of Time 
+
+Static / Dynamic
+
+Temporal Accumulation. Territory as a media. 
+
+Resolution temporel. 
+
+Canyon. Resolution hydroanthropologique. Transformation 4D ?
+
+Derivee de la grille. Creusage de canyon. Erosage des canyons par la mobilité. 
+
+
+
 ## Skills
 
 - Software like Tableau
@@ -127,7 +145,7 @@ Mc Cormkick et al 1987
 - 1861 : C.. Minard Pertes suceessives en hommes de l'armée francaise
 - 1940 : Disney Invasion de Varsovie par l'armée allemande
 - 1967 : BERTIN, J. (1967). *Sémiologie graphique.* Paris : Gauthier Villars et Mouton. "Dès 1967, Bertin présente trois propositions avec des objectifs bien spécifiques : la construction d'une série d'images où chaque image correspond à un temps t distinct, la division du temps en catégories ordonnées, ou l'utilisation de flèches et traces orientées. "
-- 1981 : Tobler : \- TOBLER (WR). - A model of geographical movement. - 1981.
+- 1981 : Tobler : \- TOBLER (WR). - A model of geographical movement. - 1981. Champs vectoriel regulier, irregulier, continu 
 - 1997: VASILIEV, I. R. (1997). Mapping Time. *Cartographica*, 34 (2), 1-50. "Ces propositions ont été reprises, complétées et structurées par Vasiliev (1996 et 1997) qui propose une classification croisant des dimensions géométriques (point, ligne, surface) et des catégories de temps (moment, durée, temps structurant, temps comme distance et espace comme horloge)"
 - 2001 : The Language of New Media / Manovic
 - 2001: Edward Tufte, The Visual Display of Quantitative Information, Cheshire, CT, Graphics Press, 2001,
