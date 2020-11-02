@@ -29,6 +29,10 @@ A panorama of Deep learning methods. Successes. Fundamental principles. Neurons.
 
 ###  Gradient descent. 
 
+Beware of the shape of shape of the learning space
+
+cf Prof. Lenka Zdeborová  "Insights on gradient-based algorithms in high-dimensional non-convex learning"
+
 Credit Assignment Path. 
 
 
