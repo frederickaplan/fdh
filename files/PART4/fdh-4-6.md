@@ -1,6 +1,6 @@
 ---
-title: 'Foundations in Digital Humanities 4.6'
-subtitle: 'Immersion'
+title: 'Foundations in Digital Humanities 4.7'
+subtitle: 'I'
 author:
  - Frederic Kaplan
 
