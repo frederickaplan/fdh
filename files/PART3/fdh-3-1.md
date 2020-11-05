@@ -49,9 +49,12 @@ Explorting RDF
 
 Example Druid : Data Stories as Notebooks
 
+## Modelling ignorance
+
 ## Question and Answers 
 
 
 
 ## Further Reading
 
+- Marhias Girel, Science et territoires de l'ignorance
