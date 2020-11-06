@@ -58,3 +58,5 @@ Example Druid : Data Stories as Notebooks
 ## Further Reading
 
 - Marhias Girel, Science et territoires de l'ignorance
+- Stephen Wolfram, An elementary introduction to the Wolfram Language
+- Schaeffer, Tresch, Gagliardi, Aesthetics of Universal Language
