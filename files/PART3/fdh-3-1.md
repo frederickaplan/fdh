@@ -17,6 +17,21 @@ output: pdf_document
 
 (This chapter may be put at the end of the the pipeline, for coherence and replace by a chapter on formal systems and rules. The new chapter rules could introduce the subject with Game as formal system, illustrating the idea with Minecraft for instance)
 
+## Situation so far
+
+- Sets 
+  - 3D Volume in documents (book chapter)
+  - 3D volume on earth
+  - 4D volume
+- Points
+  - 2D : Points on images
+  - 3D : Points in 3D (linked with photogrammetric anchors)
+  - Painting in shape space
+  - Words in large word space and embeddings 
+  - Discourse in discourse space
+- Vector
+  - Relation between words
+
 ## Concepts
 
 The beauty of Knowledge modelling. Tables. Databases. Semantic web, Ontologies, URI, RDF, CIDOC-CRM, How to code event, places and influence. Metaknowledge. The Hypergraph
