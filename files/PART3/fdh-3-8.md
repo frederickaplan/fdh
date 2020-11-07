@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 3.8'
-subtitle: 'Quantitative modelling'
+subtitle: 'Fictional Spaces'
 author:
  - Frederic Kaplan
 
@@ -13,7 +13,7 @@ output: pdf_document
 
 ---
 
-# Quantitative modelling
+# Fictional Spaces
 
 
 
@@ -21,11 +21,7 @@ output: pdf_document
 
 
 
-Example of the modellisation of ancient disease propagation based on Big Data of the Past
-
-Inference of new data based on these forms of Quantitative modelling
-
-
+Parralel worlds and fictional spaces
 
 
 
@@ -35,3 +31,9 @@ Inference of new data based on these forms of Quantitative modelling
 
 ## Further Reading
 
+- David Deutsch, The Fabric of Reality 
+- David Lewis, De la pluralité des mondes
+- Aaronson, S. Quantum Computing Since Democritus 
+- Pierre Bayard, il existe d'autres mondes
+- Karl Popper, un univers de propensions
+- Bruno Latour, irreduction
