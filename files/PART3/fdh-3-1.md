@@ -68,6 +68,16 @@ Example Druid : Data Stories as Notebooks
 
 ## Modelling ignorance
 
+## Rules-based systems and inferences
+
+(This could be the subject of a separated chapter)
+
+- Expert systems
+- Constraint based systems
+- Cognitive computing
+
+
+
 ## Question and Answers 
 
 
