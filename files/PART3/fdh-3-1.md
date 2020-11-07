@@ -49,6 +49,8 @@ Explorting RDF
 
 Example Druid : Data Stories as Notebooks
 
+## Meta-modelling
+
 ## Modelling ignorance
 
 ## Question and Answers 
@@ -57,6 +59,10 @@ Example Druid : Data Stories as Notebooks
 
 ## Further Reading
 
+- Eco Umberto, Vertige de la liste
 - Marhias Girel, Science et territoires de l'ignorance
 - Stephen Wolfram, An elementary introduction to the Wolfram Language
 - Schaeffer, Tresch, Gagliardi, Aesthetics of Universal Language
+- Levy, la sphere semantique
+- Wolfram, The Wolfram Language
+- Aaronson, S. Quantum Computing Since Democritus (peut-être ailleurs)
