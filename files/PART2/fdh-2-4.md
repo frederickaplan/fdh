@@ -336,3 +336,4 @@ We will see how to process large collection of texts.
 - Solution for OCRs : Tesseract, Google API. A table for comparing them ? 
 - Challenges for OCR: Transparancy. Preprocessing with histograms (to suppress word in transparency)
 - Multiple pages. Line detection. 
+- List of text formats : Markdown, RST (Restructuredtext)
