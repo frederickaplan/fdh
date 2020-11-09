@@ -17,7 +17,17 @@ output: pdf_document
 
 (This chapter may be put at the end of the the pipeline, for coherence and replace by a chapter on formal systems and rules. The new chapter rules could introduce the subject with Game as formal system, illustrating the idea with Minecraft for instance)
 
+(Maybe call it Symbolic Modelling)
+
 ## Situation so far
+
+> Definition : Information is a difference that makes a difference
+
+Typically the difference in a shape of a curve (cf Leyton)
+
+Symbolsl : 
+
+Glyphs : 
 
 - Sets 
   - 3D Volume in documents (book chapter)
