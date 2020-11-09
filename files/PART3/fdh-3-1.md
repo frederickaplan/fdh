@@ -11,6 +11,7 @@ header-includes:
 - \fancyfoot[L]{-release-version-}
 output: pdf_document
 
+
 ---
 
 # Knowledge Modelling
@@ -105,5 +106,11 @@ Example Druid : Data Stories as Notebooks
 - Levy, la sphere semantique
 
 - Wolfram, The Wolfram Language
+
+- Latour, B., 2005. *[Reassembling the Social: An Introduction to Actor-Network-Theory](https://en.wikipedia.org/wiki/Bruno_Latour#Reassembling_the_Social)*. Oxford: Oxford UP
+
+- Akrich, M., M. Callon, B. Latour, 2006, Sociologie de la traduction. Textes fondateurs, Paris, Les Presses des Mines
+
+  
 
   
