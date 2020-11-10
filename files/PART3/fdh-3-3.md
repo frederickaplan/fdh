@@ -23,6 +23,8 @@ Search space
 
 Prolog
 
+First Order Logic (Hoolet)
+
 ## Rules-based systems and inferences
 
 (This could be the subject of a separated chapter)

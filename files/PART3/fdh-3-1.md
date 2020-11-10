@@ -192,7 +192,17 @@ Departure (?x1, Venice)
 
 Captain (?x1, ?x2), Gender (?x2, Woman)
 
+### Rules
 
+hasParent(?x1,?x2) ∧ hasBrother(?x2,?x3) 
+
+⇒ hasUncle(?x1,?x3)
+
+SWRL (Semantic Web Rule Language)
+
+Only partial implementation. 
+
+This is the subject of course 3-3
 
 ## Metaknowledge
 
