@@ -180,11 +180,11 @@ The different types of CC licenses are all built of combinations of the four fol
 ### 5.1 Copyright overreaching
 #### 5.1.1. Focus: The Wenman vs. Museums dispute
 
-The American artist Cosmo Wenman entered a series of legal battles with leading museums worldwide (the Louvre, Smithsonian, Rodin, etc.) asking for the 3D copies of ancient works (i.e. with no chance of their authors being alive) to be allowed back in the public domain.
+The American artist Cosmo Wenman entered a series of legal battles with leading museums worldwide (the Louvre, Smithsonian, etc.) asking for the 3D copies of ancient works (i.e. with no chance of their authors being alive) to be allowed back in the public domain.
 
 As an example, after a few legal exchanges, the Berlin Egyptian Museum agreed to share the [3D copy of their famous Nefertiti bust](https://skfb.ly/6QSL9), with a CC license, as long as they'd be mentioned as the copy was attributed to them, shared-alike, and with any commercial use forbidden (CC BY-NC-SA).
 
-But this remains problematic (Wenman argued): **copyright, in theory, only applies to the work it self; not a copy of it** — "especially if the original is in the public domain" (cf. [Wenman's account of the legal battle](https://reason.com/2019/11/13/a-german-museum-tried-to-hide-this-stunning-3d-scan-of-an-iconic-egyptian-artifact-today-you-can-see-it-for-the-first-time/)).
+But this remains problematic (Wenman argued): **copyright, in theory, only applies to the work itself; not a copy of it** — "especially if the original is in the public domain" (cf. [Wenman's account of the legal battle](https://reason.com/2019/11/13/a-german-museum-tried-to-hide-this-stunning-3d-scan-of-an-iconic-egyptian-artifact-today-you-can-see-it-for-the-first-time/)).
 
 #### 5.1.2. Copyrighting reproductions of public domain works
 
@@ -192,7 +192,7 @@ It is the act of creation that gives copyright to the work's creator, not owning
 
 A subtlety appears when we consider the act of copying as potentially "artistic": taking a photograph of an object arguably adds "something" (a potentially "artistic" point-of-view) and would justify new copyright. However, **a "verbatim" copy** (such as performed by a machine) **would not fall under the creative step category**. But this loose-distinction leaves a lot of room for debate and interpretation.
 
-**Reproductions of Public Domain Works Should Remain in the Public Domain.** Digitization by itself doesn’t create copyright.
+**Reproductions of Public Domain Works Should Remain in the Public Domain.** Digitisation by itself doesn’t create copyright.
 
 If the work is in the public domain, no copyright licenses should be applied, and in the case of CC licenses, which are designed to only operate where copyright exists, the application of a CC license is ineffective.
 
@@ -271,7 +271,7 @@ This "commons governance" takes the form of **data commons**, which in the case 
 
 - Philippe Aigrain, Cause Commune, Fayard
 
-- Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford. 
+- Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford.
 
 - Pierre Dardot, Christian Laval, Commun : Essai sur la révolution au XXIe siècle
 
@@ -310,7 +310,7 @@ This "commons governance" takes the form of **data commons**, which in the case 
 - Contributing to Open Street Map
 - Developing Data commons with Dataverse
 
-## How to improve this chapter 
+## How to improve this chapter
 
-- Discuss specificatly what Mass Digitisation change copyright issues based on research done in Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford. 
+- Discuss specificatly what Mass Digitisation change copyright issues based on research done in Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford.
 - Discuss Open Data in databases. For instance : Open Database License (ODbL)
