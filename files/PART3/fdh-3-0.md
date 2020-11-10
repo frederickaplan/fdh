@@ -115,32 +115,123 @@ The presence of morphological link permits to establish a partial ordering on th
 
 A search engine was built following this principle, permitting an augmentation of the scholar’s search space and helping establish the causal dependency tree and progress in the approximation of the causal chains.
 
+### Map systems
+
+We studied maps and map systems.
+
+> Definition : Maps systems articulate digital images with geometrical approximations of places. 
+
+A place can be defined in the following way 
+
+> Definition : A place is a non-ambiguous symbolic area where events can happen and typically defined in relation with other small or bigger areas. 
+
+Every place has a concrete shape 
+
+> Definition: A concrete shape of a Place is the actual and precise frontier of the place on the territory at a given moment in time. A place is characterised by a sequence of concrete shapes. 
+
+Concrete shapes are linked with geometries. 
+
+> Definition: A geometry of a concrete shape is an documented approximation
+
+Geometries can be approximation on maps, measurement on the terrains. 
+
+Geometries are typically defined as logical combination of polygons in relation to another surface. 
+
+Some of the control points of these polygons are have homologous in other document and can therefore be associated with pivot points with 3D coordinate. We can talk about homologous geometries. 
+
+### 3D Shapes
+
+3D shapes can be approximated in three complementary ways
+
+\- by sets of cloud points (3D) with corresponding homologous pairs
+
+\- by projection of 2D geometries (some of which based on control points)
+
+\- by sequence of process transformation as part of formal writing systems describing shapes in a procedural manner. 
+
+3D shapes can play the role of pivotal structures for articulating the content of these different writing systems.  
+
+### 4D indexes
+
+We have described a way of indexing 4D spaces with a fully order index based on a system of division of cubes, permitting to define equivalence classes at various scales. This 4D index can be georectified to fit the surface of Earth. 
+
+This 4D index is complementary to many of other indexes we encountered. 
+
+### Points and vectors 
+
+More generally, points can be 
+
+\- 2D pixel on a digital image, control points of a curve
+
+\- 3D (Pivot) points
+
+\- Complex entities in (more or less high dimension) embeddings : Paintings in shape space, Words in large word space, Discourse in discourse space
+
+Vectors 
+
+\- Can link geometric (2D or 3D) points, words, paintings, discourses
+
+\- Can be organised in polylines, polygons and arbitrarily complexe shapes in n-dimensional spaces. 
+
+\- Can be used for evaluating similarity by calculating vectorial products. 
 
 
-Typically the difference in a shape of a curve (cf Leyton)
 
-Symbolsl : 
+## Processing everything in a single computational system
 
-Glyphs : 
+### Open challenges
 
-- Sets 
-  - 3D Volume in documents (book chapter)
-  - 3D volume on earth
-  - 4D volume
-- Points
-  - 2D : Points on images
-  - 3D : Points in 3D (linked with photogrammetric anchors)
-  - Painting in shape space
-  - Words in large word space and embeddings 
-  - Discourse in discourse space
-- Vector
-  - Relation between words
+Can we process all these various kinds of extracted information in a single computational system ?
+
+A challenge much like the Leibnizian's dream of *Lingua Generalis* 
+
+Can we define ways for detecting facts from fictions ? Or criteria for reconstructing what really happened ?
+
+### Irreductibility Principle
+
+In this part of the course we will follow Bruno Latour’s Irreductibility Principle (Latour)
+
+*Nothing can be reduced to nothing*
+
+The different symbols and measures we are extracting are linked with one another through various forms of translations (some mathematical and some not). 
+
+None of them can be reduced to another one. 
+
+### Actor-Network Approach 
+
+Points, Geometries, Documents are all actors. 
+
+Each actors is connected to other in a network of relationship. 
+
+Nothing exist outside these relationships. 
+
+### Punctualisation
+
+Most of the entities we have seen are complex systems (form a single page of a document to the description of a building). Sometimes, some actors stands for others, hiding the inherent complexity. 
+
+This effect is know as punctualisation. 
+
+> Definition : Punctualisation is the translation process of representing a complex system with a single point standing for this complexity
+
+It is similar idea that the idea of encapsulation in object-oriented programming. 
+
+The punctualisation process creates a black box that may not need to be open. 
+
+### History recovery problem
+
+Everything is flat. There is no hierarchy. Zombies, atoms and carrots have an equal dignity in this modelling approach.  Only actors and relationships. Only points and vectors. 
+
+But each shape, person, thing is an history, a memory store.Each shape, person, thing is a point/black box that can be unpacked, de-punctualised.   
+
+Can we unpack any encapsulated point into a sequence of events ? Can the whole world become a unique giant sequence of events ?
+
+> Definition : The History Recovery Problem is the recursive challenge that consist in systematically expanding each entity into a sequence of finer grained events.
+
+This is the subject of this part of the course. 
 
 
 
 ## Further Reading
-
-- Eco Umberto, Vertige de la liste
 
 - Schaeffer, Tresch, Gagliardi, Aesthetics of Universal Language
 
@@ -150,7 +241,7 @@ Glyphs :
 
 - Latour, B., 2005. *[Reassembling the Social: An Introduction to Actor-Network-Theory](https://en.wikipedia.org/wiki/Bruno_Latour#Reassembling_the_Social)*. Oxford: Oxford UP
 
-- Object Oriented Ontology
+- Graham Harman, Object Oriented Ontology : A new theory about Everything
 
 - Akrich, M., M. Callon, B. Latour, 2006, Sociologie de la traduction. Textes fondateurs, Paris, Les Presses des Mines
 
