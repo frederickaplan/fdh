@@ -21,10 +21,11 @@ output: pdf_document
 
 - **HTR** Handwritten Text Recognition
 
-- **IIIF** : International Image Interoperability Framework
+- **IIIF** International Image Interoperability Framework
 
 - **OCR** Optical Character Recognition
 
+- **TF-IDF** Term frequency - Inverse document frequency
 
 
 # Glossary
@@ -93,10 +94,17 @@ A metaphor to highlight the fact that most information about the past is still h
 ### Mirror World (to develop?)
 A 4D digital twin of space, enriched with time-evolving relevant cultural information.
 
+### N-gram
+A sequence of _n_ consecutive words (or sometimes, characters).
+
 ### Redocumentation (to develop?)
 Redocumentation is the joint-action of two processes in order to widen our temporal horizon:
 - Recollecting: the selection and rejection of some data and sources.
 - Remapping: the bending of data to fit new regulated representations.
+
+### Regular Expression
+
+A sequence of characters that define a search pattern. Also known as 'regex'.
 
 ### Regulated Representation
 A form of representation governed by a set mechansism, which encompasses both production and usage rules. Examples include maps, flow-chart diagrams, or name indexes.

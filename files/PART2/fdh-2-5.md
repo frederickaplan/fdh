@@ -13,6 +13,42 @@ output: pdf_document
 
 ---
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Don't change the following lines](#dont-change-the-following-lines)
+- [Text Processing](#text-processing)
+	- [Theses](#theses)
+	- [1. Large textual objects](#1-large-textual-objects)
+		- [1.1. Humanities Computing, Computational Linguistics and Digital Humanities](#11-humanities-computing-computational-linguistics-and-digital-humanities)
+		- [1.2. Some order of magnitudes](#12-some-order-of-magnitudes)
+		- [1.3. Digital databases of historical texts](#13-digital-databases-of-historical-texts)
+			- [Project Gutenberg](#project-gutenberg)
+			- [Wikisource](#wikisource)
+			- [Google Books](#google-books)
+			- [Impresso](#impresso)
+			- [Other projects](#other-projects)
+			- [Project-based corpora](#project-based-corpora)
+	- [2. Diachronic evolutions](#2-diachronic-evolutions)
+		- [2.1. Corpus representativity](#21-corpus-representativity)
+		- [2.2. n-grams](#22-n-grams)
+		- [2.3. Text reuse](#23-text-reuse)
+		- [2.4. Regular expressions](#24-regular-expressions)
+	- [3. (Synchronic) distributional approaches](#3-synchronic-distributional-approaches)
+		- [3.1. TF-IDF](#31-tf-idf)
+		- [3.2. Word Matrix](#32-word-matrix)
+		- [3.3. From Latent Semantic Analysis to Topic Modelling](#33-from-latent-semantic-analysis-to-topic-modelling)
+			- [Latent Semantic Analysis (min58)](#latent-semantic-analysis-min58)
+		- [Vector Space Models](#vector-space-models)
+		- [Word embeddings](#word-embeddings)
+		- [Diachronic Word embeddings](#diachronic-word-embeddings)
+		- [Multi-linguistic spaces](#multi-linguistic-spaces)
+	- [Summary](#summary)
+	- [In the next chapter](#in-the-next-chapter)
+	- [Practice](#practice)
+	- [Biblio](#biblio)
+	- [Further reading](#further-reading)
+
+<!-- /TOC -->
 # Text Processing
 
 ## Theses
@@ -21,280 +57,204 @@ output: pdf_document
 
 2) These large textual objects can be processed to extract hidden regularities and structures.
 
-3) Some of these patterns and signatures are diachronic others are synchronic
+3) Some of these patterns and signatures are diachronic; others are synchronic.
 
 4) The geometry of complex meaning spaces can be reconstructed even if we stay only at the surface of textual data.  
 
-## Large textuals objects
+## 1. Large textual objects
 
-### Humanities Computing, Computational Linguistics and Digital Humanities
+### 1.1. Humanities Computing, Computational Linguistics and Digital Humanities
 
-Humanities Computing and Computational Linguistics were, and to some extent, still are different fields - with separate conference, societies, journals.
+Humanities Computing and Computational Linguistics were, and to some extent still are, different fields - with separate conference, societies, journals.
 
-This can be traced back to to the origins of the two domains. Digital Humanities felt with philology and literature whereas Computationsal Linguistics was anchored in formal linguistics and computer science (we have see previously that both are hight linked, in particular though the work of Chomsky).
+This can be traced back to to the origins of the two domains. Digital Humanities was initially linked with philology and literature whereas Computational Linguistics was anchored in more formal linguistics and computer science (we have see previously that both are tightly linked, in particular though the work of Chomsky, cf. FDH-1-3).
 
-Progress in more formal foundation of the Digital Humanities permits to go beyond this field distinction.
+Progress in a more formal understanding of what Digital Humanities are permits to go beyond this field distinction.
 
-Digital Humanities deals with large digital cultural objects and therefore with Large collections of Digital texts.
+We have indeed attempted to define Digital Humanities as the field dealing with large digital cultural objects, and therefore with large collections of digital texts. Again, let's stress that no other discipline can deal with these objects.
 
-No other disciplines deal with these objects.
+### 1.2. Some order of magnitudes
 
-Humanities Computing, Computational Linguistics and Digital Humanities
+We can try to get a sense of how large the corpora under study can be by looking at some orders of magnitude:
+- One page of a book contains 2000 - 3000 characters.
+- A 400 page book contains between 8.10^5 and 12.10^5 characters, so roughly 10^6, a million of characters.
+- If you read 1000 books in your life, you will have read 10^9, a billion characters.
+- The Library of Congress contains 12.10^6 books, ie. 12.10^12 characters.
 
-### Some order of magnitudes
+Let's consider an alphabet of 32 characters, including spaces and punctuation. (Footnote: 32 is convenient as it is roughly equal to sqrt(1000).)
 
-One page of a book contains 2000 - 3000 characters
+Imagine now a text made of random characters:
 
-A 400 pages book contains between 8.10^5 and 12.105 characters, so roughly 10^6, a million of characters
+- The character "a1" would appear on average every 32 characters.
+- The sequence "a1-a2" every 32*32, roughly every 1000 characters.
+- The sequence "a1-a2-a3" every 32^3 roughly 3.10^4 characters.
+- The sequence "a1-a2-a3-a4" every 32^4 characters, ie. once or twice in a 400 page book.
+- A 6 characters chain would appear roughly every 10^9 characters, once in a lifetime. A 9 character chain would be found once in the entire Library of Congress.
 
-If you read 1000 books in your life, you will have read 10^9, a billion characters.
+Obviously, texts are not random sequences. They possess **strong regularity**.
 
-The Library of Congress contains 12.10^6 books, 12.10^12 characters.
+The study of this regularity is the subject of Linguistics. Linguistics try to describe texts in a more compact way by showing that they possess regularity, through **syntactic trees** or **grammatical transformations** (which can thus be thought of as compression algorithms).
 
-Let's consider an alphabet of 32 characters (including spaces and punctuation). 32 is nice, because sqrt(1000) is 31.6, so more or less 32
+Paradoxically, linguistics haven't been able to see objects at their full scale: language structures were only captured from extremely partial information (though enriched through observation and induction), compared to all information potentially available.
 
-Imagine now a text made of random characters
+### 1.3. Digital databases of historical texts
 
-The character a1 would appear on average every 32 characters.
+Large collections of digital texts originate from two different source types:
 
-The sequence a1a2 every 32 *32 roughly 1000 characters.
+1) Large **collective discourses** (Twitter, Wikipedia)
 
-The sequence a1a2a3 every 32^3 roughly 3.10^4 characters.
+2) Collection of **historical texts** either from digitisation projects or collective transcription and editing projects.
 
-The sequence a1a2a3a4 every 32^4 108 characters, once or twice in a 400 page book.
+In such cases, the text processing pipeline
+- **(1)** starts with a physical document containing a text written in a given script
+- **(2)** an image of that physical document is taken;
+- **(3)** the text is extracted by reverse engineering the writing system;
+- **(4)** extracted digital texts are then aggregated into a collection, which can then massively be analysed;
+- **(5)** and they are potentially transformed into other digital objects.
 
-A 6 characters chain would appear every 32^2.10^6 so roughly 10^9 characters, once in a lifetime. A 9 characters once in the entire Library of Congress
+Several historical text projects exist, with some based on collective editing and others favouring highly automated transcription pipelines.
 
-Obviously, texts are not random sequences. They possess strong regularity.
-
-The study of this regularity is the subject of Linguistics. Linguistics try to describe texts in a more compact way by showing they possess regularity.
-
-Syntactic trees and grammatical transformations are in fact compression algorithms.
-
-But some far, Linguistics could never see its object at its full scale. Language structures were only captured from extremely partial information compared to information potentially available.
-
-### Digital databases of historical texts
-
-These large collections of digital texts originated from different sources
-
-1) Large collective discourses (Twitter, Wikipedia)
-
-2) Collection of historical texts either from digitisation projects or collective transcription and editing project.
-
-Text processing pipeline
-
-\> Physical document with a text written in a given script
-
-\> Image of the Physical document
-
-\> Extraction of the text based on reverse engineering of the writing system
-
-\> Aggregation in the collection of digital texts
-
-\> Possible transformation of the texts in other digital objects
-
-Several projects exist.
-
-Some are based on collective editing.
-
-Other of highly automated transcription pipelines.
-
-These large collection of historical texts are challenging because they contain texts originating from different places and times, redocumented and recontextualized several times.
+These large collections of historical texts are nontheless challenging because they contain texts originating from different places and times, which have been redocumented and recontextualized several times.
 
 #### Project Gutenberg
 
-Founded in 1971 by Michael Hart with the aim of creating electronic books 60 000 ebooks -More 150 000 downloaded per day
+Project Gutenberg was founded in 1971 by Michael Hart, with the aim of creating electronic books. It contains today more approximately 62,000 ebooks, with more than 150,000 downloads per day.
 
-Project Gutenberg is intentionally decentralized. There is no selection policy dictating what texts to add. Instead, individual volunteers work on what they are interested in, or have available.
+Project Gutenberg is intentionally **decentralized**. There is no selection policy dictating what texts to add. Instead, individual volunteers work on what they are interested in, or have available. Proof-reading is done with volunteers.
 
-Proof-reading is done with volunteers.
+Michael Hart: _“The goal of the project is "to provide as many e-books in as many formats as possible for the entire world to read in as many languages as possible.”_
 
-Michael Hart: “The goal of the project is "to provide as many e-books in as many formats as possible for the entire world to read in as many languages as possible”
+A project slogan is to _"break down the bars of ignorance and illiteracy”_.
 
-A project slogan is to "break down the bars of ignorance and illiteracy”
-
-“We do not write for the reader who cares whether a certain phase win Shakespear has a “:” or a “;”. We put our sights on a goal to release texts that at 99.9% accurate in the eye of the general reader”
+It is not an academic project per se: _“We do not write for the reader who cares whether a certain phase win Shakespeare has a “:” or a “;”. We put our sights on a goal to release texts that at 99.9% accurate in the eye of the general reader”_.
 
 #### Wikisource
 
-Started in 2003 (first called Sourceberg)
-
-Exist in 70 languages (with a subdomain like [fr.wikisource.org](http://fr.wikisource.org))
-
-Edition tools facilities
+First called Sourceberg, Wikisource started in 2003. It now exists in 70 languages (with subdomains like [fr.wikisource.org](http://fr.wikisource.org)), and includes edition tools facilities.
 
 #### Google Books
 
-We saw the story of Google Books in past course.
-
-The project use an automated scanning and OCR workflow, which is necessarily producing errors.
+We saw the story of Google Books in a past course (FDH-2-1). The project uses an automated scanning and OCR workflow, which is necessarily producing errors.
 
 #### Impresso
 
-76 newspapers collected,
-
-600,919 issues,
-
-5,429,656 pages scanned,
-
-47,798,468 content items identified,
-
-3,462,799 images,
-
-12,493,358,703 words.
-
-530,086 named entities disambiguated
+An ongoing project at the DHLAB, Impresso consists of:
+- 76 newspapers collected;
+- 600,919 issues;
+- 5,429,656 pages scanned;
+- 47,798,468 content items identified;
+- 3,462,799 images;
+- 12,493,358,703 words;
+- 530,086 named entities disambiguated.
 
 #### Other projects
+- [HathiTrust](https://www.hathitrust.org)
 
-\- HathiTrust https://www.hathitrust.org
+- [TCP (Text Creation Partnership)](https://textcreationpartnership.org)
 
-\- TCP (Text Creation Partnership) : https://textcreationpartnership.org
-
-\- Historical Corpora (Arabic, Chinese, Dutch, French, Ancient English, German, Nordic Languages, Latin and Ancient Greek, Portuguese)
+- Historical Corpora (Arabic, Chinese, Dutch, French, Ancient English, German, Nordic Languages, Latin and Ancient Greek, Portuguese)
 
 #### Project-based corpora
 
-In his book *Enumerations*, Andrew Piper studies a corpus composed of :
+As an example, in his book *Enumerations*, Andrew Piper studies a corpus composed of :
 
-230000 poems
-
-15000 novels
-
-12000 work of non fiction
+- 230,000 poems
+- 15,000 novels
+- 12,000 non-fiction works
 
 This represents 1.4 billion words or 650 000 fictional characters.
 
-## Diachronic evolutions
+---
 
-### Representativity of corpora
+## 2. Diachronic evolutions
 
-Homogeneity vs Size : Large textual corpus (e.g. Google Books) are heterogenous but their size makes them potentially more representative that others.
+Let's now look at some examples of what we can extract from this new large-scale copora.
 
-For a given year,
+### 2.1. Corpus representativity
 
-O : Set of all words said in French in the world
+An essential thing to maintain is the **balance between Homogeneity and Size**. Large textual corpus (e.g. Google Books) are heterogenous but their size makes them potentially more representative that others, and able to capture more dimensions of language.
 
-E : Set of all the words written in French in the world
+For a given year, we can define and study:
+- O: Set of all the words said in French in the world
+- E: Set of all the words written in French in the world
+- P: Set of all the words written in the Press in the world
+- JDG: Set all the words used in the Journal de Geneve
+- GDL: Set of the words used in the Gazette de Lausanne
 
-P: Set of all the words written in the Press in the world
+![](assets/2-5-JDG_GDL_sets.png)
 
-JDG : Set all the words used in the Journal de Geneve
+Quantifying the overlap of between these sets is necessary to understand how representative our corpora are.
 
-GDL : Set of the words used in the Gazette de Lausanne
+### 2.2. n-grams
 
-### n-grams
+A **n-gram** is traditionally define as a sequence of n consecutive words (or sometimes characters).
 
-A n-gram is traditionally define as a sequence of n consecutive words.
+N-grams can be counted using indexes. For each year (or other time-discretisation), one counts how many times a given n-gram is appearing. The results can then be visualised, as was first proposed by [Google Books' N-gram Viewer](https://books.google.com/ngrams).
 
-(Sometimes a sequence of n consecutive characters)
+The work of Jean-Baptiste Michel et al. (2011, _“Quantitative Analysis of Culture Using Millions of Digitized Books”_ Science 331: 176-82) has shown how elements of basic semantic analysis can capture **some form of historical or cultural understanding** (the so-called ["culturomics"](http://www.culturomics.org) approach).
 
-N-grams can be counted using indexes.
+In order to not have issues with copyright, some words have been suppressed from the index to be sure they cannot be used to reconstruct the texts. Only the so-called “Shadow of the texts” is indexed.
 
-For each years, one count how many times a given n-grams is appearing.
+Some general "laws":
+- For small _n_, the n-grams are common to many contexts; the **larger the n, the more unique** the n-gram becomes.
+- The frequence of n-grams is based on their rank (**Zipfian** distributions).
+- **Benford** Law for word-numbers
 
-Google N-gram Viewer. Based on «google books» in several languages
+Multi-scale diachronic analysis, ie. studying n-gram extensions ("maison " + "{de commerce; blanche; de la culture; etc}") and how they evolve through time, can also prove interesting, in that they inform us on the combinations of usage changes (just like a Fourier Transform can decompose a signal into sub-components).
 
-Culturomics ([www.culturomics.org](http://www.culturomics.org))
+Flat linguistics: Multi-scale n-gram are tools to analyse lexicon dynamics, evolution of syntax but also pragmatics. These levels, which are usually separated, are flattened: as such, flat linguistics operates beyond the sentence, beyond the syntax.
 
-Michel, Jean-Baptiste et al. 2011. “Quantitative Analysis of Culture Using Millions of Digitized Books” Science 331: 176-82.
+### 2.3. Text reuse
 
-In order to not have issues with copyright, some words have been suppressed from the index to be sure they cannot be used to reconstruct the texts.
+A subdomain of large-scale diachronic linguistics focuses on text reuse, by studying the presence of **large portions of text** (n-grams with n large). Many authors borrow or have borrowed (as it was more common in the past), with little or no transformation, long parts of texts from other sources. Thus, text reuse algorithms permit to establish **filiation and genealogies between texts**.
 
-Only the “Shadow of the texts” is indexed
+The most interesting part of Text Reuse concerns _meaningful_ reiterations of text, beyond a simple repetition of common language. In the academic context, text reuse can be associated with plagiarism.
 
-N small are common to many contexts
+In the context of literary studies, however, text reuse is synonyms for **literary phenomena** like allusions, paraphrases and direct quotations.
 
-N large rapidly unique
+### 2.4. Regular expressions
 
-Some general "laws"
+A regular expression (_regex_) is a sequence of characters that define a search pattern.
 
-- Frequence of n-grams based on their rank
-- Benford Law for word-numbers
+Each character in a regular expression (that is, each character in the string describing its pattern) is either:
+- a metacharacter,
+- a regular character that has a literal meaning.
 
-Chronographs
+The dot (**' . '**) is a metacharacter that matches every character except a newline. For instance ‘DH.’ matches ‘DHI’, ‘DHL’, etc.
 
-Multi-scale diachronic analysis
+**' [a-z] '** matches all lower case letters from 'a' to 'z' and is less general than ‘.’
 
-Flat linguistics : Multi-scale n-gram analysis analyses lexicon dynamics, evolution of syntax but also pragmatics. These levels which are usually separated are flatten. It is an invitation to think beyond the sentence, beyond the syntax.
-
-### Text reuse
-
-Studying the presence of large portion of text (n-grams with n large) leads to the domain of Text Reuse.
-
-Many authors borrow, with little or no transformation long part of texts from other sources.
-
-Thus, text reuse algorithm permits to establish filiation and genealogies between texts.
-
-The most interesting part of Text Reuse concern meaningful reiteration of text, beyond the simple repetition of common language.
-
-In the academic context, text reuse can be associated with plagiarism.
-
-In the context of literary studies text re-use is synonyms for literary phenomena like allusions, paraphrases and direct quotations.
-
-Matteo Romanello, Aurélien Berra, Alexandra Trachsel. Rethinking Text Reuse as Digital Classicists. Digital Humanities conference, 2014
-
-Smith, David A., Ryan Cordell, et al. “Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers.” American Literary History, vol. 27, no. 3, 2015, pp. E1–E15, doi:https://doi.org/10.1093/alh/ajv029.
-
-Smith, David A., Ryan Cordel, et al. “Detecting and Modeling Local Text Reuse.” IEEE/ACM Joint Conference on Digital Libraries, 2014, pp. 183–92, doi:10.1109/JCDL.2014.6970166.
-
-### Regular expressions
-
-A regular expression (regex) is a sequence of characters that define a search pattern.
-
-Each character in a regular expression (that is, each character in the string describing its pattern) is either
-
- \- a metacharacter,
-
-\- a regular character that has a literal meaning
-
- '.' is a metacharacter that matches every character except a newline
-
-For instance ‘DH.’ Matches ‘DHI’, ‘DHL’, etc.
-
-[a-z] (match all lower case letters from 'a' to 'z') is less general than ‘.’
 
 Regular expressions originated in 1951, when mathematician Stephen Cole Kleene described regular languages using his mathematical notation called regular events.
 
-Complicated regexes arose in Perl in the 1980s, which originally derived from a regex library written by Henry Spencer (1986), who later wrote an implementation of Advanced Regular Expressions for Tcl.
+Complicated regexes arose in Perl in the 1980s, which originally derived from a regex library written by Henry Spencer (1986), who later wrote an implementation of Advanced Regular Expressions for TCL.
 
-Today, regexes are widely supported in programming languages, text processing programs
+Today, regexes are widely supported in programming languages and text processing programs.
 
 **Regular expressions** can be used to define complex criteria for the **n**-**grams,** thus extending in a very powerful manner the kind of analysis that can be performed.
 
-## Distributional approaches
+---
 
-### TF-IDF
+## 3. (Synchronic) distributional approaches
 
-TF-IDF (term frequency–inverse document frequency), is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus
+### 3.1. TF-IDF
 
-Often used as a weighting factor
+**TF-IDF** (term frequency–inverse document frequency), is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus, as such it is often used as a weighting factor. TF-IDF scores the words based on **how special they are** to a particular document within the larger corpus.
 
-Term Frequency : The weight of a term that occurs in a document is simply proportional to the term frequency.
+Term Frequency: The weight of a term that occurs in a document is simply **proportional to the term frequency**.
 
-Inverse Document Frequency : The specificity of a term can be quantified as an inverse function of the number of documents in which it occurs.
+Inverse Document Frequency: The **specificity** of a term can be quantified as an inverse function of the number of documents in which it occurs.
 
-If you just sort words based on how frequently they are used tf (t; d), you will get the usual the, and, etc.
+### 3.2. Word Matrix
+A word matrix can be obtained by looking at how much a word is co-occuring next to some other word. Similar words (with comparable grammatical roles and similar neighbours) will have similar matrix rows.
 
-TF-IDF scores the words based on how special they are to a particular document within the larger corpus.
+Many matrix designs are possible (cross-comparing all words, adjectives with modified nouns, vers and arguments, etc). Some have been explored by Chris Potts (_Distributional approaches to word meanings_, 2013).
 
-### Word Matrix
+### 3.3. From Latent Semantic Analysis to Topic Modelling
 
-• I like deep learning.
+Topic modelling provides a suite of algorithms to **discover hidden thematic structure** in large collections of texts. The results of topic modelling algorithms can be used to summarize, visualize, explore, and theorize about a corpus.
 
-• I like NLP.
-
-• I enjoy flying.
-
-Similar Words have similar rows
-
-Many matrices are possible
-
-Chris Potts, Distributional approaches to word meanings, 2013
-
-### From Latent Semantic Analysis to Topic Modeling
-
-Topic modeling provides a suite of algorithms to discover hidden thematic structure in large collections of texts. The results of topic modeling algorithms can be used to summarize, visualize, explore, and theorize about a corpus.
+#### Latent Semantic Analysis (min58)
 
 LSA (Latent Semantic Analysis) uses TF-IDF scores in a larger term-document matrix.
 
@@ -443,6 +403,13 @@ SpaCy : https://github.com/allenai/scispacy
 Solr : Search engine and index
 
 
+## Biblio
+
+Matteo Romanello, Aurélien Berra, Alexandra Trachsel. Rethinking Text Reuse as Digital Classicists. Digital Humanities conference, 2014
+
+Smith, David A., Ryan Cordell, et al. “Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers.” American Literary History, vol. 27, no. 3, 2015, pp. E1–E15, doi:https://doi.org/10.1093/alh/ajv029.
+
+Smith, David A., Ryan Cordel, et al. “Detecting and Modeling Local Text Reuse.” IEEE/ACM Joint Conference on Digital Libraries, 2014, pp. 183–92, doi:10.1109/JCDL.2014.6970166.
 
 ## Further reading
 
