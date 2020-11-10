@@ -23,7 +23,10 @@ Search space
 
 Prolog
 
+Regime de felicité (Latour Enquete sur les modes d'existence)
+
 
 
 ## Further Reading
 
+- Latour, Enquete sur les modes d'existence
