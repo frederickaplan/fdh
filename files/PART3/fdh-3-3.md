@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 3.3'
-subtitle: 'Deep Learning for Images'
+subtitle: 'Inferences and Constraints'
 author:
  - Frederic Kaplan
 
@@ -13,31 +13,15 @@ output: pdf_document
 
 ---
 
-# Deep Learning for Images
+# Inferences and Constraints
 
 ## Concepts
 
-### Segmentation
+Sudoku
 
+Search space
 
-
-### Object Recognition
-
-
-
-### Metric Learning
-
-
-
-## Practice
-
-### 
-
-Computer vision and deep learning tutorial 
-
-
-
-## Question and Answers 
+Prolog
 
 
 

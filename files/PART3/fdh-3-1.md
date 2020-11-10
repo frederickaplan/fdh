@@ -1,6 +1,6 @@
 ---
 title: 'Foundations in Digital Humanities 3.1'
-subtitle: 'Knowledge Modelling'
+subtitle: 'Semantic Modelling'
 author:
  - Frederic Kaplan
 
@@ -14,11 +14,7 @@ output: pdf_document
 
 ---
 
-# Knowledge Modelling
-
-(This chapter may be put at the end of the the pipeline, for coherence and replace by a chapter on formal systems and rules. The new chapter rules could introduce the subject with Game as formal system, illustrating the idea with Minecraft for instance)
-
-(Maybe call it Symbolic Modelling)
+# Semantic Modelling
 
 ## Situation so far
 
@@ -108,6 +104,8 @@ Example Druid : Data Stories as Notebooks
 - Wolfram, The Wolfram Language
 
 - Latour, B., 2005. *[Reassembling the Social: An Introduction to Actor-Network-Theory](https://en.wikipedia.org/wiki/Bruno_Latour#Reassembling_the_Social)*. Oxford: Oxford UP
+
+- Object Oriented Ontology
 
 - Akrich, M., M. Callon, B. Latour, 2006, Sociologie de la traduction. Textes fondateurs, Paris, Les Presses des Mines
 
