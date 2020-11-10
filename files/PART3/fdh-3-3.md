@@ -23,6 +23,20 @@ Search space
 
 Prolog
 
+## Rules-based systems and inferences
+
+(This could be the subject of a separated chapter)
+
+- Expert systems
+- Constraint based systems
+- Cognitive computing
+
+
+
+RIF : Rule Interchange Format
+
+
+
 Regime de felicité (Latour Enquete sur les modes d'existence)
 
 

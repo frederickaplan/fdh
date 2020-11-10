@@ -237,7 +237,7 @@ This is the subject of this part of the course.
 
 - Levy, la sphere semantique
 
-- Wolfram, The Wolfram Language
+- Stephen Wolfram, An elementary introduction to the Wolfram Language
 
 - Latour, B., 2005. *[Reassembling the Social: An Introduction to Actor-Network-Theory](https://en.wikipedia.org/wiki/Bruno_Latour#Reassembling_the_Social)*. Oxford: Oxford UP
 

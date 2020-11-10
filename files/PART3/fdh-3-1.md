@@ -16,99 +16,237 @@ output: pdf_document
 
 # Semantic Modelling
 
-## Situation so far
+## Theses
 
-> Definition : Information is a difference that makes a difference
+1) A formalism exists to represent atom of knowledge 
 
-Typically the difference in a shape of a curve (cf Leyton)
+2) This formalism is at the intersection of database, logic and graph theory
 
-Symbolsl : 
+3) It can be used to represent knowledge and meta knowledge (knowledge about knowledge)
 
-Glyphs : 
+## From Tables to Graphs
 
-- Sets 
-  - 3D Volume in documents (book chapter)
-  - 3D volume on earth
-  - 4D volume
-- Points
-  - 2D : Points on images
-  - 3D : Points in 3D (linked with photogrammetric anchors)
-  - Painting in shape space
-  - Words in large word space and embeddings 
-  - Discourse in discourse space
-- Vector
-  - Relation between words
+### Tabular data
 
-## Concepts
+Example : modelling venetian routes. 
 
-The beauty of Knowledge modelling. Tables. Databases. Semantic web, Ontologies, URI, RDF, CIDOC-CRM, How to code event, places and influence. Metaknowledge. The Hypergraph
+The simplest kind of dataset, that everyone is familiar with, is tabular data.
+
+Any data kept in table such as an Excel spreadsheet or administrative page of a Cadaster.
+
+Tabular data when invented was a revolutionary technology. 
+
+Data kept in table is easy to display, sort, print, edit. 
+
+You might not even think of data in an Excell spreadsheet as modelled. But there are semantics in data table. Where ?
+
+What is the obvious limitation with this kind of storage ?
+
+You cannot search for routes that stay more than 2 days at Corfu. Sorting the columns does not capture the deeper meaning of the text entered. 
+
+### Relational database
+
+Relational databases are a possible solution. Many very mature product exist like Oracle DB, MySQL, PostgreSQL.
+
+A relational database allows multiple datables to be joined in a standardised way. 
+
+However, as your project goes, one may need to reformulate the tables, This is called schema migration. A painful process. 
+
+For big databases, schema can get incredibly complex. 
+
+There is a whole industry based on solving this reoccurring issue. 
+
+How can we make future proof schemata ?
+
+Coding properties as tables : With this mode of coding we can add easily new properties (Price of the route, Captain, etc.). The schema is future-proof. In addition the data about the data (i.e .the metadata, the name of the columns) is now part of the data itself. This is ideal for projects in Perpetual Beta.
+
+Most importantly it makes a direct and simple connection with a well developed research field : logic
+
+### RDF Triplets
+
+(Subject Predicate Object)
+
+The subject denotes the resource, and the predicate denotes traits or aspects of the resource, and expresses a relationship between the subject and the object.
+
+(R1 departure Venice)
+
+This is called a RDF statement, a triple, an atomic relation in a database. 
+
+We can easily add : 
+
+(R1 departure-date 2.7.1422)
+
+Various notation : 
+
+(subject predicate object)
+
+⇔ {subject, predicat, object} 
+
+⇔ predicat(object, subject)
+
+This is equivalent to 
+
+∃ object, ∃ subject, predicat(object, subject)
+
+As RDF statements can be understood both as logic statements as parts of a graph, one can use any tools and ideas from logic and graph theory to manipulate them. 
+
+Formally, collection of RDF graphs form labeled, directed multi-graph. 
+
+### Identifiers
+
+The nodes of the Graph are called Resources
+
+Who one needs to coordinate multiple datasets it can become an increasingly difficult task to guarantee unique and consistent idenfiers for each node. 
+
+R1 that we use in our database may mean something else in another database
+
+Can we define a unique id for all the concepts and entities of the world ?
+
+Cf. Umberto Eco, Vertige de la liste
+
+For naming resource, RDF uses URIs (Unique Resource Idenfiers) and an optional Fragment identifier. 
+
+URIs generalize the concept of URL (Universal Resource Locators), the string used to specify how web pages are retrieved. Anything, whether one can retrieve it electronically or not, can be uniquely identified in a similar way. 
+
+Uniform Reserouce Locator (URL) locates something (e.g. a page, an image) on the web
+
+Uniform Resource Identifier (IRI) identifies an entire on the Webb (ASCII)
+
+Internationalised Resource Identifier (IRI) identifies an entity on the web (UNICODE)
+
+Since URIs can identified anything as a resource, the subject of an RDF statement can be a resource, the object can be a resource and most importantly predicates are always resources
+
+It is common in RDF to shorten URIs by assigning a namespace to the base URI and writing only the distinctive part of the identifier. 
+
+The URI :
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+
+Can be shorten 
+
+rdf:type
+
+### Serialisation
+
+Different serialisation formats exist : 
+
+RDF/XML (the most frequently used), 
+
+RDFa (RDF in attributes),  
+
+Turtle (a compact, human-friendly format),  
+
+N-Triples (easy-to-parse, line-based format that is not as compact as Turtle). 
+
+N-Quads ( for serialising multiple RDF graphs), 
+
+JSON-LD (JSON-based serialization), 
+
+N3 (permits to define inference rules), 
+
+RDF/JSON (an alternative syntax for expressing RDF triples using a simple JSON notation).
+
+HDT (Header, Dictionary, Triples) is a compact data structure and binary serialisation format for RDF that keeps big datasets compressed to save space while maintaining search and browse operations without prior decompression. http://www.rdfhdt.org/what-is-hdt/
+
+### Vocabularies
+
+A set of URIRefs is knows as a vocabulary
+
+We can design a specific vocabulary for the maritime route example. 
+
+There are also famous vocabularies
+
+### Ontologies
+
+An ontology provides a special vocabulary with which knowledge can be represented 
+
+This vocabulary allows us to specify which entities will be represented, how they can be grouped and what relationship connect then together. 
+
+(Venice isa Place), (Corfu isa Place), (Place haslat latitude) (Place hassling longitude) …
+
+Now something beautiful : 
+
+An ontology can be expressed as RDF triples and stored in a graph alongside the data it describes 
+
+OWL (Web Ontology Language) is an ontology language layered on top of RDF and RDFs (RDF Schemata)
+
+\- Terminology statements 
+
+ex::Bridge rdf:type rdfs:class
+
+Ex::Bridge rdfs:subcass ex:Place
+
+Protégé is a software to create your own ontology. 
+
+We will see some universal ontologies in the next course. 
+
+### Queries
+
+Semantic coding is all about asking bigger questions. 
+
+Just as SQL provides a standard query language across relational databases, SPARQL (pronounce sparkle) provides a query language for RDF graphs. 
+
+SPARQL queries attempt to match patterns in the graph and bind wildcard variables as it finds solutions 
+
+Departure (?x1, Venice)
+
+Captain (?x1, ?x2), Gender (?x2, Woman)
 
 
 
-Detection of causal chains. Inference of Graphs
+## Metaknowledge
 
+Metaknowledge is knowledge about knowledge
 
+Expressed knowledge (RDF triples) is not in the same space as resources (URI). We can easily attach new information to resource but not to triples
 
-## Practice
+It is not easy to represent metaknowledge like th origin or the uncertainly linked with an information 
 
-Graph writing. Presentation of some interesting ontologies: SKOS, VIAF, Geonames, TGN, W3C Time Ontology. SPARQL and SPARQL endpoint. Exercice on SPARQL endpoints: DBPedia [[1\]](http://dbpedia.org/sparql), Talk of Europe [[2\]](http://linkedpolitics.ops.few.vu.nl/yasgui/index.html), Persée [[3\]](http://data.persee.fr/explorer/), Le Temps ARchive [[4\]](http://iccluster052.iccluster.epfl.ch:8899/sparql), available on [this Github repository](https://github.com/dhlab-epfl/fdh-tutorials). (
+To overcome this issue we need to introduce two levels of knowledge and use a trick. 
 
-LOAD model (Andrea Spitz)
+An expressed RDF can be transformed into three reified triplets 
 
-HDT http://www.rdfhdt.org/what-is-hdt/
+(Rialto hasTimeSpan 1588-1591)
 
-"Currently RDF data is stored and sent in very verbose textual serialization formats that waste a lot of bandwidth and are expensive to parse and index. If RDF is meant to be machine understandable, why not use an appropriate format for that?
+(S1 rdf:subject RialtoReconstruction)
 
-HDT (Header, Dictionary, Triples) is a **compact data structure** and **binary serialization format** for RDF that keeps big datasets **compressed** to save space while maintaining **search** and **browse** operations without prior decompression. This makes it an ideal format for storing and sharing RDF datasets on the Web."
+(S1 rdf:predicate hasTimeSpan)
 
-JustGUI
+(S1 rdf:object 1588-1591)
 
-Datafirst. 
+We can add : 
 
-Converting a CSV in RDF
+(S1 metardf:reliability 0.8)
 
-Explorting RDF
+(S1 metardf:creator FredericKaplan)
 
-Example Druid : Data Stories as Notebooks
+Now our RDF store includes historical knowledge and knowledge about the creation of this historical process.
 
-## Meta-modelling
+These kinds of meta information can document all the construction phase of the RDF Graph (whether realised baby humans or machines)
 
-## Modelling ignorance
+With this approach we can extract through queries the historical knowledge corresponding to some specific sources and thus create a possible historical reality. 
 
-## Rules-based systems and inferences
+## Summary
 
-(This could be the subject of a separated chapter)
+We must not only model historical information but model each step of the construction of the historical process. Any graph is itself an historical entity. 
 
-- Expert systems
-- Constraint based systems
-- Cognitive computing
+There is a need for a semantic framework capable of coding historical information and meta-historical information. 
 
-
-
-## Question and Answers 
-
-
+Coding meta-historical information implies documenting the choice of sources, transcription phases, interpretation processes realised by humans or machines. 
 
 ## Further Reading
 
 - Eco Umberto, Vertige de la liste
 
+- Tim Berners-Lee, Weaving the Web
+
 - Marhias Girel, Science et territoires de l'ignorance
 
-- Stephen Wolfram, An elementary introduction to the Wolfram Language
-
-- Schaeffer, Tresch, Gagliardi, Aesthetics of Universal Language
-
-- Levy, la sphere semantique
-
-- Wolfram, The Wolfram Language
-
-- Latour, B., 2005. *[Reassembling the Social: An Introduction to Actor-Network-Theory](https://en.wikipedia.org/wiki/Bruno_Latour#Reassembling_the_Social)*. Oxford: Oxford UP
-
-- Object Oriented Ontology
-
-- Akrich, M., M. Callon, B. Latour, 2006, Sociologie de la traduction. Textes fondateurs, Paris, Les Presses des Mines
-
   
 
-  
+
+## To improve
+
+- Talk about JustGUI, Datafirst, Converting a CSV in RDF
+
+- Example Druid : Data Stories as Notebooks
