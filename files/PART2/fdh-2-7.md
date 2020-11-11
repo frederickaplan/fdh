@@ -23,7 +23,11 @@ output: pdf_document
 
 3) But other forms of “similarities” exist
 
+## Definition
+
 We have seen what a Writing System is. What are Image systems?
+
+> Definition : An Image system is a graph of connected digital images and a set of rules for deciding when two images are linked. 
 
 ## Homologous pairs and Physical closure
 

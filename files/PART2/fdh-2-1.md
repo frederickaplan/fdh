@@ -163,13 +163,17 @@ For us to understand this complex transformation well, we should ask ourselves t
 
 #### 2.1.1. What is a document?
 
-A document is a **record resulting from an inscription process** (whether through text, image, or sound). A document is therefore unthinkable without the act of documenting, which consists in some **material inscription** that lasts through some time.
+> Definition : A document is a **record resulting from an inscription process** (whether through text, image, or sound). 
+
+A document is therefore unthinkable without the act of documenting, which consists in some **material inscription** that lasts through some time.
 
 To produce a document is to **produce an object different** to the documented object.
 
 Documents have a performative dimension: they act in the world. It is therefore important not only to study their form, but also understand their function.
 
 #### 2.1.2. What is a digital image?
+
+> Definition : A digital image is a raster or two-dimensional array of points. Each point, or pixel, is defined by unique integer coordinates. 
 
 Digitisation is often the **documentation of a document** (when, for example, an analog photography is recaptured digitally). The produced digital image is the result of a complex algorithm and a particular hardware.
 
