@@ -21,6 +21,20 @@ output: pdf_document
 
 2) the semantic gap between low-level descriptors and semantic concepts have been partially filled
 
+
+
+### Image systems based on concepts
+
+> Definition : The connection between two digital images is said to be conceptual if it is possible to assert, from the visual information only, that they are characterised by the same concept
+
+ImageNet is an example of an image system based on concept. 
+
+**ImageNet** is organized according to the nouns of the [WordNet](http://wordnet.princeton.edu/) hierarchy. Each node of the hierarchy is depicted by hundreds or thousands of images (five hundred images per node on average). 
+
+ImageNet played a crucial role for bootstrapping generic deep learning based machine vision architecture. 
+
+This is a crucial aspect of image systems, they enable to bootstrap more advanced machine vision architecture. 
+
 ### Annotation of images 
 
 https://www.makesense.ai/
