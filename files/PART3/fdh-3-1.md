@@ -244,6 +244,12 @@ There is a need for a semantic framework capable of coding historical informatio
 
 Coding meta-historical information implies documenting the choice of sources, transcription phases, interpretation processes realised by humans or machines. 
 
+Open question : Is the triplet formalism strong enough to do the work ?
+
+## In the next chapter
+
+We will look at the principles for designing universal ontologies. 
+
 ## Further Reading
 
 - Eco Umberto, Vertige de la liste
