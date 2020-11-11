@@ -244,7 +244,7 @@ There is a need for a semantic framework capable of coding historical informatio
 
 Coding meta-historical information implies documenting the choice of sources, transcription phases, interpretation processes realised by humans or machines. 
 
-Open question : Is the triplet formalism strong enough to do the work ?
+Open question : Is the triplet formalism strong enough to do the work ? cf Gardenfors 
 
 ## In the next chapter
 
