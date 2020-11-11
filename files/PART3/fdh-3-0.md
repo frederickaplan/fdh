@@ -22,9 +22,7 @@ output: pdf_document
 
 > Definition:  Information is a difference that makes a difference for an interpreter
 
-This means that information is latent, waiting to be revealed, interpreted, translated. 
-
-It is always defined based on an interpretation process. 
+This means that information is latent, waiting to be revealed, interpreted, translated. It is always defined based on an interpretation process. 
 
 ### Memory
 
@@ -52,7 +50,7 @@ Writing systems exist for natural language (English, French) but also for progra
 
 A ancient goal of the humanity is to define a universal writing system capable of describing everything
 
--  Magic Languages of John Dee
+- Magic Languages of John Dee
 - Raymond Lull’s Ars Magna
 - Yi King
 - Leibniz’s lingua generalis and convention for calculus
@@ -65,7 +63,7 @@ As we saw, the shape of curve can be documented using sequences for deformation 
 
 The shape of a glyphs can be conventional encode/redocumented/rewritten in a standard character chain (UNICODE)
 
-### Digital images systems
+### Image systems
 
 In some sense, a digital image is part of particular writing systems based on operation to manipulate and transform arrays. 
 
@@ -107,7 +105,7 @@ We saw also that some images with no physical connection could be linked if they
 
 The morphological patterns is thought to be transmitted from one image to the other through an imperfect copy process. This meant that a part of one image was the source playing a role in historical operation that lead to the creation of the other image (copy in workshop). 
 
-The morphological link is the sign of some sort of casual relation between the images. 
+The morphological link is the sign of some sort of causal relation between the images. 
 
 > Definition : The connection between two digital images is said to be morphological if it is possible to assert, from the visual information only, that one was at some point the source of the other in a chain of copies. 
 
@@ -117,9 +115,9 @@ A search engine was built following this principle, permitting an augmentation o
 
 ### Map systems
 
-We studied maps and map systems.
+We studied maps and digital map systems.
 
-> Definition : Maps systems articulate digital images with geometrical approximations of places. 
+> Definition : Digital map systems articulate digital images with geometrical approximations of places. 
 
 A place can be defined in the following way 
 
