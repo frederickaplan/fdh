@@ -247,13 +247,9 @@ Coding meta-historical information implies documenting the choice of sources, tr
 ## Further Reading
 
 - Eco Umberto, Vertige de la liste
-
 - Tim Berners-Lee, Weaving the Web
-
 - Marhias Girel, Science et territoires de l'ignorance
-
-  
-
+- Gärdenfors, Peter (2004). *How to make the Semantic Web more semantic*. *Formal Ontology in Information Systems: proceedings of the third international conference (FOIS-2004)*. IOS Press. pp. 17–34.
 
 ## To improve
 

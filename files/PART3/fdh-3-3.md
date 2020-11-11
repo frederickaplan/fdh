@@ -37,9 +37,18 @@ First Order Logic (Hoolet)
 
 RIF : Rule Interchange Format
 
+## Felicity regimes
 
+Latour Enquete sur les modes d'existence: Felicity regimes are different in
 
-Regime de felicité (Latour Enquete sur les modes d'existence)
+- Science
+- Technique
+- Law
+- Religion
+- Politics
+- Economy
+
+And the way they instersect
 
 
 
