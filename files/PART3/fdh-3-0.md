@@ -116,7 +116,7 @@ A search engine was built following this principle, permitting an augmentation o
 
 ### Map systems
 
-We studied maps and digital map systems.
+We studied maps and digital map systems. Maps essentially combine images with geometries about places. 
 
 > Definition : Digital map systems articulate digital images with geometrical approximations of places. 
 
@@ -139,6 +139,8 @@ Geometries are typically defined as logical combination of polygons in relation 
 Some of the control points of these polygons are have homologous in other document and can therefore be associated with pivot points with 3D coordinate. We can talk about homologous geometries. 
 
 ### 3D Shapes
+
+The relationship of 3D shapes to lower dimensional writing system is not unlike the relationship of maps with images and geometries. 
 
 3D shapes can be approximated in three complementary ways
 
