@@ -232,7 +232,7 @@ We can add :
 
 Now our RDF store includes historical knowledge and knowledge about the creation of this historical process.
 
-These kinds of meta information can document all the construction phase of the RDF Graph (whether realised baby humans or machines)
+These kinds of meta information can document all the construction phase of the RDF Graph (whether realised by humans or machines)
 
 With this approach we can extract through queries the historical knowledge corresponding to some specific sources and thus create a possible historical reality. 
 
