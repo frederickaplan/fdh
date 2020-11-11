@@ -18,6 +18,8 @@ output: pdf_document
 
 ## Rearticulation of the concepts introduced so far
 
+<!--(Maybe start with the idea of Universal Language and then go into the redefinition of the main concepts of part 2)-->
+
 ### Information
 
 > Definition:  Information is a difference that makes a difference for an interpreter
@@ -59,9 +61,7 @@ A ancient goal of the humanity is to define a universal writing system capable o
 
 Writing systems can also be used to describe shapes. 
 
-As we saw, the shape of curve can be documented using sequences for deformation operations (Leyton’s Generative theory of share and Process Grammar)
-
-The shape of a glyphs can be conventional encode/redocumented/rewritten in a standard character chain (UNICODE)
+As we also saw that the shape of curve can be documented using sequences for deformation operations (Leyton’s Generative theory of share and Process Grammar)
 
 ### Image systems
 
@@ -91,11 +91,12 @@ If there is a physical connection between two digital images (if they are part o
 
 > Definition: Homologous points are corresponding pairs of points in two digital images identified as the representation of the same underlying physical point, called pivot point, from two perspectives.
 
-Each points in an image have 2D integer coordinate (relative to the image height and width).
-Using geometrical calculus (photogrammetry) it is possible to associated to the pivot a point a series of approximate 3D coordinate in a corresponding relative 3D space.
+Each points in a digital image have 2D integer coordinates (relative to the image height and width).
 
-If the images are georectified, the 3D space can be articulated  relatively to the surface of the Earth. 
-The pivot point (3D coordinate) and the homologous pairs (2D coordinate) is thought to represent the same continuous physical reality. 
+Using geometrical calculus (photogrammetry) it is possible to associate to the pivot a point a series of approximated 3D coordinates in a corresponding relative 3D space.
+
+If the images are georectified (using homologous pairs), the 3D space can be articulated relatively to the surface of the Earth. 
+The pivot point (with 3D coordinates) and the homologous pairs (with 2D coordinates) is thought to represent the same continuous physical reality. 
 
 Symmetrically, the presence of numerous coherently organised pairs of homologous points is the signature of physical connection, an underlying common physical reality. 
 
@@ -172,8 +173,6 @@ Vectors
 \- Can be organised in polylines, polygons and arbitrarily complexe shapes in n-dimensional spaces. 
 
 \- Can be used for evaluating similarity by calculating vectorial products. 
-
-
 
 ## Processing everything in a single computational system
 
