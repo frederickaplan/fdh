@@ -245,7 +245,7 @@ This is the subject of this part of the course.
 
 - Akrich, M., M. Callon, B. Latour, 2006, Sociologie de la traduction. Textes fondateurs, Paris, Les Presses des Mines
 
-- Information
+- Gleick James, The Information
 
   
 
