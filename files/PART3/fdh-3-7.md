@@ -21,6 +21,11 @@ output: pdf_document
 
 
 
+### Text generation
+
+- GPT 2 / GPT 3
+- XLNet
+
 ### Image generation
 
 Deep fake

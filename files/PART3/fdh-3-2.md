@@ -15,9 +15,16 @@ output: pdf_document
 
 # Universal ontologies
 
-Graph writing. Presentation of some interesting ontologies: SKOS, VIAF, Geonames, TGN, W3C Time Ontology. SPARQL and SPARQL endpoint. Exercice on SPARQL endpoints: DBPedia [[1\]](http://dbpedia.org/sparql), Talk of Europe [[2\]](http://linkedpolitics.ops.few.vu.nl/yasgui/index.html), Persée [[3\]](http://data.persee.fr/explorer/), Le Temps ARchive [[4\]](http://iccluster052.iccluster.epfl.ch:8899/sparql), available on [this Github repository](https://github.com/dhlab-epfl/fdh-tutorials). (
+Graph writing. Presentation of some interesting ontologies: 
 
-LOAD model (Andrea Spitz)
+- SKOS, 
+- VIAF, 
+- Geonames, 
+- TGN, 
+- W3C Time Ontology. 
+- SPARQL and SPARQL endpoint.
+- LOAD model (Andrea Spitz)
+- Wikidata. Measuring Wikidata / Wikipedia ratio 
 
 
 

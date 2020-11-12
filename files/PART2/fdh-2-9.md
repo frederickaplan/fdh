@@ -35,6 +35,8 @@ ImageNet played a crucial role for bootstrapping generic deep learning based mac
 
 This is a crucial aspect of image systems, they enable to bootstrap more advanced machine vision architecture. 
 
+Other option : Image systems based on GeoTags. Question of the Gridsize or problem of regression. 
+
 ### Annotation of images 
 
 https://www.makesense.ai/
