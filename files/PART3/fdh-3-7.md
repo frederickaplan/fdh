@@ -17,24 +17,40 @@ output: pdf_document
 
 (Simulation / Wouldbe world)
 
+
+
 ## Concepts
 
+### Reproducing the texture of relality 
 
+What is the texture of reality. 
+
+### Generator and discrimanator
+
+- GAN's concept
 
 ### Text generation
+
+Starting from a prompt (the beginning of a sentence)
 
 - GPT 2 / GPT 3
 - XLNet
 
+BERT Model for discrimination. A threshod needs to be defined 
+
+Other improvement : Date adjustement. Historical realism enhancement 
+
 ### Image generation
 
-Deep fake
+- Pix2Pix
+- CycleGAN
+- Contrastive Unpaired Translation GAN / ECCV 2020 / Berkeley Adobe Lab. Using subset of the image. 
+- GPT-2 for images ?
 
-and deep fake detection
+Societal topics : 
 
-GPT-2 for images 
-
-Meme creation by machines 
+- Deep fake and deep fake detection
+- Meme creation by machines 
 
 ## Produral
 

@@ -334,6 +334,8 @@ We will see how to process large collection of texts.
 ## To improve
 
 - Solution for OCRs : Tesseract, Google API. A table for comparing them ? 
+- Solultuion for HTR : PyLaia
 - Challenges for OCR: Transparancy. Preprocessing with histograms (to suppress word in transparency)
 - Multiple pages. Line detection. 
+- Distance between text : Levenshtein, etc. 
 - List of text formats : Markdown, RST (Restructuredtext)
