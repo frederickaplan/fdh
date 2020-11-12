@@ -197,6 +197,8 @@ This schema permits to automatically generate an annotation interface.
 
 To identify two mentions as referring to the same referent is a process of homology. This is something fundamental that we will see again and again in this course.
 
+> Definition: Homologous points are corresponding pairs of points in two digital images identified as the representation of the same underlying physical point, called pivot point, from two perspectives.
+
 The correspondence of homologous points define **“pivot” points**. Pivot points are the **invariants features**, the "sameness" that is characterised by the homologous pairs. We can also say that they define an equivalence class.
 
 The coordinates of a pivot point and a unique reference can be defined. **_But do the “pivot” points exist?_**
@@ -234,4 +236,7 @@ Next, we will start to go into details for each category of documents.
 - Paul Otlet, Le livre sur le livre
 - Salaum, Arsenault, Introduction aux sciences de l'information.
 - Anthony Grafton, La page de l'Antiquiét à l'ère du numérique : Louvre editions
--
+
+## To improve
+
+- Should the part on homology be treated here or transfer later on with the discussion on image systems (FDH 2-7)
