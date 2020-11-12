@@ -31,22 +31,24 @@ We have seen what a Writing System is. What are Image systems?
 
 ## Homologous pairs and Physical closure
 
-We have seen what homologous pairs are. 
-
-Images can be articulated with one another if they overlap the same physical reality. This reality is made of pivot points. 
+We have seen what homologous pairs are. Images can be articulated with one another if they overlap the same physical reality. This reality is made of pivot points. 
 
 Can homologous points work with paintings ?
 
 Strict homology works only if there is a physical connection between the image. They are overlapping representation of the same real object/place. 
 
-Physical connection: Given a collection C , and A ∈ C ,B ∈ C , the connection (A–B) is said to be physical if it is possible to assert, from the visual information only, that they have an overlap covering the same physicality i.e. the same object or the output of the same serial production.
+> Definition : The connection between two digital images is said to be physical if it is possible to assert, from the visual information only, that they have an overlap covering the same physicality
+
+Given a collection C , and A ∈ C ,B ∈ C , the connection (A–B) is said to be physical if it is possible to assert, from the visual information only, that they have an overlap covering the same physicality i.e. the same object or the output of the same serial production.
 
 Ex : 
 
 - A is a close-up of B
 - A and B are engravings coming from the same wood-block
 
-Physical Closure : Given a collection C , the physical closure of an image A ∈ C is the set of images for which there is path of physical connection leading to A.
+> Definition: The physical closure of an image is the set of images for which there is path of physical connection leading to this image, the image system defined by the physical connection rule.
+
+Given a collection C , the physical closure of an image A ∈ C is the set of images for which there is path of physical connection leading to A.
 
 ## Dimensions of similarity
 
