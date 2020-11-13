@@ -29,6 +29,7 @@ First Order Logic (Hoolet)
 
 (This could be the subject of a separated chapter)
 
+- Introdcution to first order logic 
 - Expert systems
 - Constraint based systems
 - Cognitive computing
