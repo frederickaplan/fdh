@@ -34,6 +34,21 @@ Tarski
 
 ## Historical elements
 
+Early logic : Finding the rules of reasonning
+
+- Zeno, Plato and Aristotle
+- Stoic propositional logic
+- Rigveda and inductive Nyaya logic
+
+Early moden area
+
+- Sanctius : A new syntactic thoery based on four operators
+- Port Royal grammarians. La nouvelle methode pour facilement et en peu de temps comprendre la lanauge latine (1644)
+- Valla, Ramus and Port Royal : Formal vers natural logic. De falso credita (Valla)
+- New artifical languages : Bacon, Dalgarno and Wilkins
+- Symbolic Logic : Leibniz. De arte combinatoria (1666)
+- Linguistic and logic in China
+
 Logic in the 19th and 20th century 
 
 - During the ninenteenth century, logic developed in a direction of a meta-mathematical diciopkine with the work of Goerge Boole (1815-1864), 
