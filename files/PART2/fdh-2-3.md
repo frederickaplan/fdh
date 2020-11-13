@@ -42,10 +42,10 @@ This lecture will briefly present the evolution of handwritten and printed texts
 ---
 ## 1. Scripts
 
-### 1.1. Defintions
+### 1.1. Definitions
 #### 1.1.1. Scripts and Writing Systems
 
-First, let's start with some definitions:
+In the world, there are probably more than 6000 human languages. Some languages follow fixed word order. Other seem to offer much wider possibilities of recombination. 
 
 **_Writing_** is the act of recording language in medium more permanent than speech, by means of a script.
 
