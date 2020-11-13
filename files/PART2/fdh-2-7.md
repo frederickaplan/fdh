@@ -15,6 +15,8 @@ output: pdf_document
 
 # Image systems
 
+<!--This chapter needs to be rewritten on the basis a taxonomy of 4 image systems. Please wait before improving it--> 
+
 ## Theses
 
 1) Images like texts can be represented as systems
