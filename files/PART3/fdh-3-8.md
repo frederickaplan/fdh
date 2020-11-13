@@ -15,19 +15,10 @@ output: pdf_document
 
 # Fictional Spaces
 
-
-
 ## Concepts
 
-
-
-Parralel worlds and fictional spaces
-
-
-
-## Question and Answers 
-
-
+- Parralel worlds and fictional spaces
+- Uchrony (The Master of the High Castle / Le Maitre du Haut Chateau)
 
 ## Further Reading
 
