@@ -25,7 +25,7 @@ A panorama of Deep learning methods. Successes. Fundamental principles. Neurons.
 
 ### Sub-Conceptual Content
 
-
+- Manifold learning. A manifold is ac onnect regsion, as set of points associated with a neighborhood around each point. For anys given, point the manifold appears to be a Eucliean space. We experience th surface of the world as a 2-D plane but is in fact a spherical manifold in 3-D space. 
 
 ###  Gradient descent. 
 
