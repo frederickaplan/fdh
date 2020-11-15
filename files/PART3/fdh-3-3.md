@@ -127,3 +127,4 @@ And the way they instersect
 
 - Latour, Enquete sur les modes d'existence
 - Patricia Martin-Rodilla, Diggitng into software knowledge Generation in Cultural Heritage
+- Goertzel, Geisweiller, Coelho, Janici, PEnnachin, Real-word reasoning : Toward Scalable, uncertain spatiotemporal, contextual and causla inference
