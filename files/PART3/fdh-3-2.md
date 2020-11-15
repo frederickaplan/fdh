@@ -26,7 +26,6 @@ Graph writing. Presentation of some interesting ontologies:
 - LOAD model (Andrea Spitz)
 - Wikidata. Measuring Wikidata / Wikipedia ratio 
 
-
-
 ## Further Reading
 
+- Bordoni, Mele, Sorgente, Artificial Intelligence for Cultural Heritage

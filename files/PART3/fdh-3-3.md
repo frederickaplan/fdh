@@ -126,3 +126,4 @@ And the way they instersect
 ## Further Reading
 
 - Latour, Enquete sur les modes d'existence
+- Patricia Martin-Rodilla, Diggitng into software knowledge Generation in Cultural Heritage
