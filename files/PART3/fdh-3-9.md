@@ -27,11 +27,11 @@ Inference of new data based on these forms of Quantitative modelling
 
 
 
-
-
 ## Question and Answers 
 
 
 
 ## Further Reading
 
+- Emmanuel le Roy Ladurie, Histoire humaine et comparée du climat
+- Emmanuel le Roy Ladurie, L'historien, le chiffre et le texte
