@@ -108,6 +108,12 @@ Recent developments
 
 RIF : Rule Interchange Format
 
+
+
+## Fuzzy reasoning
+
+cf Real-World Reasoning
+
 ## Felicity regimes
 
 Latour Enquete sur les modes d'existence: Felicity regimes are different in
