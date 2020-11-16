@@ -13,47 +13,40 @@ output: pdf_document
 
 ---
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+# FDH-2-5: Text Processing
 
-- [Don't change the following lines](#dont-change-the-following-lines)
-- [Text Processing](#text-processing)
-	- [Theses](#theses)
-	- [1. Large textual objects](#1-large-textual-objects)
-		- [1.1. Humanities Computing, Computational Linguistics and Digital Humanities](#11-humanities-computing-computational-linguistics-and-digital-humanities)
-		- [1.2. Some order of magnitudes](#12-some-order-of-magnitudes)
-		- [1.3. Digital databases of historical texts](#13-digital-databases-of-historical-texts)
-			- [Project Gutenberg](#project-gutenberg)
-			- [Wikisource](#wikisource)
-			- [Google Books](#google-books)
-			- [Impresso](#impresso)
-			- [Other projects](#other-projects)
-			- [Project-based corpora](#project-based-corpora)
-	- [2. Diachronic evolutions](#2-diachronic-evolutions)
-		- [2.1. Corpus representativity](#21-corpus-representativity)
-		- [2.2. n-grams](#22-n-grams)
-		- [2.3. Text reuse](#23-text-reuse)
-		- [2.4. Regular expressions](#24-regular-expressions)
-	- [3. (Synchronic) distributional approaches](#3-synchronic-distributional-approaches)
-		- [3.1. TF-IDF](#31-tf-idf)
-		- [3.2. Word Matrix](#32-word-matrix)
-		- [3.3. From Latent Semantic Analysis to Topic Modelling](#33-from-latent-semantic-analysis-to-topic-modelling)
-			- [Latent Semantic Analysis](#latent-semantic-analysis)
-				- [Probabilistic Latent Semantic Analysis](#probabilistic-latent-semantic-analysis)
-				- [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
-		- [3.4. Vector Space Models](#34-vector-space-models)
-			- [Word embeddings (1h05)](#word-embeddings-1h05)
-		- [Diachronic Word embeddings](#diachronic-word-embeddings)
-		- [Multi-linguistic spaces](#multi-linguistic-spaces)
-	- [Summary](#summary)
-	- [In the next chapter](#in-the-next-chapter)
-	- [Practice](#practice)
-	- [Biblio](#biblio)
-	- [Further reading](#further-reading)
+#### Contents
+
+<!-- TOC depthFrom:2 depthTo:4 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [1. Large textual objects](#1-large-textual-objects)
+	- [1.1. Humanities Computing, Computational Linguistics and Digital Humanities](#11-humanities-computing-computational-linguistics-and-digital-humanities)
+	- [1.2. Some order of magnitudes](#12-some-order-of-magnitudes)
+	- [1.3. Digital databases of historical texts](#13-digital-databases-of-historical-texts)
+- [2. Diachronic evolutions](#2-diachronic-evolutions)
+	- [2.1. Corpus representativity](#21-corpus-representativity)
+	- [2.2. n-grams](#22-n-grams)
+	- [2.3. Text reuse](#23-text-reuse)
+	- [2.4. Regular expressions](#24-regular-expressions)
+- [3. (Synchronic) distributional approaches](#3-synchronic-distributional-approaches)
+	- [3.1. TF-IDF](#31-tf-idf)
+	- [3.2. Word Matrix](#32-word-matrix)
+	- [3.3. From Latent Semantic Analysis to Topic Modelling](#33-from-latent-semantic-analysis-to-topic-modelling)
+		- [3.3.1. Latent Semantic Analysis](#331-latent-semantic-analysis)
+	- [3.4. Vector Space Models](#34-vector-space-models)
+		- [3.4.1. Word embeddings](#341-word-embeddings)
+		- [3.4.2. Diachronic word embeddings](#342-diachronic-word-embeddings)
+	- [3.5. Multi-linguistic spaces](#35-multi-linguistic-spaces)
+- [4. Conclusion](#4-conclusion)
+	- [4.1. Summary](#41-summary)
+	- [4.2. In the next chapter](#42-in-the-next-chapter)
+- [Practice](#practice)
+- [Biblio](#biblio)
+- [Further reading](#further-reading)
 
 <!-- /TOC -->
-# Text Processing
 
-## Theses
+#### Theses
 
 1) Digital Humanities is the only field to deal with large collection of digital texts originating form collective discourses, massive digitisation and/or collective transcription projects
 
@@ -256,7 +249,7 @@ Many matrix designs are possible (cross-comparing all words, adjectives with mod
 
 Topic modelling provides a suite of algorithms to **discover hidden thematic structures** in large collections of texts. The results of topic modelling algorithms can be used to summarize, visualize, explore, and theorize about a corpus.
 
-#### Latent Semantic Analysis
+#### 3.3.1. Latent Semantic Analysis
 
 LSA (Latent Semantic Analysis) uses TF-IDF scores in a larger term-document matrix. Every word in the corpus is a different row in the matrix and each document has its own column; the TF-IDF score lies at the intersection of every document and word. This is a sparse matrix (mostly filled with zeroes). LSA then uses singular value decomposition to figure out **how each word is related to every other words**.
 
@@ -284,49 +277,42 @@ More precisely, if you have a collection of documents, and assume they are gener
 Vector Space Models have gathered a lot of attention recently. In this representation model:
 - Words are regarded as **atomic symbols**;
 
-- They are coded using vectors with one 1 and many zeros, e.g. (0 0 0 0 0 1 0 0 0 0 0)
+- They are coded using vectors with one 1 and many zeros, e.g. (0 0 0 0 0 1 0 0 0 0 0);
 
-- in a very **large vector space**, the dimension of which being the number of available words, which is something that changes with the size of the chosen corpus (eg. all the novel of the 20th century, all the novels and non-fiction works for the 17 to 20th century, etc). Word space sizes go from 20K (speech), to 500K (large vocabulary), and even 3M (Google model).
+- Just like in word matrices, **similar vectors describe similar words**. The distance between two words can be computed using the so-called **cosine similarity**.
 
-#### Word embeddings (1h05)
+- These word vectors belong to a very **large vector space**, the dimension of which being the number of available words, which is something that changes with the size of the chosen corpus (eg. all the novel of the 20th century, all the novels and non-fiction works for the 17 to 20th century, etc). Word space sizes go from 20K (speech), to 500K (large vocabulary), and even 3M (Google model).
 
-Continuous, numeric, dense word representations learned from raw text.
+#### 3.4.1. Word embeddings
 
-Similar vectors mean similar words (cosine vector distance)
+To be able to harvest meaning out of these vector spaces, denser word models are needed. These continuous, numeric, substantial representations are learned from raw text. They are today commonly obtained using **hidden layers** within Deep Neural Networks, like in the case of Word Predition Tasks (eg. Word2Vec).
 
-Embeddings are a perfect input for numeric ML methods.
+In order to predict which word will follow an input word, one needs to compress a ~20k word space into a new space where core characteristics of similar vectors are grouped together, independently on the words themselves. This **compressing into a much denser representation** is precisely a suitable task for hidden layers.
 
-Embeddings can be obtained with Word Prediction Tasks (Word2Vec)
+Interestingly, the model managed to automatically organise concepts and learn implicitly the relationships between them. Not only was the organisation of that hidden space dependant on word-to-word distance, it also had a **structure which captured within its geometry not only semantic but conceptual links between words**.
 
-\- Hidden layer has dimensionality of embeddings
+The concept of Word Embeddings can naturally be extended to n-gram embeddings, regular expression embeddings, word distribution (topic) embeddings, to name a few.
 
-\- Input and output layer have dimensionality of one-hot-encoded
+#### 3.4.2. Diachronic word embeddings
 
-The model to automatically organize concepts and learn implicitly the relationships between them
+This concept of the geometry of word spaces can be used to align word embeddings in time and space. From a set of fixed points, the **whole linguistic structure can be aligned**.
 
-Beyond Word Embeddings :
+As we have seen, all documents are anchored on a moving ground: language. It is possible to calculate word embeddings for time slices and realign them. In doing so, monitoring the diachronic evolution of the geometry of the language space is able to teach us a lot about the evolution of language (including how words see their use and meaning change through time).
 
-Of course you can extend the concept of Word Embeddings to n-gram embeddings, regular expression embeddings, word distribution (topic) embeddings ..
-
-Word embeddings shows that there is a geometry of Word spaces, this can be used to align word embeddings in time and space.
-
-### Diachronic Word embeddings
-
-As we have seen, all documents are anchored on a moving ground : Language.
-
-It is possible to calculate word embeddings for period of times and realign them
-
-### Multi-linguistic spaces
+### 3.5. Multi-linguistic spaces
 
 (Tbd)
 
-## Summary
+---
 
-Algorithms permit to extract patterns, trends and latent spaces out of large collections of text.
+## 4. Conclusion
+### 4.1. Summary
 
-In the future, massive processing of large corpora may enable to model multiscale linguistic evolution in a spacetime continuum. The resulting linguistic simulator should permit to translate any “sentence” in space and time.
+- Algorithms permit to extract patterns, trends and latent spaces out of large collections of text.
 
-## In the next chapter
+- In the future, massive processing of large corpora may enable to model multiscale **linguistic evolution in a spacetime continuum**. The resulting linguistic simulator should permit to translate any “sentence” in space and time.
+
+### 4.2. In the next chapter
 
 We will look at text understanding … trying to going beyond the surfacing features.
 
