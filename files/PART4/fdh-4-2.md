@@ -31,6 +31,10 @@ Collectivism vs Liberalism. Open source as a form of liberalism for engineering.
 
 Mechanical Turk. Crowdflower. Crowdfunding
 
+### Community management 
+
+Snow ball effect : Frontiers. Political design platforms. 
+
 ## Practice
 
 Launching a crowdsourcing campaign
