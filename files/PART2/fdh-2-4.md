@@ -334,8 +334,19 @@ We will see how to process large collection of texts.
 ## To improve
 
 - Solution for OCRs : Tesseract, Google API. A table for comparing them ? 
+
 - Solultuion for HTR : PyLaia
+
 - Challenges for OCR: Transparancy. Preprocessing with histograms (to suppress word in transparency)
+
 - Multiple pages. Line detection. 
+
 - Distance between text : Levenshtein, etc. 
+
 - List of text formats : Markdown, RST (Restructuredtext)
+
+- Possible additional references :
+
+  Hämäläinen, M. and Hengchen, S., 2019. From the Paft to the Fiiture: a Fully Automatic NMT and Word Embeddings Method for OCR Post-Correction. In Recent Advances in Natural Language Processing (pp. 432-437). INCOMA.
+
+  Hill, M.J. and Hengchen, S., 2019. Quantifying the impact of dirty OCR on historical text analysis: Eighteenth Century Collections Online as a case study. Digital Scholarship in the Humanities, 34(4), pp.825-843.
