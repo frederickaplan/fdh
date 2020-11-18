@@ -134,3 +134,9 @@ And the way they instersect
 - Latour, Enquete sur les modes d'existence
 - Patricia Martin-Rodilla, Diggitng into software knowledge Generation in Cultural Heritage
 - Goertzel, Geisweiller, Coelho, Janici, PEnnachin, Real-word reasoning : Toward Scalable, uncertain spatiotemporal, contextual and causla inference
+- Simonis, Helmut (2005). "Sudoku as a Constraint Problem". Cork Constraint Computation Centre at University College Cork: Helmut Simonis. [CiteSeerX](https://en.wikipedia.org/wiki/CiteSeerX_(identifier)) [10.1.1.88.2964](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.88.2964). paper presented at the Eleventh International Conference on Principles and Practice of Constraint Programming
+- Jingchao Chen, *Solving Rubik’s Cube Using SAT Solvers*, arXiv:1105.1436, 2011.
+- Biere, A., Heule, M., and van Maaren, H. *Handbook of satisfiability*, volume 185. IOS press, 2009a
+- Knuth, D. E., *The art of computer programming*, Volume 4, Fascicle 6: Satisfiability. Addison-Wesley Professional, 2015
+- Vipin Kumar, *Algorithms for constraint-satisfaction problems: a survey*, AI Magazine Volume 13, Issue 1, 1992.
+- Jacques Pitrat, Metaconnaissance

@@ -15,6 +15,16 @@ output: pdf_document
 
 # Universal ontologies
 
+## Theses
+
+1) Some ontologies aim at being universal. 
+
+2) They are based on specific design principles
+
+
+
+
+
 Graph writing. Presentation of some interesting ontologies: 
 
 - SKOS, 
