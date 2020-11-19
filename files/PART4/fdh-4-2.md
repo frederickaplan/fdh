@@ -17,6 +17,14 @@ output: pdf_document
 
 ## Concepts
 
+User are fondamental
+
+Digital archives are fragile, volative.
+
+They surive only if they are used. 
+
+Collectice curation is crucial 
+
 ### Modelling Users (Persona)
 
 ### Motivation and on-boarding Dynamics
