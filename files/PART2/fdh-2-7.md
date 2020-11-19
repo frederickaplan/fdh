@@ -15,7 +15,7 @@ output: pdf_document
 
 # Image systems
 
-<!--This chapter needs to be rewritten on the basis a taxonomy of 4 image systems. Please wait before improving it--> 
+<!--This chapter needs to be rewritten on the basis a taxonomy of 4 image systems.see  I sistemi di immagini nell’archivio digitale di Vico Magistretti. Please wait before improving it--> 
 
 ## Theses
 
@@ -105,4 +105,5 @@ We will explore how the image processing pipeline can compute automatically larg
 
 - Benoit Seguin's PhD. Thesis : Making large art historical photo archives searchable
 - Scott McCloud, Understanding Comics
+- Kaplan, F. and di Lenardo, I sistemi di immagini nell’archivio digitale di Vico Magistretti 
 
