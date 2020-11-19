@@ -503,7 +503,9 @@ We will introduce a hidden dimension of knowledge : sub-conceptual information.
 - Karl Popper, un univers de propensions
 - Bruno Latour, irreduction
 
+## Possible additional references
 
+- Why Deep Learning stuggle wih the Game of Life : https://bdtechtalks.com/2020/09/16/deep-learning-game-of-life/
 
 ## Currenty Not used (maybe to move somewhere else)
 
