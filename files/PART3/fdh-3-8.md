@@ -15,6 +15,8 @@ output: pdf_document
 
 # Fictional Spaces
 
+(This chaper is now fully integrated in 3-3)
+
 ## Concepts
 
 - Parralel worlds and fictional spaces

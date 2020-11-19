@@ -231,7 +231,7 @@ A lot of work has been done in ontologies. Extracted knowledge is ready to be pr
 
 ## In the next chapter
 
-We will look at constraints, rule systems and solvers. 
+We will look at constraints, rule systems, solvers, simulations and parralel worlds. 
 
 ## Further Reading
 
