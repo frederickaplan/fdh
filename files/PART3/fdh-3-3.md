@@ -419,6 +419,8 @@ Can both be induced / conjectured by Artificial Intelligence system ?
 
 ### Simulats : Simulations results as stable objects
 
+Simulations are both process and products. The name is ambiguous. 
+
 Large-scale simulations like the one done in biology (Human Brain Project, Simulation of the Earth) are changing the weigh between the simulation formal system and the simulation results. In traditional simulation, the results are usually only used for future validation or prediction but do not constitute stable and debated knowledge objects. 
 
 With large-scale integrative simulation, simulation results become stable objects in themselves and not just temporal output of computation of a model. 
