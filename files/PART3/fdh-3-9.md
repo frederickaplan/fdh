@@ -25,6 +25,10 @@ Example of the modellisation of ancient disease propagation based on Big Data of
 
 Inference of new data based on these forms of Quantitative modelling
 
+Cliometrics (cf article L'historien et l'agorithme)
+
+
+
 
 
 ## Question and Answers 

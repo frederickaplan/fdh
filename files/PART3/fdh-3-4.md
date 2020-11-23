@@ -99,4 +99,9 @@ This manifold is assumed to have a very complex non linear structure and is hard
 - Deep Learning (Goodfelow et al)
 
 - The Promise of Artificial Intelligence (Brian Cantwell Smith)
+
 - Algebraic Topology
+
+- Mikel Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy
+
+  
