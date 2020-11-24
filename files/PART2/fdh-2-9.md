@@ -55,6 +55,10 @@ The MediaPipe framework allows for parallelization and thread optimization of im
 
 ## Objects
 
+## Places
+
+Pixplot application
+
 ## Event
 
 ## Automatic description
