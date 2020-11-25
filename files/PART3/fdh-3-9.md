@@ -39,3 +39,4 @@ Cliometrics (cf article L'historien et l'agorithme)
 
 - Emmanuel le Roy Ladurie, Histoire humaine et comparée du climat
 - Emmanuel le Roy Ladurie, L'historien, le chiffre et le texte
+- Christian, D. Maps of Time : An introduction to big history
