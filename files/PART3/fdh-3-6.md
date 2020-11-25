@@ -71,7 +71,9 @@ Rendering as a service. Vulkan. Stadia
 
 ## Computing on the 4D Grid
 
+Predictive learning is the realm of 4D processing.
 
+Predicting the past from the future, the east from the west, the top from the bottom. 
 
 ## Further Reading
 
