@@ -272,14 +272,14 @@ In the next chapter we will study how to represent the structure of a document.
 Une étoile est-elle un document? Un galet roulé par un torrent est-il un document? Un animal vivant est-il un document? Non. Mais sont des documents les photographies et les catalogues d’étoiles, les pierres d’un musée de minéralogie, les animaux catalogués et exposés dans un Zoo.
 
 - Alain Jacquesson, Google Livres et le futur des bibliothèques numériques, Editions du Cercle de la Librairie, 2010
-
 - Jean-Noel Jeannerey, Quand Google défie l'Europe: Plaidoyer pour un sursaut, Mille et une nuits, 2007
+- Kruk and McDaniel, Semantic Digital Libraries, Springer
 
----
 
-To add somewhere?
 
-## 1. How to plan a digitisation project
+## Potentially to be added
+
+## How to plan a digitisation project
 
 Can we digitise 80km of document in 10 years
 
