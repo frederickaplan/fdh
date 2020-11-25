@@ -24,3 +24,6 @@ output: pdf_document
 ## Question and Answers 
 
 ## Further Reading
+
+- Erickson, T. and McDonard, D, HCI Remixed, 
+- Moggridge, B., Designing Interaction
