@@ -21,19 +21,19 @@ The recent successes of Deep learning changed the rules of the AI game. For Digi
 
 Will the Most advanced deep learning, combined with Big Data of the past lead to the Most advanced AI even made ?
 
-The theses explored in this chapter are the following : 
+The theses explored in this chapter are the following :
 
 1) Deep learning offers new ways for encoding / decoding writing systems and images
 
 2) This can be used to enrich and bootstrap extacted datasets
 
-3) This produce a new family on non conceptual knowledge 
+3) This produce a new family on non conceptual knowledge
 
 ## Articulated reasoning and Non conceptual knowledge
 
-We can define non conceptual knowledge in a negative manner. 
+We can define non conceptual knowledge in a negative manner.
 
-> Definition : Non conceptual knowledge is knowledge that is ***not\*** framed in terms of discrete set of articulable concepts. 
+> Definition : Non conceptual knowledge is knowledge that is ***not\*** framed in terms of discrete set of articulable concepts.
 
 Articulated reasoning is based on some specific characteristics :
 
@@ -49,22 +49,22 @@ Articulated reasoning is based on some specific characteristics :
 
 Articulated reasoning can be modelled with logical formalism like we viewed in previous courses.
 
-The main issue is the “grounding” of real world data into logical symbols. 
+The main issue is the “grounding” of real world data into logical symbols.
 
 Disambiguating entities is hard.
 
-Inducing rules directly from the data is even harder. 
+Inducing rules directly from the data is even harder.
 
 Architecture not based on conceptual articulation have managed in practice to perform very complex task, some of which ressemble articulate reasoning.
 
 How is this possible ? How is there non conceptual knowledge stored ? Can we use it in additional to articulate reasoning ?
 
-Non conceputal knowledge 
+Non conceputal knowledge
 
 - is not chopped up into neat, ontological objects
--  derives more from large continuous dynamic process rather that a small number of logical steps 
-- is progressively constructed in a bottom up manner out of the data and not vice-versa. 
-- Capture understanding that humans may not have understood yet. 
+-  derives more from large continuous dynamic process rather that a small number of logical steps
+- is progressively constructed in a bottom up manner out of the data and not vice-versa.
+- Capture understanding that humans may not have understood yet.
 
 ## Recent success of non conceptual knowledge systems (2012-2020)
 
@@ -72,57 +72,60 @@ Non conceputal knowledge
 
 ImageNet challenge : An image system of 1.3 Million images (annotated by hand)
 
-AlexNet (2012) : 60 M parameter neural network which go way better than any other approach. 
+AlexNet (2012) : 60 M parameter neural network which go way better than any other approach.
 
 Critics : Deep learning is just about perception …
 
-### Machine translation 
+### Machine translation
 
 2015 : A 380 M parameter neural network mapping input sentence in one language to output sentence in another.
 
-Now powers all modern translation engines 
+Now powers all modern translation engines
 
 Critics : Deep learning progress is driven / limited by labelled datasets.
 
 2018: \- A 117 M parameter “transformer” trained by reading 7000 self-published books beating with very limited supervised fine training most state-of-the-art approach..
 
-Unlabelled datasets may be more important than labelled 
+Unlabelled datasets may be more important than labelled
 
-Critics : Deep learning is about static datasets. 
+Critics : Deep learning is about static datasets.
 
 ### Games
 
 2013 : A 150 000 parameters feed forward network trained to play an number of Atari games purely from pixels and scores. (https://www.youtube.com/watch?v=V1eYniJ0Rnk)
 
-Discovery of optimal solution for playing games 
+Discovery of optimal solution for playing games
 
 Critics : These are simple games. Reinforcement Learning can’t solve hard tasks
 
 2016 : A 72 M parameter feed forward network to defeat humans at Go
 
-Critics : It’s just imitation of human expertise and brute force. 
+Critics : It’s just imitation of human expertise and brute force.
 
-2017 : AlphaGo Zero plays again itself and invents non human moves. The way human play the game of Go is suboptimal for centuries. 
+2017 : AlphaGo Zero plays again itself and invents non human moves. The way human play the game of Go is suboptimal for centuries.
 
-Freed from tradition and imitation, AlfaGo Zero discovered new possible “cultural spaces”. 
+Freed from tradition and imitation, AlfaGo Zero discovered new possible “cultural spaces”.
 
 This remind of the notion of **“Intinite fun space”**
 
 Iain M. Banks’s Culture series "The mental capabilities of Minds are described in Excession to be vast enough to run entire universe-simulations inside their own imaginations, exploring metamathical (a fictional branch of metamathematics) scenarios, an activity addictive enough to cause some Minds to totally withdraw from caring about our own physical reality into "Infinite Fun Space", their own, ironic and understated term for this sort of activity. (wikipedia)"
 
-The Infinite fun space is huge. Humans have only explored a little of it. 
+The Infinite fun space is huge. Humans have only explored a little of it.
 
 Centaurs : Human and nonhuman moves
 
-\- Kasparov and the Centaurs. 
+\- Kasparov and the Centaurs.
 
 \- Will there be centaurs for Go ?
 
 \- Will there be centaurs for the humanities ?
 
+
+Side note on chess: AlphaZero, which is now unquestionably superior to previous game engines, has (independently) rediscovered a very elegant, dynamic, and human-like play style; while previous engines had a cold, machine-like style. To be mentioned in the "cultural space" paragraph?
+
 ## Fundamental principles and their progressive implementation
 
-### Simple neuron and perceptron 
+### Simple neuron and perceptron
 
 McCulloch, W. S. and Pitts, W. 1943. A logical calculus of the ideas immanent in nervous activity. Bulletin of Mathematical Biophysics 5:115–133.
 
@@ -130,30 +133,30 @@ Rosenblatt, F. 1957. The Perceptron — a perceiving and recognizing automaton. 
 
 ### The perceptron controversy
 
-cf. Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy. 
+cf. Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy.
 
 - 1959 : New York Times : “The Navy revealed the embryo of an electronic computer today that it expects to be able to walk, talk, see, write, reproduce itself and be conscious of its existence. Later perceptrons will be able to recognise people and call out their names and instantly translate speech in one language to speech and writing in another language, it was predicted”
 
-- 1969 : Publication of Perceptrons by Minsky and Papert. 
+- 1969 : Publication of Perceptrons by Minsky and Papert.
 - Papert in 1988 : “There was some hostility in the energy behind the research report in Perceptrons, Part of our drive came, as we quite plainly acknowledged in our book, from the fact that funding and research energy were being dissipated on … misleading attempt to use connectionist methods in practical applications”
 - Minksy in 1989 : “In the last 1950s and early 1960s, after Rosenblatt’s work, there was a great wave of neural network research activity. There were maybe thousands of projects. … They were trying to get money to build bigger machines, but they didn’t seem to be going anywhere”
 
 ### Neural networks revival
 
-In the early 1980s, dramatic decreases in computing costs lead to a democratisation of computing resources. 
+In the early 1980s, dramatic decreases in computing costs lead to a democratisation of computing resources.
 
-Rummelhart, Hinton, McClelland … 
+Rummelhart, Hinton, McClelland …
 
-Conceptualisaiton of the notion of receptive field 
+Conceptualisaiton of the notion of receptive field
 
 Hierachical representation / textures
 
-Pyramid of neural abstraction : from perception to emergent concepts. 
+Pyramid of neural abstraction : from perception to emergent concepts.
 
 For shaping networks.
 
-- Credit assignment paths 
-- Gradient descent algorithm. 
+- Credit assignment paths
+- Gradient descent algorithm.
 
 ## Convolutional neural networks
 
@@ -167,11 +170,11 @@ For shaping networks.
 
 \- Control through Hyperparameters (knobs) : Convolution (Number of features, size of features), Pooling (Window size, Window stride), …
 
-Convolutional neural networks do not work only on images. 
+Convolutional neural networks do not work only on images.
 
 \- Work on any 2D or 3D Data
 
-> Locality Principle : Things close together need to be more closely related than things far away. 
+> Locality Principle : Things close together need to be more closely related than things far away.
 
 ## Encoding / decoding writing systems
 
@@ -191,7 +194,7 @@ Natural Language description -> First order logic predicate ?
 
 Natural Language description -> RDF ?
 
-### Recurrent neural networks 
+### Recurrent neural networks
 
 \- Recurrent neural networks are used to process sequences (text, audio)
 
@@ -201,7 +204,7 @@ Natural Language description -> RDF ?
 
 \- Example of recurrent cells : LSTM, GRU, bidirectional RNN
 
-\- RNN can represent most of grammars for any information embedded in time. 
+\- RNN can represent most of grammars for any information embedded in time.
 
 \- In principle RNN are the deepest of all the networks.
 
@@ -211,13 +214,13 @@ Limitation of RNN : RNN do not scale well for long sentences (they forget the be
 
 ### Transformers
 
-\- To avoir the RNN memory deficit, Transformers introduced an Attention mechanism. 
+\- To avoir the RNN memory deficit, Transformers introduced an Attention mechanism.
 
-\- The attention-mechanism looks at an input sequence and decides at each step which other parts of the sequence are important. 
+\- The attention-mechanism looks at an input sequence and decides at each step which other parts of the sequence are important.
 
 \- An architecture with only attention-mechanisms and without any RNN (Recurrent Neural Networks) can improve on the results in translation tasks
 
-\- Transformer model facilitates more parallelization during training. They enabled training on larger dataset. 
+\- Transformer model facilitates more parallelization during training. They enabled training on larger dataset.
 
 First article introducing the Attention mechanism : Neural Machine Translaiton by joinly learning to align and translate
 
@@ -227,27 +230,27 @@ Google team uses attention at a large scale  : Attention is all you need
 
 Google again develop BERT model, Introduce Self-supervises learning (hide 10-20% of words and learn to predict the missing words) Published on arXiv on Oct 2018. 600 citations before publication at ICLR in may 2019. : BERT : Pre-training of Deep Bidirectional Transfomers for Language Understanding
 
-GLUE and SUPERGLUE competition. These competition use in particular Winograd schemata including sentences with ambiguity : 
+GLUE and SUPERGLUE competition. These competition use in particular Winograd schemata including sentences with ambiguity :
 
 - “The statue cannot enter in the box because it is too big”
 - “The statue cannot enter in the box because it is too small”
 
-GPT-3 
+GPT-3
 
 - Developed by OpenAI
-- 175 billion machine learning parameters. 
+- 175 billion machine learning parameters.
 - Need 175 Gigaoctets of RAM (impossible to run on a desktop computer)
 - Trained on CommonCrawl, Wikipedia and other
 - Only for English (contrary to BERT)
 
-GPT-3 Captures the Textures of texts . Where does textures stop, where does content start. 
+GPT-3 Captures the Textures of texts . Where does textures stop, where does content start.
 
 Case studies
 
 - Text generation with "A peek inside the attention economy"
 - Layout to Code transformation
 
-GPT-3 Turing Test 
+GPT-3 Turing Test
 
 Q: What is human life expectancy in the United States?
 A: Human life expectancy in the United States is 78 years.
@@ -285,7 +288,7 @@ A: No, there are no animals with three legs.
 Q: Why don't animals have three legs?
 A: Animals don't have three legs because they would fall over
 
-less good : 
+less good :
 
 Q: How many eyes does a giraffe have?
 A: A giraffe has two eyes.
@@ -361,7 +364,7 @@ A: The New York Yankees won the World Series in 2023.
 
 --
 
-Transformers can transfrom French to English, Questions to Answers, Descrption to Code. How is this non conceptual knowledge coded 
+Transformers can transfrom French to English, Questions to Answers, Descrption to Code. How is this non conceptual knowledge coded
 
 ## Structures of non conceptual spaces
 
@@ -371,22 +374,22 @@ Transformers can transfrom French to English, Questions to Answers, Descrption t
 
 The Word2Vec model, a very simple model, automatically organize concepts and learn implicitly the relationships between them
 
-Mikolov joined Facebook and worked with others researcher on the FastText project that increase significantly the performance of Word2Vec. 
+Mikolov joined Facebook and worked with others researcher on the FastText project that increase significantly the performance of Word2Vec.
 
-Works with 150+ natural languages. 
+Works with 150+ natural languages.
 
 ### Latent spaces
 
-Generative Adversarial Network introduced in 
+Generative Adversarial Network introduced in
 
 *Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville et Yoshua Bengio, « Generative Adversarial Networks », dans Advances in Neural Information Processing Systems 27, 2014*
 
 Work of the nvidia group (StyleGAN)
 
-- A style based generator architecture for Geneartive Adversarial Networks 
+- A style based generator architecture for Geneartive Adversarial Networks
 - Analyzing and improving the Image quality of StyleGAN : Possibility of using a target image and retrive the projected latent
 
-Some GAN issues : 
+Some GAN issues :
 
 Vanishing Gradients : "if your discriminator is too good, then generator training can fail due to vanishing gradients. In effect, an optimal discriminator doesn't provide enough information for the generator to make progress."
 
@@ -404,13 +407,13 @@ cf Image Style Transfer Using Convoltuional Neural Networks
 
 \- To obtain a representation of the style of an input image, it is possible use a feature space designed to capture texture information. This feature space can be built on top of the filter responses in any layer of the network. It consists of the correlations between the different filter responses, where the expectation is taken over the spatial extent of the feature maps.
 
-### Image to Image Translation 
+### Image to Image Translation
 
 cf Image to image translation with conditioanl adversarial networks
 
 ### Unpaired Image-to-Image Translation
 
-CycleGAN: Unpaired Image-to-image translation using Cycle-Consistent Adversarial Networks 
+CycleGAN: Unpaired Image-to-image translation using Cycle-Consistent Adversarial Networks
 
 Constrastive Learning for unpaired image-to-iamge translation
 
@@ -418,12 +421,12 @@ Constrastive Learning for unpaired image-to-iamge translation
 
 Predict the past based on the present
 Predict the bottom of the image based on the top
-Predict the end of sentence based on the beginning. 
+Predict the end of sentence based on the beginning.
 
-Difficulties : 
+Difficulties :
 
 Modelling all the possible ending of a sentence is easy when one has access to a large number of text
-Modelling the next frame of a video (a high dimension representation) is much more complex because we only have access to single example. 
+Modelling the next frame of a video (a high dimension representation) is much more complex because we only have access to single example.
 
 ## Universal non conceptual representations
 
@@ -433,23 +436,23 @@ Modelling the next frame of a video (a high dimension representation) is much mo
 
 \- Image and text latent spaces
 
-Loops : 
+Loops :
 
 Generating new input for bootstrapping learning
 
 Very large extension of the “Infinite Fun Space”
 
-cf. “I am a Strange Loop” / Douglas Hoftsatder 
+cf. “I am a Strange Loop” / Douglas Hoftsatder
 
 ## Summary
 
 1) The existence of non conceptual knowledge is demonstrated by the excellent performances of a variety of encoders / decoders
 
-2) These systems tend to converge in universal intermodal representation spaces. 
+2) These systems tend to converge in universal intermodal representation spaces.
 
 ## In the next chapter
 
-We can decide to useduniversal encoders-decoders to massively enrich data. 
+We can decide to useduniversal encoders-decoders to massively enrich data.
 
 But we can also try to understand the underlying structure of the data coded in the universal representation engine. This is the subject of next course
 
@@ -462,5 +465,3 @@ But we can also try to understand the underlying structure of the data coded in 
 - The Promise of Artificial Intelligence (Brian Cantwell Smith)
 
 - Mikel Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy
-
-  
