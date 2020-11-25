@@ -212,6 +212,8 @@ Natural Language description -> RDF ?
 
 Limitation of RNN : RNN do not scale well for long sentences (they forget the beginning of the sentence when they arrive to the end …)
 
+The way a RNN works can be understood by taking the analagoy of a buck of water (cf Liquid State Machine). Data is dropping in the water but the memory of the water waves only last for a limited moment. For a short time, the water is capturing a complex context (complex sitautions of waves), but it does not adapt this understanding to the situation. 
+
 ### Transformers
 
 \- To avoir the RNN memory deficit, Transformers introduced an Attention mechanism.
