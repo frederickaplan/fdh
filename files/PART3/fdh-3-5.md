@@ -48,6 +48,10 @@ The shape of data
 The manifold hypothesis (Goodfellow 2016) states that in many cases such as the case of natural images the support distibution pdata(x) is concentrated on a low dimensional manifold Mdata in an Euclidean space 
 This manifold is assumed to have a very complex non linear structure and is hard to define explicitl
 
+
+
+G. Carlsson Topology And Data, Bulletin (New Series) of the American Mathematical Society Volume 46, Number 2
+
 ### Embeddings
 
 "Over the last years, neural methods for learning dense meaningful latent semantic vector representations have dramatically improved the performance in natural language understanding, computer vision and audio processing, and this development justifiably raises high expectations for digital humanities applications".

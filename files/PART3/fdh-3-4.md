@@ -419,6 +419,10 @@ CycleGAN: Unpaired Image-to-image translation using Cycle-Consistent Adversarial
 
 Constrastive Learning for unpaired image-to-iamge translation
 
+### Video to Video
+
+see NVidia work.
+
 ## Self-supervised predictive learning
 
 Predict the past based on the present
