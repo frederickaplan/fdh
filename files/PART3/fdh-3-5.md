@@ -215,3 +215,5 @@ This will be a crucial step for founding Digital Humanities in solid mathematica
 
 ## Further Reading
 
+- Topological Signal Processing
+- Sheaves and Geometry and Logic

@@ -471,3 +471,7 @@ But we can also try to understand the underlying structure of the data coded in 
 - The Promise of Artificial Intelligence (Brian Cantwell Smith)
 
 - Mikel Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy
+
+## To improve
+
+- Talk about BLEU and GLUE
