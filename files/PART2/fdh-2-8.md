@@ -33,6 +33,21 @@ Digitisation images in context... some important point to take into account.
 
 dh-segment: Generic framework for segmentation
 
+Practicula use case : 
+
+Annotations can be done with online or offline tools : 
+
+- cvat.org (also with IIIF)
+- Gimp
+
+5 golden rules for annotation (from Remi Petitpierre)
+
+1. A class should bbe concretely embodied
+2. A class should share common figureative, topological and morphological codes. Background can be used for anything else
+3. Reduce the number of classes of a minimum
+4. Think like a machine. Apply the same reasoning each time.
+5. Start small and test. Youenver know how many annotations will be nedded. 
+
 ### Metadata extraction
 
 Metadata is data about data sometimes present "around" the images (on a cardboard for instance)
