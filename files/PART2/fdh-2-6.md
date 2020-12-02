@@ -17,89 +17,69 @@ output: pdf_document
 
 #### Theses
 
-1) Machines help us studying more texts and digging the “great unread”
+1) Machines help us studying more texts and digging the “great unread” (the set of unread texts, far away from canonical texts).
 
-2) Most of the Distant Reading approach stay on the surface of text using only text processing techniques
+2) Most of the Distant Reading approach stay on the surface of text using only text processing techniques.
 
 3) But progresses in Text Understanding may help reading more text in a deeper manner.
 
-## 1. Close, Surface, Distant and Machine Reading
+## 1. Close, Surface, Distant, and Machine Reading
 
-Reading is traditionally defined as negotiating 'your' way through a text. Reading = "walking the book".
+Reading is traditionally defined as negotiating 'your' way through a text. As such, the act of reading can be thought of as "walking the book". During their "walk", the reader interprets sequences of words to develop a coherent situation model (a self-coherent fictional space) — the minimal requirement for a successful comprehension of text.
 
-The reader interpret the sequence of words and develop a coherent situation model, the minimal requirement for successful comprehension of text.
-
-(Oxford Handbook of Reading)
-
-(This section is based on Kestermont / Herman Can Machine Read (Litterature) ?)
+(This section is based on Kestemont, M. and L. Herman. “Can Machines Read (Literature).” (2019).)
 
 ### 1.1. Close reading
 
-Close reading is about paying attention to the formal details of a literary text, diving profoundly into the book (in an almost religious fervor). Most scholars in Humanities agree that this is the academic way.
+***Close reading*** is about paying attention to the formal details of a literary text, diving profoundly into the book (in an almost religious fervour). Most scholars in Humanities agree that this is the academic way.
 
-Close reading was developed and popularized in the 1940s and 50s by the “New Critics”, pointing to the work of I.A. Richards and William Empson as sources inspiration.
+Close reading was developed and popularized in the 1940s and 50s by the “New Critics”, pointing to the work of I.A. Richards and William Empson as sources of inspiration. They advocated a respectful and penetrating attitude, which they viewed as needed to understand a text.
 
-A respectful and penetrating attitude is needed to understand a text.
+Close reading can only be taught by example because of its relative lack of discovery procedures that might help transfer reading strategies from one text to another. Nevertheless, close reading seems to be the most important teachable skill in courses on literature.
 
-Close reading can only be taught by example because of its relative lack of discovery procedures that might help transfer reading strategies from one text to another.
-
-Nevertheless, Close reading seems to be most important teachable skill in courses on literature.
-
-It also a mark of “tribe”, as it indicates positive attitude towards the literariness of a text, the quest for finding a meaning that is not immediately apparent, by a full immersion in the depth of the text.
+It also the mark of a “tribe” and common values, as it indicates positive attitude towards the literariness of a text, the quest for finding a meaning that is not immediately apparent, by a full immersion in the depth of the text.
 
 ### 1.2. Surface reading
 
-First attacks on Close reading did not come from CS, but instead by people within Humanities (notably in gender studies, or cultural studies), who criticised the ideology behind close reading.
+First attacks on close reading did not come from Computer Science, but instead by people within Humanities (notably in gender studies, or cultural studies), who criticised the ideology behind close reading.
 
-‘Surface reading’ corresponds to methods of reading literature that no longer look for the hidden meaning of a text. It concentrates on “what is evident, perceptible, apprehensible in texts”
+***Surface reading*** corresponds to methods of reading literature that no longer look for the hidden meaning of a text. It concentrates on “what is evident, perceptible, apprehensible in texts” and, as such, (supposedly) free from interpretative projections.
 
 *Best, Stephen and Sharon Marcus. 2009. “Surface Reading: An Introduction.” In “The Way We Read Now”. ed. Stephen Best and Sharon Marcus, special issue, Representations 108 (1): 1-21.*
 
-The ‘Surface’ is the location of patterns that exists within and across texts.
+The ‘Surface’ in question is the location of patterns that exists within and across texts.
 
 *“We want to reclaim from this tradition the accent on immersion in texts […], for we understand that attentiveness to the artwork as itself a kind of freedom”*
 
 ### 1.3. Distant reading
 
-Distant Reading’ is a term introduced by Franco Moretti in 2000 in a series of essays in the New Left Review, reprinted in 2013 in a book called Distant Reading
+Distant Reading’ is a term introduced by Franco Moretti in 2000 in a series of essays in the New Left Review, reprinted in 2013 in a book called _Distant Reading_.
 
 *Moretti, Franco. 2013. Distant Reading. London: Verso.*
 
-One of the objective of Distant Reading is to go beyond the obligatory canon of well-known (English-language) authors, extending the analysis to the “great unread” (Margaret Cohen). To do this, “simply reading more” is unfeasible
+One of the objective of Distant Reading is to go beyond the obligatory canon of well-known (English-language) authors — the canon —, extending the analysis to the “great unread” (Margaret Cohen). To do this, “simply reading more” is unfeasible; and a new kind of reading is needed.
 
 *Cohen, Margaret. 1999. The Sentimental Education of the Novel. Princeton: Princeton University Press.*
 
-Moretti argues : The more we read, the shallower our reading must become: ‘the ambition is now directly proportional to the distance from the text: the more ambitious the project, the greater must the distance be’.
+Moretti argues that **the more we read, the shallower our reading must become**: ‘the ambition is now directly proportional to the distance from the text: the more ambitious the project, the greater must the distance be’.
 
-Close reading can be viewed as “a theological exercise—very solemn treatment of very few texts taken very seriously”.
-
-This is the contrary a more inclusive, let alone exhaustive, study of world literature.
+While Close Reading can be viewed as “a theological exercise and the very solemn treatment of very few texts taken very seriously”, Distance Reading on the other hand is a more inclusive, let alone exhaustive, study of world literature.
 
 *Moretti, Franco. 2000. “Conjectures on World Literature.” New Left Review 1 (Jan-Febr): 54-68*
 
-Distant reading is defined negatively, implying the absence of a ‘a single direct textual reading’.
+Distant Reading is defined negatively, implying the absence of a ‘a single direct textual reading’. Moretti in essence says that ***"to read more, one should not read at all"***.
 
-Moretti in essence says that "to read more, one should not read at all".
+In practice, Distant Reading has rapidly become an umbrella term for all forms of computational text analysis of large collections of texts. It is surprising to observe that computers or digital methods are not even once explicitly mentioned by Moretti.
 
-In practice, Distant Reading has rapidly become an umbrella term for all forms of computational text analysis of large collections of texts.
-
-It is surprising to observe that computers or digital methods are not even once explicitly mentioned by Moretti.
-
-For Moretti, distant reading initially meant reading on the basis of other readings, and not necessarily, let alone exclusively, reading via computer applications.
-
-For Moretti, one of the strength of Distant Reading is the promise of falsifiable conjectures (in the Popper’s sense).
+For him, Distant Reading initially meant reading on the basis of other readings, and not necessarily, let alone exclusively, reading via computer applications. Moretti argues that one of the strength of Distant Reading is the promise of falsifiable conjectures (in the Popper’s sense).
 
 #### 1.3.1. Operationalizing
 
-Moretti has described the concept of 'operationalizing' as "absolutely central to the new field of computational criticism"[[8\]](https://en.wikipedia.org/wiki/Distant_reading#cite_note-8) that includes distant reading.
-
-It consists of "building a bridge from concepts to measurement, and then to the world"
+Moretti described the concept of ***'operationalizing'*** as like "building a bridge from concepts to measurement, and then to the world", stating it has an absolutely central place in this new field of computational criticism, that includes distant reading (Moretti, F. (2013). "'Operationalizing': Or, the Function of Measurement in Literary Theory". New Left Review.).
 
 Operationalizing consists in taking a concept and transforming it into a series of operations.
 
-This opens for a theory-driven, data-rich research program for studying domains based on the large text corpus.
-
-Computation is that sense is not fast. It is, on the contrary, a slow explication and operationalisation of hypotheses and conjectures.
+This opens for a theory-driven, data-rich research program for studying domains based on the large text corpus. In that sense, the computational process is not fast. It is, on the contrary, a slow explication and operationalisation of hypotheses and conjectures.
 
 ### 1.4. Machine reading
 
@@ -109,17 +89,13 @@ Human interpretation happens at the level of the output of a computational readi
 
 Distant Reading through Machine reading is currently limited by the performance of Text Analysis pipelines.
 
-Whereas surface readers deliberately choose to stick to a text’s surface, distant readers are currently still practically hindered by the lack of suitable technology to produce deeper readings of texts, even if they wanted to dig beneath a text’s symptomatic surface.
+Whereas surface readers deliberately choose to stick to a text’s surface, distant readers are currently still practically hindered by the lack of a suitable technology to produce deeper readings of texts, even if they wanted to dig beneath a text’s symptomatic surface.
 
-There is a paradox between the fact that Reading is universally recognised as complex and individual interpretation process and the ambition of designing more and more complex Reading Machines, acting maybe as a Universal Reader.
+There is a paradox between the fact that Reading is universally recognised **as complex and individual interpretative process** and the ambition of designing more and more complex Reading Machines, acting maybe as a Universal Reader. Distant reading is currently unsituated and uncontextualized.
 
+Distant Reading is a form of artificial reading (i.e. reading performed by an artificially intelligent agent). With progress of Natural Language Processing, Distant Reading / Machine Reading can dig deeper under the surface of texts.
 
-
-Distant reading is currently unsituated and uncontextualized.
-
-Distant Reading is a form of artificial reading (i.e. reading performed by an artificially intelligent agent)
-
-With progress of Natural Language Processing, Distant Reading / Machine Reading can dig deeper under the surface of texts.
+---
 
 ## 2. Information extraction
 
@@ -129,158 +105,123 @@ Text Understanding aims at extracting information from texts.
 
 Example :
 
-“On the invitation of the Festival de Cannes, the Italian actress Monica Belucci has agreed to play the role of Mistress of the opening and Closing Ceremonies of the 70th Festival de Cannes to be held from 17 to 28 May 2017, under the presidency of Spanish filmmaker Pedro Almodovar.”
+How can one correctly identify and categorise information fragments into a coherent information space?
 
-Identifying et categorising information fragments
 
-PERSON: Monica Belluci, Pedro Almodovar
+**Unstructured Text**
 
-ORGANIZATION : Festival de Cannes
+_“On the invitation of the Festival de Cannes, the Italian actress Monica Belucci has agreed to play the role of Mistress of the opening and Closing Ceremonies of the 70th Festival de Cannes to be held from 17 to 28 May 2017, under the presidency of Spanish filmmaker Pedro Almodovar.”_
 
-TIME-EXPR : from 17 to 28 May 2017
+**Identify information fragments**
 
-EVENT : 70th Festival de Cannes
+- PERSON: Monica Belluci, Pedro Almodovar
+- ORGANIZATION: Festival de Cannes
+- TIME-EXPR: from 17 to 28 May 2017
+- EVENT: 70th Festival de Cannes
 
 **Linking with knowledge bases**
 
-Monica Belluci
-
-\- reference -> http://dbpedia.org/page/Monica_Bellucci
-
-70th Festival de Cannes
-
-\- instance of -> en.wikipedia.org/wiki/Cannes_Film_Festival
+- Monica Belluci: Is a reference to http://dbpedia.org/page/Monica_Bellucci
+- 70th Festival de Cannes: Is an instance of: http://en.wikipedia.org/wiki/Cannes_Film_Festival
 
 **Extracting and normalising information**
 
-from 17 to 28 May 2017
-
--> [17-05-2017, 28-05-2017]
+- Going from "17 to 28 May 2017" to _[17-05-2017, 28-05-2017]_
 
 **Relation Extraction**
 
-70th Festival de Cannes, tookPlace, [17-05-2017, 28-05-2017]
+- 70th Festival de Cannes, **tookPlace**, [17-05-2017, 28-05-2017]
 
-Application includes
+Application includes:
 
-Literature : Studying character networks
+- Literature : Studying character networks
+- History : Extracting historical events corresponding network of actors.
 
-History : Extracting historical events corresponding network of actors.
+    Example 1. Alex Woloch's book ("The one and the Many, Minor characters and the Space in the Novel", 2003) imagines the novel as a space, in which all the characters would be in conflict to be in the front row. Woloch shows that this rivalry is the subject of several 19th century novels.
 
-Ex 1 : Alex Woloch's book (/The one and the Many, Minor characters and the Space in the Novel/, 2003),  imagines the novel as a space, in which all the characters would be in conflict to be in the front row. Woloch shows that this rivalry is the subject of several 19th century novels.
+    Example 2. Analysing character networks in Rousseau's confessions can be operationalized.
 
-Ex 2: Analysing characters network in Rousseau's confessions.
+---
 
 ## 3. History of Machine Reading
 
-Text Understanding in the 80s
+The history of Machine Reading is one of ups and down. Text Understanding started in the 1980s with an over-ambitious project facing technical and theoretical difficulties:
+- low coverage of grammars
+- too many unsolved ambiguities
+- difficulties to collect, represent, and manipulate knowledge
 
-An over-ambitious project facing technical and theoretical difficulties:
+In the 1990s, ambitions were tamed and efforts focused on information extraction (entities, events, relations) based on models defined in advance. The Message Understanding Conference (MUC) played a pivotal role in the advances in the field. Initiated by the U.S. Naval Research and Development division and financed by the DARPA (Defense Advanced Research Project Agency), it organised 7 evaluation campaigns between 1987 and 1998.
 
-\- low coverage of grammars
+It is in these campaigns that the concept of ***Named Entities*** (NE) appeared. NEs quickly gained prominence and became one of the central hubs in automated text analysis systems.
 
-\- too many non-solved ambiguities
+- **1987 (MUC-1)**. First conference, focusing on military reports on fleet operations in telegram style, but with no clear task.
 
-\- difficulties to collect, to represent and manipulate knowledge
+- **1989 (MUC-2)**. Definition of predefined templates which had to be filled (10 slots); definition of evaluation measures (adoption of the well-known **Precision and Recall**).
 
-In the 90s, focus on information extraction (entities, events, relations) based on models defined in advance.
+- **1991 (MUC-3)**. Template with 18 slots: broadcast news on terrorist events in Central and South America.
 
-Message Understanding Conference
+- **1992 (MUC-4)**. Idem with 24 slots.
 
-7 evaluation campaigns between 1987 and 1998
+- **1993 (MUC-5)**. Very complex, new domain, 2 languages, 11 templates organised hierarchically with 48 slots.
 
-Initiated by the U.S. Naval Research and Development division
+- **1995 (MUC-6)**. Frame reformulation towards task independent components and technologies. Definition of "**named entity**" sub-task.
 
-Financed by the DARPA (Defense Advanced Research Project Agency)
+- **1997 (MUC-7)**. Continuation.
 
-The concept of Named Entities appeared in this context. NEs quickly gained prominence and became one of the central hubs inautomated text analysis systems.
+Since 2009, a follow-up effort, the _Text Analysis Conference Knowledge Base Population_ (TAC-KBP) has engaged in discovering information about NEs as found in a large corpus and incorporate this information into a knowledge base.
 
-1987 (MUC-1): First conference; military reports on eet operations in telegram style; no clear task.
+Given an entity, one should find its attributes; e.g. for a PERS, these would include:
+- names: other names of the person (alias, fake names, stage name)
+- functions and activities: jobs, occupations, etc.
+- dates (or age): birth, death, different life events, age ;
+- locations: places related to life events (birth, death, jobs)
+- related persons: spouse, children, family members
+- other information: alma mater, visited countries
 
-1989 (MUC-2): denition of predefined templates which has to be filled (10 slots); definition of evalution measures (precision and recall).
-
-1991 (MUC-3): template with 18 slots: broadcast news on terrorist events in Central and South America
-
-1992 (MUC-4): idem, 24 slots
-
-1993 (MUC-5): very complex, new domain, 2 languages, 11 templates organised hierarchically with 48 slots
-
-1995 (MUC-6), frame reformulation towards: task independent components and technologies. Definition of "**named entity**" sub-task
-
-1997 (MUC-7 ) Continuation
-
-Text Analysis Conference Knowledge Base Population (TAC-KBP)
-
-Since 2009, discover information about NEs as found in a large corpus and incorporate this information into a knowledge base.
-
-Given an entity, one should find its attributes; e.g. for PERS:
-
-• names: other names of the person (alias, fake names, stage name)
-
-• functions and activities: jobs, occupations, etc.
-
-• dates (or age): birth, death, different life events, age ;
-
-• locations: places related to life events (birth, death, jobs)
-
-• related persons: spouse, children, family members
-
-• other information: alma mater, visited countries
-
-This is a return to Text Understanding.
-
-But the task remains very complex despite significant progress.
+In a way, this is a return to the initial ambition of Text Understanding. But the task remains very complex despite significant progress.
 
 Mihai Surdeanu and Heng Ji, Overview of the english slot filling track at the tac2014 knowledge base population evaluation, Proc. Text Analysis Conference (TAC2014), 2014.
 
+---
+
 ## 4. Named Entities as pivot points
 
-Named entities are referential units which underly the semantics of texts. Given an application model and a corpus, a named entity is a linguistic expression that refers to a unique entity of the model autonomously in the corpus.
+When the aforementioned predefined templates were first used, it was discovered that some elements were easier to identify than others: named entities, corresponding to persons, places, organisations, etc. Their discovery was also made easier by the creation of the first databases. Following that, the field reorganised itself around the detection of these Named Entities, which were to act as pivot points, from which relations and attributes of entities could be more easily inferred.
 
-Ex: “elements of interest" generally of type Person, Organisation, Location (Universal Triad)
+Named entities are referential units which underly the semantics of texts. Given an application model and a corpus, a named entity is a **linguistic expression that refers to a unique entity** of the model autonomously in the corpus.
 
-Proper noun refers to individuals
+“Elements of interest" are generally of type Person, Organisation, Location (Universal Triad).
 
-\- naming of an individual (Felix) vs. naming of a class (cat)
+- **Proper nouns** refer to individuals:
+  - naming of an individual (Felix) vs. naming of a class (cat)
+  - uniqueness: an individual considered as unique within a category of entities
+  - identity: an individual considered as a recognizable whole at all time.
 
-\- uniqueness : an individual considered as unique within a category of entities
 
-\- identity: an individual considered as a recognizable whole at all time.
+- **Definite descriptions** can also point to individual people or objects (presupposing their existence and uniqueness) : the president of the Republic, the father of Elisabeth II, James Bond's car.
 
-Definite description
+Standing in between linguistic categories, Named Entities are ***‘More than proper names, but less than definite descriptions’***, and autonomously reference a unique entity.
 
-\- presupposition of existence and uniqueness
+Named Entities serve different purposes:
 
-the president of the Republic, the father of Elisabeth II.
+1. **Recognition**: Detecting, spotting named entities in textual streams: one delimitates NEs ’boundaries’ in texts).
 
-NEs do not correspond to one linguistic category
+2. **Classification**: Categorizing detected segments according to pre-defined semantic categories: one assigns a type.
 
-‘More than proper names, but less than definite descriptions’.
+3. **Disambiguation/linking**: Linking entity mentions to a unique reference: one determines the reference.
 
-– reference to a unique entity
+4. **Relation extraction**: Discovering relations between NEs: e.g.father-of, born-in, alma mater.
 
-– referential autonomy
+In all those tasks, disambiguation is key:
+- _Java_ can refer to an island, a coffee, a programming language;
+- _Orange_ can refer to a city, a company, a fruit, a color;
+- _G. Bush_ can be the father or the son;
+- _Berkeley_ can be a university, a city, a philosopher;
+- _Paris_ has more than 50 different pages in Wikipedia...
 
-Different tasks :
+The Stanford NER project is one of the leading efforts in this entity disambiguation task.
 
-1. Recognition: detecting, spotting named entities in textual streams (one delimitates NEs ’boundaries’ in texts)
-
-2. Classification: categorizing detected segments according to pre-defined semantic categories (one assigns a type)
-
-3. Disambiguation/linking: linking entity mentions to a unique reference (one determines the reference)
-4. Relation extraction: discovering relations between NEs (e.g.father-of, born-in, alma mater)
-
-Disambiguation :
-
-\- Java can refer to an island, a coffee, a programming language
-
-\- Orange can refer to a city, a company, a fruit, a color
-
-\- G. Bush can be the father or the son
-
-\- Paris have more than 50 differents pages in Wikipedia...
-
-Ex : Stanford NER
+---
 
 ## 5. Resources
 
@@ -366,6 +307,8 @@ A semantic machine learning system developed by a research team at Carnegie Mell
 
 Goal : develop means of answering questions posed by users in natural language with no human intervention in the process
 
+---
+
 # 6. Conclusion
 ## 6.1. Summary
 
@@ -389,9 +332,12 @@ We will start to study pipelines adapted to Images. Some argue that images can b
 
 - Umberto Eco on Reading Machine, or other.
 
-## To be developed 
+(Oxford Handbook of Reading)
 
-- Narrative as virtual reality. 
+
+## To be developed
+
+- Narrative as virtual reality.
 - Fictional spaces and modelling of parralel worlds
   - Pierre Bayard, il existe d'autres mondes, Les editions de Minuit
   - The fabrics of reality

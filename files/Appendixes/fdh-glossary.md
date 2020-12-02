@@ -97,6 +97,9 @@ A 4D digital twin of space, enriched with time-evolving relevant cultural inform
 ### N-gram
 A sequence of _n_ consecutive words (or sometimes, characters).
 
+### Operationalizing
+As suggested by Franco Moretti in the early 2000s, operationalizing consists in taking a concept and transforming it into a series of operations.
+
 ### Redocumentation (to develop?)
 Redocumentation is the joint-action of two processes in order to widen our temporal horizon:
 - Recollecting: the selection and rejection of some data and sources.
