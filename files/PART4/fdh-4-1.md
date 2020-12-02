@@ -17,27 +17,27 @@ output: pdf_document
 
 ## Theses
 
-The Digital Humanities is based on data exchange, standardisation and openness. 
+The Digital Humanities is based on data exchange, standardisation and openness. But publishing Digital Humanities Data may be problematic from an ethical or deontological point of view. By looking at implementations, we will follow the journey from the sunny dreams of openness to the difficulties of open data.  
 
-But Publishing Digital Humanities Data may be problematic from an ethical or deontologic point of view.
+1) Putting Data in Open Access requires a series of technical steps
 
-A journey from the sunny dreams of openness to the difficulties of open data.  
+2) A special attention should be paid to personal data
 
-1) Putting Data in Open Access requires a series of technical steps 
-
-2) A special attention should be paid to personal data 
-
-3) Among the users rights, the right to be forgotten / erased is one of the most complex. 
+3) Among the users rights, the right to be forgotten / erased is one of the most complex.
 
 ## Open Data Repositories
 
 ### FAIR Principle
 
-Findable Accessible Interropeable and Reusable 
+Golden standard of usage: Findable Accessible Interoperable and Reusable.
+What does it mean? Restate the 11 guidelines.
+
+Looks challenging, but solved by a series of competing platforms, which make sure the data is FAIR.
+One example :
 
 ### Case Study : Zenodo
 
-- research is stored safely for the future in CERN’s Data Centre for as long as CERN exists.
+- research is stored safely for the future in CERN’s Data Centre for as long as CERN exists. Strategic guarantee that data will be kept in the long-run.
 
 - built and operated by CERN and OpenAIRE to ensure that everyone can join in Open Science.
 - every upload is assigned a Digital Object Identifier (DOI), to make them citable and trackable.
@@ -54,23 +54,30 @@ Findable Accessible Interropeable and Reusable
 
 ### Case Study : Using Dataverse
 
-Dataverse was created in 2015. It developed in Europe. 
+Dataverse was created in 2015. It developed in Europe.
 
-The **Dataverse** is an open source web application to share, preserve, cite, explore and analyze research data. Researchers, data authors, publishers, data distributors, and affiliated institutions all receive appropriate credit via a data citation with a persistent identifier (e.g., DOI, or Handle).
+The **Dataverse** is an open source web application to share, preserve, cite, explore and analyze research data. Researchers, data authors, publishers, data distributors, and affiliated institutions all receive appropriate credit via a data citation with a persistent identifier (e.g. DOI, or Handle).
 
-The strenght of Dataverse is versionning. 
+Data commons.
+
+The strength of Dataverse is versioning.
 
  https://dataverse.org
 
 ### Open Source Licenses
 
-(See part I)
+(See PartI, FDH-1-5: Creative Commons, Public Domain)
+
+---
 
 ## Data Management Plan
 
-Not all data are sharable, but all projects must have a Data Management Plan (DMP)
+Not all data are sharable, but all projects must have a Data Management Plan (DMP).
+Proof that data management has been thought of and planned in research plan.
 
-Data collection and documentation
+Issues are linked with one another: that's why they need to be thought of beforehand.
+
+**(1) Data collection and documentation**
 
 1.1 What data will you collect, observe, generate or re-use?
 
@@ -78,7 +85,7 @@ Data collection and documentation
 
 1.3 What documentation and metadata will you provide with the data?
 
-Ethics, legal and security issues
+**(2) Ethics, legal and security issues**
 
 2.1 How will ethical issues be addressed and handled?
 
@@ -86,23 +93,26 @@ Ethics, legal and security issues
 
 2.3 How will you handle copyright and Intellectual Property Rights issues?
 
-Data storage and preservation
+**(3) Data storage and preservation**
 
 3.1 How will your data be stored and backed-up during the research?
 
 3.2 What is your data preservation plan?
 
-4. Data sharing and reuse
+**(4) Data sharing and reuse**
 
 4.1 How and where will the data be shared?
 
 4.2 Are there any necessary limitations to protect sensitive data?
 
+---
+
 ## Data Sustainability
 
-What is the point of digitising the whole history of the world if we cannot reliability store it. 
+What is the point of digitising the whole history of the world if we cannot reliability store it.
 
 #### Lifetime of memory supports
+Documents are more and more volatile.
 
 Stone : 10 000 years
 
@@ -110,25 +120,36 @@ Parchment : 1000 years
 
 Film : 100 years
 
-CD-Rom : 20 years 
+Acid paper : 50-60 years
+
+CD-Rom : 20 years
 
 #### Data preservation paradox
 
-As volume of data increases, lifetime of memory support decreases. 
+As volume of data increases, lifetime of memory support decreases.
 
 #### Case Study : DNA storage
 
-Richard P. Feynman: "There's Plenty of Room at the Bottom”
+Richard P. Feynman: "There's Plenty of Room at the Bottom” (started the race for nanoscale projects)
 
 In June 2019, all 16 GB of Wikipedia have been encoded into synthetic DNA.
 
+Beyond simply storing, indexing may turn out to be a real problem.
+
+Active field: "DNA-of-things"
+
 #### Living archives
 
-All archives are like theatre play. They need to be perform for surviving. 
+All archives are like theatre plays. They need to be performed in order to survive.
+
+A painting has more chances to survive when displayed and restored, rather than stored away in a basement.
+
+Transformation and reinterpretation is a consequence of not being forgotten.
+---
 
 ## Personal Data
 
-(Source Thouvenin et al 2020) 
+(Source Thouvenin et al 2020)
 
 ### Personal Data
 
@@ -170,9 +191,9 @@ The principle of transparency prescribes that the data processing is clear to th
 
 The principle of proportionality requires that personal data may only be processed to the extent it is objectively suitable and necessary to achieve a specific purpose
 
-### Data subject rights 
+### Data subject rights
 
-Comparison swiss vs Europe. 
+Comparison swiss vs Europe.
 
 Right to be informed: Data subjects have the right to be informed about what personal data concerning them is processed, as well as the means and purposes of the processing.
 
@@ -196,11 +217,11 @@ The right to be forgotten is the right of persons to “determine the developmen
 
 **Droit à l’oubli (France)** : “Droit à l’oubli” officially recognized in French Law in 2010.
 
-**Right to know (US):** the right of free speech according to the First Amendment, and the right to know.
+**Right to know (US):** the right of free speech according to the First Amendment, and the right of society to know. Stronger than personal rights. Tension US/EU.
 
 **Costeja case (2014)**: May 13, 2014 the European Court of Justice legally solidified that the "right to be forgotten” is a human right when they ruled against Google in the Costeja case.
 
-**Right to be forgotten -> Right to erasure**. As of May 2014, Google had removed 1,390,838 URLs. Incl Facebook (11,973 URLs) YouTube (5,999 removed), Twitter (4,588 removed). However, you can access them from outside Europe. 
+**Right to be forgotten -> Right to erasure**. As of May 2014, Google had removed 1,390,838 URLs. Incl Facebook (11,973 URLs) YouTube (5,999 removed), Twitter (4,588 removed). However, you can access them from outside Europe.
 
 **Right to be forgotten vs Right to privacy.** Right to privacy constitutes information that is not publicly known, whereas the right to be forgotten involves removing information that was publicly known at a certain time and not allowing third parties to access the information.
 
@@ -212,37 +233,37 @@ Associated Businesses : Businesses which focus on protecting their client’s on
 
 Wikipedia co-founder Jimmy Wales "described the EU's Right to be Forgotten as deeply immoral, as the organisation that operates the online encyclopedia warned the ruling will result in an internet riddled with memory holes"
 
-But other commentators cite the example of particular practices like, revange porn. 
+But other commentators cite the example of particular practices like, revange porn.
 
 **Development of Jurisprudence at the Strasbourg court.**
 
 A geopolitical question.
 
-A complex debate between the risk for individuals and risk for society. 
+A complex debate between the risk for individuals and risk for society.
 
+Comment on Damnatio memoriae?
 
+## Summary
 
-## Summary 
-
-Data management is associated with a larger number of difficulties and obligations. 
+Data management is associated with a larger number of difficulties and obligations.
 
 ## In the next chapter
 
-We will deal with user management 
+We will deal with user management
 
 ## Further Reading
 
 ## To be developped  
 
-- Uncertainty management. Visualisation and Paradata 
+- Uncertainty management. Visualisation and Paradata
 
 
 
 ## To be put somewhere else : Processing power
 
-Economies of scale. 
+Economies of scale.
 
-Designing a planetary-scale map processing is a difficult task. 
+Designing a planetary-scale map processing is a difficult task.
 
 It is important to separate it in submodules, with well defined interface. This enables to have potentially more than one implementation for module (e.g. automatic vs. Manual processes)
 
@@ -260,9 +281,13 @@ Virtual machines, container, storage, load balancer
 
 ### Scientific Computing as a Service
 
-Parallel computing environment, HPC distribbuted clusters, GPGPUs management layers, dynamic scheduling, dedicated programming environment, optimization services. 
+Parallel computing environment, HPC distribbuted clusters, GPGPUs management layers, dynamic scheduling, dedicated programming environment, optimization services.
 
 ### Cloud
 
-Cloud Burst : seamless burst into public clouds in a safe and secure manner. Cloud bursting is an application deployment model in which an application runs in a [private cloud](https://searchcloudcomputing.techtarget.com/definition/private-cloud) or data center and [bursts](https://searchnetworking.techtarget.com/definition/burst) into a [public cloud](https://searchcloudcomputing.techtarget.com/definition/public-cloud) when the demand for computing capacity spikes. An organization only pays for extra compute resources when they are needed. An application can be deployed locally and then burst to the cloud to meet peak demands, or the application can be moved to the public cloud to free up local resources for business-critical applications. Cloud bursting works best for applications that don’t depend on a complex application delivery infrastructure or integration with other applications, components and systems internal to the data center. 
+Cloud Burst : seamless burst into public clouds in a safe and secure manner. Cloud bursting is an application deployment model in which an application runs in a [private cloud](https://searchcloudcomputing.techtarget.com/definition/private-cloud) or data center and [bursts](https://searchnetworking.techtarget.com/definition/burst) into a [public cloud](https://searchcloudcomputing.techtarget.com/definition/public-cloud) when the demand for computing capacity spikes. An organization only pays for extra compute resources when they are needed. An application can be deployed locally and then burst to the cloud to meet peak demands, or the application can be moved to the public cloud to free up local resources for business-critical applications. Cloud bursting works best for applications that don’t depend on a complex application delivery infrastructure or integration with other applications, components and systems internal to the data center.
 
+
+
+## Note
+Possibilité d'inclure un Data Management Plan comme exercice pour les projets des années suivantes,
