@@ -232,6 +232,10 @@ We will deal with user management
 
 ## Further Reading
 
+## To be developped  
+
+- Uncertainty management. Visualisation and Paradata 
+
 
 
 ## To be put somewhere else : Processing power
