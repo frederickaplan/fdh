@@ -115,6 +115,12 @@ Drinking in polluted water.
 
 All this is true for images as the number ai-generated images outgrow the number of natural images
 
+### New Creolization
+
+Will the secondary resource loop bootstrap a culture that may start to resemble to the infinite fun space (remember the AlphaGo Zero machine vs machine invention) ?
+
+For sure this the beginning of new “creolization” of culture. 
+
 ## Summary
 
 The massive arrival of bot and bot-transformed content in cultural system may create next Flash Crash for culture. 
