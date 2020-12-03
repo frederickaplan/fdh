@@ -144,6 +144,12 @@ All archives are like theatre plays. They need to be performed in order to survi
 
 A painting has more chances to survive when displayed and restored, rather than stored away in a basement.
 
+User are fondamental (see next chapter)
+
+Digital archives are fragile, volative.
+
+They surive only if they are used. 
+
 Transformation and reinterpretation is a consequence of not being forgotten.
 ---
 
