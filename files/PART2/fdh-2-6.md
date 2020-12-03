@@ -15,6 +15,32 @@ output: pdf_document
 
 # FDH-2-6: Text Understanding
 
+#### Contents
+<!-- TOC depthFrom:1 depthTo:4 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [1. Close, Surface, Distant, and Machine Reading](#1-close-surface-distant-and-machine-reading)
+	- [1.1. Close reading](#11-close-reading)
+	- [1.2. Surface reading](#12-surface-reading)
+	- [1.3. Distant reading](#13-distant-reading)
+		- [1.3.1. Operationalizing](#131-operationalizing)
+	- [1.4. Machine reading](#14-machine-reading)
+- [2. Information extraction](#2-information-extraction)
+- [3. History of Machine Reading](#3-history-of-machine-reading)
+- [4. Named Entities as pivot points](#4-named-entities-as-pivot-points)
+- [5. Resources](#5-resources)
+	- [5.1. Typologies](#51-typologies)
+	- [5.2. Gazetteers and Knowledge Bases](#52-gazetteers-and-knowledge-bases)
+		- [5.2.1. Gazetteers](#521-gazetteers)
+		- [5.2.2. Knowledge bases](#522-knowledge-bases)
+	- [5.3. Large-scale Projects](#53-large-scale-projects)
+- [6. Conclusion](#6-conclusion)
+	- [6.1. Summary](#61-summary)
+	- [6.2. In the next chapter](#62-in-the-next-chapter)
+	- [Further reading](#further-reading)
+	- [To be developed](#to-be-developed)
+
+<!-- /TOC -->
+
 #### Theses
 
 1) Machines help us studying more texts and digging the “great unread” (the set of unread texts, far away from canonical texts).
@@ -227,98 +253,84 @@ The Stanford NER project is one of the leading efforts in this entity disambigua
 
 ### 5.1. Typologies
 
-- Typologies ACE
+There is no widely-accepted standard for named entities typologies. Examples include:
+- **ACE typology** (Person, Organisation, Geo-Political Entry, Location, Facility, Vehicle, Weapon)
+- **Quaero** typology (8 main categories):
+  - Person: individual person, group of persons;
+  - Location: administrative location, physical location, facilities, oronyms, address;
+  - Organization: administration, service;
+  - Time: absolute and relative date, absolute and relative hour;
+  - Amount;
+  - Product: manufactured object, transportation route, financial products, doctrine, law, software, art, media, award;
+  - Function: individual function, collectivity of functions
 
-- Quaero typology (8 main categories)
+The lack of a consensus on NE can lead to issues when information has to be merged from different typology trees.
 
-  • Person: individual person, group of persons;
-  • Location: administrative location, physical location, facilities, oronyms, address;
-  • Organization: administration, service;
-  • Time: absolute and relative date, absolute and relative hour;
-  • Amount;
-  • Product: manufactured object, transportation route, financial products, doctrine, law, software, art, media, award;
-  • Function: individual function, collectivity of functions
+### 5.2. Gazetteers and Knowledge Bases
 
-### 5.2. Gazetters
+An important type of resources tackles the providing of information relating to entities which may be used by automatic systems for the purposes of recognition, classification and disambiguation. They are usually divided into Gazetteers and Knowledge Bases. The type of information they store also falls into two categories:
+- **Lexical**, separating the lexical units which compose entities;
+- **Encyclopaedic**, favouring entity referents.
 
-Objective: provide information relating to entities which may be used by automatic systems for the purposes of recognition, classification and disambiguation.
+#### 5.2.1. Gazetteers
 
-2 types of information:
+Gazetteers have significantly evolved since the 90s. Not only have they been "complexified" and morphed from basic 'gazetteers' into bases encoding more and more information, they are also now less central -- while they were essential for the recognition of NEs up to now, they are now being superseded by the progresses of deep learning.
 
-• lexical, on lexical units composing entities
+Some examples of gazetteers include:
+- **Geonames** :
+  - which lists toponyms (city names, administrative names, populated places);
+  - 7 millions entities and 10 millions lexical entries (variants);
+  - properties: coordinates, population, postal code, etc.;
+  - assignment of an URI to each entity;
+  - 9 main types (divided into 645 sub-types).
 
-• encyclopaedic, on entity referents
 
-Significant evolution of these resources since the 90s:
+- **JRCnames** :
+  - a ‘by-product’ of a media monitoring system: 7000 sources, 300k articles per day, 70 languages, among which 21 with NE processing;
+  - ca. 340,000 unique entities (pers et org);
+  - 1,7 million name variants (lexicalisations) in 170 languages;
+  - 32 millions relations (cross-lingual);
+  - up to 400 variants for one entity.
 
-\- complexification: basic ‘gazetteers’ -> bases encoding of more and more information.
+#### 5.2.2. Knowledge bases
+Some of the more famous knowledge bases are:
+- **Wikipedia** (initiated in 2001) : useful for extracting and integrating NE lexicons. semi-automatic constitution of annotated corpora, acquisition of relations between entities
 
-\- less central: essential for the recognition and classification of NEs up to now, moving to the background with deep learning.
+- **DBpedia** (RDF equivalent of Wikipedia)
 
-Geonames :
+- **YAGO** (Wikipedia, WordNet, with spatial and temporal info)
 
-• toponyms
+- **BabelNet**
 
-• 7 millions entities and 10 millions lexical entries (variants)
+- **Wikidata**
 
-• properties: coordinates, population, postal code, etc.
+- **OpenCyc** (free part of Cyc), information about ’common sense’.
+  - Douglas Lenat began the project in July 1984.
+  - It is a long-term artificial intelligence project that aims to assemble a comprehensive ontology and knowledge base that spans the basic concepts and rules about how the world works. Hoping to capture common sense knowledge, Cyc focuses on implicit knowledge that other AI platforms may take for granted.
+  - The objective of the Cyc project was to codify, in machine-usable form, the millions of pieces of knowledge that compose human common sense.
+  - Cyc's ontology grew to about 100,000 terms during the first decade of the project, to 1994, and as of 2017 contained about 1,500,000 terms.
+  - The Cyc knowledge base of general common-sense rules and assertions involving those ontological terms was largely created by hand axiom-writing; it grew to about 1 million in 1994, and as of 2017 is about 24.5 million and has taken well over 1,000 person-years of effort to construct.
 
-• assignment of an URI to each entity
+### 5.3. Large-scale Projects
 
-• 9 main types (divided into 645 sub-types)
+**Open information extraction (OIE)** is the task of generating a structured, machine-readable representation of the information in text, usually in the form of triples or n-ary propositions.A proposition can be understood as truth-bearer, a textual expression of a potential fact represented in an amenable structure for computers. Each text produces a set of potential facts and relations. This is a Fiction Space that can be integrated with other extraction.  
 
-JRCnames :
-
- a ‘by-product’ of a media monitoring system: 7000 sources, 300k articles per day, 70 languages, among which 21 with NE processing
-
-• ca. 340,000 unique entities (pers et org)
-
-• 1,7 million name variants (lexicalisations) in 170 languages
-
-• 32 millions relations (cross-lingual)
-
-• up to 400 variants for one entity
-
-### 5.3. Knowledge bases
-
-- Wikipedia (initiated in 2001) : useful for extracting and integrating NE lexicons. semi-automatic constitution of annotated corpora, acquisition of relations between entities
-
-- DBpedia (RDF equivalent of Wikipedia)
-
-- YAGO (Wikipedia, WordNet, with spatial and temporal info)
-
-- BabelNet
-
-- Wikidata
-
-- OpenCyc (free part of Cyc), information about ’common sense’. Douglas Lenat began the project in July 1984. Long-term artificial intelligence project that aims to assemble a comprehensive ontology and knowledge base that spans the basic concepts and rules about how the world works. Hoping to capture common sense knowledge, Cyc focuses on implicit knowledge that other AI platforms may take for granted. The objective of the Cyc project was to codify, in machine-usable form, the millions of pieces of knowledge that compose human common sense. Cyc's ontology grew to about 100,000 terms during the first decade of the project, to 1994, and as of 2017 contained about 1,500,000 terms. The Cyc knowledge base of general common-sense rules and assertions involving those ontological terms was largely created by hand axiom-writing; it grew to about 1 million in 1994, and as of 2017 is about 24.5 million and has taken well over 1,000 person-years of effort to construct.
-
-### 5.4. Large-scale Projects
-
-Open information extraction (OIE) is the task of generating a structured, machine-readable representation of the information in text, usually in the form of triples or n-ary propositions.
-
-A proposition can be understood as truth-bearer, a textual expression of a potential fact represented in an amenable structure for computers
-
-Each texts produces a set of potential facts and relations. This is a Fiction Space that can be integrated with other extraction.  
-
-**Never Ending Language Learning (NELL)**
-
-A semantic machine learning system developed by a research team at Carnegie Mellon University.
-
-Goal : develop means of answering questions posed by users in natural language with no human intervention in the process
+**Never Ending Language Learning (NELL)** is a semantic machine learning system developed by a research team at Carnegie Mellon University, with the aim of developing means of answering questions posed by users in natural language with no human intervention in the process. From an initial ontology and a limited set of training examples, the NELL perpetually reads content from the web and enriches its knowledge base with confidently-extracted beliefs. This self-supervision is expected to bring NELL to an ever-improved reading capability.
 
 ---
 
-# 6. Conclusion
-## 6.1. Summary
+## 6. Conclusion
+### 6.1. Summary
 
 Algorithms can dig under the surface of texts to extract information. They extract structured fictional spaces out of each texts. These fictional spaces can be compared or integrated into larger wholes.
 
-## 6.2. In the next chapter
+### 6.2. In the next chapter
 
 We will start to study pipelines adapted to Images. Some argue that images can be reduced to text, and therefore the same pipelines can be used. We'll discuss that.
 
-## Further reading
+---
+
+### Further reading
 
 - Moretti, Franco. 2000. “Conjectures on World Literature.” New Left Review 1 (Jan-Febr): 54-68
 
@@ -335,7 +347,7 @@ We will start to study pipelines adapted to Images. Some argue that images can b
 (Oxford Handbook of Reading)
 
 
-## To be developed
+### To be developed
 
 - Narrative as virtual reality.
 - Fictional spaces and modelling of parralel worlds
