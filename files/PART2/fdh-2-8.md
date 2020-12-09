@@ -48,6 +48,10 @@ Annotations can be done with online or offline tools :
 4. Think like a machine. Apply the same reasoning each time.
 5. Start small and test. Youenver know how many annotations will be nedded. 
 
+Note : Some recent techniques permits to envision self-configuring methods for segementation 
+
+cf nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation
+
 ### Metadata extraction
 
 Metadata is data about data sometimes present "around" the images (on a cardboard for instance)
