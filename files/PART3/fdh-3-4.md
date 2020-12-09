@@ -366,6 +366,8 @@ A: The New York Yankees won the World Series in 2023.
 
 --
 
+Idea of discussion : Contrasting Chomsky's view based on Transformers results 
+
 Transformers can transfrom French to English, Questions to Answers, Descrption to Code. How is this non conceptual knowledge coded
 
 ## Structures of non conceptual spaces
