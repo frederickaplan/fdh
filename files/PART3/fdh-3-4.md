@@ -386,6 +386,8 @@ Generative Adversarial Network introduced in
 
 *Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville et Yoshua Bengio, « Generative Adversarial Networks », dans Advances in Neural Information Processing Systems 27, 2014*
 
+Description of Generative Adversarial Networks: The discriminator is like Deckard / Descartes in Blade Runner. He must find the difference between the humans shapes and behavior and the machine shapes and behavior. 
+
 Work of the nvidia group (StyleGAN)
 
 - A style based generator architecture for Geneartive Adversarial Networks
