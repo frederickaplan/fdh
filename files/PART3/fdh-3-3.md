@@ -461,7 +461,7 @@ Cf David Lewis, Pierre Bayard
 
 ### Uchronies
 
-cd K.Dick
+cd K.Dick, the Master of the High Castle 
 
 ### Reality of Parallel worlds
 
@@ -469,9 +469,13 @@ cf David Deutsch
 
 ### Fictional spaces
 
-Return on the notion of Fictional Spaces
+Return on the notion of Fictional Spaces.
 
-Many fictional spaces exist at the same time. 
+Descartes in pyjama in his room is describing an experience. We do not care about reality. More generally fiction is like schema in geometry. It is a wa of testing the coherence of reality and helping building it. 
+
+Cf Philippe Cassou Nogues
+
+Many fictional spaces exist at the same time. ck Kick conference on 24 september 1977 in Metz. "Je pretends, moi, me rappeler d'une autre vie présente. Je n'ai pas connaissance de déclarations semblables, mais je soupconne que mon expérience n'est pas unique. Ce qui l'est peut-être c'est le désir d'en parler "
 
 Many fictional spaces continue to exist event after some disambiguitation. 
 
