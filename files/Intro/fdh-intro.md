@@ -17,7 +17,26 @@ output: pdf_document
 
 This manual is called Foundations of Digital Humanities. This title in itself is a paradox. Digital Humanities is born as a diaphragm area between different fields, a zone of encounter. How can it have foundations ? Doesn't it this sound presumptious ?
 
-We know so little. We forget so much. 
+### Principia Humanística
+
+This already happened in the history of philosophy with the mathematical transformation of logics. 
+
+Historical link with the evolution of logic
+
+- Russel / Whitehead and Principia Mathematica
+- Wittgenstein / les limites de mon langage sont les limites de ma pensée
+
+Whereas AI and Cognitive Science deals with the modelisaiton of thinking process, DH deals with the modelisaiton of documentation process. 
+
+Some of the models that may not work for modeling thinking process (GOFAI) are well suited for modelling human representations. 
+
+### N=ALL
+
+DH deals with all the document of the world. Not specific corpora. 
+
+In this sense, it follows McLuhan's intuition the medium is the message. 
+
+Documentation processes are more important than specific document. 
 
 
 
