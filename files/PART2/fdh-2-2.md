@@ -240,3 +240,4 @@ Next, we will start to go into details for each category of documents.
 ## To improve
 
 - Should the part on homology be treated here or transfer later on with the discussion on image systems (FDH 2-7)
+- Should introduce Otlet's ontology of documents as discussed in "Traité de documentation : Le livre sur le livre". A well-formed document ontology is a basic foundation for Digital Humanities. 
