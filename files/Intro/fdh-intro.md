@@ -24,11 +24,17 @@ This already happened in the history of philosophy with the mathematical transfo
 Historical link with the evolution of logic
 
 - Russel / Whitehead and Principia Mathematica
-- Wittgenstein / les limites de mon langage sont les limites de ma pensée
+- Wittgenstein / Tractactus logico-philosophicus / les limites de mon langage sont les limites de ma pensée
 
 Whereas AI and Cognitive Science deals with the modelisaiton of thinking process, DH deals with the modelisaiton of documentation process. 
 
 Some of the models that may not work for modeling thinking process (GOFAI) are well suited for modelling human representations. 
+
+Note : 
+
+- Russel and Whitehead spend thousands of pages demonstrating that 1+1 =2 using the logic of Peano. 
+
+- One of the foundation of Principia Mathematica is that a set is different than the element it contains. This is the issue. Latour and others will show that the solution is in flat ontology. (Cf theory des types logiques and les fondemental de l'arithmetique de Gottlob Frege)
 
 ### N=ALL
 
