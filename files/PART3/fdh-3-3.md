@@ -513,6 +513,11 @@ We will introduce a hidden dimension of knowledge : sub-conceptual information.
 
 - Why Deep Learning stuggle wih the Game of Life : https://bdtechtalks.com/2020/09/16/deep-learning-game-of-life/
 
+## To be developped 
+
+- Limitation analyse by Godel on current logic : Concept and analogies
+- Possibility of refounding mathematics on a formalization of analogies (cf Homologous pairs, Douglas Hofstadter Fluid Concepts and Creative Analogies)
+
 ## Currenty Not used (maybe to move somewhere else)
 
 Early logic : Finding the rules of reasonning
