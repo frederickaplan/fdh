@@ -15,6 +15,8 @@ output: pdf_document
 
 # 4D Processing
 
+Is the World a Turing Machine (i.e. Made of finite number of states) ?
+
 ## The 4D Grid
 
 The 4D Grid is a temporal cache between the 3D measures (cloud points, polygons or other 3d documents) and continuous model of reality (fictional space). 
