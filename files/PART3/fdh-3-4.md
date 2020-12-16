@@ -480,3 +480,4 @@ But we can also try to understand the underlying structure of the data coded in 
 
 - Talk about BLEU and GLUE and the way to evaluate generated texts
 - Talk about Primary images and secondary images in the same way one talks about primery textual resources and secondary textual resources
+- Utilisaiton de self-attention et canny and spectral normalization (lipschitz constant) pour les GAN. 
