@@ -481,3 +481,31 @@ But we can also try to understand the underlying structure of the data coded in 
 - Talk about BLEU and GLUE and the way to evaluate generated texts
 - Talk about Primary images and secondary images in the same way one talks about primery textual resources and secondary textual resources
 - Utilisaiton de self-attention et canny and spectral normalization (lipschitz constant) pour les GAN. 
+
+## To discuss probably elsewhere
+
+Giuseppe Longo : 2 approches de mécanisation / 2 cadres 
+
+Cadre 1
+
+- Newton par mechanique. Mais ensuite Laplace. La linearité c’est la compréhension du complexe par l’empilement du simple
+  La lineratié c’est la tentative de mecaniser le monde du point de vue compostionnel. LINEARITE = MECANICITE
+- Puis le projet se casse avec Poincarré  : La linéarité ne suffit pas. 
+- Hilbert : Retour de la mecanicité. Parodie linéaire -> mais resuttat negatif Godel, Turing, Church
+- Le scientisifme continue, en particulier avec la biologie. ADN programme en lambda calcul (Fontana)
+
+Cadre 2
+
+- En parallele, physicastion. Idée de l’optimalité.  Geodesique
+  En particulier en économie
+- Une rivière n’est pas programmée. Elle suit une géodésique. 
+- Deja critique de Condorcet
+  Poincarré va écrire une lettre très dure 
+- Theorie de controle. WIener. Ce n’est pas de la recursion. 
+- Theorie du controle TRES DIFFERENT du la theorie de la calculabilité
+- Connectioniste plutôt de type physique. Très différent de la logique. 
+- Les reseasux de neurones font autre chose que les machines de Turing. Ils se stabilisent sur des invariants. 
+- Pas des calculs, mais stabilisation des invariants. 
+- La discertisation des calculs posent des problèmes dès qu’il y a une dynamique. Il faut en sortir. Faire une nouvelle histoire des fondements de la connaissance. 
+
+Faul-il inventer une nouvelle machine ? 
