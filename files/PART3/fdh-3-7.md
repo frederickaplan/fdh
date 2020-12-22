@@ -13,13 +13,22 @@ output: pdf_document
 
 ---
 
-# Generative Methods
+# Generative/Creative Methods
 
 (Simulation / Wouldbe world)
 
 
 
 ## Concepts
+
+### Creativity
+
+Margaret Boden : 
+- Creative combinatoire
+- Creativity exploratoire 
+- Transforming creativity
+
+
 
 ### Reproducing the texture of relality 
 
