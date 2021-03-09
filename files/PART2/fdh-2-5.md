@@ -207,6 +207,8 @@ The most interesting part of Text Reuse concerns _meaningful_ reiterations of te
 
 In the context of literary studies, however, text reuse is synonyms for **literary phenomena** like allusions, paraphrases and direct quotations.
 
+An example of text reuse algorithm is Passim developed by David A. Smith. 
+
 ### 2.4. Regular expressions
 
 A regular expression (_regex_) is a sequence of characters that define a search pattern.
