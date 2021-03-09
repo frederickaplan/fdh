@@ -245,7 +245,7 @@ The choice of the digital representation of the text defines the precise task th
 
 We have seen that **typefaces and spelling significantly changed** over time, which makes OCR still a challenge for historical texts. This challenge was recognised early. For instance in 1974, Ray Kurzweil created an early Omni-font OCR technology.
 
-The digital images of ancient printed texts are also often of poor quality which makes the transcription challenging. For printed texts of the 18 or 19th century, OCRs can still sometimes produced very noisy outputs, sometimes refered as Digital Noise . For instance,  OCR on the sweedish newspaper Aftonbladet (1830-1862) has resulted in the production of 9 million unique words. As a matter of comparison, a Swedish dictionnary only mention 62 000 words. The OCR of the newspaper had 590 variants of the word "telegraph" (see Jarlbrink and Snickars 2016).
+The digital images of ancient printed texts are also often of poor quality which makes the transcription challenging. For printed texts of the 18 or 19th century, OCRs can still sometimes produced very noisy outputs, sometimes refered as Digital Noise . For instance,  OCR on the sweedish newspaper *Aftonbladet* (1830-1862) has resulted in the production of 9 million unique words. As a matter of comparison, a Swedish dictionnary only mention 62 000 words. The OCR of the newspaper had 590 variants of the word "telegraph" (see Jarlbrink and Snickars 2016).
 
 However, in the recent years, important progresses have been made to improve OCR on ancient printed text. 
 
@@ -340,6 +340,8 @@ We will see how to process large collection of texts.
 
 - Solution for OCRs : Tesseract, Google API. A table for comparing them ? 
 
+- Measures of OCR quality
+
 - Solultuion for HTR : PyLaia
 
 - Challenges for OCR: Transparancy. Preprocessing with histograms (to suppress word in transparency)
@@ -349,6 +351,8 @@ We will see how to process large collection of texts.
 - Distance between text : Levenshtein, etc. 
 
 - List of text formats : Markdown, RST (Restructuredtext)
+
+- Olive, PDF, METS / ALTO and other formats. 
 
 - Possible additional references :
 
