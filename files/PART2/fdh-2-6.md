@@ -125,13 +125,9 @@ Distant Reading is a form of artificial reading (i.e. reading performed by an ar
 
 ## 2. Information extraction
 
-Text Understanding aims at extracting information from texts.
+Text Understanding aims at extracting information from texts. Basic atom of this information extraction are called Named Entities. Named Entities include Persons, Organisation and Places. In a typical news article, 30% of the words are Named Entities. 
 
-(Section inspired by : Ehrmann, Romanello, Clematide NE processing in Digital Humanities, Utrecht, July 2019)
-
-Example :
-
-How can one correctly identify and categorise information fragments into a coherent information space?
+(The rest of section inspired by : Ehrmann, Romanello, Clematide NE processing in Digital Humanities, Utrecht, July 2019)
 
 
 **Unstructured Text**
