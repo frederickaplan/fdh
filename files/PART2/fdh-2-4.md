@@ -245,6 +245,10 @@ The choice of the digital representation of the text defines the precise task th
 
 We have seen that **typefaces and spelling significantly changed** over time, which makes OCR still a challenge for historical texts. This challenge was recognised early. For instance in 1974, Ray Kurzweil created an early Omni-font OCR technology.
 
+The digital images of ancient printed texts are also often of poor quality which makes the transcription challenging. For printed texts of the 18 or 19th century, OCRs can still sometimes produced very noisy outputs, sometimes refered as Digital Noise . For instance,  OCR on the sweedish newspaper Aftonbladet (1830-1862) has resulted in the production of 9 million unique words. As a matter of comparison, a Swedish dictionnary only mention 62 000 words. The OCR of the newspaper had 590 variants of the word "telegraph" (see Jarlbrink and Snickars 2016).
+
+However, in the recent years, important progresses have been made to improve OCR on ancient printed text. 
+
 #### 3.1.2. Handwritten Text Recognition
 
 Deep-learning based **Handwritten Text Recognition (HTR)** has made important progresses in recent years. The details of the methods will be discussed in the Algorithm parts.
@@ -330,6 +334,7 @@ We will see how to process large collection of texts.
 - *DeRose, Steven J.; Durand, David G.; Mylonas, Elli; Renear, Allen H.: What is text, really? J. Computing in Higher Education, 1(2):3–26, 1990.*
 - Catherine Marshall, Reading and Writing the Electronic Book, Morgan and Claypool
 - Michael Witmore, Text : A Massively Addressable Object in Gold, Debates about Digital Humanities
+- Johan Jarlbbrink and Pelle Snickars, Cultural heritage as digital noise: nineteenth century newspapers in the the digital archive. 
 
 ## To improve
 
