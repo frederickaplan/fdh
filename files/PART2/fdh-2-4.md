@@ -338,6 +338,8 @@ We will see how to process large collection of texts.
 
 ## To improve
 
+- Should this chapter called Text System ?
+
 - Solution for OCRs : Tesseract, Google API. A table for comparing them ? 
 
 - Measures of OCR quality
