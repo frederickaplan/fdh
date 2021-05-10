@@ -358,3 +358,9 @@ Tools:
 - Baayen, Analyzing Linguistic Data
 
 - Ingersoll, Morton, Farris, Taming Text : How to find, organize and manipulate it.
+
+
+
+## To be developed
+
+- Web Scraping. 
