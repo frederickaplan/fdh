@@ -364,3 +364,4 @@ Tools:
 ## To be developed
 
 - Web Scraping. 
+- Text Distance (Jaro, Phonetic Distance)
