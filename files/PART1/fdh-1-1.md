@@ -133,4 +133,10 @@ However, some researchers are not satisfied with the definition of Digital Human
 - Bod, A new histories of the humanities
 - Vidya Niwas Mishra, The Descriptive Technique of Panini
 - Milad Doueihi, Pour un humanisme numérique
-- 
+
+  
+
+## To Improve
+
+- Talk about the recent trends of computational humanites. 
+- Talk of the "Digital Humanists"
