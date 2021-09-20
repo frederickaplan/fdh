@@ -125,8 +125,10 @@ In a first approach, Digital Humanities can be approximately defined as the inte
 
 We are currently witnessing an important evolution in knowledge: As digital methods tend to dissolve frontiers, some reorganisation of knowledge and practises have started and new communities of practice have emerged.
 
+Beyond the question for defining Digital Humanities, it could be interesting to follow the profiles and carriers of the “Digital Humanists”. They define the field by what they did and what they will do. Remember, "if you think you are doing it, then you probably are".
+
 ### 5.2. In the next chapter
-However, some researchers are not satisfied with the definition of Digital Humanities and have tried to define Digital Humanities as a field of its own (just like Biology or Geometry), and not just the membrane between the two (relatively) well-defined disciplines that are Computing and the Humanities.
+Some researchers have tried to define Digital Humanities as a field of its own (just like Biology or Geometry), and not just the membrane between the two (relatively) well-defined disciplines that are Computing and the Humanities. We will look in the next chapter how this is possible. 
 
 ## Selected readings
 
