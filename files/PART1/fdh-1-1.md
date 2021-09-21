@@ -133,8 +133,12 @@ Some researchers have tried to define Digital Humanities as a field of its own (
 ## Selected readings
 
 - Bod, A new histories of the humanities
+
 - Vidya Niwas Mishra, The Descriptive Technique of Panini
+
 - Milad Doueihi, Pour un humanisme numérique
+
+- Pierre Mounier, Les humanités numériques, FMSH Editions
 
   
 
