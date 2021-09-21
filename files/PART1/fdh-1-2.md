@@ -113,13 +113,11 @@ The semantic web approach that hypothesizes the existence of a Giant Global Grap
 It is currently being debated how massive research into patterns or correlations in large databases could replace hypothetic-deductive and model-based approaches. For instance, by relying on a massive amount of examples, translations could potentially be done without any grammatical models, and species could be identified by their genomic signature without knowing much biology.
 
 ## 5. A New Definition of Digital Humanities
-### 5.1. Big Cultural Datasets as a defining characteristic of Digital Humanities
-
-Main proposal : **(Big Data) Digital Humanities deal with Big Cultural Datasets.** Cultural Datasets are Big either because they are hard to process, open-ended, fundamentally networked or sufficiently dense to lead to data-driven approach.
+> Definition 2 (Hard Definition of Digital Humanities) : **(Big Data) Digital Humanities deal with Big Cultural Datasets.** Cultural Datasets are Big either because they are hard to process, open-ended, fundamentally networked or sufficiently dense to lead to data-driven approach.
 
 **Big Cultural Datasets** are specific objects of studies, as neither Computer Science nor the Humanities are equipped to adequately deal with these large objects. **It is the very existence of this specific kind of objects that make Digital Humanities a field of its own (and not just an intersection zone).** This can be thought of as a _hard definition_ of Digital Humanities, by contrast to the softer passive definition of DH as a "simple" membrane between Computer Science and Humanities.
 
-### 5.2. The two definitions of Digital Humanities
+To summarise: 
 
 - **Soft Definition**: Digital Humanities constitute an interdisciplinary field at the intersection of Humanities and Digital approaches. Digital Humanities will remain a diaphragm zone.
 

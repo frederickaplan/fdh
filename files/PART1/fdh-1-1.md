@@ -24,7 +24,7 @@ output: pdf_document
 
 Let us start by decomposing the term "Digital Humanities" into its two components:
 
-> Definition : Digital Humanities is a diaphragm zone, the association of the Digital and the Humanities
+> Definition 1 (Soft Definition of Digital Humanities) : **Digital Humanities** is a diaphragm zone, the encounter of the Digital and the Humanities
 
 What does the term Digital refer to ?
 
@@ -36,11 +36,11 @@ As computer are based on digital systems, by extension the term "Digital" has be
 
 **Humanities** have been defined by the C19 German philosopher Wilhelm Dilthey as areas of knowledge that live beyond physical sciences. They include a series of disciplines : ancient and modern languages, literature, history, philosophy, religion, visual and performing arts, anthropology, area studies, communication studies, cultural studies, law, linguistics. This definition by extension is one of the most consensual. 
 
-> Definition : Humanities is a set of disciplines :  ancient and modern languages, literature, history, philosophy, religion, visual and performing arts, anthropology, area studies, communication studies, cultural studies, law, linguistics.
+> Definition : **Humanities** are a set of disciplines :  ancient and modern languages, literature, history, philosophy, religion, visual and performing arts, anthropology, area studies, communication studies, cultural studies, law, linguistics.
 
 Do these disciplines have certainly something in common, beyond the fact that they deal with human productions ?
 
-> Hypothesis : Humanities are characterised by a method different form Physical Sciences. 
+> Hypothesis 1 : Humanities are characterised by a method different form Physical Sciences. 
 
 The question is : What is this common method ? 
 
@@ -59,7 +59,7 @@ Interestingly, in 2020, a new term Computational Humanities was relaunched to de
 ### 2.2. A common trait between Humanities disciplines : finding patterns
 Indeed, even if they are not always aware of it, most research in the humanities shares the same objective: finding or organising patterns (be them linguistic, musical, historical, etc.)
 
-> Hypothesis : **Humanities methods** are characterised by the search for patterns
+> Hypothesis 2 : **Humanities methods** are characterised by the search for patterns
 
 Computers, on the other hand, can be defined not only as digital systems but also, more conceptually, as pattern organisers. Therefore they have the potential to operate a restructuring of knowledge in the Humanities, which will naturally grow from this ability to recognize patterns.
 
