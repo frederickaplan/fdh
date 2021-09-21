@@ -42,11 +42,11 @@ output: pdf_document
 
 As often, one should mention that the question of the name of this field is still very much debated in the literature and a consensus is yet to be reached. Up until then, the meaning of “Digital Humanities” lies in the hands of the researchers who call themselves “digital humanists”.
 
+### 1.1. Defining Digital and Humanities
+
 Let us start, nonetheless, by decomposing the term "Digital Humanities" into its two components:
 
 **Digital Humanities = Digital + Humanities**
-
-### 1.1. Defining Digital and Humanities
 
 **Digital** systems represent information using discrete values, as opposed to analog systems which represent information using a continuous function. The word digital comes from digit and digitus (finger in Latin) because fingers are used for discrete counting. Digital as an abstract way of looking at the real, analogous, world. Could it be that the digital is the gateway to approaching Humanities in a quantitative, massive-scale, way? (Keeping in mind that quantitative approaches have not waited for the computer-age to exist: example of word counting).
 
