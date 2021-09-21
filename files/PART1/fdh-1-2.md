@@ -53,6 +53,7 @@ However, openness was always associated with a need for introspection, self-refl
 - **Computer scientists vs. humanists in DH**: Should we still distinguish computer scientists and humanists in digital humanities communities ? Is C.P. Snow's “*_two cultures tension_*" between science and humanities still relevant ? Are digital humanities a form of “technical upgrade” of the humanities disciplines? Are digital humanities just a particular “application” of the Computer Science fields?
 - **Makers vs. Interpreters**: Are digital humanities only about “building things” ? If you are not a “maker”, should you still be considered a “digital humanist” ? Is there room for purely interpretative digital humanities ?
 - **Distant readers vs. Close readers**: Are Digital Humanities only about _"Distant Reading"_ ? To study literature, should we stop reading books and only focus on quantitative algorithmic measures ? Can digital humanities also enhance close reading experience ? Are “distant trading” approaches a form of radical digital humanities ?
+- **Question-driven vs Data-driven research:** Should research in Digital Humanities start with a Question/Hypothesis and then look for data or should it start from Data, search for patterns and then questions/hyptheses.
 
 These open-to-debate dichotomies show how much of breeding ground for questioning and ideas current Digital Humanities are. An additional tension should now be studied in greater detail, for it is a possible step toward a better definition of Digital Humanities.
 
