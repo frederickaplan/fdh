@@ -64,7 +64,7 @@ As Humanities Computing progressed, it highlighted more similarities (databases,
 
 The successes of Humanities Computing showed the potential of transversal approaches ; and in doing so, led to the shattering and dissolving of hitherto well-established disciplinary frontiers.
 
-Interestingly, in 2020, a new term Computational Humanities was relaunched to describe serious applications of computational approaches to Humanities research question. 
+Interestingly, in 2020, a new term Computational Humanities was relaunched to describe serious applications of computational approaches to Humanities research questions. 
 
 ### 2.2. A common trait between Computing and Humanities: finding patterns
 Indeed, even if they are not always aware of it, most research in the humanities shares the same objective: finding or organising patterns (be them linguistic, musical, historical, etc.)
