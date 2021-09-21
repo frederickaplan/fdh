@@ -16,43 +16,33 @@ output: pdf_document
 # FDH-1-1: What are Digital Humanities?
 #### Core theses explored in this chapter
 
-- This first chapter discusses the various meanings and ambiguities of the use of the recent term "Digital Humanities".
-
-- The activities engaged under the label "Digital Humanities" are starting a profound restructuring of the Digital and the Humanities.
-
-#### Contents:
->1. A first definition: Digital Humanities as a diaphragm zone
->> 1.1. Defining Digital and Humanities //
->2. Humanities Computing: breaking boundaries between disciplines
->>2.1. The progresses of Humanities Computing //
->>2.2. A common trait between Computing and Humanities: finding patterns //
->>2.3. Focus : Chomsky and Panini //
->3. The invention of the "Digital Humanities"
->>3.1. From Humanities Computing to Digital Humanities //
->>3.2. Digital Humanities: practice over theory //
->>3.3. How to translate "Digital Humanities" //
->4. "Digital Humanities" vs. Digital Studies and Studies about Digital Culture
->>4.1. Digital Studies //
->>4.2. Studies about Digital Culture //
->5. Conclusion
->>5.1. Summary //
->>5.2. In the next chapter //
+- As humanities disciplines are essentially pursuing a search for patterns and computers are patterns organisers, Digital Humanities have started a profound restructuring of the Humanities disciplines. 
 
 ## 1. A first definition: Digital Humanities as a diaphragm zone
 
-As often, one should mention that the question of the name of this field is still very much debated in the literature and a consensus is yet to be reached. Up until then, the meaning of “Digital Humanities” lies in the hands of the researchers who call themselves “digital humanists”.
-
 ### 1.1. Defining Digital and Humanities
 
-Let us start, nonetheless, by decomposing the term "Digital Humanities" into its two components:
+Let us start by decomposing the term "Digital Humanities" into its two components:
 
-**Digital Humanities = Digital + Humanities**
+> Definition : Digital Humanities is a diaphragm zone, the association of the Digital and the Humanities
 
-**Digital** systems represent information using discrete values, as opposed to analog systems which represent information using a continuous function. The word digital comes from digit and digitus (finger in Latin) because fingers are used for discrete counting. Digital as an abstract way of looking at the real, analogous, world. Could it be that the digital is the gateway to approaching Humanities in a quantitative, massive-scale, way? (Keeping in mind that quantitative approaches have not waited for the computer-age to exist: example of word counting).
+What does the term Digital refer to ?
 
-**Humanities** have been defined by the C19 German philosopher Wilhelm Dilthey as areas of knowledge that live beyond physical sciences. They include a series of disciplines : ancient and modern languages, literature, history, philosophy, religion, visual and performing arts, anthropology, area studies, communication studies, cultural studies, law, linguistics.
+> Definition: **Digital systems** represent information using discrete values, as opposed to analog systems which represent information using a continuous function. 
 
-But going beyond this simple list, Heinrich Rickert (early C20) suggested that humanities are foremost described by a method: as opposed to physical sciences, they are idiographic and do not seek to find a general law from examples, but rather stay within the boundaries of a particular cultural context.
+The word digital comes from digit and digitus (finger in Latin) because fingers are used for discrete counting. Digital as an abstract way of looking at the real, analogous, world. 
+
+As computer are based on digital systems, by extension the term "Digital" has been used to described activites linked with computers. 
+
+**Humanities** have been defined by the C19 German philosopher Wilhelm Dilthey as areas of knowledge that live beyond physical sciences. They include a series of disciplines : ancient and modern languages, literature, history, philosophy, religion, visual and performing arts, anthropology, area studies, communication studies, cultural studies, law, linguistics. This definition by extension is one of the most consensual. 
+
+> Definition : Humanities is a set of disciplines :  ancient and modern languages, literature, history, philosophy, religion, visual and performing arts, anthropology, area studies, communication studies, cultural studies, law, linguistics.
+
+Do these disciplines have certainly something in common, beyond the fact that they deal with human productions ?
+
+> Hypothesis : Humanities are characterised by a method different form Physical Sciences. 
+
+The question is : What is this common method ? 
 
 Scholars that work in the Humanities are called humanists, but they are not necessarily _humanists_ in the philosophical world, like one would say of Erasmus or Petrarch — who are embodiments of the Renaissance idea of humanism, a development of human virtues, whereby a philosophical and knowledge-based understanding of the world.
 
@@ -66,43 +56,49 @@ The successes of Humanities Computing showed the potential of transversal approa
 
 Interestingly, in 2020, a new term Computational Humanities was relaunched to describe serious applications of computational approaches to Humanities research questions. 
 
-### 2.2. A common trait between Computing and Humanities: finding patterns
+### 2.2. A common trait between Humanities disciplines : finding patterns
 Indeed, even if they are not always aware of it, most research in the humanities shares the same objective: finding or organising patterns (be them linguistic, musical, historical, etc.)
+
+> Hypothesis : **Humanities methods** are characterised by the search for patterns
 
 Computers, on the other hand, can be defined not only as digital systems but also, more conceptually, as pattern organisers. Therefore they have the potential to operate a restructuring of knowledge in the Humanities, which will naturally grow from this ability to recognize patterns.
 
+> Definition : **Computers** are pattern organisers
+
+
+### 2.3. Humanities methods have inspired computer science techniques
 But the link between Computer Science and Humanities is deeper than a simple alignment of the objectives of humanities and the abilities of computer science.
 
-
-### 2.3. Focus : Chomsky and Panini
 Noam Chomsky, an american linguist, established the connection between Linguistics and Computer Science. He considered Panini as his spiritual father. Panini invented (around the 5th century BCE) a formal system of rules to describe Sanskirt — the first example of a formal grammatical system. Panini's grammar can be considered a recursive algorithmic system of rules. 
 
 This proto-system was used nearly 2500 years laters as the underlying formalism of programming languages. Chomsky’s way of defining grammar, as a set of formal rules, and inspired by Panini, served as a model for the structure of the ALGOL compiler.
 
-What better example of the permeability of the boundary between humanities and the digital world than that of the close intertwining of an ancient grammatical protosystem and a pioneering programming language?
+This is an example of the permeability of the boundary between humanities and the digital world : a close intertwining of an ancient grammatical protosystem and a pioneering programming language.
 
-The division between the digital and humanist worlds is a construct. The key ideas in the history of computer science do come from the humanities, rather than electronics or engineering.
+The division between the digital and humanist worlds is a construct. Key ideas in the history of computer science do come from the humanities, rather than electronics or engineering.
+
+> Hypothesis : **Humanities methods** have inspired **Computer Science techniques**
 
 
 ## 3. The invention of the "Digital Humanities"
 ### 3.1. From Humanities Computing to Digital Humanities
 The terminological change from Humanities Computing to Digital Humanities has been attributed to John Unsworth, Ray Siemens and Susan Schreibman, editors of the monograph _A Companion to Digital Humanities_ (2004).
 
-There is, though, an important difference between Humanities Computing and Digital Humanities: the latter has at its core this bi-directionality — DH leads to a better understanding of both computing and the humanities.
+There is, though, an important difference between Humanities Computing and Digital Humanities: the latter has at its core this bi-directionality — DH ambitions to lead to a better understanding of both computing and the humanities.
 
-In that sense, it goes beyond just applying computing to humanities questions or understanding digital operations from a humanities point-of-view. Instead, it lies in understanding the deep link between the two disciplines.
+In that sense, it goes beyond just applying computing to humanities questions. As it also aims tor understand digital operations from a humanities point-of-view, it lies in understanding the deep link between the two disciplines.
 
-### 3.2. Digital Humanities: practice over theory
+### 3.2. Practice over theory
 
-A shift in focus was observed in the field around 2005: many researchers in Digital Humanities indeed started to insist on the importance of practice over theory.
+A shift in focus was observed in the field around 2005: many researchers in Digital Humanities started to insist on the importance of practice over theory.
 
 One of the early-stage specificity of this community was the organization of the THATCamp (The Humanities and Technology Camp): an open conference, with inexpensive meetings where humanists and technologists of all skill levels could learn and build together in sessions proposed on the spot. The slogan of the THATCamps was “More hack, less yacks”.
 
 In the same line, Claire Warwick suggested a very open definition: *If you think you are doing it, then you probably are.*
 
+### 3.3. How to translate "Digital Humanities"
 Thanks notably to this hands-on approach, between 2010 and 2020, Digital Humanities expanded as a global multilingual phenomenon, beyond the english-speaking countries where it had first appeared. (Example: The Digital Humanities 2014 in Lausanne Call for Paper has been translated in 14 languages by volunteers.)
 
-### 3.3. How to translate "Digital Humanities"
 This raised the question on how to translate the term Digital Humanities in other languages. In Italy, the term "Informatica umanistica" is still used although it is much closer to Humanities Computing than Digital Humanities.
 
 In the French speaking world, there is still a quite intense debate. The official translation of Digital in French is “numérique”. So, many French researchers use the term “Humanités numériques”, as opposed to the english-influenced Humanités digitales.
@@ -111,17 +107,17 @@ In French-speaking Switzerland, however, the term “Humanités digitales” has
 
 ## 4. "Digital Humanities" vs. Digital Studies and Studies about Digital Culture
 ### 4.1. Digital Studies
-French philosopher Bernard Stiegler argued that the term Digital Humanities is too narrow and that the effects of “digitalization” go beyond the field of the Humanities to affect all the knowledge fields.
+The late French philosopher Bernard Stiegler argued that the term Digital Humanities is too narrow and that the effects of “digitalization” go beyond the field of the Humanities to affect all the knowledge fields.
 
 He preferred the term Digital Studies by opposition to Analog Studies, arguing that digitalization processes affect all fields of research and not just humanities, from physics, to geology and biology. And the effect of this paradigm shift ought to be studied in order to answer the question: what does the digital do to knowledge?
 
 ### 4.2. Studies about Digital Culture
-A final discipline name is “Studies about Digital Culture” which attempts to better understand the impact of the Digital Revolution on all aspects of our culture. Most DH scholars would consider studies about digital culture a subpart of Digital Humanities.
+ “Studies about Digital Culture” (including for instance Cultural Analytics) attempt to better understand the impact of the Digital Revolution on all aspects of our culture. Most DH scholars would consider studies about digital culture a subpart of Digital Humanities.
 
 ## 5. Conclusion
 ### 5.1. Summary
 
-**_Humanities and Computer Science have long standing intrinsic links. These worlds are not as separated as we may think them._**
+**_Humanities and Computer Science have long standing intrinsic links. These worlds are not as separated as we may think they are._**
 
 In a first approach, Digital Humanities can be approximately defined as the intersection zone between the Digital and the Humanities. A subdomain of Digital Studies, Digital Humanities would include Humanities Computing (from which they stemmed) and Studies about Digital Culture.
 
@@ -143,8 +139,3 @@ Some researchers have tried to define Digital Humanities as a field of its own (
 - Pierre Mounier, Les humanités numériques, FMSH Editions
 
   
-
-## To Improve
-
-- Talk about the recent trends of computational humanites. 
-- Talk of the "Digital Humanists"
