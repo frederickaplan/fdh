@@ -115,22 +115,29 @@ Likewise, The Roman Empire’s need to unify the circulation of goods, person, a
 
 Standardized information started to spread all over the Empire, from the Mediterranean region to the territories now comprising Great Britain and Germany. The resulting paradigm shifts in terms of global governance marked a watershed in information management.
 
-Data acceleration regimes generally start with an initial societal stress. This can, for instance, occur when a governing entity needs to cope with an unexpected, intrinsic, and complex evolution of its territory or social structures, or in the case of unexpected encounters with new populations and cultures.
+#### 4.1.3. A response to an initial societal stress
 
-The acceleration in itself starts when a new technology enables massive data production that follows regular patterns by defining specific production constraints (e.g., administrative rules, printing industries, scientific experiments).
+Data acceleration regimes generally start with an initial societal stress. This can, for instance, occur when a governing entity needs to cope with an unexpected, intrinsic, and complex evolution of its territory or social structures, or in the case of unexpected encounters with new populations and cultures. **Covid-19 is, of course, a recent example of a data acceleration regime due to a societal stress.** 
 
-#### 4.1.3. Focus: The Renaissance acceleration
+In response to this stress new information processes are created. The acceleration in itself starts when a new technology enables massive data production that follows regular patterns by defining specific production constraints (e.g., administrative rules, printing industries, scientific experiments).
+
+#### 4.1.4. Focus: The Renaissance acceleration
 
 For Europe, one classically discussed case of “acceleration” is the Renaissance, linked with the advent of the printing industry (see chapter 2-3), the discovery of Asia and the Americas, and the globalization of exchanges all over the world. Not only were new editions of ancient texts starting to be printed and circulated but also a deluge of “how-to books” explaining previously secret arts and methods.
 
-- This **sudden increase in knowledge** and exposure to new practices created a well-documented feeling of information overload: there was definitely “too much to know”.
-- Likewise, the discovery of new species in Asia and in the Americas challenged the capacity of scholars to recognize and classify natural beings.
-- Organizing the steady stream of new species was an extremely demanding endeavor that called for **new intellectual paradigms**.
-- Eventually, the globalization of monetary exchanges and the increased complexity of trade networks challenged the traditional methods for tracking commercial processes and advanced the rise of more mathematically sound, standardized methods.
-- From a technological perspective, the Renaissance and early modern period were intrinsically linked with the **invention of several intellectual technologies** for search and retrieval: indexes, bibliographies, accounting tables, and hierarchical collection structuring methods in addition to chronologies and maps.
-- From an open-ended perspective, the acceleration of exchanges, the rise of the printing press industry, and the early attempts to conduct experimental science contributed to producing streams of new data.
-- From a relational perspective, both early modern collections, which attempted to create a system for organizing natural and artificial entities and the double accounting system, which enabled a new tractability of economic exchanges at the global level helped advance the fundamentally network nature of the new datasets.
-- Eventually, from the paradigmatic perspective, the early modern **_episteme_** reframed entire views of the world both past and present into new coherent systems of knowledge, introducing, for instance, tree-based genealogical approaches in early natural history or philology.
+This **sudden increase in knowledge** and exposure to new practices created a well-documented feeling of information overload: there was definitely “too much to know”. Likewise, the discovery of new species in Asia and in the Americas challenged the capacity of scholars to recognize and classify natural beings.
+
+Organizing the steady stream of new species was an extremely demanding endeavor that called for **new intellectual paradigms**.
+
+Eventually, the globalization of monetary exchanges and the increased complexity of trade networks challenged the traditional methods for tracking commercial processes and advanced the rise of more mathematically sound, standardized methods.
+
+From a technological perspective, the Renaissance and early modern period were intrinsically linked with the **invention of several intellectual technologies** for search and retrieval: indexes, bibliographies, accounting tables, and hierarchical collection structuring methods in addition to chronologies and maps.
+
+From an open-ended perspective, the acceleration of exchanges, the rise of the printing press industry, and the early attempts to conduct experimental science contributed to producing streams of new data.
+
+From a relational perspective, both early modern collections, which attempted to create a system for organizing natural and artificial entities and the double accounting system, which enabled a new tractability of economic exchanges at the global level helped advance the fundamentally network nature of the new datasets.
+
+Eventually, from the paradigmatic perspective, the early modern **_episteme_** reframed entire views of the world both past and present into new coherent systems of knowledge, introducing, for instance, tree-based genealogical approaches in early natural history or philology.
 
 ### 4.2. The reconstruction of knowledge systems
 
@@ -171,7 +178,7 @@ The following four examples of maps show the emergence of regulating rules in ca
 - **Earth Elevation Map**, 2006 – This map has been drawn using sensor data. The process is automated, and does not rely on humans anymore. The production rules are built _within_ the machine. _Conventions have evolved into a mechanism._
 - **Google Maps**, 2004-... – The final step in this regulation mechanism is seens with the example of Google maps, which in a perpetuous state of improving. Most of the features are not printable, because they have been designed to accessed on a machine.
 
-### 5.3. Regulated representations: From tool to machine
+### 5.3. Regulated representations: From tools to machines
 
 The general process of this regulating tendency involves the transformation of conventions into mechanisms. The regulation usually proceeds in two consecutive steps, mechanizing first the representation’s production rules and then its conventional usages. Ultimately, through this process, regulated representations tend to become machine readable.
 
@@ -246,6 +253,8 @@ As these examples illustrate, regulated representations are not just formal conv
 Complex information systems creates ways of seeing reality which in turn influence our own actions. Identifying and understanding these information systems of the past is essential to grasp the ways people were experiencing the past. Thus becomes apparent the need to reconstruct the models missing.
 
 ## 7. Redocumentation processes
+
+> Hypothesis : Data Acceleration Regime produces a reduction of "temporal horizons"
 
 In general terms, massive datafication and data acceleration regimes tend to lead to some new forms of disequilibrium: **There is too much information about the present and only “incompatible” information about the past**. This can lead to a reduction of “temporal horizons,” a shift of “temporal regime,” making long-term thinking difficult.
 
