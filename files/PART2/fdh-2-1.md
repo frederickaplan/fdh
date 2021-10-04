@@ -43,7 +43,7 @@ _We'll start with a story, one to be known, a story of challenges, resistence, b
 
 ### 1.1. Figures
 
-In October 2019, Google Books announced they had digitised **40 millions books**. This is far beyond other comparable initiatives: the Hathi Trust estimates to 17 million the number of books they digitised, while Gallica (the Bibliothèque Nationale de France's effort) remains around 0.7 million.
+In October 2019, Google Books celebrated 15 years of activity and announced they had digitised **40 millions books**. This is far beyond other comparable initiatives: the Hathi Trust estimates to 17 million the number of books they digitised (in 2018), while Gallica (the Bibliothèque Nationale de France's effort) remains around 6 millions in 2020.
 
 No matter how impressive Google's figure is, it remains little compared to the **271 million book files** listed in the OCLC / WordCat catalog, which aggregates data from the 1.8 billion books stored in 72,000 public and private libraries around the globe. In addition to that, almost 1 million new books are published each year.
 
@@ -301,9 +301,7 @@ Various typologies of book scanners
 - Book scanners with manual page turning
 - Book scanners with automatic page turning
 
-Some project brings the scanners close the collections to be scanned (e.g. First phase of the Venice Time Machine project )
-
-In other cases, the collections are sent to more efficient scanning houses (e.g. Google Books general strategy).
+Some project brings the scanners close the collections to be scanned (e.g. First phase of the Venice Time Machine project ) in other cases, the collections are sent to more efficient scanning houses (e.g. Google Books general strategy).
 
 
 #### Sampling methods
