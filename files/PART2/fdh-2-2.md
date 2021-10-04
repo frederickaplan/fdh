@@ -39,18 +39,15 @@ output: pdf_document
 ## 1. General structure of the pipeline
 
 1. **The World**, containing information-bearing objects and phenomena (How is this information stored in the World?)
-
-    2. **Physical document**, documenting this information (How is this information stored in the physical document?)
-
+2. **Physical document**, documenting this information (How is this information stored in the physical document?)
         3. **Digitised document**, documenting the physical document (How is this information stored in digital document?)
-
-            4. **Standard description of the structure** of the document describing the structure of the physical document in a digital formalism
-
-                5. **Extraction of the content** of the document
-
-                    6. **Identification of the content** and link with other documents
-
-                        7. **Construction of World Models**
+    4. **Standard description of the structure** of the document describing the structure of the physical document in a digital formalism
+            
+        5. **Extraction of the content** of the document
+            
+            6. **Identification of the content** and link with other documents
+            
+                7. **Construction of World Models**
 
 ---
 ## 2. Content and structure of a document
@@ -82,7 +79,7 @@ Ideally we would like to find a way of unpacking the content of the object to **
 
 We can then try to connect these basic components: first in a structured graph representing the document, and then by regrouping many of them into a coherent fictional space.
 
-The added value of describing content lies in the ability to reduce the complexity of the object to smaller description. It is a kind of compression. And indeed, a **compression is a fundamental form of understanding**: the higher the compression, the better the understanding.
+The added value of describing content lies in the ability to reduce the complexity of the object to smaller description. It is a kind of compression. And **compression is a fundamental form of understanding**: the higher the compression, the better the understanding.
 
 ### 2.3. Types of circulations inside a textual document
 
@@ -199,6 +196,12 @@ To identify two mentions as referring to the same referent is a process of homol
 
 > Definition: Homologous points are corresponding pairs of points in two digital images identified as the representation of the same underlying physical point, called pivot point, from two perspectives.
 
+or more generally 
+
+> Definition: Homologous points are corresponding pairs of points in two digital documents identified as the representation of the same underlying reality, called pivot point, from two perspectives.
+
+The same city marked with points of two maps, same person identified at several places in a text, the same building corners viewed from different angles are exmaples of homologous pairs. 
+
 The correspondence of homologous points define **“pivot” points**. Pivot points are the **invariants features**, the "sameness" that is characterised by the homologous pairs. We can also say that they define an equivalence class.
 
 The coordinates of a pivot point and a unique reference can be defined. **_But do the “pivot” points exist?_**
@@ -243,4 +246,4 @@ Next, we will start to go into details for each category of documents.
 - Should introduce Otlet's ontology of documents as discussed in "Traité de documentation : Le livre sur le livre". A well-formed document ontology is a basic foundation for Digital Humanities. 
 
 - Should this part be organised in like the others : Document Systems, document processing, Documenting Understanding ...
-- The footnote could be developed as an example. 
+- The footnote could be developed as an example (cf Grafton)
