@@ -302,6 +302,8 @@ This "commons governance" takes the form of **data commons**, which in the case 
 - Hiroshima Archive
 - MegaScan
 - SketchFab
+- Lib Gen (Illegal, Russia)
+- Sci-Hub (Illegal, Russia)
 
 ## Skills to develop
 
@@ -314,3 +316,4 @@ This "commons governance" takes the form of **data commons**, which in the case 
 
 - Discuss specificatly what Mass Digitisation change copyright issues based on research done in Maurizio Borghi and Stavroula Karapapa, Copyright and Mass Digitization, Oxford.
 - Discuss Open Data in databases. For instance : Open Database License (ODbL)
+- Discuss the role of Russia in the diffiusion of copyrighted material : Sci-Hub / LibGen / Alexandra Elbakyan / Telegram
