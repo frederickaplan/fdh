@@ -309,7 +309,7 @@ Some of the more famous knowledge bases are:
 
 ### 5.3. Large-scale Projects
 
-**Open information extraction (OIE)** is the task of generating a structured, machine-readable representation of the information in text, usually in the form of triples or n-ary propositions.A proposition can be understood as truth-bearer, a textual expression of a potential fact represented in an amenable structure for computers. Each text produces a set of potential facts and relations. This is a Fiction Space that can be integrated with other extraction.  
+**Open information extraction (OIE)** is the task of generating a structured, machine-readable representation of the information in text, usually in the form of triples or n-ary propositions. A proposition can be understood as truth-bearer, a textual expression of a potential fact represented in an amenable structure for computers. Each text produces a set of potential facts and relations. This is a Fiction Space that can be integrated with other extraction.  
 
 **Never Ending Language Learning (NELL)** is a semantic machine learning system developed by a research team at Carnegie Mellon University, with the aim of developing means of answering questions posed by users in natural language with no human intervention in the process. From an initial ontology and a limited set of training examples, the NELL perpetually reads content from the web and enriches its knowledge base with confidently-extracted beliefs. This self-supervision is expected to bring NELL to an ever-improved reading capability.
 
