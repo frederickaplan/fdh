@@ -19,13 +19,15 @@ output: pdf_document
 
 <!--Part of the new concepts have been reintroduced but the entire strucure needs to be rethought.--> 
 
+<!--For coherence, part of this classification could also be introduced for texts.--> 
+
+
+
 ## Theses
 
-1) Images like texts can be represented as systems
+1. Images like texts can be represented as systems
 
-2) They can be articulated in reference to an external reality 
-
-3) But other forms of “similarities” exist
+2. At least 4 image systems can be identified. 
 
 ## Definitions
 
@@ -46,6 +48,10 @@ In this network, two images are linked if they can be characterized by a common 
 Conceptual-based image systems are naturally hierarchical, some concepts are by nature more general than others. A large database like ImageNet associates to each word several thousand images of examples. 
 
 This hierarchical image system has played a crucial role in the development of new machine vision techniques in the years 2010 that show the superiority of deep learning approaches. Today it is in fact possible, for a computer, to recognize without difficulty thousands of conceptual categories. For an image archive, this system allow to perform simply an automatic categorization of images by associating to each of the conceptual 'tags'. On the basis of this categorization an interface can be developed that allows you to navigate the resulting image map navigating from image to image that have common concepts and following their proximity. 
+
+In Art History various concept-based ontology are used. One of the most recent one is Iconclass, organised in 3 levels of abstractions. 
+
+More generally, the work of Aby Warburg was dedicated to the definition of large-scale ontology to classifiy hierachically images. His work is continued by the Warburg Institute. 
 
 ### Type 2: Image systems based on named entities
 
